@@ -18,7 +18,7 @@
 # 2) refer to example_conversion_with_cits.rmd for configuring the rmd.
 # 3) The YAML header for the .rmd is as follows
 # 4) '[@' and ']' will be escaped with '\' This script attempts to find 
-# and remove these esacpes on brackets mataching this pattern
+# and remove these escapes on brackets matching this pattern
 # 5) This script attempts to fix a bug with the "'" symbol which may be inappropriately escaped.
 # If brackets are used in the doc, the .csl can be changed to include a "code" to aid find and replace.
 

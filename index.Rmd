@@ -20,9 +20,9 @@ params:
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
 output:
-  thesisdown::thesis_pdf: default 
+  thesisdown::thesis_pdf: default
 #  thesisdown::thesis_gitbook: default         
-#  thesisdown::thesis_word: default
+ # thesisdown::thesis_word: default
 #  thesisdown::thesis_epub: default
 
 # If you are creating a PDF you'll need to write your preliminary content 
@@ -102,12 +102,15 @@ Alternatively, you can put that content in files like 00--prelim.Rmd and
 -->
 
 
-
 ```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00--prelim.Rmd")}
 
 ```
 
 ```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00-abstract.Rmd")}
+
+```
+
+```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00-introduction.Rmd")}
 
 ```
 
