@@ -1,8 +1,5 @@
-<!--
-This is for including Chapter 1.  Notice that it's also good practice to name your chunk.  This will help you debug potential issues as you knit.  The chunk above is called intro and the one below is called chapter1.  Feel free to change the name of the Rmd file as you wish, but don't forget to change it here from chap1.Rmd.
--->
-
-## Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during *Drosophila* oogenesis
+[Post-transcriptional gene regulation instructs germline stem cell to
+oocyte transition during *Drosophila* oogenesis]{.underline}
 
 Patrick Blatt, Elliot T. Martin, Shane M. Breznak, Prashanth Rangan\*
 
@@ -13,21 +10,26 @@ University at Albany SUNY, 1400 Washington Avenue, Albany, 12222, USA
 
 \*Correspondence to: prangan\@albany.edu
 
-### Contents
+**Contents**
 
 1.  Introduction
+
 2.  Alternative splicing ensures accurate production of critical
     germline mRNAs to regulate sex determination and differentiation
+
 3.  RNA modifications direct splicing of sex determinants and
     translation of differentiation promoting genes in the germline
+
 4.  Production of ribosomes is finely tuned to facilitate
     differentiation
+
 5.  Hand off mechanisms facilitated by combinatorial RNA binding
     proteins dynamically shape the translational landscape during
     oogenesis
+
 6.  Summary
 
-### Abstract
+**Abstract**
 
 During oogenesis, several developmental processes must be traversed to
 ensure effective completion of gametogenesis including, stem cell
@@ -53,7 +55,7 @@ meiosis.
 Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline
 Differentiation, Gametogenesis, RNA Binding Proteins]{.underline}
 
-#### 1.  Introduction
+1.  **Introduction**
 
 Gametogenesis gives rise to eggs or sperm in all sexually-reproducing
 organisms [@Cinalli2008d;@Ellis1994d;@Lesch2012b;@Seydoux2006].
@@ -117,7 +119,8 @@ focus on post-transcriptional processing of germline mRNAs and
 translational regulation both of which are required for successful
 oogenesis.
 
-#### 2. Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation
+2.  **Alternative splicing ensures accurate production of critical
+    > germline mRNAs to regulate sex determination and differentiation**
 
 Splicing decisions are crucial during the generation of mature mRNAs
 post-transcriptionally and significantly contribute to germline
@@ -256,7 +259,8 @@ and production of the determinants of embryonic patterning for the next
 generation are all regulated by mechanisms involving alternative
 splicing in the female germline.
 
-#### 3.  RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
+3.  **RNA modifications direct splicing of sex determinants and
+    > translation of differentiation promoting genes in the germline**
 
 Post transcriptional RNA modifications are abundant and conserved in all
 branches of life [@Yi2011]. There have been over 100 described RNA
@@ -317,7 +321,8 @@ although it is clear that RNA modifications help to ensure proper
 splicing of sex determination factors, but the pathway, mechanism, and
 direct targets remain unresolved.
 
-#### 4.  Production of ribosomes is finely tuned to facilitate differentiation
+4.  **Production of ribosomes is finely tuned to facilitate
+    > differentiation**
 
 While splicing mediates proper mRNA production, access of the mature
 mRNAs to ribosomes controls their translation. Once mRNAs are gated for
@@ -495,7 +500,8 @@ given the myriad of regulatory functions TORC1 is known to play in other
 systems [@Kim2008b;@Li2009n;@Moreno-Torres2015;@Noda2017;@Wei2009a]. A downstream effector of mTORC1, La related protein 1
 (Larp1) is known to silence ribosomal protein translation in mammals
 through binding to terminal oligopyrimidine tracts in the 5\'UTR of its
-targets [@Fonseca2015a;@Hong2017a;@Lahr2017b; @Tcherkezian2014b]; however, the same has yet to be
+targets [@Fonseca2015a;@Hong2017a;@Lahr2017b; \[CSL STYLE ERROR:
+reference with no printed form.\]\]; however, the same has yet to be
 demonstrated for the *Drosophila* ortholog, La related protein (Larp).
 Tantalizingly, Larp is required for male and female fertility in
 *Drosophila*, but details of Larp\'s precise role in the female and
@@ -525,7 +531,9 @@ dynamic nature of ribosome biogenesis seems likely to be conserved;
 however, further investigation is required to determine and compare the
 basis of ribosome biogenesis control.
 
-#### 5.  Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
+5.  **Hand off mechanisms facilitated by combinatorial RNA binding
+    > proteins dynamically shape the translational landscape during
+    > oogenesis**
 
 While some mRNAs are translated post-transcriptionally, other critical
 mRNAs are translationally regulated. For efficient translation of mRNAs,
@@ -649,7 +657,7 @@ expression of new translational regulators to promote differentiation.
 
 After cyst differentiation, Pum protein levels decrease and expression
 of another translational repressor, Bruno (Bru), increases
-[@Kim-Ha1995i; @Schupbach1989c; @Schupbach1991f;@Webster1997a]. Downregulation of Pum expression is
+[@Kim-Ha1995i; \[CSL STYLE ERROR: reference with no printed form.\];@Schupbach1991f;@Webster1997a\]. Downregulation of Pum expression is
 critical for the transition from GSC to an oocyte
 [@Carreira-Rosario2016e;@Forbes1998g]. Rbfox1, an RBP whose
 cytoplasmic isoform regulates the translation of specific mRNAs in the
@@ -669,13 +677,13 @@ to *pgc*, rather a cohort of maternal mRNAs are co-regulated by Pum and
 Bru representing a hand-off mechanism for repression of maternal mRNAs
 [@Flora2018k].
 
-#### 6. Summary
+6.  **Summary**
 
 Decades of work using elegant genetics has revealed several paradigms in
 which splicing machinery, RNA modifying enzymes, ribosome levels, and
 translational regulation mediates the transition from GSC to oocyte
 fate. However, several critical details such as the direct targets and
-mechanisms still need to be deciphered. Together the advent of
+mechanisms still need to be deciphered.Â  Together the advent of
 cost-effective sequencing technologies combined with the increasing
 ability to easily create mutants in previously uncharacterized genes
 will allow us to further elucidate the regulatory logic (underlying or
@@ -690,7 +698,7 @@ assembly lines for producing mature eggs. The germarium, the structure
 that houses the germline stem cell (GSC), is present at anterior tip of
 the ovariole. The germline stem cell asymmetrically divides, giving rise
 to another GSC and a GSC daughter. The daughter cell then will undergo
-four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the
+four incomplete rounds of mitosis, giving rise to a 16-cell cyst.Â Of the
 16 cells one will be specified as the egg while the others serve as
 polyploid nurse cells that support oocyte and egg development. The
 surrounding somatic cells encapsulate the 16-cell cyst creating egg
@@ -723,13 +731,13 @@ activity decreases during differentiation and increases post
 differentiation.
 
 **Figure 4.** Schematic of combinatorial and dynamic translation
-regulation in the *Drosophila*germarium. In the GSCs Nos, Pum and Twin
+regulation in theÂ *DrosophilaÂ *germarium. In the GSCs Nos, Pum and Twin
 form a complex to inhibit the translation of differentiation mRNAs such
-as *pgc*, which increases throughout oogenesis. Expression of Bam in the
+asÂ *pgc*, which increases throughout oogenesis. Expression of Bam in the
 CB initiates differentiation by interacting with its partner Bgcn and
 Mei-P26 to repress the translation of GSC-expressed mRNAs,
-specifically *nos*. As Nos protein levels decrease in the CB, Pum is
+specificallyÂ *nos*. As Nos protein levels decrease in the CB, Pum is
 available to partner with Brat to repress the translation of
-self-renewal genes and *pgc*. In cyst stages, Rbfox1 binds the *pum* 3\'
+self-renewal genes andÂ *pgc*. In cyst stages, Rbfox1 binds theÂ *pum*Â 3\'
 UTR to inhibit its translation. Throughout oogenesis Bru and Cup
-continuously block translation of *pgc*.
+continuously block translation ofÂ *pgc*.

@@ -45,28 +45,34 @@ package.check <- lapply(
 library(rmarkdown)
 library(devtools)
 
-examplefile=""
-file_name = strsplit(examplefile, ".docx")[[1]]
-pandoc_convert(examplefile, to="markdown", output = paste0(file_name, "_temp.rmd"), options = "-s")
+convert_docx_to_rmd_citekeys <- function(examplefile) {
+  
+  file_name = strsplit(examplefile, ".docx")[[1]]
+  pandoc_convert(examplefile, to="markdown", output = paste0("Converted_papers/", file_name, "_temp.rmd"), options = "-s")
+  
+  library(stringr)
+  library(readr)
+  library(readtext)
+  
+  fix_inline_citations = function(text_to_convert) {
+      text_fix_last =  str_replace_all(text_to_convert, "(\\\\\\[\\\\@[a-zA-Z0-9]*[(;[:blank:]\n\\-\\\\@)[a-zA-Z0-9:\n\\-[:blank:]]]*)(\\\\\\])", "\\1]")
+      text_fix_middle = str_replace_all(text_fix_last, ";\\\\@|;[:blank:]\\\\@|;\n\\\\@", ";@")
+      text_fix_first = str_replace_all(text_fix_middle, "(\\\\\\[\\\\@)", "[@")
+   return(text_fix_first)
+  }
+  
+  fix_prime = function(text_to_convert) {
+    text_fix = str_replace_all(text_to_convert, pattern = "(?<!\\\\)(')", replacement = "\\\\'")
+    return(text_fix)
+  }
+  
+  converted_doc = readtext(paste0("Converted_papers/", file_name, "_temp.rmd"))
+  doc_cit_fix = fix_inline_citations(converted_doc)
+  doc_prime_cit_fix = fix_prime(doc_cit_fix)
+  
+  write_lines(doc_prime_cit_fix, paste0("Converted_papers/", file_name, ".rmd"))
 
-library(stringr)
-library(readr)
-library(readtext)
-
-fix_inline_citations = function(text_to_convert) {
- text_fix_last =  str_replace_all(text_to_convert, "(\\\\\\[\\\\@[a-zA-Z0-9]*[(;[:blank:]\n\\-\\\\@)[a-zA-Z0-9:\n\\-[:blank:]]]*)(\\\\\\])", "\\1]")
- text_fix_middle = str_replace_all(text_fix_last, ";\\\\@|;[:blank:]\\\\@|;\n\\\\@", ";@")
- text_fix_first = str_replace_all(text_fix_middle, "(\\\\\\[\\\\@)", "[@")
- return(text_fix_first)
 }
 
-fix_prime = function(text_to_convert) {
-  text_fix = str_replace_all(text_to_convert, pattern = "(?<!\\\\)(')", replacement = "\\\\'")
-  return(text_fix)
-}
-
-converted_doc = readtext(paste0(file_name, "_temp.rmd"))
-doc_cit_fix = fix_inline_citations(converted_doc)
-doc_prime_cit_fix = fix_prime(doc_cit_fix)
-
-write_lines(doc_prime_cit_fix, paste0(file_name, ".rmd"))
+convert_docx_to_rmd_citekeys(examplefile = "CH0002_Rangan_v2_PB_EM_SB_9.3_mendeley_citekeys.docx")
+convert_docx_to_rmd_citekeys(examplefile = "Martin et al 4.2.21_EM_PR_EM_citekey.docx")
