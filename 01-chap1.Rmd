@@ -1,4 +1,4 @@
-## Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during *Drosophila* oogenesis
+# Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during *Drosophila* oogenesis
 
 Patrick Blatt, Elliot T. Martin, Shane M. Breznak, Prashanth Rangan\*
 
@@ -9,21 +9,7 @@ University at Albany SUNY, 1400 Washington Avenue, Albany, 12222, USA
 
 \*Correspondence to: prangan\@albany.edu
 
-### Contents
-
-1.  Introduction
-2.  Alternative splicing ensures accurate production of critical
-    germline mRNAs to regulate sex determination and differentiation
-3.  RNA modifications direct splicing of sex determinants and
-    translation of differentiation promoting genes in the germline
-4.  Production of ribosomes is finely tuned to facilitate
-    differentiation
-5.  Hand off mechanisms facilitated by combinatorial RNA binding
-    proteins dynamically shape the translational landscape during
-    oogenesis
-6.  Summary
-
-### Abstract
+## Abstract
 
 During oogenesis, several developmental processes must be traversed to
 ensure effective completion of gametogenesis including, stem cell
@@ -49,7 +35,7 @@ meiosis.
 Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline
 Differentiation, Gametogenesis, RNA Binding Proteins]{.underline}
 
-#### 1.  Introduction
+## Introduction
 
 Gametogenesis gives rise to eggs or sperm in all sexually-reproducing
 organisms [@Cinalli2008d;@Ellis1994d;@Lesch2012b;@Seydoux2006].
@@ -113,7 +99,7 @@ focus on post-transcriptional processing of germline mRNAs and
 translational regulation both of which are required for successful
 oogenesis.
 
-#### 2. Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation
+## Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation
 
 Splicing decisions are crucial during the generation of mature mRNAs
 post-transcriptionally and significantly contribute to germline
@@ -252,7 +238,7 @@ and production of the determinants of embryonic patterning for the next
 generation are all regulated by mechanisms involving alternative
 splicing in the female germline.
 
-#### 3.  RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
+## RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
 
 Post transcriptional RNA modifications are abundant and conserved in all
 branches of life [@Yi2011]. There have been over 100 described RNA
@@ -313,7 +299,7 @@ although it is clear that RNA modifications help to ensure proper
 splicing of sex determination factors, but the pathway, mechanism, and
 direct targets remain unresolved.
 
-#### 4.  Production of ribosomes is finely tuned to facilitate differentiation
+## Production of ribosomes is finely tuned to facilitate differentiation
 
 While splicing mediates proper mRNA production, access of the mature
 mRNAs to ribosomes controls their translation. Once mRNAs are gated for
@@ -521,7 +507,7 @@ dynamic nature of ribosome biogenesis seems likely to be conserved;
 however, further investigation is required to determine and compare the
 basis of ribosome biogenesis control.
 
-#### 5.  Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
+## Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
 
 While some mRNAs are translated post-transcriptionally, other critical
 mRNAs are translationally regulated. For efficient translation of mRNAs,
@@ -608,7 +594,7 @@ transcriptional silencing activity. The *pgc* 3\' UTR contains a
 conserved consensus sequence that is transiently and sequentially bound
 by multiple distinct, developmentally regulated RBPs [@Flora2018k].
 This 3\' UTR sequence is required for post-transcriptional control of
-*pgc* as Pgc protein expression is restricted to the CB*.* In the GSCs,
+*pgc* as Pgc protein expression is restricted to the CB. In the GSCs,
 Pum and Nos bind the *pgc* 3\' UTR and recruit Twin a component of the
 CCR4-Not complex to deadenylate *pgc* mRNA and inhibit its translation
 (Figure 4) [@Flora2018k]. In addition to *pgc*, Pum/Nos and Twin also
@@ -665,7 +651,7 @@ to *pgc*, rather a cohort of maternal mRNAs are co-regulated by Pum and
 Bru representing a hand-off mechanism for repression of maternal mRNAs
 [@Flora2018k].
 
-#### 6. Summary
+## Summary
 
 Decades of work using elegant genetics has revealed several paradigms in
 which splicing machinery, RNA modifying enzymes, ribosome levels, and

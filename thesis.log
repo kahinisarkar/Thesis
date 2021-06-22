@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.19)  19 JUN 2021 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.19)  22 JUN 2021 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,7 +517,7 @@ Package color Info: Redefining color shadecolor on input line 81.
 \csllabelwidth=\skip75
 \cslhangindent=\skip76
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 21
-6.
+9.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -529,24 +529,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
 
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
 opdf-base.sty
@@ -559,7 +559,7 @@ pdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 216.
+Package hyperref Info: Link coloring OFF on input line 219.
 
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
 sty
@@ -575,9 +575,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 216.
-LaTeX Info: Redefining \pageref on input line 216.
-LaTeX Info: Redefining \nameref on input line 216.
+LaTeX Info: Redefining \ref on input line 219.
+LaTeX Info: Redefining \pageref on input line 219.
+LaTeX Info: Redefining \nameref on input line 219.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -585,42 +585,42 @@ LaTeX Info: Redefining \nameref on input line 216.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-20.
+23.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-20.
+23.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-220.
+223.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-220.
+223.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 220.
+(Font)              <12> on input line 223.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 220.
+(Font)              <8> on input line 223.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 220.
+(Font)              <6> on input line 223.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 22
-0.
+3.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 220
+LaTeX Font Info:    Trying to load font information for U+msa on input line 223
 .
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 220
+LaTeX Font Info:    Trying to load font information for U+msb on input line 223
 .
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -663,17 +663,40 @@ ex.map}] [2
 
 [9] [10
 
+] [11] [12
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[11] [12] [13
+[13] [14] [15
 
 
-] [14
+] [16
 
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.260 ...-transition-during-drosophila-oogenesis}}
+                                                   [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.260 ...-transition-during-drosophila-oogenesis}}
+                                                   [2
 
 ]
-Underfull \vbox (badness 4543) has occurred while \output is active []
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.319 
+       [3]
+Underfull \vbox (badness 2556) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -683,21 +706,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.332 
-       [1]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.358 
-       [2]
-Underfull \hbox (badness 1092) in paragraph at lines 379--398
+l.345 
+       [4]
+Underfull \hbox (badness 1092) in paragraph at lines 366--385
 \T1/lmr/m/n/12 Splicing de-ci-sions are cru-cial dur-ing the gen-er-a-tion of m
 a-ture mR-NAs post-
  []
@@ -710,20 +725,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.431 
-       [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.468 
-       [4]
+[5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -734,7 +736,9 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[5] [6]
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -744,40 +748,57 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [8]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[10]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
-93.
+80.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[10]
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
 [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
 [12]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -788,10 +809,8 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[13] [14]
-Underfull \hbox (badness 2582) in paragraph at lines 999--999
-[]\T1/lmr/bx/n/17.28 A trans-la-tion con-trol mod-ule co-or-di-nates
- []
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -802,11 +821,6 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -815,26 +829,28 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[17]
+[16] [17] [18
+
+]
+Chapter 2.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -843,8 +859,25 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[21]
-Underfull \hbox (badness 1210) in paragraph at lines 1383--1399
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[25]
+Underfull \hbox (badness 1210) in paragraph at lines 1371--1387
 []\T1/lmr/m/n/12 During nor-mal oo-ge-n-e-sis, p53 is ex-pressed in cyst stages
  in re-sponse to
  []
@@ -852,9 +885,6 @@ Underfull \hbox (badness 1210) in paragraph at lines 1383--1399
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -862,27 +892,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -890,13 +906,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[29]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -904,13 +920,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -918,13 +934,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -932,25 +948,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
 [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[36]
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -959,51 +963,67 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[37] [38
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[40] [41] [42
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-249.
+237.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [39] [40
+) [43] [44
 
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 2268.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 2256.
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-2269.
+2257.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [41]
+) [45]
 
-LaTeX Warning: Reference `ref-labels' on page 42 undefined on input line 2296.
-
-[42]
-Appendix B.
-[43
-
-] [44
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[45
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `ref-labels' on page 46 undefined on input line 2284.
 
 [46]
+Appendix B.
+[47
+
+] [48
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[49
 
-[48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[49]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [50]
@@ -1040,12 +1060,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [61]
-Underfull \hbox (badness 1675) in paragraph at lines 2902--2904
- \T1/lmr/m/n/12 rapamycin-sensitive TOR-signaling path-way in Sac-cha-romyces c
-ere-visiae.
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [62]
@@ -1057,27 +1071,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[65pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidi
-na2014h}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.3027 
-       ]
-Underfull \hbox (badness 1168) in paragraph at lines 3031--3033
- [][]\T1/lmr/m/n/12 Tadauchi, T., Mat-sumoto, K., Her-skowitz, I., & Irie, K. (
-2001). Post-
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 3031--3033
- \T1/lmr/m/n/12 transcriptional reg-u-la-tion through the HO 3'-UTR by Mpt5, a 
-yeast
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 3031--3033
- \T1/lmr/m/n/12 ho-molog of Pumilio and FBF. \T1/lmr/m/it/12 The EMBO Jour-nal\
-T1/lmr/m/n/12 , \T1/lmr/m/it/12 20\T1/lmr/m/n/12 (3), 552--561.
+[65]
+Underfull \hbox (badness 1675) in paragraph at lines 2890--2892
+ \T1/lmr/m/n/12 rapamycin-sensitive TOR-signaling path-way in Sac-cha-romyces c
+ere-visiae.
  []
 
 
@@ -1092,27 +1089,62 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[69pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie200
+[69pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidi
+na2014h}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3015 
+       ]
+Underfull \hbox (badness 1168) in paragraph at lines 3019--3021
+ [][]\T1/lmr/m/n/12 Tadauchi, T., Mat-sumoto, K., Her-skowitz, I., & Irie, K. (
+2001). Post-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 3019--3021
+ \T1/lmr/m/n/12 transcriptional reg-u-la-tion through the HO 3'-UTR by Mpt5, a 
+yeast
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 3019--3021
+ \T1/lmr/m/n/12 ho-molog of Pumilio and FBF. \T1/lmr/m/it/12 The EMBO Jour-nal\
+T1/lmr/m/n/12 , \T1/lmr/m/it/12 20\T1/lmr/m/n/12 (3), 552--561.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[73pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie200
 0b}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3165 
+l.3153 
        ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[70] [71] (./thesis.aux)
+[74] [75] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D0BF9FCFDD709DF9D63F521BEFBD9B12;2239.
+(rerunfilecheck)             Checksum: 36055875596F4A067512C74D4D15A04C;5821.
  ) 
 Here is how much of TeX's memory you used:
- 12192 strings out of 480470
- 190145 string characters out of 5897013
- 494461 words of memory out of 5000000
- 29244 multiletter control sequences out of 15000+600000
- 466188 words of font info for 68 fonts, out of 8000000 for 9000
+ 12208 strings out of 480470
+ 190449 string characters out of 5897013
+ 495627 words of memory out of 5000000
+ 29254 multiletter control sequences out of 15000+600000
+ 460191 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,69p,1628b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mat
@@ -1130,10 +1162,10 @@ aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/Elliot/AppDa
 ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/Elliot
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/
 Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on thesis.pdf (89 pages, 500369 bytes).
+Output written on thesis.pdf (95 pages, 507197 bytes).
 PDF statistics:
- 1184 PDF objects out of 1200 (max. 8388607)
- 1057 compressed objects within 11 object streams
- 426 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1251 PDF objects out of 1440 (max. 8388607)
+ 1117 compressed objects within 12 object streams
+ 432 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

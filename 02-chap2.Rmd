@@ -1,4 +1,4 @@
-## A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis
+# A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis
 
 Elliot Martin^1^\*, Patrick Blatt^1^\*, Elaine Ngyuen^2^, Roni Lahr^2^,
 Sangeetha Selvam^1^, Hyun Ah M. Yoon^1,3^, Tyler Pocchiari^1,4^, Shamsi
@@ -42,7 +42,7 @@ TOP-motif in *Drosophila* responds to reduced ribosome biogenesis to
 co-regulate the translation of ribosomal proteins and a p53 repressor,
 thus coupling ribosome biogenesis to GSC differentiation.
 
-**Introduction**
+## Introduction
 
 All life depends on the ability of ribosomes to translate mRNAs into
 proteins. Despite this universal requirement, ribosome biogenesis is not
@@ -612,8 +612,7 @@ underdevelopment of organs such as the uterus
 disrupts stem cell differentiation could explain some of the poorly
 understood defects in 17q12 syndrome.
 
-**Ribosome biogenesis defects leads to cell cycle defects mediated by
-p53**
+## Ribosome biogenesis defects leads to cell cycle defects mediated by p53
 
 Here we report that three RNA helicases, *aramis*, *athos*, and
 *porthos,* that promote proper ribosome biogenesis in *Drosophila* are

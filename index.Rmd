@@ -115,4 +115,4 @@ Alternatively, you can put that content in files like 00--prelim.Rmd and
 "Chapter 0." You can also use {-} for no numbers on chapters.
 -->
 
-<!-- # Introduction {.unnumbered} -->
+# Introduction {.unnumbered}

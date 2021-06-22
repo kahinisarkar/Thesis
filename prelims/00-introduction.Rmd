@@ -2,7 +2,7 @@
 This is for including Chapter 1.  Notice that it's also good practice to name your chunk.  This will help you debug potential issues as you knit.  The chunk above is called intro and the one below is called chapter1.  Feel free to change the name of the Rmd file as you wish, but don't forget to change it here from chap1.Rmd.
 -->
 
-## Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during *Drosophila* oogenesis
+# Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during *Drosophila* oogenesis
 
 Patrick Blatt, Elliot T. Martin, Shane M. Breznak, Prashanth Rangan\*
 
@@ -13,7 +13,7 @@ University at Albany SUNY, 1400 Washington Avenue, Albany, 12222, USA
 
 \*Correspondence to: prangan\@albany.edu
 
-### Contents
+*Contents*
 
 1.  Introduction
 2.  Alternative splicing ensures accurate production of critical
@@ -27,7 +27,7 @@ University at Albany SUNY, 1400 Washington Avenue, Albany, 12222, USA
     oogenesis
 6.  Summary
 
-### Abstract
+## Abstract
 
 During oogenesis, several developmental processes must be traversed to
 ensure effective completion of gametogenesis including, stem cell
@@ -53,7 +53,7 @@ meiosis.
 Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline
 Differentiation, Gametogenesis, RNA Binding Proteins]{.underline}
 
-#### 1.  Introduction
+## 1.  Introduction
 
 Gametogenesis gives rise to eggs or sperm in all sexually-reproducing
 organisms [@Cinalli2008d;@Ellis1994d;@Lesch2012b;@Seydoux2006].
@@ -117,7 +117,7 @@ focus on post-transcriptional processing of germline mRNAs and
 translational regulation both of which are required for successful
 oogenesis.
 
-#### 2. Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation
+## 2. Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation
 
 Splicing decisions are crucial during the generation of mature mRNAs
 post-transcriptionally and significantly contribute to germline
@@ -256,7 +256,7 @@ and production of the determinants of embryonic patterning for the next
 generation are all regulated by mechanisms involving alternative
 splicing in the female germline.
 
-#### 3.  RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
+## 3.  RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
 
 Post transcriptional RNA modifications are abundant and conserved in all
 branches of life [@Yi2011]. There have been over 100 described RNA
@@ -317,7 +317,7 @@ although it is clear that RNA modifications help to ensure proper
 splicing of sex determination factors, but the pathway, mechanism, and
 direct targets remain unresolved.
 
-#### 4.  Production of ribosomes is finely tuned to facilitate differentiation
+## 4.  Production of ribosomes is finely tuned to facilitate differentiation
 
 While splicing mediates proper mRNA production, access of the mature
 mRNAs to ribosomes controls their translation. Once mRNAs are gated for
@@ -525,7 +525,7 @@ dynamic nature of ribosome biogenesis seems likely to be conserved;
 however, further investigation is required to determine and compare the
 basis of ribosome biogenesis control.
 
-#### 5.  Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
+## 5.  Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
 
 While some mRNAs are translated post-transcriptionally, other critical
 mRNAs are translationally regulated. For efficient translation of mRNAs,
@@ -669,7 +669,7 @@ to *pgc*, rather a cohort of maternal mRNAs are co-regulated by Pum and
 Bru representing a hand-off mechanism for repression of maternal mRNAs
 [@Flora2018k].
 
-#### 6. Summary
+## 6. Summary
 
 Decades of work using elegant genetics has revealed several paradigms in
 which splicing machinery, RNA modifying enzymes, ribosome levels, and
