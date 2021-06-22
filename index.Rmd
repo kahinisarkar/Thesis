@@ -1,5 +1,5 @@
 ---
-title: 'My Final College Paper'
+title: 'Translation control tunes *Drosophila* oogenesis'
 author: 'Elliot T. Martin'
 date: 'December 2021'
 institution: 'University at Albany'
