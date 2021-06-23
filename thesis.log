@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.19)  22 JUN 2021 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.19)  23 JUN 2021 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,7 +517,7 @@ Package color Info: Redefining color shadecolor on input line 81.
 \csllabelwidth=\skip75
 \cslhangindent=\skip76
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 21
-9.
+6.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -529,24 +529,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
 
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epst
 opdf-base.sty
@@ -559,7 +559,7 @@ pdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 219.
+Package hyperref Info: Link coloring OFF on input line 216.
 
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.
 sty
@@ -575,9 +575,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 219.
-LaTeX Info: Redefining \pageref on input line 219.
-LaTeX Info: Redefining \nameref on input line 219.
+LaTeX Info: Redefining \ref on input line 216.
+LaTeX Info: Redefining \pageref on input line 216.
+LaTeX Info: Redefining \nameref on input line 216.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -585,42 +585,42 @@ LaTeX Info: Redefining \nameref on input line 219.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-23.
+20.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-23.
+20.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-223.
+220.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-223.
+220.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 223.
+(Font)              <12> on input line 220.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 223.
+(Font)              <8> on input line 220.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 223.
+(Font)              <6> on input line 220.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 22
-3.
+0.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 223
+LaTeX Font Info:    Trying to load font information for U+msa on input line 220
 .
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 223
+LaTeX Font Info:    Trying to load font information for U+msb on input line 220
 .
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -663,29 +663,27 @@ ex.map}] [2
 
 [9] [10
 
-] [11] [12
-
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[13] [14] [15
+[11] [12] [13
 
 
-] [16
+] [14
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 ...-transition-during-drosophila-oogenesis}}
+l.270 ...-transition-during-drosophila-oogenesis}}
                                                    [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 ...-transition-during-drosophila-oogenesis}}
+l.270 ...-transition-during-drosophila-oogenesis}}
                                                    [2
 
 ]
@@ -694,7 +692,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.319 
+l.329 
        [3]
 Underfull \vbox (badness 2556) has occurred while \output is active []
 
@@ -710,16 +708,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.345 
+l.355 
        [4]
-<./figure/Book Chapter/Figure1.pdf, id=227, 510.7321pt x 259.65207pt>
+<./figure/Book Chapter/Figure1.pdf, id=205, 510.7321pt x 259.65207pt>
 File: ./figure/Book Chapter/Figure1.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure1.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure1.pdf  used on input line 
-364.
+374.
 (pdftex.def)             Requested size: 509.70995pt x 259.67519pt.
 
-Overfull \hbox (76.08995pt too wide) in paragraph at lines 364--365
+Overfull \hbox (76.08995pt too wide) in paragraph at lines 374--375
  [][] 
  []
 
@@ -727,7 +725,7 @@ Overfull \hbox (76.08995pt too wide) in paragraph at lines 364--365
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [5]
-Underfull \hbox (badness 1092) in paragraph at lines 389--408
+Underfull \hbox (badness 1092) in paragraph at lines 383--402
 \T1/lmr/m/n/12 Splicing de-ci-sions are cru-cial dur-ing the gen-er-a-tion of m
 a-ture mR-NAs post-
  []
@@ -763,6 +761,20 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [8]
+<./figure/Book Chapter/Figure2.pdf, id=246, 596.2275pt x 147.57535pt>
+File: ./figure/Book Chapter/Figure2.pdf Graphic file (type pdf)
+<use ./figure/Book Chapter/Figure2.pdf>
+Package pdftex.def Info: ./figure/Book Chapter/Figure2.pdf  used on input line 
+521.
+(pdftex.def)             Requested size: 596.26242pt x 147.44212pt.
+
+Overfull \hbox (162.64243pt too wide) in paragraph at lines 521--522
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -771,8 +783,8 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[9]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+[9 <./figure/Book Chapter/Figure2.pdf>]
+Underfull \vbox (badness 1490) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -783,14 +795,9 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1019) has occurred while \output is active []
 
 [11]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-03.
-(c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -802,6 +809,11 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [12]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+04.
+(c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [13]
@@ -816,16 +828,22 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [14]
+<./figure/Book Chapter/Figure3.pdf, id=300, 448.07399pt x 592.61403pt>
+File: ./figure/Book Chapter/Figure3.pdf Graphic file (type pdf)
+<use ./figure/Book Chapter/Figure3.pdf>
+Package pdftex.def Info: ./figure/Book Chapter/Figure3.pdf  used on input line 
+799.
+(pdftex.def)             Requested size: 448.07288pt x 592.61258pt.
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Overfull \hbox (14.45288pt too wide) in paragraph at lines 799--800
+ [][] 
+ []
 
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (68.18257pt too high) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -835,8 +853,8 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[16 <./figure/Book Chapter/Figure3.pdf>]
+Underfull \vbox (badness 1490) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -847,6 +865,8 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -856,13 +876,31 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [18]
-Chapter 2.
+<./figure/Book Chapter/Figure4.pdf, id=341, 439.97975pt x 542.025pt>
+File: ./figure/Book Chapter/Figure4.pdf Graphic file (type pdf)
+<use ./figure/Book Chapter/Figure4.pdf>
+Package pdftex.def Info: ./figure/Book Chapter/Figure4.pdf  used on input line 
+951.
+(pdftex.def)             Requested size: 439.97867pt x 542.02367pt.
+
+Overfull \hbox (6.35867pt too wide) in paragraph at lines 951--952
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[19
 
-]
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -872,10 +910,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (61.09366pt too high) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -885,12 +920,23 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
+[21 <./figure/Book Chapter/Figure4.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
 [22]
+Chapter 2.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[23
 
+]
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -903,12 +949,6 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [25]
-Underfull \hbox (badness 1210) in paragraph at lines 1341--1357
-[]\T1/lmr/m/n/12 During nor-mal oo-ge-n-e-sis, p53 is ex-pressed in cyst stages
- in re-sponse to
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -937,7 +977,13 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [29]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+Underfull \hbox (badness 1210) in paragraph at lines 1356--1372
+[]\T1/lmr/m/n/12 During nor-mal oo-ge-n-e-sis, p53 is ex-pressed in cyst stages
+ in re-sponse to
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -965,7 +1011,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1019) has occurred while \output is active []
 
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
@@ -1017,51 +1063,67 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[40] [41] [42
+[40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[44] [45] [46
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-207.
+222.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [43] [44
+) [47] [48
 
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 2226.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 2241.
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-2227.
+2242.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [45]
+) [49]
 
-LaTeX Warning: Reference `ref-labels' on page 46 undefined on input line 2254.
-
-[46]
-Appendix B.
-[47
-
-] [48
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[49
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `ref-labels' on page 50 undefined on input line 2269.
 
 [50]
+Appendix B.
+[51
+
+] [52
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[51]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[53
 
-[52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[53]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [54]
@@ -1098,12 +1160,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [65]
-Underfull \hbox (badness 1675) in paragraph at lines 2860--2862
- \T1/lmr/m/n/12 rapamycin-sensitive TOR-signaling path-way in Sac-cha-romyces c
-ere-visiae.
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [66]
@@ -1115,27 +1171,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[69pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidi
-na2014h}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.2985 
-       ]
-Underfull \hbox (badness 1168) in paragraph at lines 2989--2991
- [][]\T1/lmr/m/n/12 Tadauchi, T., Mat-sumoto, K., Her-skowitz, I., & Irie, K. (
-2001). Post-
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 2989--2991
- \T1/lmr/m/n/12 transcriptional reg-u-la-tion through the HO 3'-UTR by Mpt5, a 
-yeast
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 2989--2991
- \T1/lmr/m/n/12 ho-molog of Pumilio and FBF. \T1/lmr/m/it/12 The EMBO Jour-nal\
-T1/lmr/m/n/12 , \T1/lmr/m/it/12 20\T1/lmr/m/n/12 (3), 552--561.
+[69]
+Underfull \hbox (badness 1675) in paragraph at lines 2875--2877
+ \T1/lmr/m/n/12 rapamycin-sensitive TOR-signaling path-way in Sac-cha-romyces c
+ere-visiae.
  []
 
 
@@ -1150,26 +1189,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[73pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie200
+[73pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidi
+na2014h}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3000 
+       ]
+Underfull \hbox (badness 1168) in paragraph at lines 3004--3006
+ [][]\T1/lmr/m/n/12 Tadauchi, T., Mat-sumoto, K., Her-skowitz, I., & Irie, K. (
+2001). Post-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 3004--3006
+ \T1/lmr/m/n/12 transcriptional reg-u-la-tion through the HO 3'-UTR by Mpt5, a 
+yeast
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 3004--3006
+ \T1/lmr/m/n/12 ho-molog of Pumilio and FBF. \T1/lmr/m/it/12 The EMBO Jour-nal\
+T1/lmr/m/n/12 , \T1/lmr/m/it/12 20\T1/lmr/m/n/12 (3), 552--561.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[75]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[77pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie200
 0b}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3123 
+l.3138 
        ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[74] [75] (./thesis.aux)
+[78] [79] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C90AADB707D7AF5903FA9670E0162B50;5803.
+(rerunfilecheck)             Checksum: AC664829714EE169EB1F29124AA3DE81;5718.
  ) 
 Here is how much of TeX's memory you used:
- 12227 strings out of 480470
- 190965 string characters out of 5897013
- 497834 words of memory out of 5000000
- 29270 multiletter control sequences out of 15000+600000
+ 12258 strings out of 480470
+ 192049 string characters out of 5897013
+ 495999 words of memory out of 5000000
+ 29295 multiletter control sequences out of 15000+600000
  460191 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,69p,1628b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1188,10 +1262,10 @@ aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/Elliot/AppDa
 ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/Elliot
 /AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/
 Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on thesis.pdf (95 pages, 1195247 bytes).
+Output written on thesis.pdf (97 pages, 3092635 bytes).
 PDF statistics:
- 1295 PDF objects out of 1440 (max. 8388607)
- 1147 compressed objects within 12 object streams
- 433 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1364 PDF objects out of 1440 (max. 8388607)
+ 1171 compressed objects within 12 object streams
+ 436 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

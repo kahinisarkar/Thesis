@@ -11,6 +11,7 @@ department: 'Biology'
 degree: 'Doctor of Philosophy'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
+# geometry: margin=0.25in
 
 # This will automatically install the {remotes} package and {thesisdown}
 # Change this to FALSE if you'd like to install them manually on your own.
@@ -20,7 +21,7 @@ params:
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
 output:
-  thesisdown::thesis_pdf: 
+  thesisdown::thesis_pdf:
   latex_engine: xelatex
 #  thesisdown::thesis_gitbook: default         
  # thesisdown::thesis_word: default
@@ -104,10 +105,6 @@ Alternatively, you can put that content in files like 00--prelim.Rmd and
 
 
 ```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00--prelim.Rmd")}
-
-```
-
-```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00-abstract.Rmd")}
 
 ```
 

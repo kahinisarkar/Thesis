@@ -203,9 +203,6 @@ This is an example of a thesis setup to use the reed thesis document class
 }
 
 \Abstract{
-\hypertarget{abstract}{%
-\chapter{Abstract}\label{abstract}}
-
 All dynamic biological processes require control over transcription, translation, or post-translational products. My work has focused on characterizing this control using RNA sequencing techniques, primarily on transcription and translation, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew'', a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
 The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
 Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcriptional and translational landscape over development. I have also used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
@@ -239,9 +236,6 @@ Each of the steps from GSC to egg require changes in cellular pathways. These ch
 
   \listoffigures
   \begin{abstract}
-    \hypertarget{abstract}{%
-    \chapter{Abstract}\label{abstract}}
-
     All dynamic biological processes require control over transcription, translation, or post-translational products. My work has focused on characterizing this control using RNA sequencing techniques, primarily on transcription and translation, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew'', a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
     The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
     Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcriptional and translational landscape over development. I have also used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
@@ -256,6 +250,22 @@ Each of the steps from GSC to egg require changes in cellular pathways. These ch
 \chapter*{Introduction}\label{introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \hypertarget{post-transcriptional-gene-regulation-instructs-germline-stem-cell-to-oocyte-transition-during-drosophila-oogenesis}{%
 \chapter{\texorpdfstring{Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during \emph{Drosophila} oogenesis}{Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during Drosophila oogenesis}}\label{post-transcriptional-gene-regulation-instructs-germline-stem-cell-to-oocyte-transition-during-drosophila-oogenesis}}
 
@@ -268,8 +278,8 @@ University at Albany SUNY, 1400 Washington Avenue, Albany, 12222, USA
 
 *Correspondence to: prangan@albany.edu
 
-\hypertarget{abstract-1}{%
-\section{Abstract}\label{abstract-1}}
+\hypertarget{abstract}{%
+\section{Abstract}\label{abstract}}
 
 During oogenesis, several developmental processes must be traversed to
 ensure effective completion of gametogenesis including, stem cell
@@ -365,23 +375,7 @@ oogenesis.
 
 }
 
-\caption{Figure  1: (A) Schematic of *Drosophila* an ovariole. *Drosophila*
-females have two ovaries consisting of 16--20 ovarioles, which are
-assembly lines for producing mature eggs. The germarium, the structure
-that houses the germline stem cell (GSC), is present at anterior tip of
-the ovariole. The germline stem cell asymmetrically divides, giving rise
-to another GSC and a GSC daughter. The daughter cell then will undergo
-four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the
-16 cells one will be specified as the egg while the others serve as
-polyploid nurse cells that support oocyte and egg development. The
-surrounding somatic cells encapsulate the 16-cell cyst creating egg
-chambers. As development proceeds, the nurse cells provide mRNAs and
-proteins allowing the oocyte to grow in size and to eventually become a
-mature egg. (B) Inset of a germarium showing the developing germline,
-with the GSC located at the most anterior tip. Upon differentiation, the
-CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell
-cyst. Only one cell of the sixteen cells completes meiosis and is
-destined to become the oocyte.}\label{fig:unnamed-chunk-3}
+\caption[Schematic of \emph{Drosophila} ovariole.]{(A) Schematic of \emph{Drosophila} ovariole. \emph{Drosophila} females have two ovaries consisting of 16--20 ovarioles, which are assembly lines for producing mature eggs. The germarium, the structure that houses the germline stem cell (GSC), is present at anterior tip of the ovariole. The germline stem cell asymmetrically divides, giving rise to another GSC and a GSC daughter. The daughter cell then will undergo four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the 16 cells one will be specified as the egg while the others serve as polyploid nurse cells that support oocyte and egg development. The surrounding somatic cells encapsulate the 16-cell cyst creating egg chambers. As development proceeds, the nurse cells provide mRNAs and proteins allowing the oocyte to grow in size and to eventually become a mature egg. (B) Inset of a germarium showing the developing germline, with the GSC located at the most anterior tip. Upon differentiation, the CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell cyst. Only one cell of the sixteen cells completes meiosis and is destined to become the oocyte.}\label{fig:unnamed-chunk-2}
 \end{figure}
 \hypertarget{alternative-splicing-ensures-accurate-production-of-critical-germline-mrnas-to-regulate-sex-determination-and-differentiation}{%
 \section{Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation}\label{alternative-splicing-ensures-accurate-production-of-critical-germline-mrnas-to-regulate-sex-determination-and-differentiation}}
@@ -522,7 +516,14 @@ patterning (Kalifa, Armenti, \& Gavis, 2009). Thus, sex determination, different
 and production of the determinants of embryonic patterning for the next
 generation are all regulated by mechanisms involving alternative
 splicing in the female germline.
+\begin{figure}
 
+{\centering \includegraphics[width=8.25 in,height=2.04 in]{./figure/Book Chapter/Figure2} 
+
+}
+
+\caption[Schematic of the pathway that promotes alternative splicing of \emph{sxl}]{Schematic of the pathway that promotes alternative splicing of \emph{sxl} to generate the female \emph{sex determining} variant in the germline. Ovo-B promotes the transcription of \emph{otu,} which enhances splicing of \emph{sxl}. The female-specific splice form of \emph{sxl} is further enhanced by RNA modification by the m6A writer. Formation of the female-specific form generates a functional Sxl protein. Sxl represses Tdrd5l, a protein that promotes male identify. Additionally, Sxl post-transcriptionally represses \emph{nhp2} to promote cyst formation during differentiation.}\label{fig:unnamed-chunk-3}
+\end{figure}
 \hypertarget{rna-modifications-direct-splicing-of-sex-determinants-and-translation-of-differentiation-promoting-genes-in-the-germline}{%
 \section{RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline}\label{rna-modifications-direct-splicing-of-sex-determinants-and-translation-of-differentiation-promoting-genes-in-the-germline}}
 
@@ -793,7 +794,14 @@ networks that control ribosome biogenesis in \emph{Drosophila} oocytes, the
 dynamic nature of ribosome biogenesis seems likely to be conserved;
 however, further investigation is required to determine and compare the
 basis of ribosome biogenesis control.
+\begin{figure}
 
+{\centering \includegraphics{./figure/Book Chapter/Figure3} 
+
+}
+
+\caption[Global translation rate, rRNA transcription rate, and mTorc1 activity during development]{Schematic representing the germarium and plots representing relative changes in global translation rate, rRNA transcription rate, and mTorc1 activity during development at the developmental stages indicated. As germline stem cell differentiation occurs rRNA production decreases, while global translation initially increases as differentiation occurs then falls off post differentiation. A global regulator of both translation and rRNA production, mTorc1 activity decreases during differentiation and increases post differentiation.}\label{fig:unnamed-chunk-4}
+\end{figure}
 \hypertarget{hand-off-mechanisms-facilitated-by-combinatorial-rna-binding-proteins-dynamically-shape-the-translational-landscape-during-oogenesis}{%
 \section{Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}\label{hand-off-mechanisms-facilitated-by-combinatorial-rna-binding-proteins-dynamically-shape-the-translational-landscape-during-oogenesis}}
 
@@ -938,7 +946,14 @@ the \emph{pgc} 3' UTR as Nos/Pum to prevent \emph{pgc} translation
 to \emph{pgc}, rather a cohort of maternal mRNAs are co-regulated by Pum and
 Bru representing a hand-off mechanism for repression of maternal mRNAs
 (Flora, Wong-Deyrup, et al., 2018).
+\begin{figure}
 
+{\centering \includegraphics{./figure/Book Chapter/Figure4} 
+
+}
+
+\caption[Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.]{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium. In the GSCs Nos, Pum and Twin form a complex to inhibit the translation of differentiation mRNAs such as \emph{pgc}, which increases throughout oogenesis. Expression of Bam in the CB initiates differentiation by interacting with its partner Bgcn and Mei-P26 to repress the translation of GSC-expressed mRNAs, specifically \emph{nos}. As Nos protein levels decrease in the CB, Pum is available to partner with Brat to repress the translation of self-renewal genes and \emph{pgc}. In cyst stages, Rbfox1 binds the \emph{pum} 3' UTR to inhibit its translation. Throughout oogenesis Bru and Cup continuously block translation of \emph{pgc}.}\label{fig:unnamed-chunk-5}
+\end{figure}
 \hypertarget{summary}{%
 \section{Summary}\label{summary}}
 

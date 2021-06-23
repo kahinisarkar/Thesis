@@ -1,56 +1,19 @@
-```{r setup, echo=FALSE, include=FALSE}
-library(captioner)
-fig_nums <- captioner()
-fig_nums("book_figure1", "(A) Schematic of *Drosophila* an ovariole. *Drosophila*
-females have two ovaries consisting of 16--20 ovarioles, which are
-assembly lines for producing mature eggs. The germarium, the structure
-that houses the germline stem cell (GSC), is present at anterior tip of
-the ovariole. The germline stem cell asymmetrically divides, giving rise
-to another GSC and a GSC daughter. The daughter cell then will undergo
-four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the
-16 cells one will be specified as the egg while the others serve as
-polyploid nurse cells that support oocyte and egg development. The
-surrounding somatic cells encapsulate the 16-cell cyst creating egg
-chambers. As development proceeds, the nurse cells provide mRNAs and
-proteins allowing the oocyte to grow in size and to eventually become a
-mature egg. (B) Inset of a germarium showing the developing germline,
-with the GSC located at the most anterior tip. Upon differentiation, the
-CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell
-cyst. Only one cell of the sixteen cells completes meiosis and is
-destined to become the oocyte.")
+(ref:book-F1) (A) Schematic of *Drosophila* ovariole. *Drosophila* females have two ovaries consisting of 16--20 ovarioles, which are assembly lines for producing mature eggs. The germarium, the structure that houses the germline stem cell (GSC), is present at anterior tip of the ovariole. The germline stem cell asymmetrically divides, giving rise to another GSC and a GSC daughter. The daughter cell then will undergo four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the 16 cells one will be specified as the egg while the others serve as polyploid nurse cells that support oocyte and egg development. The surrounding somatic cells encapsulate the 16-cell cyst creating egg chambers. As development proceeds, the nurse cells provide mRNAs and proteins allowing the oocyte to grow in size and to eventually become a mature egg. (B) Inset of a germarium showing the developing germline, with the GSC located at the most anterior tip. Upon differentiation, the CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell cyst. Only one cell of the sixteen cells completes meiosis and is destined to become the oocyte.
 
-fig_nums("book_figure2", "Schematic of the pathway that promotes alternative
-splicing of *sxl* to generate the female *sex determining* variant in
-the germline. Ovo-B promotes the transcription of *otu,* which enhances
-splicing of *sxl*. The female-specific splice form of *sxl* is further
-enhanced by RNA modification by the m6A writer. Formation of the
-female-specific form generates a functional Sxl protein. Sxl represses
-Tdrd5l, a protein that promotes male identify. Additionally, Sxl
-post-transcriptionally represses *nhp2* to promote cyst formation during
-differentiation.")
+(ref:book-F1-short) Schematic of *Drosophila* ovariole.
 
-fig_nums("book_figure3", "Schematic representing the germarium and plots
-representing relative changes in global translation rate, rRNA
-transcription rate, and mTorc1 activity during development at the
-developmental stages indicated. As germline stem cell differentiation
-occurs rRNA production decreases, while global translation initially
-increases as differentiation occurs then falls off post differentiation.
-A global regulator of both translation and rRNA production, mTorc1
-activity decreases during differentiation and increases post
-differentiation.")
+(ref:book-F2) Schematic of the pathway that promotes alternative splicing of *sxl* to generate the female *sex determining* variant in the germline. Ovo-B promotes the transcription of *otu,* which enhances splicing of *sxl*. The female-specific splice form of *sxl* is further enhanced by RNA modification by the m6A writer. Formation of the female-specific form generates a functional Sxl protein. Sxl represses Tdrd5l, a protein that promotes male identify. Additionally, Sxl post-transcriptionally represses *nhp2* to promote cyst formation during differentiation.
 
-fig_nums("book_figure4", "Schematic of combinatorial and dynamic translation
-regulation in the *Drosophila*germarium. In the GSCs Nos, Pum and Twin
-form a complex to inhibit the translation of differentiation mRNAs such
-as *pgc*, which increases throughout oogenesis. Expression of Bam in the
-CB initiates differentiation by interacting with its partner Bgcn and
-Mei-P26 to repress the translation of GSC-expressed mRNAs,
-specifically *nos*. As Nos protein levels decrease in the CB, Pum is
-available to partner with Brat to repress the translation of
-self-renewal genes and *pgc*. In cyst stages, Rbfox1 binds the *pum* 3\'
-UTR to inhibit its translation. Throughout oogenesis Bru and Cup
-continuously block translation of *pgc*.")
-```
+(ref:book-F2-short) Schematic of the pathway that promotes alternative splicing of *sxl*
+
+(ref:book-F3) Schematic representing the germarium and plots representing relative changes in global translation rate, rRNA transcription rate, and mTorc1 activity during development at the developmental stages indicated. As germline stem cell differentiation occurs rRNA production decreases, while global translation initially increases as differentiation occurs then falls off post differentiation. A global regulator of both translation and rRNA production, mTorc1 activity decreases during differentiation and increases post differentiation.
+
+(ref:book-F3-short) Global translation rate, rRNA transcription rate, and mTorc1 activity during development
+
+(ref:book-F4) Schematic of combinatorial and dynamic translation regulation in the *Drosophila* germarium. In the GSCs Nos, Pum and Twin form a complex to inhibit the translation of differentiation mRNAs such as *pgc*, which increases throughout oogenesis. Expression of Bam in the CB initiates differentiation by interacting with its partner Bgcn and Mei-P26 to repress the translation of GSC-expressed mRNAs, specifically *nos*. As Nos protein levels decrease in the CB, Pum is available to partner with Brat to repress the translation of self-renewal genes and *pgc*. In cyst stages, Rbfox1 binds the *pum* 3\' UTR to inhibit its translation. Throughout oogenesis Bru and Cup continuously block translation of *pgc*.
+
+(ref:book-F4-short) Schematic of combinatorial and dynamic translation regulation in the *Drosophila* germarium.
+
 # Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during *Drosophila* oogenesis
 
 Patrick Blatt, Elliot T. Martin, Shane M. Breznak, Prashanth Rangan\*
@@ -152,7 +115,7 @@ focus on post-transcriptional processing of germline mRNAs and
 translational regulation both of which are required for successful
 oogenesis.
 
-```{r, out.width="7.0527 in", out.height="3.5928 in", include=TRUE, fig.align="center", fig.cap=fig_nums("book_figure1"), echo=FALSE}
+```{r, out.width="7.0527 in", out.height="3.5928 in", include=TRUE, fig.align="center", fig.cap='(ref:book-F1)', fig.scap='(ref:book-F1-short)', echo=FALSE}
 knitr::include_graphics("./figure/Book Chapter/Figure1.pdf")
 ```
 
@@ -294,6 +257,10 @@ patterning [@Kalifa2009]. Thus, sex determination, differentiation
 and production of the determinants of embryonic patterning for the next
 generation are all regulated by mechanisms involving alternative
 splicing in the female germline.
+
+```{r, include=TRUE, out.width="8.25 in", out.height="2.04 in", fig.align="center", fig.cap='(ref:book-F2)', fig.scap='(ref:book-F2-short)', echo=FALSE}
+knitr::include_graphics("./figure/Book Chapter/Figure2.pdf")
+```
 
 ## RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
 
@@ -564,6 +531,10 @@ dynamic nature of ribosome biogenesis seems likely to be conserved;
 however, further investigation is required to determine and compare the
 basis of ribosome biogenesis control.
 
+```{r, include=TRUE, fig.align="center", fig.cap='(ref:book-F3)', fig.scap='(ref:book-F3-short)', echo=FALSE}
+knitr::include_graphics("./figure/Book Chapter/Figure3.pdf")
+```
+
 ## Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
 
 While some mRNAs are translated post-transcriptionally, other critical
@@ -708,6 +679,10 @@ to *pgc*, rather a cohort of maternal mRNAs are co-regulated by Pum and
 Bru representing a hand-off mechanism for repression of maternal mRNAs
 [@Flora2018k].
 
+```{r, include=TRUE, fig.align="center", fig.cap='(ref:book-F4)', fig.scap='(ref:book-F4-short)', echo=FALSE}
+knitr::include_graphics("./figure/Book Chapter/Figure4.pdf")
+```
+
 ## Summary
 
 Decades of work using elegant genetics has revealed several paradigms in
@@ -719,5 +694,3 @@ cost-effective sequencing technologies combined with the increasing
 ability to easily create mutants in previously uncharacterized genes
 will allow us to further elucidate the regulatory logic (underlying or
 of) this critical transition.
-
-
