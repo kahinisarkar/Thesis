@@ -35,11 +35,11 @@ abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims"
 # If you'd rather include the preliminary content in files instead of inline
 # like below, use a command like that for the abstract above.  Note that a tab 
 # is needed on the line after the `|`.
-acknowledgements: |
+acknowledgements: | 
   I want to thank a few people.
-dedication: |
+dedication: | 
   You can have a dedication here if you wish. 
-preface: |
+preface: |  
   This is an example of a thesis setup to use the reed thesis document class 
   (for LaTeX) and the R bookdown package, in general.
 
