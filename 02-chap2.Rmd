@@ -1,5 +1,6 @@
-**A translation control module coordinates germline stem cell
-differentiation with ribosome biogenesis during *Drosophila* oogenesis**
+(ref:RiBi-F1-short) test short caption
+
+# A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis
 
 Elliot T. Martin^1^\*, Patrick Blatt^1^\*, Elaine Ngyuen^2^, Roni
 Lahr^2^, Sangeetha Selvam^1^, Hyun Ah M. Yoon^1,3^, Tyler
@@ -25,7 +26,9 @@ Pittsburgh, PA 15260
 Email: [[gfuchs\@albany.edu]{.underline}](mailto:gfuchs@albany.edu),
 [prangan\@albany.edu]{.underline}
 
-#Summary: Ribosomal defects perturb stem cell differentiation,
+## Summary: 
+
+Ribosomal defects perturb stem cell differentiation,
 causing diseases called ribosomopathies. How ribosome levels control
 stem cell differentiation is not fully known. Here, we discovered three
 RNA helicases are required for ribosome biogenesis and for *Drosophila*
@@ -44,7 +47,7 @@ ribosome biogenesis to co-regulate the translation of ribosomal proteins
 and a p53 repressor, thus coupling ribosome biogenesis to GSC
 differentiation.
 
-#Introduction
+## Introduction
 
 All life depends on the ability of ribosomes to translate mRNAs into
 proteins. Despite this universal requirement, ribosome biogenesis is not
@@ -146,9 +149,9 @@ humans result in ribosomopathies, which often result from stem cell
 differentiation defects, our data lay the foundation for understanding
 the etiology of developmental defects that arise due to ribosomopathies.
 
-#Results
+## Results
 
-##Three conserved RNA helicases are required in the germline for GSC differentiation
+### Three conserved RNA helicases are required in the germline for GSC differentiation
 
 We performed a screen to identify RNA helicases that are required for
 female fertility in *Drosophila*, and identified three predicted RNA
@@ -158,25 +161,25 @@ and *CG9253* (**Figure 2.1B-C**) (**Supplemental Table 2.1**)
 *aramis*, *athos*, and *porthos,* respectively, after Alexandre Dumas\'
 three musketeers who fought in service of their queen. We evaluated the
 efficiency of RNAi in ovaries using qPCR and found that *aramis*,
-*athos*, and *porthos* was significantly downregulated **(Supplemental Figure1A)**.
+*athos*, and *porthos* was significantly downregulated **(Figure 2.2A)**.
 We additionally drove RNAi of *aramis* and *athos* in the germline of
 flies expressing GFP::3XFLAG tagged versions of each gene respectively
 and performed immunostaining and found that the expression of Aramis and
 Athos was reduced specifically in the germline in contrast to the soma
-**(Supplemental Figure 2.1B-E)**. To further investigate how these helicases promote
+**(Figure 2.2B-E)**. To further investigate how these helicases promote
 fertility, we depleted *aramis*, *athos*, and *porthos* in the germline
 using the germline-driver *nanos*-*GAL4* (*nosGAL4*) in combination with
 RNAi lines. We detected the germline and spectrosomes/fusomes in ovaries
 by immunostaining for Vasa and 1B1, respectively. In contrast to
 controls, *aramis*, *athos*, and *porthos* germline RNAi flies lacked
 spectrosome-containing cells, and instead displayed cells with
-fusome-like structures proximal to the self-renewal niche **(Figure
-2.1D-H; Supplemental Figure 2.1E-E\'\'\'**). The cells in this cyst-like structure
-contained ring canals, a marker of cytoplasmic bridges, suggesting that
-they are indeed interconnected (**Supplemental Figure 2.1F-F\'\'\'**) [@Zhang2014d].
+fusome-like structures proximal to the self-renewal niche **(Figure 2.1D-H; Figure 2.2E-E\'\'\'**). 
+The cells in this cyst-like structurecontained ring canals, 
+a marker of cytoplasmic bridges, suggesting that
+they are indeed interconnected (**Figure 2.2F-F\'\'\'**) [@Zhang2014d].
 In addition to forming cysts in an aberrant location, the *aramis*,
 *athos*, and *porthos* germline RNAi ovaries failed to form egg chambers
-**(Supplemental Figure 2.1G-G\'\'\')**.
+**(Figure 2.2G-G\'\'\')**.
 
 Aberrant cyst formation proximal to the niche could reflect stem cysts
 with GSCs that divide to give rise to CBs but fail to undergo
@@ -186,7 +189,7 @@ possibilities, first we examined the expression of a marker of GSCs,
 phosphorylated Mothers against decapentaplegic (pMad). We observed pMad
 expression in the cells closest to the niche, but not elsewhere in the
 germline cysts of *aramis*, *athos*, and *porthos* germline RNAi flies
-(**Supplemental Figure 2.1H-H\')** [@kaiEmptyDrosophilaStem2003]. Additionally, none
+(**Figure 2.2H-H\')** [@kaiEmptyDrosophilaStem2003]. Additionally, none
 of the cells connected to the GSCs in *aramis*, *athos*, and *porthos*
 germline RNAi flies expressed the differentiation reporter *bamGFP*
 (**Figure 2.1D-G\'\')** [@McKearin1995b]. Thus, loss of *aramis*,
@@ -197,7 +200,7 @@ efficiencies. Overall, we infer that Aramis, Athos, and Porthos are
 required for proper GSC cytokinesis to produce a stem cell and
 differentiating daughter.
 
-##Athos, Aramis, and Porthos are required for ribosome biogenesis
+### Athos, Aramis, and Porthos are required for ribosome biogenesis
 
 We found that Aramis, Athos, and Porthos are conserved from yeast to
 humans (**Figure 2.1B**). The closest orthologs of Aramis, Athos, and
@@ -221,14 +224,13 @@ fusion under the control of UASt promoter in the germline using a
 previously described approach [@delucaEfficientExpressionGenes2018].
 We found that in the germline, Aramis, Athos and Porthos colocalized
 with Fibrillarin, which marks the nucleolus, the site of rRNA synthesis
-(**Figure 2.2A-C\'\'\'**) [@ochsFibrillarinNewProtein1985]. Aramis was
+(**Figure 2.5A-C\'\'\'**) [@ochsFibrillarinNewProtein1985]. Aramis was
 also in the cytoplasm of the germline and somatic cells of the gonad. To
 determine if Aramis, Athos, and Porthos directly interact with rRNA, we
 performed immunoprecipitation (IP) followed by RNA-seq. We found that
-rRNA immunopurified with Aramis, Athos, and Porthos **(Figure 2.2D-D\'\',
-Supplemental Figure 2.2A-A\'\').** Thus, Aramis, Athos, and Porthos are present in the
-nucleolus and interact with rRNA, suggesting that they might regulate
-rRNA biogenesis.
+rRNA immunopurified with Aramis, Athos, and Porthos **(Figure 2.5D-D\'\', Figure 2.4A-A\'\')**.
+Thus, Aramis, Athos, and Porthos are present in thenucleolus and interact with rRNA,
+suggesting that they might regulate rRNA biogenesis.
 
 Nucleolar size, and in particular nucleolar hypotrophy, is associated
 with reduced ribosome biogenesis and nucleolar stress [@Neumuller2008;@zhangIdentificationDHX33Mediator2011]. If Aramis, Athos, and Porthos
@@ -236,21 +238,20 @@ promote ribosome biogenesis, then their loss would be expected to cause
 nucleolar stress and a reduction in mature ribosomes. Indeed,
 immunostaining for Fibrillarin revealed hypotrophy of the nucleolus in
 *aramis, athos,* and *porthos* germline RNAi flies compared to in
-control flies, consistent with nucleolar stress (**Supplemental Figure 2.2B-C\'**).
+control flies, consistent with nucleolar stress (**Figure 2.4B-C\'**).
 Next, we used polysome profile analysis to evaluate the ribosomal
 subunit ratio and translation status of ribosomes in S2 cells depleted
 of *aramis*, *athos*, or *porthos*
 [@boamahPolyADPRibosePolymerase2012;@ounapHumanWBSCR22Protein2013].
 We found that upon the depletion of all three helicases, the heights of
-the polysome peaks were reduced (**Figure 2.2E-E\'\'**). We found that
+the polysome peaks were reduced (**Figure 2.5E-E\'\'**). We found that
 depletion of *aramis* and *porthos* diminished the height of the 40S
 subunit peak compared to the 60S subunit peak, characteristic of
-defective 40S ribosomal subunit biogenesis (**Figure 2.2E, E\'\'**, **Figure
+defective 40S ribosomal subunit biogenesis (**Figure 2.5E, E\'\'**, **Figure
 S2D)** [@chengSmallLargeRibosomal2019], whereas *athos* depletion
 diminished the height of the 60S subunit peak compared to the 40S peaks,
-characteristic of a 60S ribosomal subunit biogenesis defect (**Figure
-2.2E\', Supplemental Figure 2.2D\'**) [@chengSmallLargeRibosomal2019]**.** Previous
-work indicates that the stem-cyst that arises from depletion of genes
+characteristic of a 60S ribosomal subunit biogenesis defect (**Figure 2.5E\', Figure 2.4D\'**) [@chengSmallLargeRibosomal2019]. 
+Previous work indicates that the stem-cyst that arises from depletion of genes
 involved in ribosome biogenesis in the germline genetically interacts
 with Shrub (shrb) a member of the Escrt-III complex. To further
 determine if *aramis*, *athos*, and *porthos* regulates ribosome
@@ -265,7 +266,7 @@ background consistent with their role in ribosome biogenesis (**Figure
 S2E-L**). Taken together our findings indicate that these helicases
 promote ribosome biogenesis in *Drosophila*.
 
-##Aramis promotes cell cycle progression via p53 repression
+### Aramis promotes cell cycle progression via p53 repression
 
 Our data so far indicate that Aramis, Athos and Porthos promote ribosome
 biogenesis, which is known to be required for GSC abscission
@@ -283,29 +284,28 @@ resulted in accumulation of CBs that do not abscise from the GSCs.
 We performed RNA-seq and found that 607 RNAs were downregulated and 673
 RNAs were upregulated in *aramis* germline RNAi versus *bam* germline
 RNAi (cut-offs for differential gene expression were log~2~(foldchange)
-\>\|1.5\|, FDR \< 0.05) (**Supplemental Figure 2.3A, Supplemental Table 2.2**). Gene
+\>\|1.5\|, FDR \< 0.05) (**Figure 2.10A, Supplemental Table 2.2**). Gene
 Ontology (GO) analysis for biological processes on these genes encoding
 these differentially expressed mRNAs
 [@thomasPANTHERLibraryProtein2003] revealed that the genes that were
 downregulated upon *aramis* germline depletion were enriched for GO
 terms related to the cell cycle, whereas the upregulated genes were
-enriched for GO terms related to stress response (**Figure 2.3A, Figure
-S3B**). The downregulated genes included *Cyclin A*, which is required
+enriched for GO terms related to stress response (**Figure 2.5A, Figure 2.6B**). The downregulated genes included *Cyclin A*, which is required
 for cell cycle progression, *Cyclin B* (*CycB*) and *aurora B*, which
 are required for both cell cycle progression and cytokinesis; in
-contrast the housekeeping gene *Actin 5C* was unaffected (**Figure 2.3B-C, Supplemental Figure 2.3C-C\'**) [@Mathieu2013d;@Matias2015g]. We confirmed that
+contrast the housekeeping gene *Actin 5C* was unaffected (**Figure 2.5B-C, Figure 2.6C-C\'**) [@Mathieu2013d;@Matias2015g]. We confirmed that
 CycB was reduced in the ovaries of *aramis* germline RNAi flies compared
-to *bam* germline RNAi flies by immunofluorescence (**Figure 2.3D-F**).
+to *bam* germline RNAi flies by immunofluorescence (**Figure 2.5D-F**).
 These changes to genes that promote cell cycle and cytokinesis were also
 seen *aramis; bam* double depletions as the Biological Process GO-terms
 we identified from targets downregulated in *aramis* RNAi were very
 similar to those we identified from in *bam* RNAi; *aramis* RNAi
-compared to their controls (Figure 2.3A, Supplemental Table 2.3). Similarly,
+compared to their controls (*Figure 2.5A, Supplemental Table 2.3*). Similarly,
 all of the GO-terms we identified in from upregulated genes are also
 enriched GO terms from the double-knockdown upregulated targets (Figure
 S3B, Supplemental Table 2.3). Crucially, all the genes we refer to in the
 manuscript such as *CycB*, *AurB,* and *CycA* are also targets in *bam*
-RNAi; *aramis* RNAi. (**Supplemental Figure 2.3B**, **Supplemental Table 2.3**). These
+RNAi; *aramis* RNAi. (**Figure 2.6B**, **Supplemental Table 2.3**). These
 results suggest that *aramis* is required for the proper expression of
 key regulators of GSC abscission.
 
@@ -314,9 +314,9 @@ promote GSC abscission [@Flora2018l;@Mathieu2013d]. To test if the
 loss of germline *aramis* leads to GSC abscission defects due to
 diminished expression of CycB, we attempted to express a functional
 CycB::GFP fusion protein in the germline under the control of a UAS/GAL4
-system (**Supplemental Figure 2.3D-D\'**) [@Mathieu2013d]. Unexpectedly, the
+system (**Figure 2.6D-D\'**) [@Mathieu2013d]. Unexpectedly, the
 CycB::GFP fusion protein was not expressed in the *aramis-*depleted
-germline, unlike the wild type (WT) germline (**Supplemental Figure 2.3E-E\'**)
+germline, unlike the wild type (WT) germline (**Figure 2.6E-E\'**)
 [@glotzerCyclinDegradedUbiquitin1991;@Mathieu2013d;@Zielke2014a].
 We considered the possibility that progression into G2 is blocked in the
 absence of *aramis*, precluding expression of CycB. To monitor the cell
@@ -330,7 +330,7 @@ S3F-H\'\'**). Double negative reporter expression is thought to indicate
 early S phase, when expression of E2f1 is low and CycB is not expressed
 [@hinnantTemporalRemodelingCell2017]. The inability to express FPs is
 not due to a defect in translation as *aramis*-depleted germline can
-express GFP that is not tagged with the degron (**Supplemental Figure 2.3I-I\'**).
+express GFP that is not tagged with the degron (**Figure 2.6I-I\'**).
 Taken together, we infer that loss of *aramis* blocks cell cycle
 progression around late G1 phase/early S phase and prevents progression
 to G2 phase, when GSCs abscise from CBs.
@@ -342,20 +342,20 @@ stabilization in undifferentiated cells, driving cell cycle arrest and
 GSC abscission defects. To test this hypothesis, we detected p53 and
 Vasa in the germline by immunostaining. A hybrid dysgenic cross that
 expresses p53 in undifferentiated cells was utilized as a positive
-control, and *p53* null flies were used as negative controls (**Supplemental Figure 2.3J-K**) [@Moon2018a]. In WT, we observed p53 expression in the
+control, and *p53* null flies were used as negative controls (**Figure 2.6J-K**) [@Moon2018a]. In WT, we observed p53 expression in the
 meiotic stages of germline but p53 expression in GSCs and CBs was
-attenuated as previously reported (**Figure 2.3G-G\'\'**)
+attenuated as previously reported (**Figure 2.5G-G\'\'**)
 [@luMeioticRecombinationProvokes2010]. However, compared to WT
 GSCs/CBs, we observed p53 expression in the stem cysts of the
-*aramis-*depleted germline (**Figure 2.3G-I**). Similarly, we observed p53
+*aramis-*depleted germline (**Figure 2.5G-I**). Similarly, we observed p53
 expression in the stem cysts of *athos-* and *porthos-*depleted
-germlines **(Supplemental Figure 2.3L-M)**, further supporting that reduced ribosome
+germlines **(Figure 2.6L-M)**, further supporting that reduced ribosome
 biogenesis stabilizes p53. To determine if p53 stabilization is required
 for the cell cycle arrest in *aramis*, *athos*, and *porthos-*depleted
 germline cysts, we depleted *aramis*, *athos* and *porthos* in the
 germline of *p53* mutants using germline specific knockdown. We observed
 a partial but significant alleviation of the cyst phenotype, such that
-spectrosomes were restored (**Figure 2.3J-L, Supplemental Figure 2.3N-Q**). This finding
+spectrosomes were restored (**Figure 2.5J-L, Figure 2.6N-Q**). This finding
 indicates that p53 contributes to cytokinesis failure upon loss of
 *aramis*, but that additional factors are also involved.
 
@@ -364,7 +364,7 @@ formation of stem-cysts we overexpressed p53 in the germline under the
 control of a UAS/GAL4 system. While 84% of germeria had a complete loss
 of germline, in 12.7% of germaria the germline cells were connected by a
 fusome-like structure, phenocopying loss of *aramis*, *athos*, or
-*porthos* (Figure 2.3M-N), in the remaining 3.6% of the time we observed
+*porthos* (*Figure 2.5M-N*), in the remaining 3.6% of the time we observed
 several single germline cells (XX-refer to the quant). Taken together,
 we find that *aramis-*depleted germ cells display reduced ribosome
 biogenesis, aberrant expression of p53 protein and a block in cell cycle
@@ -383,29 +383,29 @@ altered in *aramis*-depleted germlines. To test this hypothesis, we
 performed polysome-seq of gonads enriched for GSCs or CBs as
 developmental controls, as well as gonads depleted for *aramis* in the
 germline [@Flora2018k]. We plotted the ratios of polysome-associated
-RNAs to total RNAs (**Figure 2.4A-A\'\', Supplemental Table 2.4**) and
+RNAs to total RNAs (**Figure 2.7A-A\'\', Supplemental Table 2.4**) and
 identified 87 mRNAs with a reduced ratio upon depletion of *aramis*,
 suggesting that they were translated less efficiently compared to
 developmental controls. Loss of *aramis* reduced the levels of these 87
 downregulated transcripts in polysomes, without significantly affecting
-their total mRNA levels (**Figure 2.4B, Supplemental Figure4A-A\'**). These 87
+their total mRNA levels (**Figure 2.7B, Figure 2.8A-A\'**). These 87
 transcripts encode proteins mostly associated with translation including
-ribosomal proteins (**Figure 2.4C)**. To validate that Aramis regulates
+ribosomal proteins (**Figure 2.7C)**. To validate that Aramis regulates
 translation of these target mRNAs, we utilized a reporter line for the
 Aramis-regulated transcript encoding Ribosomal protein S2 (RpS2) that is
 expressed in the context of the endogenous promoter and regulatory
 sequences [@buszczakCarnegieProteinTrap2007;@Zhang2014d]. We
 observed reduced levels of RpS2::GFP in germlines depleted of *aramis*
-but not in those depleted of *bam* (**Figure 2.4D-F**). RpS2::GFP
+but not in those depleted of *bam* (**Figure 2.7D-F**). RpS2::GFP
 expression is also reduced in *bam* RNAi, *aramis* RNAi double germline
-knockdown compared to *bam* RNAi (**Supplemental Figure4B-D**). To ensure that
+knockdown compared to *bam* RNAi (**Figure 2.8B-D**). To ensure that
 reduced RpS2::GFP levels did not reflect a global decrease in
 translation, we visualized nascent translation using
 O-propargyl-puromycin (OPP). OPP is incorporated into nascent
 polypeptides and can be detected using click-chemistry
 [@Sanchez2016h]. We observed that global translation in the germlines
 of ovaries depleted of *aramis* was not reduced compared to single cells
-of control ovaries or *bam* **(Figure 2.4G-J)**. Notably, the regulation
+of control ovaries or *bam* **(Figure 2.7G-J)**. Notably, the regulation
 of these genes do not appear to be directly mediated by Aramis as none
 of the target genes are enriched from Aramis::GFP::3XFLAG RNA IP-seq
 (**Supplemental Table 2.5**). Thus, loss of *aramis* results in reduced
@@ -419,7 +419,7 @@ result of a regulatory mechanism to mitigate such affects. To test if
 overexpression of ribosomal proteins is deleterious to germline
 development, we overexpressed several ribosomal proteins in the
 germline. We found no obvious phenotype as a result of overexpression of
-single ribosomal proteins (**Supplemental Figure 2.4E-G\'**). We reason that individual
+single ribosomal proteins (**Figure 2.8E-G\'**). We reason that individual
 overexpression may not be as detrimental as the excess expression of
 nearly all ribosomal proteins that we observed in our experiments, which
 is not technically possible to recapitulate through exogenous expression
@@ -428,7 +428,7 @@ lines.
 None of these 87 translational targets have been implicated in directly
 controlling abscission [@Mathieu2013d;@Matias2015g]. However, we
 noticed that the mRNA encoding Novel Nucleolar protein 1 (Non1/CG8801)
-was reduced in polysomes upon loss of *aramis* in the germline (**Figure 2.4C**). 
+was reduced in polysomes upon loss of *aramis* in the germline (**Figure 2.7C**). 
 The human ortholog of Non1 is GTP Binding Protein 4 (GTPBP4), and
 these proteins are known to physically interact with p53 in both
 *Drosophila* and human cells and have been implicated in repressing p53
@@ -437,9 +437,9 @@ To determine if the protein level of Non1 is reduced upon depletion of
 *aramis,* we monitored the abundance of Non1::GFP, a transgene that is
 under endogenous control [@sarovGenomewideResourceAnalysis2016], and
 found that Non1::GFP was expressed in the undifferentiated GSCs and CBs
-(**Figure 2.5A-A\'\')**. Non1::GFP levels were reduced in the *aramis*,
+(**Figure 2.9A-A\'\')**. Non1::GFP levels were reduced in the *aramis*,
 *athos* or *porthos-*depleted stem cysts compared to the CBs that
-accumulated upon *bam*-depletion (**Figure 2.5B-D, Supplemental Figure 2.5C-F**),
+accumulated upon *bam*-depletion (**Figure 2.9B-D, Figure 2.10C-F**),
 suggesting that efficient ribosome biogenesis promotes efficient
 translation of Non1.
 
@@ -449,14 +449,13 @@ response to recombination-induced double strand breaks
 expressed at undifferentiated stages and in two- and four-cell cysts
 when p53 protein levels were low, whereas its expression was attenuated
 at eight- and 16-cell cyst stages when p53 protein levels were high
-(**Figure 2.5A-A\'\'**, **Supplemental Figure 2.5A-B\'**). Non1 was highly expressed in egg
+(**Figure 2.9A-A\'\'**, **Figure 2.10A-B\'**). Non1 was highly expressed in egg
 chambers, which express low levels of p53 protein suggesting that Non1
 could regulate p53 protein levels. To determine if Non1 regulates GSC
 differentiation and p53, we depleted *Non1* in the germline. We found
 that germline-depletion of *Non1* results in stem cyst formation and
 loss of later stages, as well as increased p53 expression, phenocopying
-germline-depletion of *aramis*, *athos*, and *porthos* (**Figure 2.5E-F,
-H, Supplemental Figure 2.5G-I**). In addition, we found that loss of *p53* from
+germline-depletion of *aramis*, *athos*, and *porthos* (**Figure 2.9E-F, H, Figure 2.10G-I**). In addition, we found that loss of *p53* from
 *Non1-*depleted germaria partially suppressed the phenotype (**Figure
 5F-H**). Thus, *Non1* is regulated by *aramis* and is required for p53
 suppression, cell cycle progression, and GSC abscission.
@@ -469,11 +468,11 @@ with heterologous UTR elements under the control of the UAS/GAL4 system
 restoring *Non1* expression in the *aramis*, *athos*, or *porthos
 -*depleted germline significantly attenuated the stem cysts and
 increased the number of cells with spectrosomes, however overexpression
-of Non1 alone did not cause any noticeable defect (**Figure 2.5I-K, Figure
-S5J-N**). Taken together, we conclude that Non1 can partially suppress
+of Non1 alone did not cause any noticeable defect (**Figure 2.9I-K, Figure 2.10J-N**). 
+Taken together, we conclude that Non1 can partially suppress
 the cytokinesis defect caused by germline *aramis* depletion.
 
-##Aramis-regulated targets contain a TOP motif in their 5\'UTR
+### Aramis-regulated targets contain a TOP motif in their 5\'UTR
 
 We next asked how *aramis* and efficient ribosome biogenesis promote the
 translation of a subset of mRNAs, including *Non1*, to regulate GSC
@@ -496,7 +495,7 @@ transcription start sites (TSS) in total mRNA from the ovary (**Figure
 76 had sufficient expression in the CAGE-seq dataset to define their
 TSS. We performed motif discovery using the CAGE-seq data and found that
 72 of 76 Aramis-regulated mRNAs have a polypyrimidine motif that starts
-within the first 50 nt of their TSS (**Figure 2.6B-C**). In mammals, it
+within the first 50 nt of their TSS (**Figure 2.11B-C**). In mammals, it
 was previously thought that the canonical TOP motif begins with an
 invariant \'C\' [@meyuhasSynthesisTranslationalApparatus2000;@philippeGlobalAnalysisLARP12020]. However, systematic
 characterization of the sequence required in order for an mRNA to be
@@ -513,29 +512,29 @@ Rapamycin (TOR) pathway and the TOR complex 1 (mTORC1)
 [@Hornstein2001a;@iadevaiaMTORC1SignalingControls2014;@Kim2008b;@meyuhasRaceDecipherTop2015;@Pallares-Cartes2012a] Indeed, 76 of the
 87 Aramis targets were ribosomal proteins, and 9 were known or putative
 translation factors, consistent with TOP-containing RNAs in vertebrates
-(**Figure 2.4C, Supplemental Table 2.6**). To determine if the putative TOP
+(**Figure 2.7C, Supplemental Table 2.6**). To determine if the putative TOP
 motifs that we identified are sensitive to TORC1 activity, we designed
 "TOP reporter" constructs. Specifically, the germline-specific *nanos*
 promoter was employed to drive expression of an mRNA with 1) the 5\'UTR
 of the *aramis* target *RpL30*, which contains a putative TOP motif, 2)
 the coding sequence for a GFP-HA fusion protein and 3) a 3\'UTR (K10)
 that is not translationally repressed [@Flora2018k;@seranoElementTransformationVectors1994], referred to as the WT-TOP
-reporter (**Figure 2.6D**). As a control, we created a construct in which
+reporter (**Figure 2.11D**). As a control, we created a construct in which
 the polypyrimidine sequence was mutated to a polypurine sequence
-referred to as the Mut-TOP reporter (**Figure 2.6D**).
+referred to as the Mut-TOP reporter (**Figure 2.11D**).
 
 In *Drosophila*, TORC1 activity increases during meiotic cyst stages
 [@Wei2018a;@Wei2014b]. We found that the WT-TOP reporter displayed
 peak expression in 8-cell cysts, whereas the Mutant-TOP reporter did not
-**(Figure 2.6E-F\'\')**, suggesting that the WT-TOP reporter is sensitive to
+**(Figure 2.11E-F\'\')**, suggesting that the WT-TOP reporter is sensitive to
 TORC1 activity. Moreover, depletion of *Nitrogen permease regulator-like
 3* (*Nprl3*), an inhibitor of TORC1 [@Wei2014b], led to a significant
 increase in expression of the WT-TOP reporter but not the Mutant-TOP
-reporter **(Supplemental Figure 2.6A-E)**. Additionally, to attenuate TORC1 activity,
+reporter **(Figure 2.12A-E)**. Additionally, to attenuate TORC1 activity,
 we depleted *raptor*, one of the subunits of the TORC1 complex
 [@hongEvaluationNutrientSensingMTOR2012;@loewithTargetRapamycinTOR2011]. Here we found that the WT-TOP
 reporter had a significant decrease in reporter expression while the
-Mutant-TOP reporter did not show a decrease in expression **(Supplemental Figure 2.6F-J)**. 
+Mutant-TOP reporter did not show a decrease in expression **(Figure 2.12F-J)**. 
 Taken together, our data suggest that Aramis-target
 transcripts contain TOP motifs that are sensitive to TORC1 activity.
 However, we note that our TOP reporter did not recapitulate the pattern
@@ -553,14 +552,14 @@ crossed the transgenic flies carrying the WT-TOP reporter and Mutant-TOP
 reporter into *bam* and *aramis*, *athos*, and *porthos* germline RNAi
 backgrounds. We found that the expression from the WT-TOP reporter was
 reduced by 2.9-fold in the germline of *aramis* RNAi ovaries compared to
-*bam* RNAi ovaries **(Figure 2.6F-G, J)**. In contrast, the Mutant-TOP
+*bam* RNAi ovaries **(Figure 2.11F-G, J)**. In contrast, the Mutant-TOP
 reporter was only reduced by 1.6-fold in the germline of *aramis* RNAi
-ovaries compared to *bam* RNAi ovaries **(Figure 2.6H-J)**. We observed
-the same trend for *athos* and *porthos* (**Supplemental Figure 2.6K-Q**). This
+ovaries compared to *bam* RNAi ovaries **(Figure 2.11H-J)**. We observed
+the same trend for *athos* and *porthos* (**Figure 2.12K-Q**). This
 suggests that the TOP motif-containing mRNAs are sensitive to ribosome
 biogenesis.
 
-##Larp binds TOP sequences in *Drosophila*
+### Larp binds TOP sequences in *Drosophila*
 
 Next, we sought to determine how TOP-containing mRNAs are regulated
 downstream of Aramis. In mammalian cells, Larp1 is a critical negative
@@ -570,7 +569,7 @@ hypothesized that *Drosophila* Larp reduces the translation of
 TOP-containing mRNAs when rRNA biogenesis is reduced upon loss of
 *aramis*. First, using an available gene-trap line in which endogenous
 Larp is tagged with GFP and 3XFLAG, we confirmed that Larp was robustly
-expressed throughout all stages of oogenesis including in GSCs **(Supplemental Figure 2.7A-A\')**.
+expressed throughout all stages of oogenesis including in GSCs **(Figure 2.14A-A\')**.
 
 Next, we performed electrophoretic mobility shift assays (EMSA) to
 examine protein-RNA interactions with purified *Drosophila* Larp-DM15,
@@ -578,13 +577,12 @@ the conserved domain that binds to TOP sequences in vertebrates
 [@Lahr2017b]. As probes, we utilized capped 42-nt RNAs corresponding
 to the 5\'UTRs of *RpL30* and *Non1*, including their respective TOP
 sequences. We observed a gel shift with these RNA oligos in the presence
-of increasing concentrations of Larp-DM15 **(Figure 2.7A-A\', Figure
-S7B)**, and this shift was abrogated when the TOP sequences were mutated
-to purines **(Supplemental Figure 2.7C-C\').** To determine if Larp interacts with
+of increasing concentrations of Larp-DM15 **(Figure 2.13A-A\', Figure 2.14B)**, and this shift was abrogated when the TOP sequences were mutated
+to purines **(Figure 2.14C-C\').** To determine if Larp interacts with
 TOP-containing mRNAs *in vivo*, we immunopurified Larp::GFP::3XFLAG from
-the ovaries of the gene-trap line and performed RNA-seq (**Supplemental Figure 2.7D**). We uncovered 156 mRNAs that were bound to Larp, and 84 of these
+the ovaries of the gene-trap line and performed RNA-seq (**Figure 2.14D**). We uncovered 156 mRNAs that were bound to Larp, and 84 of these
 were among the 87 *aramis* translationally regulated targets, including
-*Non1*, *RpL30*, and *RpS2* (**Figure 2.7B-C, Supplemental Table 2.7**).
+*Non1*, *RpL30*, and *RpS2* (**Figure 2.13B-C, Supplemental Table 2.7**).
 Thus, *Drosophila* Larp binds to TOP sequences *in vitro* and
 TOP-containing mRNAs *in vivo*.
 
@@ -592,12 +590,12 @@ To test our hypothesis that *Drosophila* Larp inhibits the translation
 of TOP-containing mRNAs upon loss of *aramis*, we immunopurified
 Larp::GFP::3XFLAG from germline *bam* RNAi ovaries and germline *aramis*
 RNAi ovaries. Larp protein is not expressed at higher levels in *aramis*
-RNAi compared to developmental control *bam* RNAi (**Supplemental Figure 2.7E-G**).
+RNAi compared to developmental control *bam* RNAi (**Figure 2.14E-G**).
 Larp protein is also not expressed at higher levels in *bam* RNAi;
 *aramis* RNAi germline knockdown compared to *bam* RNAi as a control
-(**Supplemental Figure 2.7H-I**). We found that Larp binding to *aramis* target mRNAs
+(**Figure 2.14H-I**). We found that Larp binding to *aramis* target mRNAs
 *Non1* and *RpL30* was increased in *aramis* RNAi ovaries compared to
-*bam* RNAi ovaries (**Figure 2.7D, Supplemental Figure 2.7J**). In contrast, a
+*bam* RNAi ovaries (**Figure 2.13D, Figure 2.14J**). In contrast, a
 non-target mRNA that does not contain a TOP motif, *alpha-tubulin* mRNA,
 did not have a significant increase in binding to Larp in *aramis* RNAi
 ovaries compared to *bam* RNAi ovaries. Overall, these data suggest that
@@ -611,19 +609,19 @@ Unphosphorylated Larp binds to TOP motifs more efficiently, but the
 precise phosphorylation sites of *Drosophila* Larp, to our knowledge,
 are currently unknown [@Hong2017a]. To circumvent this issue, we
 overexpressed the DM15 domain of Larp which we showed binds the *RpL30*
-and *Non1* TOP motifs *in vitro* (**Figure 2.7A-A\'**), and, based on
+and *Non1* TOP motifs *in vitro* (**Figure 2.13A-A\'**), and, based on
 homology to mammalian Larp1, lacks majority of the putative
 phosphorylation sites [@jiaMTORC1PromotesTOP2021;@Lahr2017b;@philippeLarelatedProteinLARP12018]. We found that overexpression of a
 Larp-DM15::GFP fusion in the germline resulted in fusome-like structures
-extending from the niche (**Figure 2.7E-F\'**)**.** Additionally, ovaries
+extending from the niche (**Figure 2.13E-F\'**)**.** Additionally, ovaries
 overexpressing Larp-DM15 had 32-cell egg chambers, which were not
-observed in control ovaries (**Supplemental Figure 2.7K-K\'**). The presence of 32-cell
+observed in control ovaries (**Figure 2.14K-K\'**). The presence of 32-cell
 egg chambers is emblematic of cytokinesis defects that occur during
 early oogenesis [@Mathieu2013d;@Matias2015g;@Sanchez2016h]. Our
 findings indicate that these cells are delayed in cytokinesis and that
 over expression of Larp partially phenocopies depletion of *aramis*.
 
-#Discussion
+## Discussion
 
 During *Drosophila* oogenesis, efficient ribosome biogenesis is required
 in the germline for proper GSC cytokinesis and differentiation. The
@@ -637,9 +635,9 @@ biogenesis is monitored through a translation control module that allows
 for co-regulation of ribosomal proteins and a p53 repressor. Loss of
 *aramis*, *athos* and *porthos* reduces ribosome biogenesis and inhibits
 translation of a p53 repressor, leading to p53 stabilization, cell cycle
-arrest and loss of stem cell differentiation (**Figure 2.7G**).
+arrest and loss of stem cell differentiation (**Figure 2.13G**).
 
-##Aramis, Athos, and Porthos are required for efficient ribosome biogenesis in *Drosophila*
+### Aramis, Athos, and Porthos are required for efficient ribosome biogenesis in *Drosophila*
 
 We provide evidence that Aramis, Athos and Porthos play a role in
 ribosome biogenesis in *Drosophila*, similar to their orthologs in yeast
@@ -674,7 +672,7 @@ underdevelopment of organs such as the uterus
 disrupts stem cell differentiation could explain some of the poorly
 understood defects in 17q12 syndrome.
 
-## Ribosome biogenesis defects leads to cell cycle defects mediated by p53
+### Ribosome biogenesis defects leads to cell cycle defects mediated by p53
 
 Here we report that three RNA helicases, *aramis*, *athos*, and
 *porthos,* that promote proper ribosome biogenesis in *Drosophila* are
@@ -747,7 +745,7 @@ the specific targets of Larp1 in mammals may differ from those in
 *Drosophila*, the mechanism by which Larp modulates cell cycle and
 differentiation may be conserved.
 
-## Ribosome biogenesis defects leads to repression of TOP-containing mRNA
+### Ribosome biogenesis defects leads to repression of TOP-containing mRNA
 
 TOP-containing mRNAs are known to be coregulated to coordinate ribosome
 production in response to nutrition or other environmental cues
@@ -767,7 +765,7 @@ normal germline development, where it is known that the level of
 ribosome biogenesis and of global translation are dynamic
 [@blattPosttranscriptionalGeneRegulation2020;@Fichelson2009a;@Sanchez2016h;@Zhang2014d].
 
-## Larp transduces growth status to ribosome biogenesis targets
+### Larp transduces growth status to ribosome biogenesis targets
 
 Recent work has shown that the translation and stability of
 TOP-containing mRNAs are mediated by Larp1 and its phosphorylation
@@ -790,7 +788,7 @@ represses its targets more efficiently than phosphorylated Larp1
 to be phosphorylated by the TORC1 complex, while this has not been
 demonstrated in *Drosophila*, we have demonstrated that expression of
 our TOP-reporter is dependent on Raptor and TOP-reporter expression is
-repressed by Nprl3 (**Supplemental Figure 2.6A-J**). These results are consistent with
+repressed by Nprl3 (**Figure 2.12A-J**). These results are consistent with
 a model where TORC1 monitors ribosome biogenesis status and in turn
 regulates the activity of Larp. Thus, although we do not know the
 identity of the kinase that phosphorylates Larp in *Drosophila*
@@ -804,7 +802,7 @@ highest affinity targets, presumably encoding ribosomal proteins and
 repress their translation to rebalance ribosomal protein production with
 rRNA production. Consistent with this model, the TOP motif in *RpL30* is
 bound by Larp even more tightly with a nearly 9-fold higher affinity
-compared to the *Non1* TOP site (**Supplemental Figure 2.7B**). We propose that such
+compared to the *Non1* TOP site (**Figure 2.14B**). We propose that such
 differences in affinity may allow Larp to repress ribosomal protein
 translation to facilitate cellular homeostasis without immediately
 causing cell cycle arrest. However, if homeostasis cannot be achieved
@@ -813,7 +811,7 @@ and repress the translation of lower affinity targets. Repression of
 Non1 in this manner would result in cell cycle arrest and block
 differentiation as occurs upon *aramis* depletion.
 
-##Ribosome biogenesis in stem cell differentiation and ribosomopathies
+### Ribosome biogenesis in stem cell differentiation and ribosomopathies
 
 Ribosomopathies arise from defects in ribosomal components or ribosome
 biogenesis and include a number of diseases such as Diamond-Blackfan
@@ -862,7 +860,7 @@ Marie Curie CIG 334077/IRTIM and the Austrian Science Fund (FWF) grant
 ASI\_FWF01\_P29638S, and A.B is funded by NIH R01GM116889 and American
 Cancer Society RSG-17-197-01-RMC.
 
-**[Author Contributions]{.underline}**
+**[Author Contributions$\Delta$**
 
 Conceptualization, E.T.M., P.B., G.F., and P.R.; Methodology, E.T.M.,
 P.B., G.F., and P.R.; Investigation, E.T.M., P.B., E.N., R.L., S.S.,
@@ -871,12 +869,64 @@ P.R.; Writing -- Review & Editing, E.T.M., P.B., D.E.S, A.B., G.F., and
 P.R.; Funding Acquisition, G.F. and P.R.; Visualization, E.T.M., E.N.;
 Supervision, G.F. and P.R.
 
-```{r, include=TRUE, out.height="9 in", out.width="6.954545 in", fig.align="center", fig.cap='(ref:book-F4)', fig.scap='(ref:book-F4-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf")
 ```
 
-**Figure 2.1: RNA helicases Aramis, Athos and Porthos** **are required for
-GSC differentiation.** (**A**) Schematic of *Drosophila* germarium.
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf")
+```
+
+```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf")
+```
+
+```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf")
+```
+
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf")
+```
+
+**Figure 2.1: RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.** 
+(**A**) Schematic of *Drosophila* germarium.
 Germline stem cells are attached to the somatic niche (dark red). The
 stem cells divide and give rise to a stem cell and a cystoblast (CB)
 that expresses the differentiation factor Bag-of-marbles (Bam). GSCs and
@@ -913,7 +963,10 @@ the germline. (**H**) Phenotype quantification of ovaries depleted of
 ovarioles, df=2, \*\*\* = p \< 0.001, Fisher\'s exact tests with
 Holm-Bonferroni correction). Scale bars are 15 micron.
 
-**Figure 2.2. Athos, Aramis, and Porthos are required for efficient
+**\
+**
+
+**Figure 2.3. Athos, Aramis, and Porthos are required for efficient
 ribosome biogenesis.** (**A-C\'\'**) Confocal images of ovariole
 immunostained for Fibrillarin (red, right grayscale), Vasa (blue),
 (**A-A\'\'**) Aramis::GFP, (**B-B\'\'**) Athos::GFP and (**C-C\'\'**)
@@ -943,8 +996,10 @@ larger 40S/60S ratio. Additionally, *aramis*, *athos*, and *porthos* are
 required to maintain polysome levels. All three helicases are required
 to maintain polysome levels. Scale bar for all images is 15 micron.
 
+**\
+**
 
-**Figure 2.3. Athos, Aramis, and Porthos are required for cell cycle
+**Figure 2.5. Athos, Aramis, and Porthos are required for cell cycle
 progression during early oogenesis.** (**A**) Bar plot representing the
 most significant Biological Process GO terms of downregulated genes in
 ovaries depleted of *aramis* compared to *bam* RNAi control (FDR = False
@@ -988,7 +1043,10 @@ germaria contained an accumulation of single cells (n=55 germaria).
 Scale bar for main images is 15 micron, scale bar for insets is 3.75
 micron.
 
-**Figure 2.4.** **Aramis is required for efficient translation of a subset
+**\
+**
+
+**Figure 2.7.** **Aramis is required for efficient translation of a subset
 of mRNAs.** (**A-A\'\'**) Biplots of poly(A)+ mRNA Input versus polysome
 associated mRNA from (**A**) ovaries genetically enriched for GSCs
 (*UAS-tkv*), (**A\'**) Undifferentiated GSC daughter cells (*bam* RNAi)
@@ -1015,7 +1073,10 @@ and *aramis* RNAi (n = 10 germaria per genotype, Welch\'s t-test, NS = p
 \> 0.05). OPP intensity is not significantly downregulated in *aramis*
 RNAi compared to either control. Scale bar for all images is 15 micron.
 
-**Figure 2.5. Non1 represses p53 expression to allow for GSC
+**\
+**
+
+**Figure 2.9. Non1 represses p53 expression to allow for GSC
 differentiation.** (**A-A\'**) Confocal images of Non1::GFP germaria
 stained for 1B1 (red), GFP (green, grayscale), and Vasa (blue).
 (**A\'\'**) Boxplot of Non1::GFP expression over germline development in
@@ -1051,7 +1112,10 @@ with *Non1* overexpression demonstrates a significant alleviation of the
 stem cyst phenotype (n=33-57 germaria per genotype, df=2, Fisher\'s exact
 test, \*\* = p\< 0.01). Scale bar for all images is 15 micron.
 
-**Figure 2.6. Aramis regulated mRNAs contain a TOP motif**. (**A**) Genome
+**\
+**
+
+**Figure 2.11. Aramis regulated mRNAs contain a TOP motif**. (**A**) Genome
 browser tract of *RpL30* locus in ovary CAGE-seq data showing the
 proportion of transcripts that are produced from a given TSS (orange).
 Predominant TSSs are shown in orange and putative TOP motif indicated
@@ -1089,7 +1153,10 @@ reporter shows significantly lower expression in *aramis* RNAi than the
 transcripts to regulation (n=17-25 germaria per genotype, with Welch\'s
 t-test \*\*\* = p\<0.001). Scale bar for all images is 15 micron.
 
-**Figure 2.7. Larp binds to TOP mRNAs and binding is regulated by
+**\
+**
+
+**Figure 2.13. Larp binds to TOP mRNAs and binding is regulated by
 Aramis.** (**A-A\'**) EMSA of Larp-DM15 and the leading 42 nucleotides of
 (**A**) *RpL30* and (**A\'**) *Non1* with increasing concentrations of
 Larp-DM15 from left to right indicates that both RNAs bind to Larp-DM15.
@@ -1118,7 +1185,10 @@ the cell cycle. When ribosome biogenesis is perturbed Non1 is not
 translated to sufficient levels, resulting in the accumulation of p53
 and cell cycle arrest. Scale bar for all images is 15 micron.
 
-**Supplemental Figure 2.1. Aramis, Athos, and Porthos are required for
+**\
+**
+
+**Figure 2.2. Aramis, Athos, and Porthos are required for
 proper cytokinesis and differentiation, related to Figure 2.1.** (**A**)
 qPCR targeting *aramis*, *athos*, *porthos* relative to *±-tub84B* to
 measure knockdown efficiency of *aramis*, *athos*, and *porthos* RNAi in
@@ -1159,9 +1229,11 @@ marking GSCs. Nuclear pMad staining in ovaries depleted of (**H\'**)
 the observed cysts are not composed of GSCs. Scale bar for main images
 is 15 micron, scale bar for insets is 3.75 micron.
 
+**\
+**
 
-**Supplemental Figure 2.2. Athos, Aramis, and Porthos are required for
-efficient ribosome biogenesis., related to Figure 2.2.** (**A-A\'\'**)
+**Figure 2.4. Athos, Aramis, and Porthos are required for
+efficient ribosome biogenesis., related to Figure 2.3.** (**A-A\'\'**)
 Western blots of immunoprecipitations from ovaries for FLAG-tagged
 (**A**) Aramis, (**A\'**) Athos, , and (**A\'\'**) Porthos. (**B-B\'\'\'**)
 Confocal images of (**B**) *nosGAL4*, driver control, (**B\'**) *aramis*
@@ -1191,8 +1263,8 @@ is 15 micron, scale bar for insets is 3.75 micron.
 **\
 **
 
-**Supplemental Figure 2.3**. **Aramis is required for proper cell cycle
-progression, related to Figure 2.3**. (**A**) Biplot of mRNA levels in
+**Figure 2.6**. **Aramis is required for proper cell cycle
+progression, related to Figure 2.5**. (**A**) Biplot of mRNA levels in
 *aramis* RNAi compared to *bam* RNAi. Blue points represent mRNAs
 significantly upregulated *aramis* RNAi compared to *bam* RNAi, red
 points represent mRNAs significantly downregulated *aramis* RNAi
@@ -1234,9 +1306,11 @@ germline *porthos* RNAi with a mutant, heterozygous, *p53^5-A-14^*/+
 background showing presence of spectrosomes upon reduction of p53. Scale
 bar for main images is 15 micron, scale bar for insets is 3.75 micron.
 
+**\
+**
 
-**Supplemental Figure 2.4. The mRNA levels of Aramis polysome-seq targets
-are not significantly changing, related to Figure 2.4.** (**A-A\'**)
+**Figure 2.8. The mRNA levels of Aramis polysome-seq targets
+are not significantly changing, related to Figure 2.7.** (**A-A\'**)
 Volcano plot of mRNA levels from poly(A)+ mRNA input libraries in
 germline *aramis* RNAi compared to (**A**) germline driven *UAS-tkv*
 and (**A\'**) *bam* RNAi of targets identified from polysome-seq. No
@@ -1257,9 +1331,11 @@ greyscale) and Vasa (blue) in (**E-E\'**) driver control *nosGAL4*
 ovaries, and ovaries overexpressing (**F**) RpL10ab::GFP, or (**G**)
 RpL3 have no obvious phenotypic difference.
 
+**\
+**
 
-**Supplemental Figure 2.5. Non1 and p53 are inversely expressed, related
-to Figure 2.5.** (**A-A\'\'**) Confocal images of ovarioles expressing
+**Figure 2.10. Non1 and p53 are inversely expressed, related
+to Figure 2.9.** (**A-A\'\'**) Confocal images of ovarioles expressing
 Non1::GFP stained for p53 (red, right grayscale), Vasa (blue), and
 Non1::GFP (green, left grayscale). (**B-B\'**) Quantifications of
 staining, (**B**) peak Non1 expression in control ovaries occurs in
@@ -1290,9 +1366,11 @@ germaria per genotype, df=2, Fisher\'s exact test, \* = p\< 0.05, \*\* =
 p\< 0.01). Scale bar for main images is 15 micron, scale bar for insets
 is 3.75 micron.
 
+**\
+**
 
-**Supplemental Figure 2.6. TORC1 activity regulates TOP expression in the
-germarium, related to Figure 2.6.** (**A-B**) Confocal images of *WT-TOP*
+**Figure 2.12. TORC1 activity regulates TOP expression in the
+germarium, related to Figure 2.11.** (**A-B**) Confocal images of *WT-TOP*
 reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue)
 in (**A**) *nosGAL4*, driver control ovaries and (**B**) ovaries
 depleted of *Nprl3* in the germline. (**C-D**) Confocal images of
@@ -1335,9 +1413,11 @@ transcripts to regulation (n=17-25 germaria per genotype, with Welch\'s
 t-test with , \*\* = p\<0.01, \*\*\* = p\<0.001). Scale bar for images
 is 15 micron.
 
+**\
+**
 
-**Supplemental Figure 2.7. Larp binds specifically to TOP containing mRNAs
-and regulates cytokinesis, related to Figure 2.7.** (**A-A\'**) Confocal
+**Figure 2.14. Larp binds specifically to TOP containing mRNAs
+and regulates cytokinesis, related to Figure 2.13.** (**A-A\'**) Confocal
 images of germaria stained for 1B1 (red), Vasa (blue), and *Larp
 GFP-3XFLAG* (green, grayscale) indicates Larp is expressed throughout
 early oogenesis. (**B**) Quantification of EMSAs and summary of K~d~ of
@@ -1371,15 +1451,18 @@ Overexpression of Larp-DM15 results in the production of 32-cell egg
 chambers which indicates it causes a cytokinesis defect. Scale bar for
 all images is 15 micron.
 
-**Supplemental Table 2.1. Results of germline helicase RNAi screen on
-ovariole morphology.**
+**\
+**
 
+**Supplemental Table 2.1. Results of germline helicase RNAi screen on ovariole morphology.**  
 Results of screen of RNA helicases depleted from the germline. Reported
 is the majority phenotype from n=50 ovarioles.
 
-**Supplemental Table 2.2. Differential expression analysis from** **RNAseq
-of ovaries depleted of *aramis* in the germline compared to a
-developmental control**. DEseq2 output from RNAseq of ovaries depleted
+**\
+**
+
+**Supplemental Table 2.2. Differential expression analysis fromRNAseq of ovaries depleted of *aramis* in the germline compared to a developmental control.**
+DEseq2 output from RNAseq of ovaries depleted
 of *aramis* in the germline compared to ovaries depleted of bam in the
 germline as a developmental control. Sheet 1 (Downregulated Genes)
 contains genes and corresponding Deseq2 output meeting the cutoffs to be
@@ -1389,10 +1472,8 @@ meeting the cutoffs to be considered upregulated in *aramis* RNAi
 compared to bam RNAi. Sheet 3 (All Genes) contains Deseq2 output for all
 genes in the dm6 assembly.
 
-**Supplemental Table 2.3. Differential expression analysis from** **RNAseq
-of ovaries depleted of *bam* and *aramis* in the germline compared to
-ovaries depleted of *bam* in the germline**. DEseq2 output from RNAseq
-of ovaries depleted of *bam* and *aramis* in the germline compared to
+**Supplemental Table 2.3. Differential expression analysis from RNAseq of ovaries depleted of *bam* and *aramis* in the germline compared to ovaries depleted of *bam* in the germline.**
+DEseq2 output from RNAseq of ovaries depleted of *bam* and *aramis* in the germline compared to
 ovaries depleted of *bam* in the germline as a control. Sheet 1
 (Downregulated Genes) contains genes and corresponding DEseq2 output
 meeting the cutoffs to be considered downregulated in *bam*; *aramis*
@@ -1408,9 +1489,11 @@ a Biological Process PANTHER Overrepresentation Test of significantly
 enriched GO terms performed on genes identified as upregulated targets
 from Sheet 2.
 
-**Supplemental Table 2.4. Analysis of polysome-seq of ovaries depleted of
-*aramis* in the germline compared to developmental controls**. Results
-of polysome-seq from ovaries depleted of *aramis* in the germline,
+**\
+**
+
+**Supplemental Table 2.4. Analysis of polysome-seq of ovaries depleted of *aramis* in the germline compared to developmental controls.**
+Results of polysome-seq from ovaries depleted of *aramis* in the germline,
 ovaries depleted of *bam*, and ovaries overexpressing tkv in the
 germline as developmental controls. Sheet 1 (Downregulated Genes)
 contains genes and corresponding polysome/input ratio values and values
@@ -1423,8 +1506,11 @@ representing the difference in the polysome/input ratios between
 considered upregulated in *aramis* RNAi. Sheet 3 (All Genes) contains
 DEseq2 output for all genes in the dm6 assembly.
 
-**Supplemental Table 2.5. Enrichment analysis of** **Aramis RNA IP
-mRNA-seq**. Results of Aramis::GFP::FLAG IP/IgG/Input mRNAseq. Each
+**\
+**
+
+**Supplemental Table 2.5. Enrichment analysis of Aramis RNA IPmRNA-seq.**
+Results of Aramis::GFP::FLAG IP/IgG/Input mRNAseq. Each
 sheet contains the output of results from DEseq2. Sheet 1 (aramis
 polysome IP Enrichment) contains the enrichment value of all *aramis*
 polysome targets from Aramis IP. Sheet 2 (aramis polysome IgG
@@ -1439,16 +1525,22 @@ all genes in the Aramis IP samples compared to the input samples. Sheet
 7 (IgG vs In All Genes) contains the DEseq2 output of all genes in the
 IgG samples compared to the input samples.
 
-**Supplemental Table 2.6. Aramis translation targets contain TOP
-sequences.** Sheet 1 (aramisRNAi target CAGE 5\'UTRs) contains the CAGE
+**\
+**
+
+**Supplemental Table 2.6. Aramis translation targets contain TOP sequences.** 
+Sheet 1 (aramisRNAi target CAGE 5\'UTRs) contains the CAGE
 corrected 5\'UTRs of *aramis* RNAi polysome downregulated targets with
 leading TOP sequences and start codons annotated. Sheet 2 (TOP location)
 contains a list of *aramis* RNAi polysome downregulated targets and the
 position and sequence of the first instance of a 5-mer pyrimidine
 sequence downstream of the CAGE-defined TSS of each gene.
 
-**Supplemental Table 2.7. Enrichment analysis of** **Larp RNA IP
-mRNA-seq**. Results of Larp::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet
+**\
+**
+
+**Supplemental Table 2.7. Enrichment analysis of Larp RNA IP mRNA-seq.**
+Results of Larp::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet
 contains the output of DEseq2. Sheet 1 (Larp Targets) contains Larp IP
 targets as defined in methods. Sheet 2 (IP vs In Enriched) contains
 genes significantly enriched in the Larp IP samples compared to the
@@ -1459,9 +1551,9 @@ the Larp IP samples compared to the input samples. Sheet 5 (IgG vs In
 All Genes) contains the DEseq2 output of all genes in the IgG samples
 compared to the input samples.
 
-**Materials and Methods**
+## Materials and Methods
 
-**[Resource Availability]{.underline}**
+**Resource Availability**
 
 **Lead Contact:**
 
@@ -1481,7 +1573,7 @@ Materials generated during this study are available upon request.
 > using the following token: araliaokbdqbrqd. Other data generated
 > during this study are available from the lead contact.
 
-[Fly lines:]{.underline}
+**Fly lines**
 
 The following Bloomington Stock Center lines were used in this study:
 \#25751 *UAS-Dcr2;nosGAL4*, \#4442 *nosGAL4;MKRS/TM6*, \#32334 Aramis
@@ -1493,7 +1585,7 @@ UAS-EGFP, \#18942 aramis^f06152^ PBac{WH}CG5589f06152/TM6B, Tb1, \#9503
 athos deficiency Df(2L)BSC143/CyO, \#13988 porthos^KG05120^
 P{SUPor-P}CG9253^KG05120^, \#58178 bam RNAi P{TRiP.HMJ22155}, \#78777
 Non1 RNAi P{TRiP.HMS05872}, \#61790 Larp::GFP::3XFLAG
-Mi{PT-GFSTF.1}larp^MI06928-GFSTF.1^, \#8841 w\[1118\]; Df(3R)Hsp70A,
+Mi{PT-GFSTF.1}larp^MI06928-GFSTF.1^, \#8841 w^1118; Df(3R)Hsp70A,
 Df(3R)Hsp70B, \#55384 Nprl3 RNAi P{TRiP.HMC04072}attP40, \#34814 raptor
 RNAi P{TRiP.HMS00124}attP2
 
@@ -1514,7 +1606,7 @@ UASp-p53 [@bakhratDrosophilaChk2P532010], RpS2::GFP^CB02294^
 study), UASp-Larp-DM15 (this study), WT-TOP-Reporter (this study),
 Mutant-TOP-Reporter (this study).
 
-[Antibodies IF]{.underline}
+**Antibodies IF**
 
 The following antibodies were used for immunoflourenscence: mouse
 anti-1B1 1:20 (DSHB 1B1), rabbit anti-Vasa 1:833-1:4000 (Rangan Lab),
@@ -1527,7 +1619,7 @@ anti-Fibrillarin 1:200 (Abcam ab5821), Mouse anti-Fibrillarin 1:50
 (Fuchs Lab) [@McCarthy2018h]. Alexa 488 (Molecular Probes), Cy3 and
 Cy5 (Jackson Labs) were used at a dilution of 1:500.
 
-[Antibodies Western/IP]{.underline}
+**Antibodies Western/IP**
 
 Mouse anti-FLAG-HRP 1:5000 (Sigma Aldrich, A8592)
 
@@ -1541,14 +1633,14 @@ Rabbit anti-DHX33 1:5000 (Bethyl, A300-800A)
 
 Rabbit anti-DDX47 1:1000 (Bethyl, A302-977A)
 
-[Protein Domain Analysis]{.underline}:
+**Protein Domain Analysis**
 
 Protein domain figures were adapted from: The Pfam protein families
 database in 2019: S. El-Gebali et al. Nucleic Acids Research (2019).
 Protein Similarity values were obtained from the DRSC/TRiP Functional
 Genomics Resources.
 
-[Protein Conservation Analysis]{.underline}:
+**Protein Conservation Analysis**
 
 Evolutionary trees were generated using MEGA. The evolutionary history
 was inferred by using the Maximum Likelihood method and JTT matrix-based
@@ -1559,7 +1651,7 @@ estimated using a JTT model, and then selecting the topology with
 superior log likelihood value. Trees are drawn to scale, with branch
 lengths measured in the number of substitutions per site.
 
-[TOP Reporter Cloning]{.underline}
+**TOP Reporter Cloning**
 
 gBlocks (see primer list for details) were cloned into pCasper2
 containing a Nos promoter, HA-tag, GFP-tag, and K10 3\'UTR. PCR was used
@@ -1579,7 +1671,7 @@ sequence was present in the final plasmids. Midi-prep scale plasmid was
 prepared using standard methods and plasmids were sent to BestGene Inc.
 for microinjection.
 
-[Gateway Cloning]{.underline}
+**Gateway Cloning**
 
 Gateway cloning was performed as described according to the
 manufacture\'s manual. Briefly, primers containing the appropriate
@@ -1597,7 +1689,7 @@ Bioscience Inc. to confirm the correct sequence was present in the final
 plasmids. Midi-prep scale plasmid was prepared using standard methods
 and plasmids were sent to BestGene Inc. for microinjection.
 
-[Egg Laying Test]{.underline}
+**Egg Laying Test**
 
 Newly eclosed flies were collected and fattened overnight on yeast. Six
 female flies were crossed to 4 male controls and kept in cages at 25Â°C.
@@ -1606,7 +1698,7 @@ counted daily. Total number of eggs laid over the three day laying
 periods were determined and averaged between three replicate crosses for
 control and experimental crosses.
 
-[Immunostaining]{.underline}
+**Immunostaining**
 
 Ovaries were dissected and teased apart with mounting needles in cold
 PBS and kept on ice for subsequent dissections. All incubations were
@@ -1625,12 +1717,12 @@ and other relevant settings were kept constant for any immunostainings
 being compared. Image processing was performed in Fiji, gain was
 adjusted, and images were cropped in Photoshop CC 2018.
 
-[Florescent Imaging]{.underline}
+**Florescent Imaging**
 
 Tissues were visualized and imaged were acquired using a Zeiss LSM-710
-confocal microscope under the 20Ã— and 40Ã— oil objectives.
+confocal microscope under the 20x— and 40x— oil objectives.
 
-[Measurement of global protein synthesis]{.underline}
+**Measurement of global protein synthesis**
 
 OPP (Thermo Fisher, C10456) treatment was performed as in McCarthy
 [@mccarthyMSL3CoordinatesTranscriptional2019]. Briefly, ovaries were
@@ -1643,7 +1735,7 @@ with Click-iT reaction cocktail, washed with Click-iT reaction rinse
 buffer according to manufacturer\'s instructions. Samples were then
 immunostained according to previously described procedures.
 
-[Image Quantifications]{.underline}
+**Image Quantifications**
 
 All quantifications were performed on images using the same confocal
 settings. A.U. quantifications were performed in Fiji on images taken
@@ -1686,7 +1778,7 @@ from the results of the Non1-GFP quantification performed using 1B1 to
 determine the stages of peak Non1 expression. Percent area was plotted
 with ggplot2 as boxplots in a custom R script.
 
-[RNA Extraction from Ovaries]{.underline}
+**RNA Extraction from Ovaries**
 
 RNA extraction was performed using standard methods. Ovaries were
 dissected into PBS and transferred to microcentrifuge tubes. PBS was
@@ -1711,7 +1803,7 @@ dry. The pellets were resuspended in 20-50ul of RNAse free water and the
 absorbance at 260 was measured on a nanodrop to measure the
 concentration of each sample.
 
-[S2 Cell RNAi]{.underline}
+**S2 Cell RNAi**
 
 DRSC-S2 cells (Stock \#181, DGRC) were cultured according to standard
 methods in M3+BPYE media supplemented with 10% heat-inactivated FBS.
@@ -1739,7 +1831,7 @@ After 24 hours an additional 1 mL of media was added to each well. After
 an additional 24 hours cells were passaged to 10 cm dishes. After an
 additional 3 days cells were harvested for further analysis.
 
-[Polysome-profiling]{.underline}
+**Polysome-profiling**
 
 Polysome-profiling in S2 cells was performed as in Fuchs et al.
 [@fuchsProteomicAnalysisRibosomes2011] with minor modifications. S2
@@ -1755,7 +1847,7 @@ mM MgCl2, 100 g/mL cycloheximide) and centrifuged in an SW41 rotor at
 Gradient Fractionation System (Brandel, \#621140007) at 0.75 mL/min.
 Data generated from gradients were plotted using R.
 
-[Western Blot]{.underline}
+**Western Blot**
 
 HeLa cells were harvested for Western by in RIPA buffer by scraping.
 Western blotting were performed according to standard methods, briefly,
@@ -1771,7 +1863,7 @@ diluted 1:10,000 in 5% milk and incubated for 2-4 hours at RT. Blot was
 washed once quickly, once for 5m, and once for 10m in PBS-T and imaged.
 Images were quantified using Fiji.
 
-[mRNAseq Library Preparation and Analysis]{.underline}
+**mRNAseq Library Preparation and Analysis**
 
 Libraries were prepared with the Biooscientific kit (Bioo Scientific
 Corp., NOVA-5138-08) according to manufacturer\'s instructions with
@@ -1812,7 +1904,7 @@ exact test was used to calculate significance and FDR was used to
 correct for multiple testing. GO-term analysis results were plotted
 using R.
 
-[Polysome-seq]{.underline}
+**Polysome-seq**
 
 Polysome-seq was performed as in Flora et al. [@Flora2018k] with
 minor modifications. Ovaries were dissected in PBS and transferred to a
@@ -1832,7 +1924,7 @@ for 30m at 37Â°C. Standard acid phenol chloroform purification followed
 by ethanol precipitation was performed on each fraction. The RNA from
 polysome fractions was pooled and RNAseq libraries were prepared.
 
-[Polysome-seq Data Analysis]{.underline}
+**Polysome-seq Data Analysis**
 
 Reads were checked for quality using FastQC. Reads were mapped to the
 Drosophila genome (dm6.01) using Hisat version 2.1.0. Mapped reads were
@@ -1854,12 +1946,12 @@ expression cutoff of log~2~(TPM) expression greater than five were
 considered to exclude more lowly expressed genes as they are highly
 influenced by noise in polysome-seq.
 
-[CAGE-seq Tracks]{.underline}
+**CAGE-seq Tracks**
 
 CAGE-seq tracks were visualized using the UCSC Genome Browser after
 adding the publicly available track hub \'EPD Viewer Hub\'.
 
-[CAGE-seq Data Reanalysis]{.underline}
+**CAGE-seq Data Reanalysis**
 
 Publicly available genome browser tracks were obtained of CAGE-seq data
 (generated by Chen et al. (2014) and viewed through the UCSC Genome
@@ -1885,7 +1977,7 @@ at the transcript level. These coordinates were used to obtain the
 corrected 5\'UTR using R and transcripts with identical sequences were
 discarded.
 
-[Motif Enrichment Analysis]{.underline}
+**Motif Enrichment Analysis**
 
 Motif enrichment analysis was performed using Homer
 [@heinzSimpleCombinationsLineagedetermining2010] using the
@@ -1900,7 +1992,7 @@ TSS using the Biostrings package
 [@pagesBiostringsEfficientManipulation2019]. Results were plotted as
 a histogram in R.
 
-[RNA Immunoprecipitation (RNA IP)]{.underline}
+**RNA Immunoprecipitation (RNA IP)***
 
 All RIPs were performed with biological triplicates. 50-60 ovary pairs
 were dissected for each sample in RNase free PBS and dissected ovaries
@@ -1941,7 +2033,7 @@ at -80Â°C in 100 Âµl of Trizol. SDS loading buffer was added was added to
 a 1X working concentration and the sample was heated at 95Â°C for 5m and
 stored at -20Â°C or used for Western (refer to Western Blot section).
 
-[Helicase RNA IPseq]{.underline}
+**Helicase RNA IPseq**
 
 RNA was purified as previously described. RNA yield was quantified using
 Qubit or nanodrop according to manufactures instructions. RNA was run on
@@ -1969,9 +2061,9 @@ enriched in the IP samples compared to the IgG control as it is a
 non-parametric test suitable for use with low n using R with 100,000
 iterations.
 
-**Larp Gel Shifts**
+#### Larp Gel Shifts
 
-[Cloning, Protein expression and purification]{.underline}
+**Cloning, Protein expression and purification**
 
 The Larp-DM15 protein expression construct (amino acids 1330-1481
 corresponding to isoform D) was cloned into a modified pET28a vector by
@@ -2013,7 +2105,7 @@ DTT, 25% glycerol), flash frozen in liquid nitrogen, and stored at
 with *Hs*DM15 [@lahrLarelatedProtein1specific2015], except cation and
 anion exchange buffers were at pH 7, as noted above.
 
-[RNA preparation]{.underline}
+**RNA preparation**
 
 5\'-triphosphorylated *RpL30* and *Non1* 42-mers were synthesized
 (ChemGenes). Purine-substituted controls were synthesized by *in vitro*
@@ -2024,48 +2116,43 @@ MgCl~2~ was incubated at 37Â°C for 4 hours. Transcripts were subsequently
 purified from an 8% polyacrylamide/6M urea/1XTBE denaturing gel, eluted
 passively using 10 mM sodium cacodylate, pH 6.5, and concentrated using
 spin concentrators (Millipore Amicon). All oligos were radioactively
-capped using Vaccinia virus capping system (NEB) and \[Î±-^32^P\]-GTP
+capped using Vaccinia virus capping system (NEB) and 	$\alpha^{32}$-GTP
 (Perkin-Elmer). Labelled oligos were purified using a 10%
 polyacrylamide/6M urea/1XTBE denaturing gel, eluted with 10 mM sodium
 cacodylate, pH 6.5, and concentrated by ethanol precipitation.
 
 The RNA sequences used were:
 
-RpL30: [CUUUU]{.underline}GCCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA
+RpL30: **CUUUU**GCCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA
 
-Non1: [CUUUUU]{.underline}GGAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
+Non1: **CUUUUU**GGAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
 \*Purine-substituted RPL30 control:
-[GAAAAG]{.underline}CCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA
+**GAAAAG**CCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA
 
 \*Purine-substituted Non1 control:
-[GAAAAAG]{.underline}GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
+**GAAAAAG**GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
 Oligos used for run-off transcription
 
 +----------------------------------+----------------------------------+
 | **DNA oligo**                    | **Sequence (5\' to 3\')**          |
 +==================================+==================================+
-| \*\*RpL30 control gene block     | GCGCGCGAATTCTAATACGACTCACTATA    |
-| (with 3\' HDV)                    | [GAAAAGCCATTGTCAGCC]{.underline} |
-|                                  |                                  |
-|                                  | [GACGAAGTGCTTTAACCCAAACTA]{.u    |
-|                                  | nderline}GGGTCGGCATGGCATCTCCACCT |
-|                                  |                                  |
-|                                  | CCTCGCGGTCCGAC                   |
-|                                  | CTGGGCTACTTCGGTAGGCTAAGGGAGAAGCT |
-|                                  |                                  |
-|                                  | TGGCACTGGCCGTCGTTT               |
+| \*\*RpL30 control gene block     | GCGCGCGAATTCTAATACGACTCAC        |
+| (with 3\' HDV)                    | TATA**GAAAAGCCATTGTCAGCC**      |
+|                                  |  **GACGAAGTGCTTTAACCCAAACTA**    |
+|                                  | GGGTCGGCATGGCATCTCCACCT          |
+|                                  | CCTCGCGGTCCGACCTGGGCTAC          |
+|                                  |TTCGGTAGGCTAAGGGAGAAGCTT          |
+|                                  |GGCACTGGCCGTCGTTT                 |
 +----------------------------------+----------------------------------+
-| Non1 control                     | GCGCGCGAATTCTAATACGACTCACTATA    |
-|                                  | [GGAAAAAGGAATACGAAG]{.underline} |
-| Forward                          |                                  |
-|                                  | [CTGACA]{.underline}             |
+| Non1 control                     | GCGCGCGAATTCTAATACGAC            |
+|                                  | TCACTATA**GGAAAAAGGA**           |
+| Forward                          | **ATACGAAGCTGACA**               |
 +----------------------------------+----------------------------------+
-| Non1 control                     | [AAGCAAAAACACCACGCGGTGTCAGCTTC   |
-|                                  | GTATTCCTTTTTC]{.underline}CTATAG |
-| Reverse                          |                                  |
-|                                  | TGAG                             |
+| Non1 control                     | **AAGCAAAAACACCACGCGGTG**        |
+|                                  | **TCAGCTTCGTATTCCTTTTTC**        |
+| Reverse                          | CTATAGTGAG                       |
 +----------------------------------+----------------------------------+
 | 5\' GEN amp                       | GCGCGCGAATTCTAATACGACTCA         |
 +----------------------------------+----------------------------------+
@@ -2076,7 +2163,7 @@ Oligos used for run-off transcription
 
 \* These RNAs were synthesized using run-off transcription.
 
-[Electrophoretic mobility shift assays (EMSAs)]{.underline}
+[Electrophoretic mobility shift assays (EMSAs)$\Delta$
 
 Each binding reaction contained 125 total radioactive counts with final
 reaction conditions of: 20 mM Tris-HCl, pH 8, 150 mM NaCl, 10% glycerol,
@@ -2099,7 +2186,7 @@ shifted band by total intensity of bands in each lane. Three independent
 experiments were done for each oligo, with the average plotted and
 standard deviation shown.
 
-[mRNA IPseq]{.underline}
+**mRNA IPseq**
 
 IPs of Larp and Aramis were performed as described in the RNA IP-seq
 section above in triplicate. mRNA libraries were prepared as described
@@ -2111,7 +2198,7 @@ with \>2 fold enrichment and an adjusted p-value \<0.05 in the Larp-IP
 libraries compared to input libraries, but not meeting those criteria in
 the IgG libraries compared to input.
 
-[Larp RNA IP qPCR]{.underline}
+**Larp RNA IP qPCR**
 
 Larp RNA IP was performed as described in the Larp RNA IPseq section
 with the following modifications. As the ovaries used were small, they
@@ -2131,22 +2218,30 @@ averaged, and the IP Input Ct value, the log~2~ of the Input dilution
 (20) was also subtracted to account for the Input being 5% of the total
 sample as follows:
 
+
 $\Delta Ct[normalized\ IP] = (Average\ Ct[IP]/(Average\ Ct[Input] - log~2~(Input\ Dilution\ Factor))$
+
 
 Next, RNA recovery was normalized using the spike-in control for each
 sample as follows:
 
+
 $\Delta \Delta Ct = \Delta Ct[normalized\ IP]-\Delta\ Ct[Luciferase]$
+
 
 Next, Each sample was normalized to it\'s matched *bam* RNAi control as
 follows:
 
+
 $bam\ RNAi\ normalized Ct= \Delta \Delta Ct[aramis\ RNAi\ IP] - \Delta \Delta Ct[bam\ RNAi\ IP]$
+
 
 Finally, fold increase of IP from *aramis* RNAi over *bam* RNAi was
 calculated as follows:
 
+
 $Fold Enrichment = 2^{-bam\ RNAi\ normalized\ Ct}$
+
 
 Fold enrichment was plotted and One-sample t-test performed on *aramis*
 RNAi samples in R using a mu of 1.

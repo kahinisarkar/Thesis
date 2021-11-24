@@ -105,8 +105,7 @@
 \AtBeginDocument{%
   \fancyhf{}
   \fancyhead[LE,RO]{\thepage}
-%  \fancyhead[RE]{\slshape \leftmark}
-%  \fancyhead[LO]{\slshape \rightmark}
+%\fancyhead{\slshape \nouppercase \leftmark}
 %	The above makes your headers in all caps. If you would like different headers, choose one of the following options (be sure to remove the % symbol from both the right and left headers):
 	 \fancyhead[RE]{\slshape \nouppercase \leftmark} % This makes the headers on the RIGHT side pages be italic and use lowercase With Capitals When Specified.
 	\fancyhead[LO]{\slshape \nouppercase \rightmark} % This does the same thing to the LEFT side pages
@@ -174,9 +173,9 @@
 \renewcommand{\cleardoublepage}{\RTcleardoublepage}
 
 % adjust margins for binding  (changed 2007-04-24 tgp)
-\setlength{\oddsidemargin}{.5in}
+\setlength{\oddsidemargin}{0in}
 \setlength{\evensidemargin}{0in}
-\setlength{\textwidth}{6.0in}
+\setlength{\textwidth}{6.5in}
 \setlength{\textheight}{9.0in}
 \setlength\topmargin{0in}
 \addtolength\topmargin{-\headheight}

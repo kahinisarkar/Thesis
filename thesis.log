@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  24 NOV 2021 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  24 NOV 2021 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -440,6 +440,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 216.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 216.
+
 Package hyperref Info: Link coloring OFF on input line 216.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -499,44 +505,46 @@ Non-PDF special ignored!
 <special> rawpostscript % Reed College LaTeX Thesis Class 2001/12/04 SN
 
 
-{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-] [3] [4
+{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.220 
+       [1
 
 ] [1
+
 
 
 ] [2
 
 
-] [3] [4
+] (./thesis.toc [3
 
 
-] (./thesis.toc)
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-[5] [6
-
-] (./thesis.lot)
+[4] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-[7] [8
+[5
 
-] (./thesis.lof)
+] (./thesis.lof
+Underfull \hbox (badness 1281) in paragraph at lines 5--5
+ [][] [][]\T1/lmr/m/n/12 Schematic of com-bi-na-to-rial and dy-namic trans-la-tion reg-u-la-tion in the 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
-[9] [10
+[6
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [7
 
-[11] [12] [13
-
-
-] [14
+] [8
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -545,46 +553,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.270 ...-transition-during-drosophila-oogenesis}}
                                                    [1
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.270 ...-transition-during-drosophila-oogenesis}}
-                                                   [2
+
 
 ]
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.329 
-       [3]
-Underfull \vbox (badness 2556) has occurred while \output is active []
+[2
 
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.355 
-       [4]
-<./figure/Book Chapter/Figure1.pdf, id=204, 510.7321pt x 259.65207pt>
+] [3]
+<./figure/Book Chapter/Figure1.pdf, id=265, 510.7321pt x 259.65207pt>
 File: ./figure/Book Chapter/Figure1.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure1.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure1.pdf  used on input line 374.
 (pdftex.def)             Requested size: 433.62556pt x 220.19023pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[5]
-Underfull \hbox (badness 1092) in paragraph at lines 383--402
-\T1/lmr/m/n/12 Splicing de-ci-sions are cru-cial dur-ing the gen-er-a-tion of ma-ture mR-NAs post-
- []
-
+[4]
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -592,9 +573,20 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[6 <./figure/Book Chapter/Figure1.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[5 <./figure/Book Chapter/Figure1.pdf>]
 
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[6]
+<./figure/Book Chapter/Figure2.pdf, id=301, 596.2275pt x 147.57535pt>
+File: ./figure/Book Chapter/Figure2.pdf Graphic file (type pdf)
+<use ./figure/Book Chapter/Figure2.pdf>
+Package pdftex.def Info: ./figure/Book Chapter/Figure2.pdf  used on input line 521.
+(pdftex.def)             Requested size: 433.62306pt x 107.22469pt.
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -603,8 +595,6 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -612,74 +602,22 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[8]
-<./figure/Book Chapter/Figure2.pdf, id=245, 596.2275pt x 147.57535pt>
-File: ./figure/Book Chapter/Figure2.pdf Graphic file (type pdf)
-<use ./figure/Book Chapter/Figure2.pdf>
-Package pdftex.def Info: ./figure/Book Chapter/Figure2.pdf  used on input line 521.
-(pdftex.def)             Requested size: 433.62306pt x 107.22469pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[9 <./figure/Book Chapter/Figure2.pdf>]
-Underfull \vbox (badness 1490) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[10]
-Underfull \vbox (badness 1019) has occurred while \output is active []
-
-[11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[12]
+[8 <./figure/Book Chapter/Figure2.pdf>] [9] [10]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 704.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[14]
-<./figure/Book Chapter/Figure3.pdf, id=299, 448.07399pt x 592.61403pt>
+) [11] [12]
+<./figure/Book Chapter/Figure3.pdf, id=356, 448.07399pt x 592.61403pt>
 File: ./figure/Book Chapter/Figure3.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure3.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure3.pdf  used on input line 799.
 (pdftex.def)             Requested size: 327.86386pt x 433.62645pt.
+[13]
+Underfull \hbox (badness 1371) in paragraph at lines 806--806
+\T1/lmr/bx/n/17.28 RNA bind-ing pro-teins dy-nam-i-cally shape the
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[14 <./figure/Book Chapter/Figure3.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -687,9 +625,20 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[16 <./figure/Book Chapter/Figure3.pdf>]
-Underfull \vbox (badness 1490) has occurred while \output is active []
+[15]
 
+Package fancyhdr Warning: \headheight is too small (14.5pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+
+[16]
+<./figure/Book Chapter/Figure4.pdf, id=397, 439.97975pt x 542.025pt>
+File: ./figure/Book Chapter/Figure4.pdf Graphic file (type pdf)
+<use ./figure/Book Chapter/Figure4.pdf>
+Package pdftex.def Info: ./figure/Book Chapter/Figure4.pdf  used on input line 951.
+(pdftex.def)             Requested size: 361.35637pt x 445.02577pt.
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -698,8 +647,6 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Package fancyhdr Warning: \headheight is too small (14.5pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -707,553 +654,342 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[18]
-<./figure/Book Chapter/Figure4.pdf, id=340, 439.97975pt x 542.025pt>
-File: ./figure/Book Chapter/Figure4.pdf Graphic file (type pdf)
-<use ./figure/Book Chapter/Figure4.pdf>
-Package pdftex.def Info: ./figure/Book Chapter/Figure4.pdf  used on input line 951.
-(pdftex.def)             Requested size: 361.35637pt x 445.02577pt.
+[18 <./figure/Book Chapter/Figure4.pdf>] [19]
+Chapter 2.
+[20
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[21 <./figure/Book Chapter/Figure4.pdf>]
-Underfull \vbox (badness 2556) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[24]
-Underfull \hbox (badness 1132) in paragraph at lines 1122--1149
-\T1/lmr/m/n/12 un-char-ac-ter-ized func-tions, \T1/lmr/m/it/12 CG5589\T1/lmr/m/n/12 , \T1/lmr/m/it/12 CG4901, \T1/lmr/m/n/12 and \T1/lmr/m/it/12 CG9253 \T1/lmr/m/n/12 (\T1/lmr/bx/n/12 Figure 2.1B-C\T1/lmr/m/n/12 )
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[33]
-Underfull \vbox (badness 1019) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf, id=516, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf  used on input line 1857.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 [35]
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf, id=523, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf  used on input line 1865.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[37]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[37 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf, id=584, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf  used on input line 1873.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+
+[38 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf, id=674, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf  used on input line 1881.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+
+[39 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf, id=741, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf  used on input line 1889.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+
+[40 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf, id=825, 794.97pt x 614.295pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf  used on input line 1897.
+(pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
+
+Overfull \hbox (36.14922pt too wide) in paragraph at lines 1897--1898
+ [][] 
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[41 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf, id=921, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf  used on input line 1905.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf, id=922, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf  used on input line 1913.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+[42 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>]
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[43 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf, id=1125, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf  used on input line 1921.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+
+[44 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4s.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf, id=1199, 794.97pt x 614.295pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf  used on input line 1929.
+(pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
+
+Overfull \hbox (36.14922pt too wide) in paragraph at lines 1929--1930
+ [][] 
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[45 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf, id=1281, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf  used on input line 1937.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf, id=1282, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf  used on input line 1945.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+[46 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>]
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[47 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf, id=1439, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf  used on input line 1953.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+[48 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf, id=1539, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf  used on input line 1961.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-[42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 2160--2161
+[49 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>]
+Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+
+[50 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 2006--2007
+
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 2086--2087
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 2116--2117
+
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2156
+
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 2196--2197
 
-[44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ []
 
-[45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2229
+
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
+Underfull \hbox (badness 2495) in paragraph at lines 2231--2270
+\T1/lmr/m/n/12 in Aramis::GFP::3XFLAG ovaries com-pared to Aramis::GFP::3XFLAG in con-junc-
+ []
 
-[46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[47]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2434.
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2273
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 2303--2304
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2374--2375
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 2409--2410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2456--2457
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2501--2502
+
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2533
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2549--2550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2568--2569
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
+
+ []
+
+[60]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2602.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[48]
-Underfull \hbox (badness 1939) in paragraph at lines 2450--2460
-[]\T1/lmr/m/n/12 The fol-low-ing Bloom-ing-ton Stock Cen-ter lines were used in this study:
+Underfull \hbox (badness 2088) in paragraph at lines 2618--2631
+\T1/lmr/m/n/12 #56977 Athos RNAi#1 CG4901$[]$, #36589 Porthos RNAi#1 CG9253$[]$,
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 2450--2460
-\T1/lmr/m/n/12 #25751 \T1/lmr/m/it/12 UAS-Dcr2;nosGAL4\T1/lmr/m/n/12 , #4442 \T1/lmr/m/it/12 nos-GAL4;MKRS/TM6\T1/lmr/m/n/12 , #32334 Aramis
+Underfull \hbox (badness 2245) in paragraph at lines 2618--2631
+\T1/lmr/m/n/12 p53$[]$, #55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B,
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 2450--2460
-\T1/lmr/m/n/12 RNAi#1 CG5589$[]$, #56977 Athos RNAi#1 CG4901$[]$, #36589
+Underfull \hbox (badness 2726) in paragraph at lines 2632--2637
+\T1/lmr/m/n/12 CG5589$[]$, Athos RNAi#2 CG4901$[]$, Aramis::GFP PBac{fTRG01033.sfGFP-
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 2450--2460
-\T1/lmr/m/n/12 #6815 p53$[]$, #4264 Har-wich, #6816 p53$[]$, #55101 FUCCI: UASp-
+Overfull \hbox (3.97366pt too wide) in paragraph at lines 2632--2637
+\T1/lmr/m/n/12 TVPTBF}VK00002, Athos::GFP PBac{fTRG01233.sfGFP-TVPTBF}VK00033, Non1::GFP
+ []
+
+[61] [62] [63] [64] [65] [66] [67] [68] [69]
+Overfull \hbox (109.38345pt too wide) in paragraph at lines 3171--3173
+[]\T1/lmr/m/n/12 *Purine-substituted RPL30 con-trol: \T1/lmr/bx/n/12 GAAAAG\T1/lmr/m/n/12 CCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA 
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 2450--2460
-\T1/lmr/m/n/12 GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B, #5431 UAS-EGFP, #18942
+Overfull \hbox (105.38087pt too wide) in paragraph at lines 3174--3176
+[]\T1/lmr/m/n/12 *Purine-substituted Non1 con-trol: \T1/lmr/bx/n/12 GAAAAAG\T1/lmr/m/n/12 GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU 
  []
 
 
-Underfull \hbox (badness 7704) in paragraph at lines 2450--2460
-\T1/lmr/m/n/12 aramis$[]$ PBac{WH}CG5589f06152/TM6B, Tb1, #9503 athos de-fi-ciency
- []
-
-
-Underfull \hbox (badness 7907) in paragraph at lines 2464--2469
-\T1/lmr/m/n/12 TVPTBF}VK00002, Athos::GFP PBac{fTRG01233.sfGFP-TVPTBF}VK00033,
- []
-
-[49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[51]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[56]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[57]
-
-LaTeX Warning: Command \^ invalid in math mode on input line 2991.
-
-
-LaTeX Warning: Command \textpm invalid in math mode on input line 2991.
-
-
-LaTeX Warning: Command \textpm invalid in math mode on input line 2991.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3002--3004
-[]\T1/lmr/m/n/12 *Purine-substituted RPL30 con-trol: GAAAAGC-CAU-UGUCAGC-C-GAC-
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 3005--3007
-[]\T1/lmr/m/n/12 *Purine-substituted Non1 con-trol: GAAAAAG-GAAUACGAAGCU-GA-CAC-
- []
-
-
-Overfull \hbox (45.35522pt too wide) in paragraph at lines 3022--3024
-[]\T1/lmr/m/n/12 GCGCGCGAATTCTAATACGACTCACTATA 
- []
-
-
-Overfull \hbox (29.08167pt too wide) in paragraph at lines 3025--3027
-[]\T1/lmr/m/n/12 [GACGAAGTGCTTTAACCCAAACTA]{.u 
- []
-
-
-Overfull \hbox (23.7998pt too wide) in paragraph at lines 3025--3027
-\T1/lmr/m/n/12 line}GGGTCGGCATGGCATCTCCACCT  
- []
-
-
-Overfull \hbox (45.35522pt too wide) in paragraph at lines 3038--3040
-[]\T1/lmr/m/n/12 GCGCGCGAATTCTAATACGACTCACTATA 
- []
-
-
-Overfull \hbox (52.61156pt too wide) in paragraph at lines 3048--3050
-[]\T1/lmr/m/n/12 AAGCAAAAACACCACGCGGTGTCAGCTTC 
- []
-
-
-Overfull \hbox (5.54517pt too wide) in paragraph at lines 3056--3057
-[]\T1/lmr/m/n/12 GCGCGCGAATTCTAATACGACTCA|  
- []
-
-
-Overfull \hbox (34.19002pt too wide) in paragraph at lines 3061--3062
+Overfull \hbox (17.56767pt too wide) in paragraph at lines 3225--3226
 []\T1/lmr/m/n/12 TAGTTTGGGTTAAAGCACTTCGTCGGC|  
  []
 
-
-Overfull \hbox (9.77505pt too wide) in paragraph at lines 3066--3067
-[]\T1/lmr/m/n/12 AAGCAAAAACACCACGCGGTGTCA|  
- []
-
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[58]
-Overfull \hbox (66.99327pt too wide) in paragraph at lines 3127--3128
+[70]
+Overfull \hbox (30.85828pt too wide) in paragraph at lines 3291--3292
 []$\OT1/lmr/m/n/12 ^^A\OML/lmm/m/it/12 Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 normalized IP\OT1/lmr/m/n/12 ] = (\OML/lmm/m/it/12 Average Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 IP\OT1/lmr/m/n/12 ]\OML/lmm/m/it/12 =\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 Average Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 Input\OT1/lmr/m/n/12 ] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 log []\OT1/lmr/m/n/12 2 [](\OML/lmm/m/it/12 Input Dilution Factor\OT1/lmr/m/n/12 ))$ 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[59]
-
-Package fancyhdr Warning: \headheight is too small (14.5pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
-
-[60] [61
-
-] [62
+[71] [72
 
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3170.
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 3171.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3334.
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 3335.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [63]
-
-LaTeX Warning: Reference `ref-labels' on page 64 undefined on input line 3198.
-
-[64]
-Appendix B.
-[65
-
-] [66
+) [73
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[67
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[68]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[69]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[70]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[71]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[72]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[73]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `ref-labels' on page 74 undefined on input line 3362.
 
 [74]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Appendix B.
+[75
 
-[75]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [76
 
-[76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[78]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[79]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[81]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[83]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[84]
-Underfull \hbox (badness 1675) in paragraph at lines 3834--3836
- \T1/lmr/m/n/12 rapamycin-sensitive TOR-signaling path-way in Sac-cha-romyces cere-visiae.
+] [77]
+Underfull \hbox (badness 1242) in paragraph at lines 3449--3451
+ \T1/lmr/m/n/12 Poly(ADP-Ribose) Poly-merase 1 (PARP-1) Reg-u-lates Ri-bo-so-mal Bio-gen-e-sis in
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[85]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[86]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[87]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[88pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidina2014h}) has been already used, duplicate ignored
+[78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidina2014h}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3962 
-       ]
-Underfull \hbox (badness 1168) in paragraph at lines 3975--3977
- [][]\T1/lmr/m/n/12 Tadauchi, T., Mat-sumoto, K., Her-skowitz, I., & Irie, K. (2001). Post-
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 3975--3977
- \T1/lmr/m/n/12 transcriptional reg-u-la-tion through the HO 3'-UTR by Mpt5, a yeast
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 3975--3977
- \T1/lmr/m/n/12 ho-molog of Pumilio and FBF. \T1/lmr/m/it/12 The EMBO Jour-nal\T1/lmr/m/n/12 , \T1/lmr/m/it/12 20\T1/lmr/m/n/12 (3), 552--561.
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[89]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[90]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[91]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[93pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie2000b}) has been already used, duplicate ignored
+l.4123 
+       ] [97] [98] [99] [100] [101pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie2000b}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4139 
-       ] [94] (./thesis.aux)
+l.4310 \leavevmode
+                  \hypertarget{ref-Zhang2015c}{}%]
+Underfull \hbox (badness 2564) in paragraph at lines 4328--4330
+ \T1/lmr/m/n/12 Cells by Trans-fec-tion with dsRNA. \T1/lmr/m/it/12 Cold Spring Har-bor Pro-to-cols\T1/lmr/m/n/12 , \T1/lmr/m/it/12 2013\T1/lmr/m/n/12 (5),
+ []
+
+[102] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 33F3DB0B406360D145B034FE841FB402;5622.
+(rerunfilecheck)             Checksum: 39CA62020AD88583B8A9A2C52A29E0B9;9875.
  ) 
 Here is how much of TeX's memory you used:
- 12917 strings out of 480313
- 215502 string characters out of 5895695
- 499146 words of memory out of 5000000
- 30077 multiletter control sequences out of 15000+600000
- 460606 words of font info for 67 fonts, out of 8000000 for 9000
+ 13133 strings out of 480313
+ 225216 string characters out of 5895695
+ 502249 words of memory out of 5000000
+ 30234 multiletter control sequences out of 15000+600000
+ 470874 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,69p,1628b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on thesis.pdf (112 pages, 3183760 bytes).
+ 60i,12n,69p,1628b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
+Output written on thesis.pdf (112 pages, 63612657 bytes).
 PDF statistics:
- 1507 PDF objects out of 1728 (max. 8388607)
- 1289 compressed objects within 13 object streams
- 469 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2825 PDF objects out of 2984 (max. 8388607)
+ 1690 compressed objects within 17 object streams
+ 513 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
