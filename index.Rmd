@@ -11,7 +11,7 @@ department: 'Biology'
 degree: 'Doctor of Philosophy'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
-# geometry: margin=0.25in
+# geometry: "left=0.25in, right=0.25in, top=0.25in, bottom=0.25in"
 
 # This will automatically install the {remotes} package and {thesisdown}
 # Change this to FALSE if you'd like to install them manually on your own.
@@ -26,6 +26,9 @@ output:
 #  thesisdown::thesis_gitbook: default         
  # thesisdown::thesis_word: default
 #  thesisdown::thesis_epub: default
+
+# Must prepend figure calls with chapter #. 
+# Do this by replacing "Figure S" with Supplementary Figure, then replace "Figure " to add the chapter #, ie "Figure 2."
 
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 

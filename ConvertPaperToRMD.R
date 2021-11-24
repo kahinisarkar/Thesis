@@ -74,5 +74,5 @@ convert_docx_to_rmd_citekeys <- function(examplefile) {
 
 }
 
-convert_docx_to_rmd_citekeys(examplefile = "CH0002_Rangan_v2_PB_EM_SB_9.3_mendeley_citekeys.docx")
-convert_docx_to_rmd_citekeys(examplefile = "Martin et al 4.2.21_EM_PR_EM_citekey.docx")
+# convert_docx_to_rmd_citekeys(examplefile = "CH0002_Rangan_v2_PB_EM_SB_9.3_mendeley_citekeys.docx")
+# convert_docx_to_rmd_citekeys(examplefile = "Martin et al 11.24.21_DevCell_EM.docx")
