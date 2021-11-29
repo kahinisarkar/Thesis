@@ -1,8 +1,21 @@
-(ref:RiBi-F1-short) test short caption
+(ref:RiBi-F2-1-short) **RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.** 
+(ref:RiBi-F2-2-short) **Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.** 
+(ref:RiBi-F2-3-short) **Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.**
+(ref:RiBi-F2-4-short) **Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.** 
+(ref:RiBi-F2-5-short) **Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.** 
+(ref:RiBi-F2-6-short) **Aramis is required for proper cell cycle progression, related to Figure 2.5.** 
+(ref:RiBi-F2-7-short) **Aramis is required for efficient translation of a subset of mRNAs.**  
+(ref:RiBi-F2-8-short) **The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.** 
+(ref:RiBi-F2-9-short) **Non1 represses p53 expression to allow for GSC differentiation.** 
+(ref:RiBi-F2-10-short) **Non1 and p53 are inversely expressed, related to Figure 2.9.** 
+(ref:RiBi-F2-11-short) **Aramis regulated mRNAs contain a TOP motif.** 
+(ref:RiBi-F2-12-short) **TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.**
+(ref:RiBi-F2-13-short) **Larp binds to TOP mRNAs and binding is regulated by Aramis.** 
+(ref:RiBi-F2-14-short) **Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.**  
 
 # A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis
 
-Elliot T. Martin^1^\*, Patrick Blatt^1^\*, Elaine Ngyuen^2^, Roni
+Elliot T. Martin^1^\*, Patrick Blatt^1^\*, Elaine Nguyen^2^, Roni
 Lahr^2^, Sangeetha Selvam^1^, Hyun Ah M. Yoon^1,3^, Tyler
 Pocchiari^1,4^, Shamsi Emtenani^5^, Daria E. Siekhaus^5^, Andrea
 Berman^2^, Gabriele Fuchs^1†^ and Prashanth Rangan^1†^
@@ -859,7 +872,7 @@ Marie Curie CIG 334077/IRTIM and the Austrian Science Fund (FWF) grant
 ASI\_FWF01\_P29638S, and A.B is funded by NIH R01GM116889 and American
 Cancer Society RSG-17-197-01-RMC.
 
-**[Author Contributions$\Delta$**
+**[Author Contributions${.underline}**
 
 Conceptualization, E.T.M., P.B., G.F., and P.R.; Methodology, E.T.M.,
 P.B., G.F., and P.R.; Investigation, E.T.M., P.B., E.N., R.L., S.S.,
@@ -924,7 +937,8 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf"
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf")
 ```
 
-**Figure 2.1: RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.** 
+
+<!-- **Figure 2.1: RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.**  -->
 (**A**) Schematic of *Drosophila* germarium.
 Germline stem cells are attached to the somatic niche (dark red). The
 stem cells divide and give rise to a stem cell and a cystoblast (CB)
@@ -965,8 +979,8 @@ Holm-Bonferroni correction). Scale bars are 15 micron.
 **\
 **
 
-**Figure 2.3. Athos, Aramis, and Porthos are required for efficient
-ribosome biogenesis.** (**A-C\'\'**) Confocal images of ovariole
+<!-- **Figure 2.3. Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.**  -->
+(**A-C\'\'**) Confocal images of ovariole
 immunostained for Fibrillarin (red, right grayscale), Vasa (blue),
 (**A-A\'\'**) Aramis::GFP, (**B-B\'\'**) Athos::GFP and (**C-C\'\'**)
 Porthos::HA (green, left grayscale). (**A\'\'\'-C\'\'\'**) Fluorescence
@@ -998,8 +1012,8 @@ to maintain polysome levels. Scale bar for all images is 15 micron.
 **\
 **
 
-**Figure 2.5. Athos, Aramis, and Porthos are required for cell cycle
-progression during early oogenesis.** (**A**) Bar plot representing the
+<!-- **Figure 2.5. Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.**  -->
+(**A**) Bar plot representing the
 most significant Biological Process GO terms of downregulated genes in
 ovaries depleted of *aramis* compared to *bam* RNAi control (FDR = False
 Discovery Rate from p-values using a Fisher\'s exact test). (**B-C**)
@@ -1045,8 +1059,8 @@ micron.
 **\
 **
 
-**Figure 2.7.** **Aramis is required for efficient translation of a subset
-of mRNAs.** (**A-A\'\'**) Biplots of poly(A)+ mRNA Input versus polysome
+<!-- **Figure 2.7.** **Aramis is required for efficient translation of a subset of mRNAs.**  -->
+(**A-A\'\'**) Biplots of poly(A)+ mRNA Input versus polysome
 associated mRNA from (**A**) ovaries genetically enriched for GSCs
 (*UAS-tkv*), (**A\'**) Undifferentiated GSC daughter cells (*bam* RNAi)
 or (**A\'\'**) germline *aramis* RNAi ovaries. (**B**) Boxplot of
@@ -1075,8 +1089,8 @@ RNAi compared to either control. Scale bar for all images is 15 micron.
 **\
 **
 
-**Figure 2.9. Non1 represses p53 expression to allow for GSC
-differentiation.** (**A-A\'**) Confocal images of Non1::GFP germaria
+<!-- **Figure 2.9. Non1 represses p53 expression to allow for GSC differentiation.**  -->
+(**A-A\'**) Confocal images of Non1::GFP germaria
 stained for 1B1 (red), GFP (green, grayscale), and Vasa (blue).
 (**A\'\'**) Boxplot of Non1::GFP expression over germline development in
 GSCs, CBs and Cyst (CC) stages (n=5-25 cysts of each type, \* = p \<
@@ -1114,7 +1128,8 @@ test, \*\* = p\< 0.01). Scale bar for all images is 15 micron.
 **\
 **
 
-**Figure 2.11. Aramis regulated mRNAs contain a TOP motif**. (**A**) Genome
+<!-- **Figure 2.11. Aramis regulated mRNAs contain a TOP motif.**  -->
+(**A**) Genome
 browser tract of *RpL30* locus in ovary CAGE-seq data showing the
 proportion of transcripts that are produced from a given TSS (orange).
 Predominant TSSs are shown in orange and putative TOP motif indicated
@@ -1155,8 +1170,8 @@ t-test \*\*\* = p\<0.001). Scale bar for all images is 15 micron.
 **\
 **
 
-**Figure 2.13. Larp binds to TOP mRNAs and binding is regulated by
-Aramis.** (**A-A\'**) EMSA of Larp-DM15 and the leading 42 nucleotides of
+<!-- **Figure 2.13. Larp binds to TOP mRNAs and binding is regulated by Aramis.**  -->
+(**A-A\'**) EMSA of Larp-DM15 and the leading 42 nucleotides of
 (**A**) *RpL30* and (**A\'**) *Non1* with increasing concentrations of
 Larp-DM15 from left to right indicates that both RNAs bind to Larp-DM15.
 (**B**) Volcano plot of mRNAs in Larp::GFP::3XFLAG IP compared to input.
@@ -1187,9 +1202,8 @@ and cell cycle arrest. Scale bar for all images is 15 micron.
 **\
 **
 
-**Figure 2.2. Aramis, Athos, and Porthos are required for
-proper cytokinesis and differentiation, related to Figure 2.1.** (**A**)
-qPCR targeting *aramis*, *athos*, *porthos* relative to *±-tub84B* to
+<!-- **Figure 2.2. Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.**  -->
+(**A**) targeting *aramis*, *athos*, *porthos* relative to $\alpha$*-tub84B* to
 measure knockdown efficiency of *aramis*, *athos*, and *porthos* RNAi in
 the germline (n=3, Welch\'s t-test with Holm-Bonferroni correction, \*
 =p\<0.05, \*\*=p\<0.01). (**B-B\'**) Confocal images of (**B**)
@@ -1231,9 +1245,8 @@ is 15 micron, scale bar for insets is 3.75 micron.
 **\
 **
 
-**Figure 2.4. Athos, Aramis, and Porthos are required for
-efficient ribosome biogenesis., related to Figure 2.3.** (**A-A\'\'**)
-Western blots of immunoprecipitations from ovaries for FLAG-tagged
+<!-- **Figure 2.4. Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.**  -->
+(**A-A\'\'**) Western blots of immunoprecipitations from ovaries for FLAG-tagged
 (**A**) Aramis, (**A\'**) Athos, , and (**A\'\'**) Porthos. (**B-B\'\'\'**)
 Confocal images of (**B**) *nosGAL4*, driver control, (**B\'**) *aramis*
 (**B\'\'**) *athos* and (**B\'\'\'**) *porthos* germline RNAi germaria
@@ -1261,9 +1274,10 @@ is 15 micron, scale bar for insets is 3.75 micron.
 
 **\
 **
+# Figures
 
-**Figure 2.6**. **Aramis is required for proper cell cycle
-progression, related to Figure 2.5**. (**A**) Biplot of mRNA levels in
+<!-- **Figure 2.6 Aramis is required for proper cell cycle progression, related to Figure 2.5.**  -->
+(**A**) Biplot of mRNA levels in
 *aramis* RNAi compared to *bam* RNAi. Blue points represent mRNAs
 significantly upregulated *aramis* RNAi compared to *bam* RNAi, red
 points represent mRNAs significantly downregulated *aramis* RNAi
@@ -1308,9 +1322,8 @@ bar for main images is 15 micron, scale bar for insets is 3.75 micron.
 **\
 **
 
-**Figure 2.8. The mRNA levels of Aramis polysome-seq targets
-are not significantly changing, related to Figure 2.7.** (**A-A\'**)
-Volcano plot of mRNA levels from poly(A)+ mRNA input libraries in
+<!-- **Figure 2.8. The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.**  -->
+(**A-A\'**) Volcano plot of mRNA levels from poly(A)+ mRNA input libraries in
 germline *aramis* RNAi compared to (**A**) germline driven *UAS-tkv*
 and (**A\'**) *bam* RNAi of targets identified from polysome-seq. No
 target genes identified from polysome-seq meet the differential
@@ -1333,8 +1346,8 @@ RpL3 have no obvious phenotypic difference.
 **\
 **
 
-**Figure 2.10. Non1 and p53 are inversely expressed, related
-to Figure 2.9.** (**A-A\'\'**) Confocal images of ovarioles expressing
+<!-- **Figure 2.10. Non1 and p53 are inversely expressed, related to Figure 2.9.**  -->
+(**A-A\'\'**) Confocal images of ovarioles expressing
 Non1::GFP stained for p53 (red, right grayscale), Vasa (blue), and
 Non1::GFP (green, left grayscale). (**B-B\'**) Quantifications of
 staining, (**B**) peak Non1 expression in control ovaries occurs in
@@ -1368,8 +1381,8 @@ is 3.75 micron.
 **\
 **
 
-**Figure 2.12. TORC1 activity regulates TOP expression in the
-germarium, related to Figure 2.11.** (**A-B**) Confocal images of *WT-TOP*
+<!-- **Figure 2.12. TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.** -->
+(**A-B**) Confocal images of *WT-TOP*
 reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue)
 in (**A**) *nosGAL4*, driver control ovaries and (**B**) ovaries
 depleted of *Nprl3* in the germline. (**C-D**) Confocal images of
@@ -1415,9 +1428,8 @@ is 15 micron.
 **\
 **
 
-**Figure 2.14. Larp binds specifically to TOP containing mRNAs
-and regulates cytokinesis, related to Figure 2.13.** (**A-A\'**) Confocal
-images of germaria stained for 1B1 (red), Vasa (blue), and *Larp
+**Figure 2.14. Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.** 
+(**A-A\'**) Confocal images of germaria stained for 1B1 (red), Vasa (blue), and *Larp
 GFP-3XFLAG* (green, grayscale) indicates Larp is expressed throughout
 early oogenesis. (**B**) Quantification of EMSAs and summary of K~d~ of
 the protein-RNA interactions. (**C-C\'**) EMSA of Larp-DM15 and the
@@ -1819,7 +1831,7 @@ transcriptions were incubated overnight at 37Â°C. The RNA was treated
 with DNAse according to the T7 Megascript manual and the RNA was
 purified using acid-phenol chloroform extraction and ethanol
 precipitated. The resulting RNA was annealed by heating at 65Â°C for 5
-minutes and slow cooling to 37Â°C for an hour. S2 cell RNAi was performed
+minutes and slow cooling to 37°C for an hour. S2 cell RNAi was performed
 essentially as previously described using Effectine
 [@zhouInducingRNAiDrosophila2013]. 1.0x10^6^ cells were seeded 30
 minutes prior to transfection and allowed to attach. After 30 minutes,
@@ -2134,31 +2146,31 @@ Non1: **CUUUUU**GGAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
 Oligos used for run-off transcription
 
-+----------------------------------+----------------------------------+
-| **DNA oligo**                    | **Sequence (5\' to 3\')**          |
-+==================================+==================================+
-| \*\*RpL30 control gene block     | GCGCGCGAATTCTAATACGACTCAC        |
-| (with 3\' HDV)                    | TATA**GAAAAGCCATTGTCAGCC**      |
-|                                  |  **GACGAAGTGCTTTAACCCAAACTA**    |
-|                                  | GGGTCGGCATGGCATCTCCACCT          |
-|                                  | CCTCGCGGTCCGACCTGGGCTAC          |
-|                                  |TTCGGTAGGCTAAGGGAGAAGCTT          |
-|                                  |GGCACTGGCCGTCGTTT                 |
-+----------------------------------+----------------------------------+
-| Non1 control                     | GCGCGCGAATTCTAATACGAC            |
-|                                  | TCACTATA**GGAAAAAGGA**           |
-| Forward                          | **ATACGAAGCTGACA**               |
-+----------------------------------+----------------------------------+
-| Non1 control                     | **AAGCAAAAACACCACGCGGTG**        |
-|                                  | **TCAGCTTCGTATTCCTTTTTC**        |
-| Reverse                          | CTATAGTGAG                       |
-+----------------------------------+----------------------------------+
-| 5\' GEN amp                       | GCGCGCGAATTCTAATACGACTCA         |
-+----------------------------------+----------------------------------+
-| RpL30 amp Reverse                | TAGTTTGGGTTAAAGCACTTCGTCGGC      |
-+----------------------------------+----------------------------------+
-| Non1 amp Reverse                 | AAGCAAAAACACCACGCGGTGTCA         |
-+----------------------------------+----------------------------------+
+<!-- +----------------------------------+----------------------------------+ -->
+<!-- | **DNA oligo**                    | **Sequence (5\' to 3\')**        | -->
+<!-- +==================================+==================================+ -->
+<!-- | \*\*RpL30 control gene block     | GCGCGCGAATTCTAATACGACTCAC        | -->
+<!-- | (with 3\' HDV)                    | TATA**GAAAAGCCATTGTCAGCC**      | -->
+<!-- |                                  |  **GACGAAGTGCTTTAACCCAAACTA**    | -->
+<!-- |                                  | GGGTCGGCATGGCATCTCCACCT          | -->
+<!-- |                                  | CCTCGCGGTCCGACCTGGGCTAC          | -->
+<!-- |                                  |TTCGGTAGGCTAAGGGAGAAGCTT          | -->
+<!-- |                                  |GGCACTGGCCGTCGTTT                 | -->
+<!-- +----------------------------------+----------------------------------+ -->
+<!-- | Non1 control                     | GCGCGCGAATTCTAATACGAC            | -->
+<!-- |                                  | TCACTATA**GGAAAAAGGA**           | -->
+<!-- | Forward                          | **ATACGAAGCTGACA**               | -->
+<!-- +----------------------------------+----------------------------------+ -->
+<!-- | Non1 control                     | **AAGCAAAAACACCACGCGGTG**        | -->
+<!-- |                                  | **TCAGCTTCGTATTCCTTTTTC**        | -->
+<!-- | Reverse                          | CTATAGTGAG                       | -->
+<!-- +----------------------------------+----------------------------------+ -->
+<!-- | 5\' GEN amp                       | GCGCGCGAATTCTAATACGACTCA        | -->
+<!-- +----------------------------------+----------------------------------+ -->
+<!-- | RpL30 amp Reverse                | TAGTTTGGGTTAAAGCACTTCGTCGGC      | -->
+<!-- +----------------------------------+----------------------------------+ -->
+<!-- | Non1 amp Reverse                 | AAGCAAAAACACCACGCGGTGTCA         | -->
+<!-- +----------------------------------+----------------------------------+ -->
 
 \* These RNAs were synthesized using run-off transcription.
 
@@ -2217,20 +2229,30 @@ averaged, and the IP Input Ct value, the log~2~ of the Input dilution
 (20) was also subtracted to account for the Input being 5% of the total
 sample as follows:
 
+**\
+**
 
 $\Delta Ct[normalized\ IP] = (Average\ Ct[IP]/(Average\ Ct[Input] - log~2~(Input\ Dilution\ Factor))$
 
+**\
+**
 
 Next, RNA recovery was normalized using the spike-in control for each
 sample as follows:
 
+**\
+**
 
 $\Delta \Delta Ct = \Delta Ct[normalized\ IP]-\Delta\ Ct[Luciferase]$
 
+**\
+**
 
 Next, Each sample was normalized to it\'s matched *bam* RNAi control as
 follows:
 
+**\
+**
 
 $bam\ RNAi\ normalized Ct= \Delta \Delta Ct[aramis\ RNAi\ IP] - \Delta \Delta Ct[bam\ RNAi\ IP]$
 
@@ -2238,8 +2260,13 @@ $bam\ RNAi\ normalized Ct= \Delta \Delta Ct[aramis\ RNAi\ IP] - \Delta \Delta Ct
 Finally, fold increase of IP from *aramis* RNAi over *bam* RNAi was
 calculated as follows:
 
+**\
+**
 
 $Fold Enrichment = 2^{-bam\ RNAi\ normalized\ Ct}$
+
+**\
+**
 
 
 Fold enrichment was plotted and One-sample t-test performed on *aramis*

@@ -1,0 +1,297 @@
+**Oo-site: Dashboard to visualize gene expression in the *Drosophila*
+germarium**
+
+Elliot Martin ^1â€ ^, Kahini Sarkar, Noor Kotb, Prashanth Rangan^1â€ ^
+
+^1^Department of Biological Sciences/RNA Institute, University at Albany
+SUNY, Albany, NY 12202
+
+^â€ ^Co-corresponding authors
+
+Email: <etmartin@albany.edu>, <prangan@albany.edu>
+
+**Summary:**
+
+Understanding how stem cells control their differentiation has important
+implications in disease states and in regenerative therapy. *In vivo*
+analysis of several model systems using high throughput methods to parse
+gene expression have revealed several paradigms for regulating stem cell
+state. One model system that has given us tremendous insight for
+understanding stem cell biology is the germarium of the female
+*Drosophila* gonad, which houses several kinds of stem cells and their
+niches. Bulk and single cell sequencing data as well bulk translation
+efficiency for mRNAs are available for the *Drosophila* germarium.
+However, there is a lack of an easy visualization tool to determine the
+expression of a gene of interest in the germarium. Here, we have
+compiled and developed a tool for visualizing mRNA levels and
+post-transcriptional data that represent several stages of
+differentiation in the germarium. *Drosophila* germline stem cell (GSC)
+differentiation program. We have developed visualization tools to make
+this data accessible to non-bioinformaticians that are accessible
+through a browser. Using this tool we were able to confirm previously
+reported expression patterns of developmentally regulated genes.
+Excitingly we used our tool to search for meiotic genes that may be
+regulated at the translation level and two meiosis genes, orientation
+disruptor (Ord) and crossover suppressor on 3 of Gowen (c(3)G) are
+indeed regulated post-transcriptionally.
+
+**Introduction:**
+
+The female *Drosophila* ovary provides a powerful system to study stem
+cell differentiation in an *in vivo* setting. The Drosophila ovary
+consists of two main cell lineages, the germline, which ultimately gives
+rise to eggs and the soma, which surrounds the germline and plays a
+supportive role in egg development. Each of stage of differentiation of
+Drosophila female germline stem cell (GSCs) are observable and
+identifiable from a single ovary allowing for temporal changes over GSC
+development to be easily studied. Specifically, the female *Drosophila*
+GSC undergoes an asymmetric diving giving rise to another GSC and a
+cystoblast (CB) (Figure 1A). The CB undergoes four incomplete divisions
+resulting in 2, 4, 8, and finally 16 cell cysts (CCs). During these
+divisions, the cysts transition from a mitotic cell cycle to a meiotic
+cell cycle and undergo recombination. Additionally, in the 16-CC one of
+the cells in the cyst is specified as the oocyte, while the other 15
+cells remain as nurse cells, which will provide proteins and mRNAs to
+support the development of the oocyte. The 16-CC is encapsulated by
+somatic cells and buds off from the germarium, forming an egg chamber
+and subsequently the oocyte develops into a mature egg. Somatic cells
+surround the developing germline and the germline relies on these cells
+for signaling, structure, and organization. These cells are derived from
+follicle stem cells (FSCs) which are present towards posterior of the
+germarium. FSCs divide and differentiate to give rise to several cell
+types including cap cells (CCs), which provide a niche to the GSCs,
+escort cells (ECs) which provide signaling to the early germline,
+follicle cells, (FCs) which surround the oocyte and nurse cells and
+encapsulate the egg chambers, as well as stalk cells and polar cells
+which connect the egg chambers to form the ovariole.
+
+However, one weakness to studying stem cell differentiation within a
+tissue has been the inaccessibility to high throughput methods that
+typically require a relatively homogenous collection of cells. Single
+cell seq has bridged this gap however, it has several limitations which
+have not been overcome as of the writing of this manuscript. First,
+single cell-seq has historically been limited to mRNA level data, and
+has only recently been applied to ribosome profiling. Second, it has a
+higher limit of detection than bulk mRNA-seq, preventing the detection
+of rare, but potentially important mRNAs. Finally, single cell-seq
+provides far more data than bulk sequencing methods, increasing its
+inaccessibility for non-bioinformaticians to visualize spatial
+expression of genes.
+
+Here, we use *Drosophila* genetics in order to circumvent the
+limitations of single cell seq and apply bulk sequencing techniques to
+tissue enriched for several stages of GSC differentiation. We present
+this data, alongside previously published single cell-seq data from
+Drosophila ovaries in a tool called Oo-site.
+
+**Results and discussion**
+
+Several groups have attempted to characterize the transcriptome of GSCs
+and their differentiating progeny. This was first attempted using
+microarrays of FACS sorted cells from ovaries enriched for GSCs or CBs.
+More recently, Wilcockson et al. used a similar approach to isolate GSCs
+and CBs but used RNAseq to characterize the transcriptome. Additionally,
+they purified bamGFP expressing cells from ovaries using FACS and
+performed RNAseq on those cells, which mostly represent differentiating
+cysts. These approaches have revealed key insights into GSC
+differentiation; however, they only provide data at the level of mRNA
+expression. Curiously, these studies have noted that many key genes
+involved in GSC differentiation and meiotic commitment are present
+within GSCs, but presumably the expression of these genes must be
+controlled at some level so that GSCs do not aberrantly differentiation.
+It has long been acknowledged that much of the regulation that occurs to
+drive GSC differentiation is carried out at the level of translation,
+but previous studies were not able to examine translation regulation
+across the transcriptome. Here, we have collated and reprocessed
+previously published sequencing datasets of ovaries enriched for GSCs,
+CBs, cysts, and egg chambers (Figure 1B). Each genetically enriched
+sample had matched mRNAseq and polysome-seq libraries prepared, allowing
+for simultaneous read-out of mRNA level and translation status.
+Additionally, we have integrated single-cell seq data from Slaidina et
+al. which provides finer temporal resolution in the cyst stages, but was
+unable to cluster GSCs from CBs or 2-cell cysts and only provides gene
+expression data at the level of mRNA expression.
+
+In order to make this data as accessible to the community as possible,
+we present this data as a tool called Oo-site which consists of a
+collection of user-interactable visualizations allowing researchers to
+easily determine the expression pattern of a gene of interest or the
+expression pattern of a collection of genes provided by the user.
+Oo-site consists of three modules, ovary-map, ovary-heatmap, and
+ovary-violin. Each module of Oo-site allows users to visualize
+expression from matched mRNA seq and polysome-seq data of genetically
+enriched stages of early GSC differentiation as well as previously
+published single-seq data. Ovary-map allows users to visualize the
+expression of a single gene over the course of differentiation in the
+form of a cartoon germarium, which eases understanding of staging for
+those less familiar with *Drosophila* oogenesis.
+
+Ovary-heatmap consists of a clustered, interactive heatmap of genes
+determined to be differentially expressed that allows users to explore
+expression trends over development. Finally, ovary-violin allows users
+to visualize the expression of multiple genes over the course of
+differentiation. These groups of genes can be selected either by a
+GO-term of interest or a custom list of genes can be supplied by the
+user. The user is able to download a spreadsheet of gene expression
+corresponding to the subset of genes that they have provided or defined
+by the GO-term the user has selected. Finally, Oo-site incorporates a
+report tool which generates a downloadable report of the
+visualization(s) in a standardized format to facilitate their use for
+publication. Researchers can use these datasets to enhance their
+hypothesis generation or to confirm expression patterns they have
+observed from other methods.
+
+To determine if the bulk mRNA-seq data is representative of previously
+observed expression patterns, we first compared our mRNA-seq data to
+previously reported mRNA-seq data generated from similar genetic
+enrichment strategies to enrich for GSCs and GSC-daughter cells,
+however, the previously published data included a fluorescent-assisted
+cell sorting (FACS) step so that only a pure population of germline
+cells were sequenced. Indeed, we find that genes 2-fold or more down or
+upregulated with a p-value \< 0.01, from the previously published data
+follow similar trends in our data, indicating that despite the lack of
+FACS our data reproduces meaningful expression changes at the mRNA level
+(Supplemental Figure 2A-A\'). To validate our mRNA seq data for the
+genetically enriched stages for which no previous mRNA seq libraries
+have been published and to ensure that the mRNA seq results we examined
+RpS19b which is known to be dynamically expressed during oogenesis. Our
+mRNA-seq data as well as the available SC-seq data indicates that RpS19b
+is highly expressed in GSCs that decreases over differentiation with
+greatly decreased expression in egg chambers (Fig 3A-B). We validated
+the expression of RpS19b in-vivo using in-situ hybridization as well as
+an RpS19b::GFP line under endogenous control elements and found that
+RpS19b seems to be regulated primarily at the mRNA level as we would
+expect from our sequencing data (Figure 3C-D).
+
+To determine what groups of genes are changing during these
+developmental transitions, we used GO-term analysis. As expected, genes
+expressed more highly in young WT, which contains egg chambers, than in
+CBs and differentiating cysts are enriched in GO-terms involving
+vitelline and egg shell coat. Additionally, genes with lower expression
+GSCs compared to differentiating cysts are enriched in the GO-term
+polytene chromosome puffing which is consistent with GO-terms identified
+in Wilcockson et al for genes that are expressed more highly in
+differentiating cysts than GSCs.
+
+Next, to examine if our data can resolve large scale expression changes
+that occur during oogenesis we examined the expression of genes in the
+GO-term Meiosis I. Meiosis I is initiated at during the cyst stages of
+differentiation and therefore we would expect genes in the category, in
+general, to increase in expression in the *bam* RNAi; *bam*-HS samples.
+We were surprised to find no significant change in the mean mRNA
+expression of genes in this GO-term in any of our enriched stages
+compared to enriched GSCs. However, we did see that genes in this
+GO-term had a significant increase in translation efficiency in CBs and
+a more dramatic increase in cysts. To validate this finding we chose to
+examine ord and c(3)G because they are well characterized genes,
+required for sister chromatid cohesion, and have previously been
+reported to be expressed as meiosis begins in *Drosophila*. Our Oo-site
+data suggests that Ord and c(3)G mRNA is expressed prior to meiosis,
+both from bulk mRNA-seq (Fig 4A) and SC-seq (Fig n). However, our
+polysome-seq data is consistent with the observation that Ord protein
+expression increases during the cyst stages, at the level of
+translation. This led us to predict that *ord* mRNA would be expressed
+prior to meiosis, but the protein expression would increase during the
+cyst stages as previously observed, implying a change in the translation
+status of *ord* mRNA. To test this, we performed fluorescent in-situ
+hybridization against GFP in a fly expressing Ord-GFP under the control
+of the ord promoter and 5\'UTR. We visualized both the GFP protein
+expression as well as the mRNA expression and found a dramatic
+difference in the expression of *ord::GFP* mRNA as compared to the
+expression of Ord::GFP protein, indicating that Ord is controlled
+post-transcriptionally, likely at the level of translation based on our
+polysome-seq data.
+
+To determine if changes biological processes could be detected using our
+tool, we examined the expression of genes in the GO-term "double-strand
+break repair" as this process is known to occur as a product of meiotic
+recombination. Specifically, during meiotic stages, double stranded
+breaks occur and are repaired. These double stranded breaks are resolved
+prior to egg chamber formation. At the level of input mRNA, we found no
+significant changes in the expression of genes in this category compared
+to enriched GSCs. From single cell seq data, the median expression of
+genes in this category significantly increases, but the median increase
+is only 1.05 fold in 4-CCs and 1.06 in 8-CCs compared to the GSC/CB/2-CC
+group. However, at the level of translation, we found a significant
+increase in the median TE of genes in the category "double-strand break
+repair" with a 1.20 fold increase in the median TE of genes in enriched
+CBs and a 1.56 fold increase in enriched cysts compared to enriched
+GSCs. In young-wt the median fold change in TE decreases slightly but
+significantly compared to enriched GSCs at 0.95 fold. This is consistent
+with the observed progression of double-stranded break repair that
+occurs in-vivo, demonstrating our data can be used to derive insights
+into biological processes that may be changing during early oogenesis.
+
+**Conclusions and future directions:**
+
+We have developed an application that facilitates analysis of mRNA-seq,
+polysome-seq, and single cell-seq data of early *Drosophila* oogenesis
+that is geared towards non-bioinformaticians. We have demonstrated its
+utility in recapitulating the expression at the mRNA and translation
+level. Additionally, we have demonstrated that it can be used in order
+to visualize the expression of groups of genes over development to
+facilitate hypothesis development.
+
+We have discovered that a key meiosis regulator and a member of the
+synaptonemal complex is regulated post-transcriptionally, at the level
+of translation. This adds to our understanding regarding how the mitotic
+to meiotic transition in regulated. We leave to future work to determine
+how widespread post-transcriptional regulation of crucial meiotic gene
+drives the mitotic to meiotic transition and mechanistically what
+factors underly this regulation.
+
+High-throughput sequencing has enabled researched to generate more data
+than ever before. However, the development of analysis tools that are
+usable without bioinformatics training to make sense of this data and
+allow for hypothesis generation and novel discoveries has lagged behind.
+Oo-site allows for hypothesis generation and discovery using the
+powerful model system of *Drosophila* oogenesis. Additionally, the
+open-source nature of this software allows for future tool development
+which will be crucial as more researchers delve into single-cell
+sequencing, where even more data is generated than traditional RNA-seq,
+but visualization tools are limited and produce plots that may be
+difficult to interpret to those not versed in bioinformatics and in
+particular single-cell sequencing.
+
+**Materials and Methods:**
+
+Flylines:
+
+*ord-GFP*Â (Bickel Lab)
+
+*nosGAL4*
+
+smFISH:
+
+Sequencing data:
+
+Polysome-seq data was obtained from previous studies conducted by the
+Rangan lab. Data is available via the following GEO accession numbers:
+
+UAS-tkv GSE171349
+
+bam RNAi GSE171349, ?
+
+bam RNAi; HS-bam GSE143728, ?
+
+Young wild-type GSE119458
+
+Single cell sequencing data was obtained from Slaidina et al., GEO
+accession: GSE162192
+
+Polysome-seq data processing:
+
+Reads were mapped to the *Drosophila* genome (dm6.01) using STAR version
+2.6.1c. Mapped reads were assigned to features also using STAR.
+Translation efficiency was calculated as in (Flora et al., 2018) using a
+custom R script. Briefly, CPMs (counts per million) values were
+calculated. Any gene having zero reads in any library was discarded from
+further analysis. The log~2~ ratio of CPMs between the polysome fraction
+and total mRNA was calculated and averaged between replicates. This
+ratio represents TE, TE of each replicate was averaged. Targets were
+defined as transcripts falling greater or less than one standard
+deviation from the median TE in *aramis* RNAi, but not in either of the
+two developmental controls (NosGAL4\>UAS-Tkv or NosGAL4\>bam RNAi). Only
+targets meeting a conservative expression cutoff of log~2~(TPM)
+expression greater than five were considered to exclude more lowly
+expressed genes as they are highly influenced by noise in polysome-seq.
