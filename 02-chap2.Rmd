@@ -41,24 +41,7 @@ Email: [[gfuchs\@albany.edu]{.underline}](mailto:gfuchs@albany.edu),
 
 ## Summary: 
 
-Ribosomal defects perturb stem cell differentiation,
-causing diseases called ribosomopathies. How ribosome levels control
-stem cell differentiation is not fully known. Here, we discovered three
-RNA helicases are required for ribosome biogenesis and for *Drosophila*
-oogenesis. Loss of these helicases, which we named Aramis, Athos and
-Porthos, lead to aberrant stabilization of p53, cell cycle arrest and
-stalled GSC differentiation. Aramis controls cell cycle progression by
-regulating translation of a cohort of mRNAs containing a Terminal Oligo
-Pyrimidine (TOP) motif in their 5\'-UTRs, which we find confers
-sensitivity to ribosome levels mediated by La-related protein (Larp).
-One such TOP-containing mRNA codes for [No]{.underline}vel
-[N]{.underline}ucleolar protein 1 (Non1), a conserved p53 destabilizing
-protein. When ribosome concentration is sufficient, Non1 is expressed
-and promotes GSC cell cycle progression via p53 degradation. Thus, a
-previously unappreciated TOP-motif in *Drosophila* responds to reduced
-ribosome biogenesis to co-regulate the translation of ribosomal proteins
-and a p53 repressor, thus coupling ribosome biogenesis to GSC
-differentiation.
+Ribosomal defects perturb stem cell differentiation, causing diseases called ribosomopathies. How ribosome levels control stem cell differentiation is not fully known. Here, we discovered three RNA helicases are required for ribosome biogenesis and for *Drosophila* oogenesis. Loss of these helicases, which we named Aramis, Athos and Porthos, lead to aberrant stabilization of p53, cell cycle arrest and stalled GSC differentiation. Aramis controls cell cycle progression by regulating translation of a cohort of mRNAs containing a Terminal Oligo Pyrimidine (TOP) motif in their 5’-UTRs, which we find confers sensitivity to ribosome levels mediated by La-related protein (Larp). One such TOP-containing mRNA codes for Novel Nucleolar protein 1 (Non1), a conserved p53 destabilizing protein. When ribosome concentration is sufficient, Non1 is expressed and promotes GSC cell cycle progression via p53 degradation. Unexpectedly, Aramis is required for efficient translation of a cohort of mRNAs containing a 5’-Terminal-Oligo-Pyrimidine (TOP)-motif, including mRNAs that encode ribosomal proteins and a conserved p53 inhibitor, Novel Nucleolar protein 1 (Non1). The TOP-motif co-regulates the translation of growth-related mRNAs in mammals. As in mammals, the La-related protein co-regulates the translation of TOP-motif containing RNAs during *Drosophila* oogenesis. Thus, a previously unappreciated TOP-motif in *Drosophila* responds to reduced ribosome biogenesis to co-regulate the translation of ribosomal proteins and a p53 repressor, thus coupling ribosome biogenesis to GSC differentiation.
 
 ## Introduction
 
