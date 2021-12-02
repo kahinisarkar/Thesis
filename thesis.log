@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  2 DEC 2021 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  2 DEC 2021 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,7 +560,7 @@ Chapter 1.
 [2
 
 ] [3]
-<./figure/Book Chapter/Figure1.pdf, id=265, 510.7321pt x 259.65207pt>
+<./figure/Book Chapter/Figure1.pdf, id=270, 510.7321pt x 259.65207pt>
 File: ./figure/Book Chapter/Figure1.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure1.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure1.pdf  used on input line 374.
@@ -582,7 +582,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [6]
-<./figure/Book Chapter/Figure2.pdf, id=301, 596.2275pt x 147.57535pt>
+<./figure/Book Chapter/Figure2.pdf, id=306, 596.2275pt x 147.57535pt>
 File: ./figure/Book Chapter/Figure2.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure2.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure2.pdf  used on input line 521.
@@ -607,7 +607,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 70
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [11] [12]
-<./figure/Book Chapter/Figure3.pdf, id=356, 448.07399pt x 592.61403pt>
+<./figure/Book Chapter/Figure3.pdf, id=361, 448.07399pt x 592.61403pt>
 File: ./figure/Book Chapter/Figure3.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure3.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure3.pdf  used on input line 799.
@@ -634,7 +634,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [16]
-<./figure/Book Chapter/Figure4.pdf, id=397, 439.97975pt x 542.025pt>
+<./figure/Book Chapter/Figure4.pdf, id=402, 439.97975pt x 542.025pt>
 File: ./figure/Book Chapter/Figure4.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure4.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure4.pdf  used on input line 951.
@@ -659,224 +659,219 @@ Chapter 2.
 [20
 
 ] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf, id=521, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf, id=526, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf  used on input line 1839.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf  used on input line 1865.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf, id=522, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf, id=527, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf  used on input line 1847.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf  used on input line 1873.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 [36]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [37 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf, id=584, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf, id=588, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf  used on input line 1855.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf  used on input line 1881.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [38 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf, id=674, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf, id=678, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf  used on input line 1863.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf  used on input line 1889.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [39 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf, id=741, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf, id=745, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf  used on input line 1871.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf  used on input line 1897.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [40 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf, id=825, 794.97pt x 614.295pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf, id=829, 794.97pt x 614.295pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf  used on input line 1879.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf  used on input line 1905.
 (pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
 
-Overfull \hbox (36.14922pt too wide) in paragraph at lines 1879--1880
+Overfull \hbox (36.14922pt too wide) in paragraph at lines 1905--1906
  [][] 
  []
 
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [41 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf, id=921, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf, id=925, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf  used on input line 1887.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf  used on input line 1913.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf, id=922, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf, id=926, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf  used on input line 1895.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf  used on input line 1921.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 [42 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [43 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf, id=1125, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf, id=1129, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf  used on input line 1903.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf  used on input line 1929.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [44 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4s.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf, id=1199, 794.97pt x 614.295pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf, id=1203, 794.97pt x 614.295pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf  used on input line 1911.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf  used on input line 1937.
 (pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
 
-Overfull \hbox (36.14922pt too wide) in paragraph at lines 1911--1912
+Overfull \hbox (36.14922pt too wide) in paragraph at lines 1937--1938
  [][] 
  []
 
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [45 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf, id=1281, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf, id=1285, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf  used on input line 1919.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf  used on input line 1945.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf, id=1282, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf, id=1286, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf  used on input line 1927.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf  used on input line 1953.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 [46 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>]
 Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
 [47 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf, id=1439, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf, id=1443, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf  used on input line 1935.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf  used on input line 1961.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [48 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf, id=1539, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf, id=1543, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf  used on input line 1943.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf  used on input line 1969.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [49 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
 [50 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1988--1989
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
 
  []
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 2021--2022
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2068--2069
+Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
 
  []
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 2098--2099
+Underfull \hbox (badness 10000) in paragraph at lines 2120--2121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2158--2159
 
  []
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 2137--2138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2178--2179
+Underfull \hbox (badness 10000) in paragraph at lines 2199--2200
 
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 2210--2211
+Underfull \hbox (badness 10000) in paragraph at lines 2230--2231
 
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 2213--2252
+Underfull \hbox (badness 3209) in paragraph at lines 2232--2270
+\T1/lmr/m/n/12 im-ages of (\T1/lmr/bx/n/12 C\T1/lmr/m/n/12 ) Athos::GFP::3XFLAG and (\T1/lmr/bx/n/12 C'\T1/lmr/m/n/12 ) Athos::GFP::3XFLAG in con-junc-
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 2232--2270
 \T1/lmr/m/n/12 in Aramis::GFP::3XFLAG ovaries com-pared to Aramis::GFP::3XFLAG in con-junc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2254--2255
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2273
 
  []
 
 [55]
-Underfull \hbox (badness 10000) in paragraph at lines 2285--2286
+Underfull \hbox (badness 10000) in paragraph at lines 2347--2348
 
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 2331--2332
+Underfull \hbox (badness 10000) in paragraph at lines 2370--2371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2356--2357
+Underfull \hbox (badness 10000) in paragraph at lines 2404--2405
 
  []
 
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 2391--2392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2438--2439
+Underfull \hbox (badness 10000) in paragraph at lines 2450--2451
 
  []
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 2476--2477
+Underfull \hbox (badness 10000) in paragraph at lines 2487--2488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2483--2484
+Underfull \hbox (badness 10000) in paragraph at lines 2494--2495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2525--2526
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2514--2515
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2531--2532
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2550--2551
+Underfull \hbox (badness 10000) in paragraph at lines 2542--2543
 
  []
 
@@ -885,48 +880,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 2561--2562
 
  []
 
-[60]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2584.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2572--2573
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2595.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \hbox (badness 2088) in paragraph at lines 2600--2613
+) [60]
+Underfull \hbox (badness 2088) in paragraph at lines 2611--2624
 \T1/lmr/m/n/12 #56977 Athos RNAi#1 CG4901$[]$, #36589 Porthos RNAi#1 CG9253$[]$,
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 2600--2613
+Underfull \hbox (badness 2245) in paragraph at lines 2611--2624
 \T1/lmr/m/n/12 p53$[]$, #55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B,
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 2614--2619
+Underfull \hbox (badness 2726) in paragraph at lines 2625--2630
 \T1/lmr/m/n/12 CG5589$[]$, Athos RNAi#2 CG4901$[]$, Aramis::GFP PBac{fTRG01033.sfGFP-
  []
 
 
-Overfull \hbox (3.97366pt too wide) in paragraph at lines 2614--2619
+Overfull \hbox (3.97366pt too wide) in paragraph at lines 2625--2630
 \T1/lmr/m/n/12 TVPTBF}VK00002, Athos::GFP PBac{fTRG01233.sfGFP-TVPTBF}VK00033, Non1::GFP
  []
 
 [61] [62] [63] [64] [65] [66] [67] [68] [69]
-Overfull \hbox (109.38345pt too wide) in paragraph at lines 3153--3155
+Overfull \hbox (109.38345pt too wide) in paragraph at lines 3164--3166
 []\T1/lmr/m/n/12 *Purine-substituted RPL30 con-trol: \T1/lmr/bx/n/12 GAAAAG\T1/lmr/m/n/12 CCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA 
  []
 
 
-Overfull \hbox (105.38087pt too wide) in paragraph at lines 3156--3158
+Overfull \hbox (105.38087pt too wide) in paragraph at lines 3167--3169
 []\T1/lmr/m/n/12 *Purine-substituted Non1 con-trol: \T1/lmr/bx/n/12 GAAAAAG\T1/lmr/m/n/12 GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU 
  []
 
 
-Overfull \hbox (17.56767pt too wide) in paragraph at lines 3207--3208
-[]\T1/lmr/m/n/12 TAGTTTGGGTTAAAGCACTTCGTCGGC|  
+Underfull \hbox (badness 10000) in paragraph at lines 3230--3231
+
  []
 
 [70]
-Overfull \hbox (30.85828pt too wide) in paragraph at lines 3273--3274
+Overfull \hbox (30.85828pt too wide) in paragraph at lines 3232--3233
 []$\OT1/lmr/m/n/12 ^^A\OML/lmm/m/it/12 Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 normalized IP\OT1/lmr/m/n/12 ] = (\OML/lmm/m/it/12 Average Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 IP\OT1/lmr/m/n/12 ]\OML/lmm/m/it/12 =\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 Average Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 Input\OT1/lmr/m/n/12 ] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 log []\OT1/lmr/m/n/12 2 [](\OML/lmm/m/it/12 Input Dilution Factor\OT1/lmr/m/n/12 ))$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3235--3236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3241--3242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3246--3247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3252--3253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3260--3261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3265--3266
+
  []
 
 [71] [72
@@ -934,15 +963,15 @@ Overfull \hbox (30.85828pt too wide) in paragraph at lines 3273--3274
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3316.
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 3317.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3293.
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 3294.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [73
 
 ]
 
-LaTeX Warning: Reference `ref-labels' on page 74 undefined on input line 3344.
+LaTeX Warning: Reference `ref-labels' on page 74 undefined on input line 3321.
 
 [74]
 Appendix B.
@@ -952,20 +981,20 @@ Appendix B.
 
 
 ] [77]
-Underfull \hbox (badness 1242) in paragraph at lines 3431--3433
+Underfull \hbox (badness 1242) in paragraph at lines 3408--3410
  \T1/lmr/m/n/12 Poly(ADP-Ribose) Poly-merase 1 (PARP-1) Reg-u-lates Ri-bo-so-mal Bio-gen-e-sis in
  []
 
 [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96pdfTeX warning (ext4): destination with the same identifier (name{ref-Slaidina2014h}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4105 
+l.4082 
        ] [97] [98] [99] [100] [101pdfTeX warning (ext4): destination with the same identifier (name{ref-Xie2000b}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4292 \leavevmode
+l.4269 \leavevmode
                   \hypertarget{ref-Zhang2015c}{}%]
-Underfull \hbox (badness 2564) in paragraph at lines 4310--4312
+Underfull \hbox (badness 2564) in paragraph at lines 4287--4289
  \T1/lmr/m/n/12 Cells by Trans-fec-tion with dsRNA. \T1/lmr/m/it/12 Cold Spring Har-bor Pro-to-cols\T1/lmr/m/n/12 , \T1/lmr/m/it/12 2013\T1/lmr/m/n/12 (5),
  []
 
@@ -977,18 +1006,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 39CA62020AD88583B8A9A2C52A29E0B9;9875.
  ) 
 Here is how much of TeX's memory you used:
- 13133 strings out of 480313
- 225216 string characters out of 5895695
- 502249 words of memory out of 5000000
- 30234 multiletter control sequences out of 15000+600000
- 470874 words of font info for 70 fonts, out of 8000000 for 9000
+ 13128 strings out of 480313
+ 225169 string characters out of 5895695
+ 504056 words of memory out of 5000000
+ 30231 multiletter control sequences out of 15000+600000
+ 470459 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,69p,1645b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,69p,1645b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on thesis.pdf (112 pages, 63612951 bytes).
+Output written on thesis.pdf (112 pages, 63612792 bytes).
 PDF statistics:
- 2825 PDF objects out of 2984 (max. 8388607)
- 1690 compressed objects within 17 object streams
- 513 named destinations out of 1000 (max. 500000)
+ 2826 PDF objects out of 2984 (max. 8388607)
+ 1692 compressed objects within 17 object streams
+ 512 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

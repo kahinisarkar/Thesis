@@ -1,17 +1,30 @@
-(ref:RiBi-F2-1-short) **RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.** 
-(ref:RiBi-F2-2-short) **Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.** 
-(ref:RiBi-F2-3-short) **Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.**
-(ref:RiBi-F2-4-short) **Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.** 
-(ref:RiBi-F2-5-short) **Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.** 
-(ref:RiBi-F2-6-short) **Aramis is required for proper cell cycle progression, related to Figure 2.5.** 
-(ref:RiBi-F2-7-short) **Aramis is required for efficient translation of a subset of mRNAs.**  
-(ref:RiBi-F2-8-short) **The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.** 
-(ref:RiBi-F2-9-short) **Non1 represses p53 expression to allow for GSC differentiation.** 
-(ref:RiBi-F2-10-short) **Non1 and p53 are inversely expressed, related to Figure 2.9.** 
-(ref:RiBi-F2-11-short) **Aramis regulated mRNAs contain a TOP motif.** 
-(ref:RiBi-F2-12-short) **TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.**
-(ref:RiBi-F2-13-short) **Larp binds to TOP mRNAs and binding is regulated by Aramis.** 
-(ref:RiBi-F2-14-short) **Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.**  
+(ref:RiBi-F2-1-short) RNA helicases Aramis, Athos and Porthos are required for GSC differentiation. 
+
+(ref:RiBi-F2-2-short) Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1. 
+
+(ref:RiBi-F2-3-short) Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.
+
+(ref:RiBi-F2-4-short) Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3. 
+
+(ref:RiBi-F2-5-short) Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis. 
+
+(ref:RiBi-F2-6-short) Aramis is required for proper cell cycle progression, related to Figure 2.5. 
+
+(ref:RiBi-F2-7-short) Aramis is required for efficient translation of a subset of mRNAs.  
+
+(ref:RiBi-F2-8-short) The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7. 
+
+(ref:RiBi-F2-9-short) Non1 represses p53 expression to allow for GSC differentiation. 
+
+(ref:RiBi-F2-10-short) Non1 and p53 are inversely expressed, related to Figure 2.9. 
+
+(ref:RiBi-F2-11-short) Aramis regulated mRNAs contain a TOP motif. 
+
+(ref:RiBi-F2-12-short) TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.
+
+(ref:RiBi-F2-13-short) Larp binds to TOP mRNAs and binding is regulated by Aramis. 
+
+(ref:RiBi-F2-14-short) Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.  
 
 # A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis
 
@@ -864,59 +877,59 @@ P.R.; Writing -- Review & Editing, E.T.M., P.B., D.E.S, A.B., G.F., and
 P.R.; Funding Acquisition, G.F. and P.R.; Visualization, E.T.M., E.N.;
 Supervision, G.F. and P.R.
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-1-short)', fig.scap='(ref:RiBi-F2-1-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-2-short)', fig.scap='(ref:RiBi-F2-2-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-3-short)', fig.scap='(ref:RiBi-F2-3-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-4-short)', fig.scap='(ref:RiBi-F2-4-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-5-short)', fig.scap='(ref:RiBi-F2-5-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf")
 ```
 
-```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F2-6-short)', fig.scap='(ref:RiBi-F2-6-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-7-short)', fig.scap='(ref:RiBi-F2-7-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-8-short)', fig.scap='(ref:RiBi-F2-8-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-9-short)', fig.scap='(ref:RiBi-F2-9-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf")
 ```
 
-```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F2-10-short)', fig.scap='(ref:RiBi-F2-10-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-11-short)', fig.scap='(ref:RiBi-F2-11-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-12-short)', fig.scap='(ref:RiBi-F2-12-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-13-short)', fig.scap='(ref:RiBi-F2-1-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf")
 ```
 
-```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F1-short)', fig.scap='(ref:RiBi-F1-short)', echo=FALSE}
+```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-14-short)', fig.scap='(ref:RiBi-F2-1-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf")
 ```
 
