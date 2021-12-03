@@ -36,9 +36,9 @@ abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims"
 # like below, use a command like that for the abstract above.  Note that a tab 
 # is needed on the line after the `|`.
 acknowledgements: | 
-  I want to thank a few people.
+  '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
 dedication: | 
-  You can have a dedication here if you wish. 
+  Dedicated to my wife and best friend Alli. 
 preface: |  
   This is an example of a thesis setup to use the reed thesis document class 
   (for LaTeX) and the R bookdown package, in general.

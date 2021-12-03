@@ -1,4 +1,7 @@
-\contentsline {chapter}{Introduction}{1}{chapter*.8}%
+\contentsline {section}{Acknowledgements}{i}{section*.2}%
+\contentsline {section}{Preface}{i}{section*.3}%
+\contentsline {section}{Dedication}{i}{section*.4}%
+\contentsline {chapter}{Introduction}{1}{chapter*.11}%
 \contentsline {chapter}{Chapter 1: Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during \emph {Drosophila} oogenesis}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Abstract}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction}{3}{section.1.2}%
@@ -23,8 +26,8 @@
 \contentsline {subsection}{\numberline {2.4.4}Larp transduces growth status to ribosome biogenesis targets}{34}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Ribosome biogenesis in stem cell differentiation and ribosomopathies}{35}{subsection.2.4.5}%
 \contentsline {section}{\numberline {2.5}Materials and Methods}{60}{section.2.5}%
-\contentsline {subsubsection}{Larp Gel Shifts}{69}{section*.27}%
-\contentsline {chapter}{Conclusion}{72}{chapter*.28}%
+\contentsline {subsubsection}{Larp Gel Shifts}{69}{section*.30}%
+\contentsline {chapter}{Conclusion}{72}{chapter*.31}%
 \contentsline {chapter}{Appendix A: The First Appendix}{73}{appendix.A}%
 \contentsline {chapter}{Appendix B: The Second Appendix, for Fun}{75}{appendix.B}%
-\contentsline {chapter}{References}{76}{appendix*.29}%
+\contentsline {chapter}{References}{76}{appendix*.32}%
