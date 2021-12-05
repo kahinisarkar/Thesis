@@ -1,6 +1,6 @@
 (ref:RiBi-F2-1-short) RNA helicases Aramis, Athos and Porthos are required for GSC differentiation. 
 
-(ref:RiBi-F2-2-short) Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1. 
+(ref:RiBi-F2-2-short) Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.
 
 (ref:RiBi-F2-3-short) Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.
 
@@ -49,8 +49,8 @@ Pittsburgh, PA 15260
 
 ^†^Co-corresponding authors
 
-Email: [[gfuchs\@albany.edu]{.underline}](mailto:gfuchs@albany.edu),
-[prangan\@albany.edu]{.underline}
+Email: gfuchs\@albany.edu,
+prangan\@albany.edu
 
 ## Summary: 
 
@@ -496,8 +496,7 @@ TOP-containing mRNAs in *Drosophila* has been speculated, to our
 knowledge their presence has not been explicitly demonstrated
 [@chenComprehensiveAnalysisNucleocytoplasmic2017;@qinGlobalAnalysesMRNA2007a]. This observation motivated us to
 precisely determine the 5\' end of transcripts, so we analyzed previously
-published [c]{.underline}ap [a]{.underline}nalysis of [g]{.underline}ene
-[e]{.underline}xpression sequencing (CAGE-seq) data that had determined
+published Cap Analysis of Gene Expression sequencing (CAGE-seq) data that had determined
 transcription start sites (TSS) in total mRNA from the ovary (**Figure
 6A**) [@boleyNavigatingMiningModENCODE2014;@chenComparativeValidationMelanogaster2014;@dossantosFlyBaseIntroductionDrosophila2015]. Of the 87 target genes,
 76 had sufficient expression in the CAGE-seq dataset to define their
@@ -854,7 +853,7 @@ tolerated in different developing tissues
 mechanisms could begin to explain the tissue-specific nature of
 ribosomopathies and their link to differentiation.
 
-**[Acknowledgements]{.underline}**
+**Acknowledgements**
 
 We are grateful to all members of the Rangan and Fuchs labs for their
 discussion and comments on the manuscript. We also thanks Dr. Sammons,
@@ -868,7 +867,7 @@ Marie Curie CIG 334077/IRTIM and the Austrian Science Fund (FWF) grant
 ASI\_FWF01\_P29638S, and A.B is funded by NIH R01GM116889 and American
 Cancer Society RSG-17-197-01-RMC.
 
-**[Author Contributions${.underline}**
+**Author Contributions$**
 
 Conceptualization, E.T.M., P.B., G.F., and P.R.; Methodology, E.T.M.,
 P.B., G.F., and P.R.; Investigation, E.T.M., P.B., E.N., R.L., S.S.,
@@ -2212,8 +2211,8 @@ with the following modifications. As the ovaries used were small, they
 were flash frozen in order to accumulate 40-50 ovaries for each
 biological replicate. Additionally, 5% input was taken for both RNA and
 protein samples. Once RNA was purified all of the RNA was treated with
-Turbo DNAse as in the [ ]{.underline} mRNAseq Library Preparation and
-Analysis section. Reverse transcription (RT) was performed using
+Turbo DNAse as in the **mRNAseq Library Preparation and
+Analysis** section. Reverse transcription (RT) was performed using
 Superscript II according to the manufacture\'s protocol with equivalent
 volumes of RNA for each sample. cDNA was diluted 1:8 before performing
 qPCR using Syber Green. Each reaction consisted of 5ul Syber Green
