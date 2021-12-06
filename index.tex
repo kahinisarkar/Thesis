@@ -1,0 +1,229 @@
+% This is the Reed College LaTeX thesis template. Most of the work
+% for the document class was done by Sam Noble (SN), as well as this
+% template. Later comments etc. by Ben Salzberg (BTS). Additional
+% restructuring and APA support by Jess Youngberg (JY).
+% Your comments and suggestions are more than welcome; please email
+% them to cus@reed.edu
+%
+% See https://www.reed.edu/cis/help/LaTeX/index.html for help. There are a
+% great bunch of help pages there, with notes on
+% getting started, bibtex, etc. Go there and read it if you're not
+% already familiar with LaTeX.
+%
+% Any line that starts with a percent symbol is a comment.
+% They won't show up in the document, and are useful for notes
+% to yourself and explaining commands.
+% Commenting also removes a line from the document;
+% very handy for troubleshooting problems. -BTS
+
+% As far as I know, this follows the requirements laid out in
+% the 2002-2003 Senior Handbook. Ask a librarian to check the
+% document before binding. -SN
+
+%%
+%% Preamble
+%%
+% \documentclass{<something>} must begin each LaTeX document
+\documentclass[12pt,oneside]{reedthesis}
+% Packages are extensions to the basic LaTeX functions. Whatever you
+% want to typeset, there is probably a package out there for it.
+% Chemistry (chemtex), screenplays, you name it.
+% Check out CTAN to see: https://www.ctan.org/
+%%
+\usepackage{graphicx,latexsym}
+\usepackage{amsmath}
+\usepackage{amssymb,amsthm}
+\usepackage{longtable,booktabs,setspace}
+\usepackage{chemarr} %% Useful for one reaction arrow, useless if you're not a chem major
+\usepackage[hyphens]{url}
+% Added by CII
+\usepackage{hyperref}
+\usepackage{lmodern}
+\usepackage{float}
+\floatplacement{figure}{H}
+% Thanks, @Xyv
+\usepackage{calc}
+% End of CII addition
+\usepackage{rotating}
+
+% Next line commented out by CII
+%%% \usepackage{natbib}
+% Comment out the natbib line above and uncomment the following two lines to use the new
+% biblatex-chicago style, for Chicago A. Also make some changes at the end where the
+% bibliography is included.
+%\usepackage{biblatex-chicago}
+%\bibliography{thesis}
+
+
+% Added by CII (Thanks, Hadley!)
+% Use ref for internal links
+\renewcommand{\hyperref}[2][???]{\autoref{#1}}
+\def\chapterautorefname{Chapter}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Subsection}
+% End of CII addition
+
+% Added by CII
+\usepackage{caption}
+\captionsetup{width=5in}
+% End of CII addition
+
+% \usepackage{times} % other fonts are available like times, bookman, charter, palatino
+
+% Syntax highlighting #22
+
+% To pass between YAML and LaTeX the dollar signs are added by CII
+\title{Translation control tunes \emph{Drosophila} oogenesis}
+\author{Elliot T. Martin}
+% The month and year that you submit your FINAL draft TO THE LIBRARY (May or December)
+\date{December 2021}
+\division{Biology}
+\advisor{Prashanth Rangan}
+\institution{University at Albany}
+\degree{Doctor of Philosophy}
+%If you have two advisors for some reason, you can use the following
+% Uncommented out by CII
+\altadvisor{Gabriele Fuchs}
+% End of CII addition
+
+%%% Remember to use the correct department!
+\department{Biology}
+% if you're writing a thesis in an interdisciplinary major,
+% uncomment the line below and change the text as appropriate.
+% check the Senior Handbook if unsure.
+%\thedivisionof{The Established Interdisciplinary Committee for}
+% if you want the approval page to say "Approved for the Committee",
+% uncomment the next line
+%\approvedforthe{Committee}
+
+% Added by CII
+%%% Copied from knitr
+%% maxwidth is the original width if it's less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+% From {rticles}
+
+\renewcommand{\contentsname}{Table of Contents}
+% End of CII addition
+
+\setlength{\parskip}{0pt}
+
+% Added by CII
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\Acknowledgements{
+'The work herein was only able to be completed thanks to the contribution of others.
+Foremost, my wife Allison Martin, without whom I would have given up countless times along the way to my PhD. She
+has been a sounding board, a life-coach, and my best friend for the years this work has taken.
+
+Secondly, my family including my son, Levi, who from childhood supported my curiosity and enabled me to pursue my interests and passions. Knowing
+that I have always had them to fall back on provided a cushion that ahs helped me from struggling in undergrad to the completion of
+my PhD.
+
+For direction, motivation, and guidance, I thank my mentors Dr.~Prash Rangan and Dr.~Gaby Fuchs. They agreed to mentor a
+disorganized student with less than stellar academics. Since that point they have helped me not only in developing a
+successful project, but also in maturing as an academic, a bench scientist, and generally, into adulthood.
+
+A thank you to my labmates who were always there to talk me through a failed experiment or
+get excited about an interesting result.
+
+To my collaborators, Elaine Nguyen, Roni Lahr, Dr.~Andrea
+Berman, Dr.~Shamsi Emtenani, and Dr.~Daria Siekhaus, that contributed to this work I thank you for your expertise and beautiful results.
+
+Finally, to my committee members, Dr.~Thomas Begley, Dr.~Paolo Forni, and Dr.~Joesph Wade for their guidance and advice throughout my graduate studies.
+
+\texttt{r\ if(!knitr:::is\_latex\_output())\ \textquotesingle{}\#\#\ Abstract\ \{-\}\textquotesingle{}}'
+}
+
+\Dedication{
+Dedicated to my wife and best friend Alli.
+}
+
+\Preface{
+This is an example of a thesis setup to use the reed thesis document class
+(for LaTeX) and the R bookdown package, in general.
+}
+
+\Abstract{
+All dynamic biological processes require control over transcription, translation, or post-translational products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
+The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
+Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcriptional and translational landscape over development. I have also used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
+}
+
+% End of CII addition
+%%
+%% End Preamble
+%%
+%
+\begin{document}
+
+% Everything below added by CII
+  \maketitle
+
+\frontmatter % this stuff will be roman-numbered
+\pagestyle{empty} % this removes page numbers from the frontmatter
+  \begin{acknowledgements}
+    'The work herein was only able to be completed thanks to the contribution of others.
+    Foremost, my wife Allison Martin, without whom I would have given up countless times along the way to my PhD. She
+    has been a sounding board, a life-coach, and my best friend for the years this work has taken.
+
+    Secondly, my family including my son, Levi, who from childhood supported my curiosity and enabled me to pursue my interests and passions. Knowing
+    that I have always had them to fall back on provided a cushion that ahs helped me from struggling in undergrad to the completion of
+    my PhD.
+
+    For direction, motivation, and guidance, I thank my mentors Dr.~Prash Rangan and Dr.~Gaby Fuchs. They agreed to mentor a
+    disorganized student with less than stellar academics. Since that point they have helped me not only in developing a
+    successful project, but also in maturing as an academic, a bench scientist, and generally, into adulthood.
+
+    A thank you to my labmates who were always there to talk me through a failed experiment or
+    get excited about an interesting result.
+
+    To my collaborators, Elaine Nguyen, Roni Lahr, Dr.~Andrea
+    Berman, Dr.~Shamsi Emtenani, and Dr.~Daria Siekhaus, that contributed to this work I thank you for your expertise and beautiful results.
+
+    Finally, to my committee members, Dr.~Thomas Begley, Dr.~Paolo Forni, and Dr.~Joesph Wade for their guidance and advice throughout my graduate studies.
+
+    \texttt{r\ if(!knitr:::is\_latex\_output())\ \textquotesingle{}\#\#\ Abstract\ \{-\}\textquotesingle{}}'
+  \end{acknowledgements}
+  \begin{preface}
+    This is an example of a thesis setup to use the reed thesis document class
+    (for LaTeX) and the R bookdown package, in general.
+  \end{preface}
+  \hypersetup{linkcolor=black}
+  \setcounter{secnumdepth}{2}
+  \setcounter{tocdepth}{2}
+  \tableofcontents
+
+  \listoftables
+
+  \listoffigures
+  \begin{abstract}
+    All dynamic biological processes require control over transcription, translation, or post-translational products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
+    The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
+    Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcriptional and translational landscape over development. I have also used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
+  \end{abstract}
+  \begin{dedication}
+    Dedicated to my wife and best friend Alli.
+  \end{dedication}
+\mainmatter % here the regular arabic numbering starts
+\pagestyle{fancyplain} % turns page numbering back on
+
+\hypertarget{introduction}{%
+\chapter*{Introduction}\label{introduction}}
+\addcontentsline{toc}{chapter}{Introduction}
+
+
+% Index?
+
+\end{document}
