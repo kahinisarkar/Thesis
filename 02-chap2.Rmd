@@ -282,7 +282,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf
 **
 
 <!-- **Figure 2.2. Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.**  -->
-(**A**) targeting *aramis*, *athos*, *porthos* relative to $\alpha$*-tub84B* to
+(**A**) qPCR targeting *aramis*, *athos*, *porthos* relative to $\alpha$*-tub84B* to
 measure knockdown efficiency of *aramis*, *athos*, and *porthos* RNAi in
 the germline (n=3, Welch\'s t-test with Holm-Bonferroni correction, \*
 =p\<0.05, \*\*=p\<0.01). (**B-B\'**) Confocal images of (**B**)
