@@ -439,7 +439,7 @@ of *rps2*, incompletely, by 60-70%, while other allelic combinations
 result in embryonic lethality [@Cramton1994a]. Incomplete loss of
 function alleles for another ribosomal protein, *ribosomal protein S3*,
 result in a similar repeating egg chamber phenotype
-[@SÃ¦bÃ¸e-Larssen1998\]. These observations suggest that partial loss of
+[Sæbøe-Larssen1998]. These observations suggest that partial loss of
 ribosome biogenesis during oogenesis may be tolerated during
 differentiation but results in phenotypes at a later phase of egg
 production, consistent with the model that high levels of biogenesis in
