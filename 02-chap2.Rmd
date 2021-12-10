@@ -439,9 +439,9 @@ promote GSC abscission [@Flora2018l;@Mathieu2013d]. To test if the
 loss of germline *aramis* leads to GSC abscission defects due to
 diminished expression of CycB, we attempted to express a functional
 CycB::GFP fusion protein in the germline under the control of a UAS/GAL4
-system (**Figure 2.6D-D\'**) [@Mathieu2013d]. Unexpectedly, the
+system (**Figure 2.6F-G'**) [@Mathieu2013d]. Unexpectedly, the
 CycB::GFP fusion protein was not expressed in the *aramis-*depleted
-germline, unlike the wild type (WT) germline (**Figure 2.6E-E\'**)
+germline, unlike the wild type (WT) germline (**Figure 2.6F-G**)
 [@glotzerCyclinDegradedUbiquitin1991;@Mathieu2013d;@Zielke2014a].
 We considered the possibility that progression into G2 is blocked in the
 absence of *aramis*, precluding expression of CycB. To monitor the cell
@@ -454,7 +454,7 @@ the *aramis*-depleted germaria expressed neither GFP nor RFP (**Figure 2.6F-H\'\
 early S phase, when expression of E2f1 is low and CycB is not expressed
 [@hinnantTemporalRemodelingCell2017]. The inability to express FPs is
 not due to a defect in translation as *aramis*-depleted germline can
-express GFP that is not tagged with the degron (**Figure 2.6I-I\'**).
+express GFP that is not tagged with the degron (**Figure 2.6K**).
 Taken together, we infer that loss of *aramis* blocks cell cycle
 progression around late G1 phase/early S phase and prevents progression
 to G2 phase, when GSCs abscise from CBs.
@@ -466,20 +466,20 @@ stabilization in undifferentiated cells, driving cell cycle arrest and
 GSC abscission defects. To test this hypothesis, we detected p53 and
 Vasa in the germline by immunostaining. A hybrid dysgenic cross that
 expresses p53 in undifferentiated cells was utilized as a positive
-control, and *p53* null flies were used as negative controls (**Figure 2.6J-K**) [@Moon2018a]. In WT, we observed p53 expression in the
+control, and *p53* null flies were used as negative controls (**Figure 2.6L-M**) [@Moon2018a]. In WT, we observed p53 expression in the
 meiotic stages of germline but p53 expression in GSCs and CBs was
 attenuated as previously reported (**Figure 2.5G-G\'\'**)
 [@luMeioticRecombinationProvokes2010]. However, compared to WT
 GSCs/CBs, we observed p53 expression in the stem cysts of the
 *aramis-*depleted germline (**Figure 2.5G-I**). Similarly, we observed p53
 expression in the stem cysts of *athos-* and *porthos-*depleted
-germlines **(Figure 2.6L-M)**, further supporting that reduced ribosome
+germlines (**Figure 2.6N-O**), further supporting that reduced ribosome
 biogenesis stabilizes p53. To determine if p53 stabilization is required
 for the cell cycle arrest in *aramis*, *athos*, and *porthos-*depleted
 germline cysts, we depleted *aramis*, *athos* and *porthos* in the
 germline of *p53* mutants using germline specific knockdown. We observed
 a partial but significant alleviation of the cyst phenotype, such that
-spectrosomes were restored (**Figure 2.5J-L, Figure 2.6N-Q**). This finding
+spectrosomes were restored (**Figure 2.5J-L, Figure 2.6P-T**). This finding
 indicates that p53 contributes to cytokinesis failure upon loss of
 *aramis*, but that additional factors are also involved.
 
