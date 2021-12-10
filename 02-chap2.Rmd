@@ -54,25 +54,44 @@ prangan\@albany.edu
 
 ## Summary: 
 
-Ribosomal defects perturb stem cell differentiation, causing diseases called ribosomopathies. How ribosome levels control stem cell differentiation is not fully known. Here, we discovered three RNA helicases are required for ribosome biogenesis and for *Drosophila* oogenesis. Loss of these helicases, which we named Aramis, Athos and Porthos, lead to aberrant stabilization of p53, cell cycle arrest and stalled GSC differentiation. Aramis controls cell cycle progression by regulating translation of a cohort of mRNAs containing a Terminal Oligo Pyrimidine (TOP) motif in their 5’-UTRs, which we find confers sensitivity to ribosome levels mediated by La-related protein (Larp). One such TOP-containing mRNA codes for Novel Nucleolar protein 1 (Non1), a conserved p53 destabilizing protein. When ribosome concentration is sufficient, Non1 is expressed and promotes GSC cell cycle progression via p53 degradation. Unexpectedly, Aramis is required for efficient translation of a cohort of mRNAs containing a 5’-Terminal-Oligo-Pyrimidine (TOP)-motif, including mRNAs that encode ribosomal proteins and a conserved p53 inhibitor, Novel Nucleolar protein 1 (Non1). The TOP-motif co-regulates the translation of growth-related mRNAs in mammals. As in mammals, the La-related protein co-regulates the translation of TOP-motif containing RNAs during *Drosophila* oogenesis. Thus, a previously unappreciated TOP-motif in *Drosophila* responds to reduced ribosome biogenesis to co-regulate the translation of ribosomal proteins and a p53 repressor, thus coupling ribosome biogenesis to GSC differentiation.
+Ribosomal defects perturb stem cell differentiation,
+causing ribosomopathies. How ribosome levels control stem cell
+differentiation is not fully known. Here we discovered that three RNA
+helicases govern ribosome biogenesis and *Drosophila* oogenesis. Loss of
+these helicases, which we named Aramis, Athos and Porthos, aberrantly
+stabilized p53, arrested the cell cycle and stalled GSC differentiation.
+Aramis controls cell cycle progression by regulating translation of
+mRNAs containing a Terminal Oligo Pyrimidine (TOP) motif in their
+5\'-UTRs; we find TOP motifs confer sensitivity to ribosome levels
+mediated by La-related protein (Larp). One such TOP-containing mRNA
+codes for [No]{.ul}vel [N]{.ul}ucleolar protein 1 (Non1), a conserved
+p53 destabilizing protein. Upon a sufficient ribosome concentration,
+Non1 is expressed and promotes GSC cell cycle progression via p53
+degradation. Thus, a previously unappreciated TOP-motif in *Drosophila*
+responds to reduced ribosome biogenesis to co-regulate the translation
+of ribosomal proteins and a p53 repressor, coupling ribosome biogenesis
+to GSC differentiation.
 
 ## Introduction
 
+
 All life depends on the ability of ribosomes to translate mRNAs into
-proteins. Despite this universal requirement, ribosome biogenesis is not
-universally equivalent. Stem cells, the unique cell type that underlies
-the generation and expansion of tissues, in particular have a distinct
-ribosomal requirement [@gabutRibosomeTranslationalControl2020;@Sanchez2016h;@woolnoughRegulationRRNAGene2016;@zahradkalRegulationRibosomeBiogenesis1991;@Zhang2014d]. Ribosome
+proteins. Despite this universal requirement, perturbations in ribosome
+biogenesis affects some cell types more than others. Stem cells, the
+unique cell type that underlies the generation and expansion of tissues,
+in particular have an increased ribosomal requirement
+[@gabutRibosomeTranslationalControl2020;@Sanchez2016h;@woolnoughRegulationRRNAGene2016;@zahradkalRegulationRibosomeBiogenesis1991;@Zhang2014d]. Ribosome
 production and levels are dynamically regulated to maintain higher
 amounts in stem cells [@Fichelson2009a;@gabutRibosomeTranslationalControl2020;@Sanchez2016h;@woolnoughRegulationRRNAGene2016;@zahradkalRegulationRibosomeBiogenesis1991;@Zhang2014d]. For
 example, ribosome biogenesis components are often differentially
-expressed, as observed during differentiation of embryonic stem cells,
-osteoblasts, and myotubes [@gabutRibosomeTranslationalControl2020;@WatanabeSusaki2014a;@zahradkalRegulationRibosomeBiogenesis1991]. In
-some cases, such as during *Drosophila* germline stem cell (GSC)
-division, ribosome biogenesis factors asymmetrically segregate during
-asymmetric cell division, such that a higher pool of ribosome biogenesis
-factors is maintained in the stem cell compared to the daughter cell
-[@blattPosttranscriptionalGeneRegulation2020;@Fichelson2009a;@Zhang2014d]. Reduction of ribosome levels in several stem cells
+expressed, as observed during the differentiation of embryonic stem
+cells, osteoblasts, and myotubes
+[@gabutRibosomeTranslationalControl2020;@WatanabeSusaki2014a;@zahradkalRegulationRibosomeBiogenesis1991]. In some cases, such as
+during *Drosophila* germline stem cell (GSC) division, ribosome
+biogenesis factors asymmetrically segregate during asymmetric cell
+division, such that a higher pool of ribosome biogenesis factors is
+maintained in the stem cell compared to the daughter cell
+[@blattPosttranscriptionalGeneRegulation2020;@Fichelson2009a;@Zhang2014d]. Reduction of ribosome levels in several stem cell
 systems can cause differentiation defects
 [@corsiniCoordinatedControlMRNA2018;@fortierHaploinsufficiencyScreenHighlights2015;@Khajuria2018a;@Zhang2014d]. In *Drosophila,* perturbations that reduce ribosome
 levels in the GSCs result in differentiation defects causing infertility
@@ -84,31 +103,30 @@ mechanisms by which ribosome biogenesis is coupled to proper stem cell
 differentiation remain incompletely understood.
 
 Ribosome production requires the transcription of ribosomal RNAs (rRNAs)
-and of mRNAs encoding ribosomal proteins [@Bousquet-Antonelli2000a;@delacruzFunctionsRibosomalProteins2015;@Granneman2011;@Granneman2006;@Tafforeau2013a;@Venema1997]. Hundreds of factors,
+and of mRNAs encoding ribosomal proteins [@Bousquet-Antonelli2000a;@delacruzFunctionsRibosomalProteins2015;@Granneman2011;@Granneman2006;@Tafforeau2013a;@Venema1997]. Hundreds of factors
 including helicases and endonucleases, transiently associate with
 maturing rRNAs to facilitate rRNA processing, modification, and folding
 [@Granneman2011;@Sloan2017e;@Tafforeau2013a;@Watkins2012b].
 Ribosomal proteins are imported into the nucleus, where they assemble
-with rRNA to form precursors to the 40S and large 60S ribosomal
-subunits, which are then exported to the cytoplasm
-[@Baxter-Roshek2007f;@Decatur2002b;@Granneman2011;@Granneman2006;@Kos2010;@nerurkarEukaryoticRibosomeAssembly2015;@Tafforeau2013a;@Zemp2007]. Loss of RNA Polymerase I transcription
-factors, helicases, exonucleases, large or small subunit ribosomal
-proteins, or other processing factors all compromise ribosome biogenesis
-and trigger diverse stem cell-related phenotypes [@Brooks2014b;@Calo2018a;@Mills2017c;@Sanchez2016h;@Yelick2015a;@Zhang2014d].
+with rRNAs to form precursors to the 40S and 60S ribosomal subunits,
+which are then exported to the cytoplasm [@Baxter-Roshek2007f;@Decatur2002b;@Granneman2011;@Granneman2006;@Kos2010;@nerurkarEukaryoticRibosomeAssembly2015;@Tafforeau2013a;@Zemp2007]. Loss of RNA Polymerase I transcription factors, helicases,
+exonucleases, large or small subunit ribosomal proteins, or other
+processing factors all compromise ribosome biogenesis and trigger
+diverse stem cell-related phenotypes [@Brooks2014b;@Calo2018a;@Sanchez2016h;@Yelick2015a;@Zhang2014d].
 
 Nutrient availability influences the demand for *de novo* protein
 synthesis and thus ribosome biogenesis
-[@anthonyOrallyAdministeredLeucine2000;@hongEvaluationNutrientSensingMTOR2012;@Mayer2006a;@shuNutrientControlMRNA2020]. In mammals, nearly all of the mRNAs that
-encode the ribosomal proteins contain a Terminal Oligo Pyrimidine (TOP)
-motif within their 5\' untranslated region (UTR), which regulates their
+[@anthonyOrallyAdministeredLeucine2000;@hongEvaluationNutrientSensingMTOR2012;@Mayer2006a;@shuNutrientControlMRNA2020]. In mammals, mRNAs that encode the
+ribosomal proteins contain a Terminal Oligo Pyrimidine (TOP) motif
+within their 5\' untranslated region (UTR), which regulates their
 translation in response to nutrient levels [@Fonseca2015a;@Hong2017a;@Lahr2017b;@Tcherkezian2014b]. Under growth-limiting
 conditions, La related protein 1 (Larp1) binds to the TOP sequences and
 to mRNA caps to inhibit translation of ribosomal proteins
 [@Fonseca2015a;@jiaMTORC1PromotesTOP2021;@Lahr2017b;@philippeLarelatedProteinLARP12018]. When growth conditions are
 suitable, Larp1 is phosphorylated by the nutrient/redox/energy sensor
 mammalian Target of rapamycin (mTOR) complex 1 (mTORC1), and does not
-efficiently bind the TOP sequence, thus allowing for efficient
-translation of ribosomal proteins [@Fonseca2015a;@fonsecaLARP1MajorPhosphorylation2018;@Hong2017a;@jiaMTORC1PromotesTOP2021]. In some instances, Larp1 binding can also
+efficiently bind the TOP sequence, thus allowing for translation of
+ribosomal proteins [@Fonseca2015a;@fonsecaLARP1MajorPhosphorylation2018;@Hong2017a;@jiaMTORC1PromotesTOP2021]. In some instances, Larp1 binding can also
 stabilize TOP-containing mRNAs [@aokiLARP1SpecificallyRecognizes2013;@bermanControversiesFunctionLARP12020;@gentilellaAutogenousControlTOP2017;@ogamiLARP1FacilitatesTranslational2020], linking mRNA translation
 with mRNA stability to promote ribosome biogenesis
 [@aokiLARP1SpecificallyRecognizes2013;@bermanControversiesFunctionLARP12020;@Fonseca2015a;@fonsecaLARP1MajorPhosphorylation2018;@Hong2017a;@Lahr2017b;@ogamiLARP1FacilitatesTranslational2020;@philippeLarelatedProteinLARP12018]. Cellular nutrient levels are
@@ -122,41 +140,41 @@ female fertility, but its targets remain undetermined [@Blagden2009f;@Ichihara20
 Germline depletion of ribosome biogenesis factors manifests as a
 stereotypical GSC differentiation defect during *Drosophila* oogenesis
 [@Sanchez2016h]. Female *Drosophila* maintain 2-3 GSCs in the
-germarium (**Figure 2.1A**) [@Kai2005;@Twombly1996d;@Xie2000b;@Xie1998d;@Xie2007a]. Asymmetric cell division of GSCs produces a
-self-renewing daughter GSC, and a differentiating daughter, called the
-cystoblast (CB) [@Chen2003q;@McKearin1995b]. This asymmetric
-division is unusual: following mitosis, the abscission of the GSC and CB
-is not completed until the following G2 phase (**Figure 2.1A\'**)
-[@DeCuevas1998f;@hsuDietControlsNormal2008]. The GSC is marked by a
-round structure called the spectrosome, which elongates and eventually
-bridges the GSC and CB, similar to the fusomes that connect
-differentiated cysts (**Figure 2.1A\'**). During abscission the extended
+germarium (**Figure 1A**) [@Kai2005;@Twombly1996d;@Xie2000b;@Xie1998d;@Xie2007a]. Asymmetric cell division of GSCs produces a
+self-renewing daughter GSC and a differentiating daughter, called the
+cystoblast (CB) (**Figure 1A**) [@Chen2003q;@McKearin1995b]. This
+asymmetric division is unusual: following mitosis, the abscission of the
+GSC and CB is not completed until the following G2 phase (**Figure
+1A\'**) [@DeCuevas1998f;@hsuDietControlsNormal2008]. The GSC is
+marked by a round structure called the spectrosome, which elongates and
+eventually bridges the GSC and CB, similar to the fusomes that connect
+differentiated cysts (**Figure 1A-A\'**). During abscission the extended
 spectrosome structure is severed and a round spectrosome is established
-in the GSC and the CB [@DeCuevas1998f;@hsuDietControlsNormal2008].
-Ribosome biogenesis defects result in failed GSC-CB abscission, causing
-cells to accumulate as interconnected cysts marked by a fusome-like
-structure called "stem cysts" (**Figure 2.1A\'**) [@Mathieu2013d;@Sanchez2016h]. In contrast with differentiated cysts
-[@McKearin1995b;@McKearin1990e;@ohlsteinEctopicExpressionDrosophila1997], these stem cysts do not
+in the GSC and the CB (**Figure 1A\'**)[@DeCuevas1998f;@hsuDietControlsNormal2008]. Ribosome biogenesis defects result in
+failed GSC-CB abscission, causing cells to accumulate as interconnected
+cysts called "stem-cysts" that are marked by a fusome-like structure
+(**Figure 1A\'**) [@Mathieu2013d;@Sanchez2016h]. In contrast with
+differentiated cysts [@McKearin1995b;@McKearin1990e;@ohlsteinEctopicExpressionDrosophila1997], these stem-cysts do not
 express the differentiation factor Bag of Marbles (Bam), do not
-differentiate, and typically die, resulting in sterility
-[@Sanchez2016h]. How proper ribosome biogenesis promotes GSC
+differentiate, and typically die, resulting in sterility (**Figure
+1A\'**) [@Sanchez2016h]. How proper ribosome biogenesis promotes GSC
 abscission and differentiation is not known.
 
-By characterizing three RNA helicases that promote ribosome biogenesis,
-we identified a translational control module that is sensitive to proper
-ribosome biogenesis and coordinates ribosome levels with GSC
-differentiation. When ribosome biogenesis is optimal, ribosomal proteins
-and a p53 repressor are both efficiently translated allowing for proper
-GSC cell cycle progression and its differentiation. However, when
-ribosome biogenesis is perturbed, we observe diminished translation of
-both ribosomal proteins and the p53 repressor. As a consequence, p53 is
-stabilized, cell cycle progression is blocked and GSC differentiation is
-stalled. Thus, our work reveals an elegant tuning mechanism that links
-ribosome biogenesis with a cell cycle progression checkpoint and thus
-stem cell differentiation. Given that ribosome biogenesis defects in
-humans result in ribosomopathies, which often result from stem cell
-differentiation defects, our data lay the foundation for understanding
-the etiology of developmental defects that arise due to ribosomopathies.
+By characterizing three RNA helicases and showing that they promote
+ribosome biogenesis, we identified a translational control module, which
+coordinates ribosome levels with GSC differentiation. When ribosome
+biogenesis is optimal, ribosomal proteins and a p53 repressor are both
+efficiently translated allowing for proper GSC cell cycle progression
+and its differentiation. However, when ribosome biogenesis is perturbed,
+we observe diminished translation of both ribosomal proteins and the p53
+repressor. As a consequence, p53 is stabilized, cell cycle progression
+is blocked and GSC differentiation is stalled. Thus, our work reveals an
+elegant tuning mechanism that links ribosome biogenesis with a cell
+cycle progression checkpoint and thus stem cell differentiation. Given
+that ribosome biogenesis defects in humans result in ribosomopathies,
+which often result from stem cell differentiation defects, our data lay
+the foundation for understanding the etiology of developmental defects
+that arise due to ribosomopathies.
 
 ## Results
 
@@ -272,36 +290,39 @@ Aramis::GFP::3XFLAG and (**B\'**) Aramis::GFP::3XFLAG in conjunction with
 *aramis* germline knockdown stained for Vasa (blue), and GFP (green).
 (**C-C\'**) Confocal images of (**C**) Athos::GFP::3XFLAG and (**C\'**)
 Athos::GFP::3XFLAG in conjunction with *athos* germline knockdown
-stained for Vasa (blue), and GFP (green). (**D**) Quantification of
-germline expression of GFP normalized to somatic GFP expression in
-Aramis::GFP::3XFLAG ovaries compared to Aramis::GFP::3XFLAG in
-conjunction with *aramis* germline knockdown and Athos::GFP::3XFLAG
-ovaries compared to Athos::GFP::3XFLAG in conjunction with *athos*
-germline knockdown. (n=14-15, Welch\'s t-test with Holm-Bonferroni
-correction, \*\*\*=p\<0.001) (**E-E\'\'\'**) Confocal images of (**E**)
-*nosGAL4*, driver control and germline RNAi knockdown using additional
-RNAi lines for (**E\'**) *aramis* and (**A\'\'**) *athos* stained for 1B1
-(red) and Vasa (green). (**E\'\'\'**) Quantification of percentage of
-germaria with no defect (black), stem cysts (salmon), or germline loss
-(dark red) in ovaries depleted of *athos*, *aramis*, or *porthos*
-compared to control ovaries recapitulates the phenotypes with
-independent RNAi lines (n=50, df=2, \*\*\* = p\<0.001, Fisher\'s exact
-test with Holm-Bonferroni correction). (**F-F\'\'\'**) Confocal images of
-germaria stained for 1B1 (red) and Phospho-tyrosine (green). Ring
-canals, marked by Phosopho-tyrosine, connect differentiating cysts in
-(**F**) control *nosGAL4* ovaries and in between the interconnected
-cells of ovaries depleted of (**F\'**) *athos*, (**F\'\'**) *aramis*, or
-(**F\'\'\'**) *porthos* with 1B1 positive structures going through the ring
-canals. (**G-G\'\'\'**) Confocal images of ovarioles stained for 1B1 (red)
-and Vasa (green). Control, *nosGAL* ovaries have egg chambers while
-ovaries depleted of (**G\'**) *athos*, (**G\'\'**) *aramis*, or (**G\'\'\'**)
-*porthos* lack egg chambers. (**H-H\'\'\'**) Confocal images of germaria
-stained for pMad (red, grayscale) and Vasa (green). In (**H**) control
-ovaries nuclear pMad staining occurs in cells proximal to the niche
-marking GSCs. Nuclear pMad staining in ovaries depleted of (**H\'**)
-*athos*, (**H\'\'**) *aramis*, and (**H\'\'\'**) *porthos* demonstrates that
-the observed cysts are not composed of GSCs. Scale bar for main images
-is 15 micron, scale bar for insets is 3.75 micron.
+stained for Vasa (blue), and GFP (green), early germline is outlined in
+yellow, representative somatic cell indicated by arrow. (**D**)
+Quantification of germline expression of GFP normalized to somatic GFP
+expression in Aramis::GFP::3XFLAG ovaries compared to
+Aramis::GFP::3XFLAG in conjunction with *aramis* germline knockdown and
+Athos::GFP::3XFLAG ovaries compared to Athos::GFP::3XFLAG in conjunction
+with *athos* germline knockdown showing that *aramis* RNAi and *athos*
+RNAi efficiently knockdown their targets in the germline. (n=14-15,
+Welch\'s t-test with Holm-Bonferroni correction, \*\*\*=p\<0.001)
+(**E-E\'\'\'**) Confocal images of (**E**) *nosGAL4*, driver control and
+germline RNAi knockdown using additional RNAi lines for (**E\'**)
+*aramis* and (**E\'\'**) *athos* stained for 1B1 (red) and Vasa (green).
+(**E\'\'\'**) Quantification of percentage of germaria with no defect
+(black), stem-cysts (salmon), or germline loss (dark red) in ovaries
+depleted of *athos*, *aramis*, or *porthos* compared to control ovaries
+recapitulates the phenotypes with independent RNAi lines (n=50, df=2,
+\*\*\* = p\<0.001, Fisher\'s exact test with Holm-Bonferroni correction).
+(**F-F\'\'\'**) Confocal images of germaria stained for 1B1 (red) and
+Phospho-tyrosine (green). Ring canals, marked by Phosopho-tyrosine,
+connect differentiating cysts in (**F**) control *nosGAL4* ovaries and
+in between the interconnected cells of ovaries depleted of (**F\'**)
+*aramis*, (**F\'\'**) *athos*, or (**F\'\'\'**) *porthos* with 1B1 positive
+structures going through the ring canals. (**G-G\'\'\'**) Confocal images
+of ovarioles stained for 1B1 (red) and Vasa (green). Control, *nosGAL*
+ovaries have egg chambers while ovaries depleted of (**G\'**) *aramis*,
+(**G\'\'**) *athos*, or (**G\'\'\'**) *porthos* lack egg chambers.
+(**H-H\'\'\'**) Confocal images of germaria stained for pMad (red,
+grayscale) and Vasa (green). In (**H**) control ovaries nuclear pMad
+staining occurs in cells proximal to the niche marking GSCs. Nuclear
+pMad staining in ovaries depleted of (**H\'**) *aramis*, (**H\'\'**)
+*athos*, and (**H\'\'\'**) *porthos* demonstrates that the observed cysts
+are not composed of GSCs. Scale bar for main images is 15 micron, scale
+bar for insets is 3.75 micron.
 
 
 ### Athos, Aramis, and Porthos are required for ribosome biogenesis
@@ -729,10 +750,10 @@ During *Drosophila* oogenesis, efficient ribosome biogenesis is required
 in the germline for proper GSC cytokinesis and differentiation. The
 outstanding questions that needed to be addressed were: 1) Why does
 disrupted ribosome biogenesis impair GSC abscission and differentiation?
-and 2) How does the GSC monitor and couple ribosome abundance to
-differentiation? Our results suggest that germline ribosome biogenesis
+And 2) How does the GSC monitor and couple ribosome abundance to
+differentiation? Our results suggest that a germline ribosome biogenesis
 defect stalls the cell cycle, resulting a loss of differentiation and
-the formation of stem cysts. We discovered that proper ribosome
+the formation of stem-cysts. We discovered that proper ribosome
 biogenesis is monitored through a translation control module that allows
 for co-regulation of ribosomal proteins and a p53 repressor. Loss of
 *aramis*, *athos* and *porthos* reduces ribosome biogenesis and inhibits
@@ -760,13 +781,13 @@ we find that Aramis and Porthos promote 40S ribosome biogenesis. DHX33,
 the mammalian ortholog of Athos, has been implicated in facilitating
 rRNA synthesis [@zhangIdentificationDHX33Mediator2011]. In contrast,
 we find that Athos promotes 60S ribosome biogenesis by directly
-interacting with rRNA. However, we cannot rule out that Athos also
-affects transcription of rRNA in *Drosophila* as it does in mammals
-[@zhangIdentificationDHX33Mediator2011]. Overall, we find that each
-mammalian ortholog of Aramis, Athos, and Porthos has consistent ribosome
-subunit defects, suggesting that the function of these helicases is
-conserved from flies to mammals. Intriguingly, DDX52 (Aramis) is one of
-the 15 genes deleted in 17q12 syndrome
+interacting with rRNA. However, we cannot exclude the possibility that
+Athos also affects transcription of rRNA in *Drosophila* as it does in
+mammals [@zhangIdentificationDHX33Mediator2011]. Overall, we find
+that each mammalian ortholog of Aramis, Athos, and Porthos has
+consistent ribosome subunit defects, suggesting that the function of
+these helicases is conserved from flies to mammals. Intriguingly, DDX52
+(Aramis) is one of the 15 genes deleted in 17q12 syndrome
 [@hendrixPrenatallyDiagnosed17q122012]. 17q12 syndrome results in
 delayed development, intellectual disability, and, more rarely,
 underdevelopment of organs such as the uterus
@@ -779,16 +800,15 @@ understood defects in 17q12 syndrome.
 Here we report that three RNA helicases, *aramis*, *athos*, and
 *porthos,* that promote proper ribosome biogenesis in *Drosophila* are
 required in the germline for fertility. Loss of *aramis*, *athos*, and
-*porthos* causes formation of a "stem cyst" and loss of later stage
-oocytes. Stem cysts are a characteristic manifestation of ribosome
+*porthos* causes formation of a "stem-cyst" and loss of later stage
+oocytes. Stem-cysts are a characteristic manifestation of ribosome
 biogenesis deficiency wherein GSCs are unable to complete cytokinesis
-and fail to express the differentiation factor Bam, which in GSCs is
-initiated at G2 of the cell cycle [@Sanchez2016h;@Zhang2014d]. Our
-RNA seq and cell cycle analysis indicates that depletion of *aramis*
-blocks the cell cycle at G1, and that failure to progress to G2 prevents
-abscission and expression of Bam. Thus, our results suggest that
-ribosome biogenesis defects in the germline stall the cell cycle,
-resulting in formation of stem cysts and sterility.
+and fail to express the differentiation factor Bam, which in GSC
+daughters is initiated at G2 of the cell cycle [@Sanchez2016h;@Zhang2014d]. Our RNA seq and cell cycle analysis indicates that
+depletion of *aramis* blocks the cell cycle at G1, and that failure to
+progress to G2 prevents abscission and expression of Bam. Thus, our
+results suggest that ribosome biogenesis defects in the germline stall
+the cell cycle, resulting in formation of stem-cysts and sterility.
 
 In most tissues in *Drosophila,* p53 primarily activates apoptosis,
 however, in the germline p53 is activated during meiosis and does not
@@ -796,19 +816,22 @@ cause cell death [@fanDualRolesDrosophila2010;@luMeioticRecombinationProvokes201
 the germline is required for germline repopulation and GSC survival
 after genetic insult, implicating p53 as a potential cell cycle
 regulator [@maDNADamageinducedLok2016;@Tasnim2018a]. Our
-observation that reduction of *p53* partially rescues a stem cyst defect
+observation that reduction of *p53* partially rescues a stem-cyst defect
 caused by ribosome deficiency due to germline depletion of *aramis*
 indicates that the G1 block in GSCs is, in part, mediated by p53
 activation. Thus, in *Drosophila* GSCs, p53 blocks the GSC cell cycle
-and is sensitive to rRNA production. The developmental upregulation of
-p53 during GSC differentiation concomitant with lower ribosome levels
+and is sensitive to ribosome biogenesis. Furthermore, while
+overexpression of p53 causes germline death, it is also sufficient to
+induce the formation of stem-like cysts demonstrating p53 plays a key
+regulatory role in GSC cell cycle. The developmental upregulation of p53
+during GSC differentiation concomitant with lower ribosome levels
 parallels observations in disease states, such as ribosomopathies
 [@Calo2018a;@Deisenroth2010e;@Pereboom2011a;@Yelick2015a].
 
-We find that p53 levels in GSCs are regulated by conserved p53 regulator
-Non1. In mammalian cells, increased free RpS7 protein due to nucleolar
-stress binds and sequesters MDM2, a repressor of p53, freeing p53,
-resulting in G1 cell cycle arrest [@Deisenroth2010e;@zhangSignalingP53Ribosomal2009]. *Drosophila* have no identified
+We find that p53 levels in GSCs are regulated by the conserved p53
+regulator Non1. In mammalian cells, increased free RpS7 protein due to
+nucleolar stress binds and sequesters a repressor of p53, MDM2, freeing
+p53, resulting in G1 cell cycle arrest [@Deisenroth2010e;@zhangSignalingP53Ribosomal2009]. *Drosophila* have no identified
 homolog to MDM2. It is not fully known how ribosome levels are monitored
 in *Drosophila* in the absence of MDM2 and how this contributes to cell
 cycle progression. In *Drosophila,* Non1 levels are high in the GSCs and
@@ -852,15 +875,16 @@ differentiation may be conserved.
 TOP-containing mRNAs are known to be coregulated to coordinate ribosome
 production in response to nutrition or other environmental cues
 [@kimballRegulationGlobalSpecific2002;@meyuhasRaceDecipherTop2015;@tangAminoAcidInducedTranslation2001]. Surprisingly, our observation
-that loss of *aramis* reduces translation of a cohort of TOP-containing
-mRNAs, including Non1, suggests that the TOP motif also sensitizes their
-translation to lowered levels of rRNA. This notion is supported by TOP
-reporter assays demonstrating that reduced translation upon loss of
-*aramis* requires the TOP motif. We hypothesize that limiting TOP mRNA
-translation lowers ribosomal protein production to maintain a balance
-with reduced rRNA production. This mechanism would prevent the
-production of excess ribosomal proteins that cannot be integrated into
-ribosomes and the ensuing harmful aggregates
+that loss of *aramis* reduces translation, albeit indirectly via
+regulation of ribosome biogenesis, of a cohort of TOP-containing mRNAs,
+including Non1, suggests that the TOP motif also sensitizes their
+translation to lowered levels of ribosome biogenesis. This notion is
+supported by TOP reporter assays demonstrating that reduced translation
+upon loss of *aramis* requires the TOP motif. We hypothesize that
+limiting TOP mRNA translation lowers ribosomal protein production to
+maintain a balance with reduced rRNA production. This feedback mechanism
+would prevent the production of excess ribosomal proteins that cannot be
+integrated into ribosomes and the ensuing harmful aggregates
 [@tyeProteotoxicityAberrantRibosome2019]. Additionally, it would
 coordinate rRNA production and ribosomal protein translation during
 normal germline development, where it is known that the level of
@@ -875,36 +899,43 @@ TOP-containing mRNAs are mediated by Larp1 and its phosphorylation
 and thus ribosome biogenesis, without directly targeting ribosomal
 proteins, similarly results in dysregulation of TOP mRNAs. Our data show
 that *Drosophila* Larp binds the *RpL30* and *Non1* 5\'UTR in a
-TOP-dependent manner *in vitro* and to nearly all of the translation
-targets we identified *in vivo.* Together these data suggest that rRNA
-production regulates TOP mRNAs via Larp. Furthermore, the cytokinesis
-defect caused by overexpression of Larp-DM15 in the germline suggests
-that Larp regulation could maintain the homeostasis of ribosome
-biogenesis more broadly by balancing the expression of ribosomal protein
-production with the rate of other aspects of ribosome biogenesis, such
-as rRNA processing, during development.
+TOP-dependent manner *in vitro* and to 97% of the translation targets we
+identified *in vivo.* Together these data suggest that rRNA production
+regulates TOP mRNAs via Larp. Furthermore, the cytokinesis defect caused
+by overexpression of Larp-DM15 in the germline suggests that Larp
+regulation could maintain the homeostasis of ribosome biogenesis more
+broadly by balancing the expression of ribosomal protein production with
+the rate of other aspects of ribosome biogenesis, such as rRNA
+processing, during development.
 
 Previous studies indicate that unphosphorylated Larp1 binds to and
 represses its targets more efficiently than phosphorylated Larp1
 [@fonsecaLARP1MajorPhosphorylation2018;@Hong2017a;@jiaMTORC1PromotesTOP2021]. In mammalian systems Larp1 has been shown
-to be phosphorylated by the TORC1 complex, while this has not been
-demonstrated in *Drosophila*, we have demonstrated that expression of
-our TOP-reporter is dependent on Raptor and TOP-reporter expression is
-repressed by Nprl3 (**Figure 2.12A-J**). These results are consistent with
-a model where TORC1 monitors ribosome biogenesis status and in turn
-regulates the activity of Larp. Thus, although we do not know the
-identity of the kinase that phosphorylates Larp in *Drosophila*
-definitively, we hypothesize that Larp is not phosphorylated upon loss
-of *aramis, athos* and *porthos*, when ribosome biogenesis is perturbed.
-We propose that until ribosome biogenesis homeostasis is reached, this
-kinase will remain inactive, continuously increasing the pool of
-dephosphorylated Larp. In this scenario, as dephosphorylated Larp
-accumulates, it begins to bind its targets. Initially, it will bind its
-highest affinity targets, presumably encoding ribosomal proteins and
-repress their translation to rebalance ribosomal protein production with
-rRNA production. Consistent with this model, the TOP motif in *RpL30* is
+to be phosphorylated by the TORC1 complex, AKT, and CDK1
+[@bermanControversiesFunctionLARP12020;@Hong2017a;@jiaMTORC1PromotesTOP2021]. In *Drosophila*, it has been shown that
+Pink1 can phosphorylates Larp, and the Pink1 dependent phosphorylation
+sites have been identified in *Drosophila* Larp
+[@zhangPINK1InhibitsLocal2019]. However, to our knowledge, Larp
+phosphorylation sites have not been systematically catalogued, nor has
+it been studied if TORC1, AKT, or CDK1 phosphorylate Larp in
+*Drosophila*. We have demonstrated that expression of our TOP-reporter
+is dependent on Raptor and TOP-reporter expression is repressed by Nprl3 (**Figure 2.12A-J**). 
+These results suggest a model where TORC1 either
+directly or indirectly monitors ribosome biogenesis status by regulating
+the activity of Larp. Thus, although we do not know the identity of the
+kinase that phosphorylates Larp in *Drosophila* definitively, we
+hypothesize that Larp is not phosphorylated upon loss of *aramis, athos*
+and *porthos*, when ribosome biogenesis is perturbed. We propose that
+until ribosome biogenesis homeostasis is reached, this kinase will
+remain inactive, continuously increasing the pool of dephosphorylated
+Larp. In this scenario, as dephosphorylated Larp accumulates, it begins
+to bind its targets. Initially, it will bind its highest affinity
+targets, presumably encoding ribosomal proteins and repress their
+translation to rebalance ribosomal protein production with rRNA
+production. Consistent with this model, the TOP motif in *RpL30* is
 bound by Larp even more tightly with a nearly 9-fold higher affinity
-compared to the *Non1* TOP site (**Figure 2.14B**). We propose that such
+compared to the *Non1* TOP site (**Figure 2.14B**). 
+We propose that such
 differences in affinity may allow Larp to repress ribosomal protein
 translation to facilitate cellular homeostasis without immediately
 causing cell cycle arrest. However, if homeostasis cannot be achieved
@@ -928,12 +959,12 @@ processing lead to perturbed ribosome biogenesis and, ultimately, cell
 cycle arrest. Given that *Drosophila* germ cells undergo an atypical
 cell cycle program as a normal part of their development it may be that
 this underlying cellular program in the germline leads to the
-tissue-specific symptom of aberrant stem cyst formation
+tissue-specific symptom of aberrant stem-cyst formation
 [@McKearin1990e]. This model implies that other tissues would
 likewise exhibit unique tissue-specific manifestations of
 ribosomopathies due to their underlying cell state and underscores the
 need to further explore tissue-specific differentiation programs and
-development to shed light not only on ribosomopathies but on other
+development to shed light not only on ribosomopathies but also on other
 tissue-specific diseases associated with ubiquitous processes. Although
 it is also possible that phenotypic differences arise from a common
 molecular cause, our data suggests two sources of potential tissue
@@ -980,7 +1011,8 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf"
 **
 
 <!-- **Figure 2.3. Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.**  -->
-(**A-C\'\'**) Confocal images of ovariole
+Athos, Aramis, and Porthos are required for efficient
+ribosome biogenesis.** (**A-C\'\'**) Confocal images of ovariole
 immunostained for Fibrillarin (red, right grayscale), Vasa (blue),
 (**A-A\'\'**) Aramis::GFP, (**B-B\'\'**) Athos::GFP and (**C-C\'\'**)
 Porthos::HA (green, left grayscale). (**A\'\'\'-C\'\'\'**) Fluorescence
@@ -994,57 +1026,58 @@ generated using Fiji, taken from the nucleolus denoted by the white box.
 Aramis, Athos and Porthos are expressed throughout oogenesis and
 localize to the nucleolus. Aramis is also present in the cytoplasm.
 (**D-D\'\'**) RNA IP-seq of (**D**) Aramis, (**D\'**) Athos, and (**D\'\'**)
-Porthos aligned to rDNA displayed as genome browser tracks. Bar height
-represents log scaled rRNA reads mapping to rDNA normalized to input and
-spike-in. Grey boxes outline rRNA precursors that are significantly
-enriched in the IP compared to the IgG control (bootstrapped paired
-t-tests, n=3, \* = p-value \< 0.05). (**E-E\'\'**) Polysome traces from
-*Drosophila* S2 cells treated with dsRNA targeting (**E**) *aramis*,
-(**E\'**) *athos*, (**E\'\'**) *porthos* (red line) compared to a mock
-transfection control (black line). *aramis* and *porthos* are required
-to maintain a proper 40S/60S ribosomal subunit ratio compared to control
-and have a smaller 40S/60S ratio. *athos* is required to maintain a
-proper 40S/60S ribosomal subunit ratio compared to control and has a
-larger 40S/60S ratio. Additionally, *aramis*, *athos*, and *porthos* are
-required to maintain polysome levels. All three helicases are required
-to maintain polysome levels. Scale bar for all images is 15 micron.
+Porthos aligned to rDNA locus displayed as genome browser tracks. Bar
+height represents log scaled rRNA reads mapping to rDNA normalized to
+input and spike-in. Grey boxes outline ETS (external spacers) and ITS
+(internal spacers) which are only present in pre-rRNA that are
+significantly enriched in the IP compared to the IgG control
+(bootstrapped paired t-tests, n=3, \* = p-value \< 0.05). (**E-E\'\'**)
+Polysome traces from *Drosophila* S2 cells treated with dsRNA targeting
+*aramis*, (**E\'**) *athos*, (**E\'**) *porthos* (red line) compared to a
+mock transfection control (black line). *aramis*, athos and porthos are
+required to maintain a proper 40S/60S ribosomal subunit ratio compared
+to control and have a smaller 40S/60S ratio. *athos* is required to
+maintain a proper 40S/60S ribosomal subunit ratio compared to control
+and has a larger 40S/60S ratio. Additionally, *aramis*, *athos*, and
+*porthos* are required to maintain polysome levels. All three helicases
+are required to maintain polysome levels. Scale bar for all images is 15
+micron.
 
 
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-4-short)', fig.scap='(ref:RiBi-F2-4-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf")
 ```
 
-
-
 **\
 **
 
 <!-- **Figure 2.4. Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.**  -->
-(**A-A\'\'**) Western blots of immunoprecipitations from ovaries for FLAG-tagged
-(**A**) Aramis, (**A\'**) Athos, , and (**A\'\'**) Porthos. (**B-B\'\'\'**)
+(**A-A\'\'**)
+Western blots of immunoprecipitations from ovaries for FLAG-tagged
+(**A**) Aramis, (**A\'**) Athos, and (**A\'\'**) Porthos. (**B-B\'\'\'**)
 Confocal images of (**B**) *nosGAL4*, driver control, (**B\'**) *aramis*
 (**B\'\'**) *athos* and (**B\'\'\'**) *porthos* germline RNAi germaria
 stained for Fibrillarin (green), and Vasa (blue). (**C-C\'**)
-Quantification of raw nucleolar volume (**C**) or normalized to cell
-volume nucleolar volume (**C\'**) in GSCs of *aramis*, *athos*, and
-*porthos* RNAi, compared to control indicates loss of each helicase
-results in nucleolar stress. (n=12-16 GSCs per genotype, One-way ANOVA,
-p\<0.001, with Welch\'s t-test, Holm-Bonferroni corrected, \* = p\<0.05,
-\*\* = p\<0.01, \*\*\* = p\<0.001). (**D-D\'**) Polysome preparations
-from *Drosophila* S2 cells in cells treated with dsRNA targeting (**D**)
+Quantification of (**C**) raw nucleolar volume or (**C\'**) normalized to
+cell volume nucleolar volume in GSCs of *aramis*, *athos*, and *porthos*
+RNAi, compared to control indicates loss of each helicase results in
+nucleolar stress. (n=12-16 GSCs per genotype, One-way ANOVA, p\<0.001,
+with Welch\'s t-test, Holm-Bonferroni corrected, \* = p\<0.05, \*\* =
+p\<0.01, \*\*\* = p\<0.001). (**D-D\'**) Polysome preparations from
+*Drosophila* S2 cells in cells treated with dsRNA targeting (**D**)
 *RpS19a* or (**D\'**) *RpL30* (red line) compared to a mock transfection
 control (black line). (**E-K**) Confocal images of heterozygous (**E**)
 *shrb*^O3^/+, (**F**) *aramis*^f06152^/+ mutant ovaries, (**G**)
-*shrb*^O3^/+; *aramis*^f06152^/+ transheterozygous, (**J\'**) *athos*
-deficiency/+ mutant ovaries,(**J\'\'**) *shrb*^O3^*/athos* deficiency
-transheterozygous, heterozygous (**K**) *shrb*^O3^/+, (**K\'**)
-*porthos*^KG05120^/+ mutant ovaries and (**K\'\'**)
-*shrb*^O3^*/porthos*^KG05120^ transheterozygous ovaries stained for 1B1
-(red) and Vasa (blue). (**L**) Quantification of proportion of germaria
-with presence of a stem-cyst or single cells from the indicated
-genotypes (pairwise Fisher\'s tests, Holm-Bonferroni corrected, \* =
-p\<0.05, \*\* = p\<0.01, \*\*\* = p\<0.001). Scale bar for main images
-is 15 micron, scale bar for insets is 3.75 micron.
+*shrb*^O3^/+; *aramis*^f06152^/+ transheterozygous, (**H**) *athos*
+deficiency/+ mutant ovaries, (**I**) *athos* deficiency/*shrb*^O3^
+transheterozygous, heterozygous (**J**) *porthos*^KG05120^/+ mutant
+ovaries and (**K**) *porthos*^KG05120^/*shrb*^O3^ transheterozygous
+ovaries stained for 1B1 (red) and Vasa (blue). (**L**) Quantification of
+proportion of germaria with presence of a stem-cyst or single cells from
+the indicated genotypes (pairwise one-sided Fisher\'s tests,
+Holm-Bonferroni corrected, \* = p\<0.05, \*\* = p\<0.01, \*\*\* =
+p\<0.001). Scale bar for main images is 15 micron, scale bar for insets
+is 3.75 micron.
 
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-5-short)', fig.scap='(ref:RiBi-F2-5-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf")
@@ -1052,11 +1085,11 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf"
 
 <!-- **Figure 2.5. Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.**  -->
 (**A**) Bar plot representing the
-most significant Biological Process GO terms of downregulated genes in
+most significant Biological Process GO-terms of downregulated genes in
 ovaries depleted of *aramis* compared to *bam* RNAi control (FDR = False
 Discovery Rate from p-values using a Fisher\'s exact test). (**B-C**)
 Genome browser tracks representing the gene locus of (**B**) *CycB* and
-(**C**) a*urora B* in ovaries depleted of *aramis* compared to the
+(**C**) *aurora B* in ovaries depleted of *aramis* compared to the
 developmental control, *bam* RNAi. Y-axis represents the number of reads
 mapping to the locus in bases per million (BPM). (**D-E\'\'**) Confocal
 images of germaria stained for CycB (red, left grayscale) and Vasa
@@ -1078,21 +1111,22 @@ of *aramis* RNAi indicates p53 expression is elevated in the germline
 over the GSCs/CBs of control ovaries. (n=10 germaria per sample, \*\*\*
 = p \< 0.001, Welch\'s t-test. (**J-K\'\'**) Confocal images of germaria
 stained for 1B1 (red, left grayscale) and Vasa (blue, right grayscale)
-in (**J-J\'\'**) germline *aramis* RNAi in a wild type background and
+in (**J-J\'\'**) germline *aramis* RNAi in a wildtype background and
 (**K-K\'\'**) germline *aramis* RNAi with a mutant, null, *p53^5-A-14^*
 background showing presence of spectrosomes upon loss of p53. (**L**)
-Quantification of stem cyst phenotypes demonstrates a significant rescue
+Quantification of stem-cyst phenotypes demonstrates a significant rescue
 upon of loss of *p53^5-A-14^* in *aramis* germline depletion compared to
-the wild type control (n=43-55 germaria per genotype, df=2, Fisher\'s
-exact test p\< 0.05). (**M-N**) Confocal images of ovaries stained for
-1B1 (red) and Vasa (blue) in *nosGAL4* ovaries (**M**) and ovaries
-overexpressing p53 in the germline (**N**). We observed that 84% of
-germaria from p53 overexpression ovaries had loss of germline while
-12.7% of germaria contained a cyst, marked by an extended spectrosome
-structure connecting germline cells together, and an additional 3.6% of
-germaria contained an accumulation of single cells (n=55 germaria).
-Scale bar for main images is 15 micron, scale bar for insets is 3.75
-micron.
+the control (n=43-55 germaria per genotype, df=2, Fisher\'s exact test
+p\< 0.05). (**M-N**) Confocal images of ovaries stained for 1B1 (red)
+and Vasa (blue) in *nosGAL4* ovaries (**M**) and ovaries overexpressing
+*p53* in the germline. Cysts are denoted by a dotted yellow line, single
+cells by a white arrow. (**N**). We observed that 84% of germaria from
+*p53* overexpression ovaries had loss of germline while 12% of germaria
+contained a cyst, marked by an extended spectrosome structure connecting
+germline cells together, and an additional 4% of germaria contained an
+accumulation of single cells (n=55 germaria, Fisher\'s exact test,
+p\<0.001). Scale bar for main images is 15 micron, scale bar for insets
+is 3.75 micron
 
 ```{r, include=TRUE, out.height="5.409091 in", out.width="7 in", fig.align="center", fig.cap='(ref:RiBi-F2-6-short)', fig.scap='(ref:RiBi-F2-6-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf")
@@ -1102,47 +1136,56 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf
 **
 
 <!-- **Figure 2.6 Aramis is required for proper cell cycle progression, related to Figure 2.5.**  -->
-(**A**) Biplot of mRNA levels in
-*aramis* RNAi compared to *bam* RNAi. Blue points represent mRNAs
-significantly upregulated *aramis* RNAi compared to *bam* RNAi, red
-points represent mRNAs significantly downregulated *aramis* RNAi
-compared to *bam* RNAi. (**B**) Bar plot representing the most
-significant Biological Process GO terms of upregulated genes in ovaries
-depleted of *aramis* compared to the developmental control, *bam* RNAi.
-(**C-C\'**) Genome browser tracks of mRNA levels at the (**C**) *Cyclin*
-*A* and (**C\'**) *Actin 5C* loci indicate that the RNAseq target gene
-*Cyclin A* expression is downregulated, while a non-target, *Actin 5C*
-is not downregulated. (**D-E\'**) Confocal images of germaria stained for
-1B1 (red), Vasa (blue), and Cyclin B::GFP (green, grayscale) in
-(**D-D\'**) control and (**E-E\'**) germline depletion of *aramis*
+(**A**) Biplot of
+mRNA levels in *aramis* RNAi compared to *bam* RNAi. Blue points
+represent mRNAs significantly upregulated *aramis* RNAi compared to
+*bam* RNAi, red points represent mRNAs significantly downregulated
+*aramis* RNAi compared to *bam* RNAi. (**B**) Bar plot representing the
+most significant Biological Process GO-terms of upregulated genes in
+ovaries depleted of *aramis* compared to the developmental control,
+*bam* RNAi. (**C-C\'**) Genome browser tracks of mRNA levels at the
+(**C**) *Cyclin* *A* and (**C\'**) *Actin 5C* loci indicate that the
+RNAseq target gene *Cyclin A* expression is downregulated, while a
+non-target, *Actin 5C* is not downregulated. (**D-E\'**) Confocal images
+of germaria stained for 1B1 (red, greyscale) and Vasa (blue) (**D-D\'**)
+from ovaries with germline depletion of *bam* and (**E-E\'**) germline
+depletion of *bam* and *aramis* simultaneously demonstrates that
+simultaneous depletion of *bam* and *aramis* results in a stem-cyst
+similar to depletion of *aramis* alone. (**F-G**) Confocal images of
+germaria stained for 1B1 (red), Vasa (blue), and Cyclin B::GFP (green)
+in (**F**) control and (**G**) germline depletion of *aramis*
 demonstrates that functional Cyclin B::GFP cannot be efficiently
-expressed in germline depleted of *aramis*. (**F-H\'\'**) Confocal images
+expressed in germline depleted of *aramis*. (**H-J\'\'**) Confocal images
 of germaria that express Fly-FUCCI in the germline stained for Vasa
 (blue). GFP-E2f1^degron^ (green, right grayscale) and RFP-CycB^degron^
-(red, left grayscale) in (**F-F\'\'**) *nosGAL4*, driver control ovaries,
-(**G-G\'\'**) *bam* RNAi as a developmental control, and (**H-H\'\'**)
+(red, left grayscale) in (**H-H\'\'**) *nosGAL4*, driver control ovaries,
+(**I-I\'\'**) *bam* RNAi as a developmental control, and (**J-J\'\'**)
 ovaries with germline depletion *of* *aramis* demonstrates that the
 germline of *aramis* RNAi germline depleted ovaries are negative for
-both G1 and G2 cell cycle markers. (**I-I\'**) Confocal images of
-*aramis* germline RNAi expressing GFP in the germline, stained for 1B1
-(red), Vasa (blue), and GFP (green, grayscale) indicates productive
-translation of transgenes still occurs. (**J-M**) Confocal images of
-germaria stained for p53 (red) and Vasa (blue) in (**J**) hybrid
-dysgenic, Harwich, ovaries and (**K**) p53^11-B-1^ ovaries stained for
-p53 (red) and Vasa (blue) demonstrate the expected p53 staining
-patterns. (**L-M**) Confocal images of germaria stained for p53 (red)
-and Vasa (blue) in ovaries depleted of (**L**) *athos* or (**M**)
-*porthos* in the germline exhibit p53 punctate staining. Cells
-highlighted by a dashed yellow circle represent cells shown in the
-inset. (**N-O**) Confocal images of germaria stained for 1B1 (red) and
-Vasa (blue) in (**N**) germline *athos* RNAi in a wild type background
-and (**O**) germline *athos* RNAi with a mutant, null, *p53^5-A-14^*
-background showing presence of spectrosomes upon loss of p53. (**P-Q**)
-Confocal images of germaria stained for 1B1 (red) and Vasa (blue) in
-(**P**) germline *porthos* RNAi in a wild type background and (**Q**)
-germline *porthos* RNAi with a mutant, heterozygous, *p53^5-A-14^*/+
-background showing presence of spectrosomes upon reduction of p53. Scale
-bar for main images is 15 micron, scale bar for insets is 3.75 micron.
+both G1 and G2 cell cycle markers. (**K**) Confocal images of *aramis*
+germline RNAi expressing GFP in the germline, stained for 1B1 (red),
+Vasa (blue), and GFP (green) indicates productive translation of
+transgenes still occurs. (**L-M**) Confocal images of germaria stained
+for p53 (red) and Vasa (blue) in (**L**) hybrid dysgenic, Harwich,
+ovaries and (**M**) p53^11-B-1^ ovaries stained for p53 (red) and Vasa
+(blue) demonstrate the expected p53 staining patterns. (**N-O**)
+Confocal images of germaria stained for p53 (red) and Vasa (blue) in
+ovaries depleted of (**N**) *athos* or (**O**) *porthos* in the germline
+exhibit p53 punctate staining. Cells highlighted by a dashed yellow
+circle represent cells shown in the inset. (**P-Q**) Confocal images of
+germaria stained for 1B1 (red) and Vasa (blue) in (**P**) germline
+*athos* RNAi in a wildtype background and (**Q**) germline *athos* RNAi
+with a mutant, null, *p53^5-A-14^* background showing presence of
+spectrosomes upon loss of p53. (**R-S**) Confocal images of germaria
+stained for 1B1 (red) and Vasa (blue) in (**R**) germline *porthos* RNAi
+in a wildtype background and (**S**) germline *porthos* RNAi with a
+mutant, heterozygous, *p53^5-A-14^*/+ background showing presence of
+spectrosomes upon reduction of p53 (**T**) Phenotypic quantification of
+demonstrates a significant rescue upon of loss of *p53^5-A-14^* in
+germline *athos* (n=63 *athos*, n=47 *athos* RNAi, *p53^5-A-14^*,
+Fisher\'s exact test p \> 0.001) or *porthos*-depletion (n=34 *porthos*
+RNAi; n=41 *porthos* RNAi, *p53^5-A-14^*/+, Fisher\'s exact test p \>
+0.001) compared to the respective control.
 
 
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-7-short)', fig.scap='(ref:RiBi-F2-7-short)', echo=FALSE}
@@ -1157,7 +1200,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf"
 associated mRNA from (**A**) ovaries genetically enriched for GSCs
 (*UAS-tkv*), (**A\'**) Undifferentiated GSC daughter cells (*bam* RNAi)
 or (**A\'\'**) germline *aramis* RNAi ovaries. (**B**) Boxplot of
-translation efficiency of target genes in *UAS-tkv*, *bam* RNAi, and
+translation efficiency of target genes in *UAS*-*tkv*, *bam* RNAi, and
 *aramis* RNAi samples (ANOVA p\<0.001, post-hoc Welch\'s t-test, n=87,
 \*\*\* = p \< 0.001). (**C**) Summary of downregulated target genes
 identified from polysome-seq. (**D-E\'**) Confocal images of germaria
@@ -1171,8 +1214,8 @@ RpS2::GFP expression is significantly lower in *aramis* RNAi compared to
 control (n=14 germaria per sample, Welch\'s t-test, \*\*\* = p \< 0.001).
 (**G-I\'**) Confocal images of germaria stained for 1B1 (red), OPP
 (green, grayscale), and Vasa (blue) in (**G-G\'**) *nosGAL4*, (**H-H\'**)
-*bam* RNAi, and (**H-H\'**) *aramis* RNAi (yellow dashed line marks
-approximate region of germline used for quantification). (**I**) A.U.
+*bam* RNAi, and (**I-I\'**) *aramis* RNAi (yellow dashed line marks
+approximate region of germline used for quantification). (**J**) A.U.
 quantification of OPP intensity in single cells of nosGAL4 control
 germeria and undifferentiated daughter cells in *bam* RNAi as controls
 and *aramis* RNAi (n = 10 germaria per genotype, Welch\'s t-test, NS = p
@@ -1188,25 +1231,22 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf
 **
 
 <!-- **Figure 2.8. The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.**  -->
-(**A-A\'**) Volcano plot of mRNA levels from poly(A)+ mRNA input libraries in
-germline *aramis* RNAi compared to (**A**) germline driven *UAS-tkv*
-and (**A\'**) *bam* RNAi of targets identified from polysome-seq. No
-target genes identified from polysome-seq meet the differential
-expression cutoff for mRNA in *UAS-tkv* compared to *aramis* RNAi or
-*bam* RNAi compared to *aramis* RNAi input libraries. (**B-C\'**)
-Confocal images of germaria stained for 1B1 (red) RpS2::GFP (green,
-greyscale) and Vasa (blue) in (**B-B\'**) germline *bam* RNAi as a
-control and (**C-C\'**) germline *bam* RNAi; *aramis* RNAi. Yellow dotted
-outline denotes the germline on the interior of the outline with the
-soma on the exterior of the outline. (**D**) Quantification of RpS2::GFP
-expression in the germline normalized to the soma in germline *bam* RNAi
-compared to *bam* RNAi; *aramis* RNAi demonstrates a significant
-decrease in RpS2::GFP expression when *aramis* is knocked down in a
-germline *bam* RNAi background (Welch\'s t-test, \*\*\* = p\<0.001,
-n=15). (**E-G\'**). Confocal images of germaria stained for 1B1 (red,
-greyscale) and Vasa (blue) in (**E-E\'**) driver control *nosGAL4*
-ovaries, and ovaries overexpressing (**F**) RpL10ab::GFP, or (**G**)
-RpL3 have no obvious phenotypic difference.
+(**A-A\'**) Volcano plot of mRNA levels from poly(A)+ mRNA
+input libraries in germline *aramis* RNAi compared to (**A**) germline
+driven *UAS*-*tkv* and (**A\'**) *bam* RNAi of targets identified from
+polysome-seq. No target genes identified from polysome-seq meet the
+differential expression cutoff for mRNA in *UASÂ­tkv* compared to
+*aramis* RNAi or *bam* RNAi compared to *aramis* RNAi input libraries.
+(**B-C\'**) Confocal images of germaria stained for 1B1 (red) RpS2::GFP
+(green, greyscale) and Vasa (blue) in (**B-B\'**) germline *bam* RNAi as
+a control and (**C-C\'**) germline *bam* RNAi; *aramis* RNAi. Yellow
+dotted outline denotes the germline on the interior of the outline with
+the soma on the exterior of the outline. (**D**) Quantification of
+RpS2::GFP expression in the germline normalized to the soma in germline
+*bam* RNAi compared to *bam* RNAi; *aramis* RNAi demonstrates a
+significant decrease in RpS2::GFP expression when *aramis* is knocked
+down in a germline *bam* RNAi background (Welch\'s t-test, \*\*\* =
+p\<0.001, n=15).
 
 
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-9-short)', fig.scap='(ref:RiBi-F2-9-short)', echo=FALSE}
@@ -1231,26 +1271,26 @@ expression in the germline normalized to somatic Non1::GFP expression in
 *bam* RNAi and *aramis* RNAi (n=24 germaria per genotype, Welch\'s
 t-test, \*\*\* = p \< 0.001). Non1 expression is significantly lower in
 the germline of *aramis* RNAi compared to *bam* RNAi control. (**E-G\'**)
-Confocal images of germaria stained for 1B1 (red, grayscale), and Vasa
+Confocal images of germaria stained for 1B1 (red, grayscale) and Vasa
 (blue) in (**E-E\'**) *nosGAL4*, driver control ovaries, (**F-F\'**)
 germline *Non1* RNAi, and (**G-G\'**) germline *Non1* RNAi in a
 *p53^5-A-1-4^* background. Arrow marks the presence of a single cell
-(**E, G**), yellow dashed line marks a stem cyst emanating from the
+(**E, G**), yellow dashed line marks a stem-cyst emanating from the
 niche (**F-F\'**) or the presence of proper cysts (**E-E\'**). (**H**)
 Quantification of percentage of germaria with no defect (black),
-presence of single cell (salmon), presence of a stem cyst emanating from
+presence of single cell (salmon), presence of a stem-cyst emanating from
 the niche (brown-red), or germline loss (dark red) demonstrates a
-significant rescue of stem cyst formation upon of loss of *Non1* in
-*p53^5-A-14^* compared to the *p53* wild type control (n=35-55 germaria
+significant rescue of stem-cyst formation upon of loss of *Non1* in
+*p53^5-A-14^* compared to the *p53* wildtype control (n=35-55 germaria
 per genotype, df=3, Fisher\'s exact test with Holm-Bonferroni correction
 \*\* = p\< 0.01, \*\*\* = p\< 0.001). (**I-K\'**) Confocal images of
-germaria stained for 1B1 (red, grayscale), and Vasa (blue) in ovaries
+germaria stained for 1B1 (red, grayscale) and Vasa (blue) in ovaries
 with (**I-I\'**) germline Non1 overexpression, (**J-J\'**) *aramis*
-germline RNAi exhibiting stem cyst phenotype (yellow dashed line) and
+germline RNAi exhibiting stem-cyst phenotype (yellow dashed line) and
 (**K-K**\') *aramis* germline RNAi with *Non1* overexpression exhibiting
 single cells (arrow). (**L**) Phenotypic quantification of *aramis* RNAi
 with *Non1* overexpression demonstrates a significant alleviation of the
-stem cyst phenotype (n=33-57 germaria per genotype, df=2, Fisher\'s exact
+stem-cyst phenotype (n=33-57 germaria per genotype, df=2, Fisher\'s exact
 test, \*\* = p\< 0.01). Scale bar for all images is 15 micron.
 
 
@@ -1262,17 +1302,17 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf
 **
 
 <!-- **Figure 2.10. Non1 and p53 are inversely expressed, related to Figure 2.9.**  -->
-(**A-A\'\'**) Confocal images of ovarioles expressing
-Non1::GFP stained for p53 (red, right grayscale), Vasa (blue), and
-Non1::GFP (green, left grayscale). (**B-B\'**) Quantifications of
-staining, (**B**) peak Non1 expression in control ovaries occurs in
-GSC-4 cell cyst stages and 16-cell cyst-region 2b stages where (**B\'**)
-p53 expression is low. (**C-E\'**) Confocal images of germline (**C-C\'**)
-*bam* RNAi, (**D-D\'**) germline *athos* RNAi, or (**E-E\'**) germline
-*porthos* RNAi germaria stained for 1B1 (red), *Non1::GFP* (green,
-greyscale), and Vasa (blue). (**F**) Quantification of Non1:GFP
-expression in germline *athos, or porthos* RNAi compared to germline
-*bam* RNAi as a developmental control demonstrates there is
+(**A-A\'\'**) Confocal images of
+ovarioles expressing Non1::GFP stained for p53 (red, right grayscale),
+Vasa (blue), and Non1::GFP (green, left grayscale). (**B-B\'**)
+Quantifications of staining, (**B**) peak Non1 expression in control
+ovaries occurs in GSC-4 cell cyst stages and 16-cell cyst-region 2b
+stages where (**B\'**) p53 expression is low. (**C-E\'**) Confocal images
+of germline (**C-C\'**) *bam* RNAi, (**D-D\'**) germline *athos* RNAi, or
+(**E-E\'**) germline *porthos* RNAi germaria stained for 1B1 (red),
+*Non1::GFP* (green, greyscale), and Vasa (blue). (**F**) Quantification
+of Non1:GFP expression in germline *athos, or porthos* RNAi compared to
+germline *bam* RNAi as a developmental control demonstrates there is
 significantly lower Non1::GFP expression in *athos, or porthos* RNAi
 compared to *bam* RNAi (n=10 germaria per genotype, Welch\'s t-test,
 \*\*\* = p\<0.001) (**G-H\'**) Confocal images of (**G-G\'**) *nosGAL4*,
@@ -1281,17 +1321,19 @@ p53 (red, grayscale) and Vasa (blue). (**I**) Quantification of p53
 punctate area above cutoff are markedly brighter in the germline of
 *Non1* RNAi depleted ovaries compared to the control (n=10 germaria per
 genotype, Welch\'s t-test, \* = p\<0.05). Cells highlighted by a dashed
-yellow circle represent cells shown in the inset. (**I-J\'**) Confocal
+yellow circle represent cells shown in the inset. (**J-M**) Confocal
 images of germaria stained for 1B1 (red, grayscale), and Vasa (blue) in
-(**I-I\'**) *aramis* germline RNAi exhibiting stem cyst phenotype (yellow
-dashed line) and (**J-J**\') *aramis* germline RNAi with *Non1*
-overexpression exhibiting single cells (arrow). (**N**) Phenotypic
-quantification of germline *athos* RNAi or *porthos* RNAi with *Non1*
-overexpression demonstrates a significant alleviation of the stem cyst
-phenotype compared to germline *athos* or *porthos* RNAi alone (n=26-33
-germaria per genotype, df=2, Fisher\'s exact test, \* = p\< 0.05, \*\* =
-p\< 0.01). Scale bar for main images is 15 micron, scale bar for insets
-is 3.75 micron.
+(**J**) *athos* germline RNAi exhibiting stem-cyst phenotype (yellow
+dashed line) and (**K**) *athos* germline RNAi with *Non1*
+overexpression exhibiting single cells (arrow), (**L**) *porthos*
+germline RNAi exhibiting stem-cyst phenotype (yellow dashed line) and
+(**M**) *porthos* germline RNAi with *Non1* overexpression exhibiting
+single cells (arrow). (**N**) Phenotypic quantification of germline
+*athos* RNAi or *porthos* RNAi with *Non1* overexpression demonstrates a
+significant alleviation of the stem-cyst phenotype compared to germline
+*athos* or *porthos* RNAi alone (n=26-33 germaria per genotype, df=2,
+Fisher\'s exact test, \* = p\< 0.05, \*\* = p\< 0.01). Scale bar for main
+images is 15 micron, scale bar for insets is 3.75 micron.
 
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-11-short)', fig.scap='(ref:RiBi-F2-11-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf")
@@ -1302,33 +1344,33 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf"
 **
 
 <!-- **Figure 2.11. Aramis regulated mRNAs contain a TOP motif.**  -->
-(**A**) Genome
-browser tract of *RpL30* locus in ovary CAGE-seq data showing the
-proportion of transcripts that are produced from a given TSS (orange).
-Predominant TSSs are shown in orange and putative TOP motif indicated
-with a green box. The bottom blue and red graph represents sequence
-conservation of the locus across *Diptera*. The dominant TSS initiates
-with a canonical TOP motif. (**B**) Sequence logo generated from *de
-novo* motif discovery on the first 200 bases downstream of CAGE derived
-TSSs of *aramis* translation target genes resembles a canonical TOP
-motif. (**C**) Histogram representing the location of the first 5-mer
-polypyrimidine sequence from each CAGE based TSS of *aramis* translation
-target genes demonstrates that the TOP motifs occur proximal to the TSS
-(n=76 targets). (**D**) Diagram of the *WT* and *Mut-TOP-GFP* reporter
-constructs indicating the TOP sequence that is mutated by transversion
-in the Mutant reporter (blue). (**D-E\'\'**) Confocal images and
-quantifications of (**E-E\'**) *WT-TOP-GFP* and (**F-F\'**) *Mut-TOP-GFP*
-reporter expression stained for 1B1 (red), GFP (green, grayscale), and
-Vasa (blue). Yellow dotted-line marks increased reporter expression in
-8-cell cysts of *WT-TOP-GFP* but not in *Mut-TOP-GFP*. Reporter
-expression was quantified over germline development for (**E\'\'**)
-*WT-TOP-GFP* and (**F\'\'**) *Mut-TOP-GFP* reporter expression and
-normalized to expression in the GSC reveals dynamic expression based on
-the presence of a TOP motif. (**G-H\'**) Confocal images of *WT-TOP-GFP*
-reporter ovarioles showing 1B1 (red), GFP (green, grayscale), and Vasa
-(blue) in (**G-G\'**) *bam* germline depletion as a developmental control
-and (**H-H\'**) *aramis* germline depleted ovaries. Yellow dotted lines
-indicate germline. (**I-J\'**) Confocal images of *Mut-TOP-GFP* reporter
+(**A**) Genome browser tract of *RpL30* locus in ovary
+CAGE-seq data showing the proportion of transcripts that are produced
+from a given TSS (orange). Predominant TSSs are shown in orange and
+putative TOP motif indicated with a green box. The bottom blue and red
+graph represents sequence conservation of the locus across *Diptera*.
+The dominant TSS initiates with a canonical TOP motif. (**B**) Sequence
+logo generated from *de novo* motif discovery on the first 200 bases
+downstream of CAGE derived TSSs of *aramis* translation target genes
+resembles a canonical TOP motif. (**C**) Histogram representing the
+location of the first 5-mer polypyrimidine sequence from each CAGE based
+TSS of *aramis* translation target genes demonstrates that the TOP
+motifs occur proximal to the TSS (n=76 targets). (**D**) Diagram of the
+*WT* and *Mut-TOP-GFP* reporter constructs indicating the TOP sequence
+that is mutated by transversion in the Mutant reporter (blue).
+(**E-F\'\'**) Confocal images and quantifications of (**E-E\'**)
+*WT-TOP-GFP* and (**F-F\'**) *Mut-TOP-GFP* reporter expression stained
+for 1B1 (red), GFP (green, grayscale), and Vasa (blue). Yellow
+dotted-line marks increased reporter expression in 8-cell cysts of
+*WT-TOP-GFP* but not in *Mut-TOP-GFP*. Reporter expression was
+quantified over germline development for (**E\'\'**) *WT-TOP-GFP* and
+(**F\'\'**) *Mut-TOP-GFP* reporter expression and normalized to expression
+in the GSC reveals dynamic expression based on the presence of a TOP
+motif. (**G-H\'**) Confocal images of *WT-TOP-GFP* reporter ovarioles
+showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (**G-G\'**)
+*bam* germline depletion as a developmental control and (**H-H\'**)
+*aramis* germline depleted ovaries. Yellow dotted lines indicate
+germline. (**I-J\'**) Confocal images of *Mut-TOP-GFP* reporter
 expression showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in
 (**I-I\'**) *bam* RNAi and (**J-J\'**) *aramis* germline RNAi. Yellow
 dotted lines indicate germline. (**K**) A.U. quantification of WT and
@@ -1341,6 +1383,7 @@ transcripts to regulation (n=17-25 germaria per genotype, with Welch\'s
 t-test \*\*\* = p\<0.001). Scale bar for all images is 15 micron.
 
 
+
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-12-short)', fig.scap='(ref:RiBi-F2-12-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf")
 ```
@@ -1349,48 +1392,48 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf
 **
 
 <!-- **Figure 2.12. TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.** -->
-(**A-B**) Confocal images of *WT-TOP*
-reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue)
-in (**A**) *nosGAL4*, driver control ovaries and (**B**) ovaries
-depleted of *Nprl3* in the germline. (**C-D**) Confocal images of
-*Mut-TOP-GFP* reporter expression stained for 1B1 (red), GFP (green,
-grayscale), and Vasa (blue) in (**C**) *nosGAL4*, driver control ovaries
-and (**D**) ovaries depleted of *Nprl3* in the germline. (**E**) A.U.
-quantification of WT and Mutant TOP reporter expression in GSCs of
-*nosGAL4*, driver control ovaries and GSCs of *Nprl3* germline depleted
-ovaries normalized to Vasa expression indicate that the relative
-expression of the *WT-TOP-GFP* reporter is higher than the *Mut-TOP-GFP*
-reporter (n=9-11 germaria per genotype, Welch\'s t-test, \* = p\<0.05,
-\*\* = p\<0.01, \*\*\* = p\<0.001). (**F-G**) Confocal images of
-*WT-TOP* reporter expression stained for 1B1 (red), GFP (green), and
-Vasa (blue) in (**F**) *nosGAL4*, driver control ovaries and (**G**)
-ovaries depleted of *raptor* in the germline. (**H-I**) Confocal images
-of *Mut-TOP-GFP* reporter expression stained for 1B1 (red), GFP (green),
-and Vasa (blue) in (**H**) *nosGAL4*, driver control ovaries and (**I**)
-ovaries depleted of *raptor* in the germline. (**J**) A.U.
-quantification of WT and Mutant TOP reporter expression in GSCs of
-*nosGAL4*, driver control ovaries and GSCs of *raptor* germline depleted
-ovaries normalized to Vasa expression indicate that the relative
-expression of the *WT-TOP-GFP* reporter is lower than the *Mut-TOP-GFP*
-reporter (n=10 germaria per genotype, Welch\'s t-test, \* = p\<0.05, \*\*
-= p\<0.01). (**K-M\'**) Confocal images of *WT-TOP-GFP* reporter
-ovarioles showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in
-(**K-K\'**) *bam* germline depletion as a developmental control,
-(**L-L\'**) *athos* germline depleted ovaries, and (**M-M\'**) *porthos*
-germline depleted ovaries. Yellow dotted lines indicate germline.
-(**N-P\'**) Confocal images of *Mut-TOP-GFP* reporter expression showing
-1B1 (red), GFP (green, grayscale), and Vasa (blue) in (**N-N\'**) *bam*
-RNAi, (**O-O\'**) *athos* germline RNAi, and (**P-P\'**) *porthos*
-germline depleted ovaries. Yellow dotted lines indicate germline.
-(**J**) A.U. quantification of WT and Mutant TOP reporter expression in
-undifferentiated daughter cells in *bam* RNAi compared *athos* or
-*porthos* RNAi demonstrates that the *WT-TOP-GFP* reporter shows
-significantly lower expression in *athos* and *porthos* RNAi than the
-*Mut-TOP-GFP* relative to the expression of the respective reporters in
-*bam* RNAi indicating that the presence of a TOP motif sensitizes
+(**A-B**) Confocal images of *WT-TOP* reporter expression stained for
+1B1 (red), GFP (green), and Vasa (blue) in (**A**) *nosGAL4*, driver
+control ovaries and (**B**) ovaries depleted of *Nprl3* in the germline.
+(**C-D**) Confocal images of *Mut-TOP-GFP* reporter expression stained
+for 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (**C**)
+*nosGAL4*, driver control ovaries and (**D**) ovaries depleted of
+*Nprl3* in the germline. (**E**) A.U. quantification of WT and Mutant
+TOP reporter expression in GSCs of *nosGAL4*, driver control ovaries and
+GSCs of *Nprl3* germline depleted ovaries normalized to Vasa expression
+indicate that the relative expression of the *WT-TOP-GFP* reporter is
+higher than the *Mut-TOP-GFP* reporter (n=9-11 germaria per genotype,
+Welch\'s t-test, \* = p\<0.05, \*\* = p\<0.01, \*\*\* = p\<0.001).
+(**F-G**) Confocal images of *WT-TOP* reporter expression stained for
+1B1 (red), GFP (green), and Vasa (blue) in (**F**) *nosGAL4*, driver
+control ovaries and (**G**) ovaries depleted of *raptor* in the
+germline. (**H-I**) Confocal images of *Mut-TOP-GFP* reporter expression
+stained for 1B1 (red), GFP (green), and Vasa (blue) in (**H**)
+*nosGAL4*, driver control ovaries and (**I**) ovaries depleted of
+*raptor* in the germline. (**J**) A.U. quantification of WT and Mutant
+TOP reporter expression in GSCs of *nosGAL4*, driver control ovaries and
+GSCs of *raptor* germline depleted ovaries normalized to Vasa expression
+indicate that the relative expression of the *WT-TOP-GFP* reporter is
+lower than the *Mut-TOP-GFP* reporter (n=10 germaria per genotype,
+Welch\'s t-test, \* = p\<0.05, \*\* = p\<0.01). (**K-M\'**) Confocal
+images of *WT-TOP-GFP* reporter ovarioles showing 1B1 (red), GFP (green,
+grayscale), and Vasa (blue) in (**K-K\'**) *bam* germline depletion as a
+developmental control, (**L-L\'**) *athos* germline depleted ovaries, and
+(**M-M\'**) *porthos* germline depleted ovaries. Yellow dotted lines
+indicate germline. (**N-P\'**) Confocal images of *Mut-TOP-GFP* reporter
+expression showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in
+(**N-N\'**) *bam* RNAi, (**O-O\'**) *athos* germline RNAi, and (**P-P\'**)
+*porthos* germline depleted ovaries. Yellow dotted lines indicate
+germline. (**Q**) A.U. quantification of WT and Mutant TOP reporter
+expression in undifferentiated daughter cells in *bam* RNAi compared
+*athos* or *porthos* RNAi demonstrates that the *WT-TOP-GFP* reporter
+shows significantly lower expression in *athos* and *porthos* RNAi than
+the *Mut-TOP-GFP* relative to the expression of the respective reporters
+in *bam* RNAi indicating that the presence of a TOP motif sensitizes
 transcripts to regulation (n=17-25 germaria per genotype, with Welch\'s
 t-test with , \*\* = p\<0.01, \*\*\* = p\<0.001). Scale bar for images
 is 15 micron.
+
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-13-short)', fig.scap='(ref:RiBi-F2-13-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf")
 ```
@@ -1425,7 +1468,8 @@ In conditions with normal ribosome biogenesis Non1 is efficiently
 translated, downregulating p53 levels allowing for progression through
 the cell cycle. When ribosome biogenesis is perturbed Non1 is not
 translated to sufficient levels, resulting in the accumulation of p53
-and cell cycle arrest. Scale bar for all images is 15 micron.
+and cell cycle arrest. Dotted lines indicate indirect affects. Scale bar
+for all images is 15 micron.
 
 ```{r, include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap='(ref:RiBi-F2-14-short)', fig.scap='(ref:RiBi-F2-14-short)', echo=FALSE}
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf")
@@ -1434,7 +1478,8 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf
 **
 
 **Figure 2.14. Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.** 
-(**A-A\'**) Confocal images of germaria stained for 1B1 (red), Vasa (blue), and *Larp
+(**A-A\'**) Confocal
+images of germaria stained for 1B1 (red), Vasa (blue), and *Larp
 GFP-3XFLAG* (green, grayscale) indicates Larp is expressed throughout
 early oogenesis. (**B**) Quantification of EMSAs and summary of K~d~ of
 the protein-RNA interactions. (**C-C\'**) EMSA of Larp-DM15 and the
@@ -1442,24 +1487,24 @@ leading 42 nucleotides of (**B**) *RpL30* and (**B\'**) *Non1* with their
 TOP sequence mutated to purines as a negative control with increasing
 concentrations of Larp-DM15 from left to right indicates that Larp-DM15
 requires a leading TOP sequence for its binding. (**D**) Western of
-representative IP of Larp::GFP::FLAG from ovary tissue used for RNA
-IP-seq. (**E-F\'**) Confocal images of *Larp::GFP::FLAG* reporter
+representative IP of Larp::GFP::3XFLAG from ovary tissue used for RNA
+IP-seq. (**E-F\'**) Confocal images of Larp::GFP::3XFLAG reporter
 expression stained for 1B1 (red), GFP (green, grayscale), and Vasa
-(blue) in (**E-E\'**) *bam* and (**F-F\'**) *aramis* depleted germaria.
-(**G**) A.U. quantification of Larp::GFP::FLAG reporter expression in
+(blue) in (**E-E\'**) *bam* and (**F-F\'**) *aramis*-depleted germaria.
+(**G**) A.U. quantification of Larp::GFP::3XFLAG reporter expression in
 the germline of *bam* RNAi and *aramis* RNAi normalized to germline Vasa
 intensity demonstrates that the germline expression of Larp is not
 elevated in *aramis* germline RNAi compared to *bam* germline RNAi as a
-developmental control (n=10, NS = p\>0.05, Welch\'s t-test). (**H-H\'**)
-Confocal images of *Larp::GFP::FLAG* reporter expression stained for 1B1
+developmental control (n=10, NS = p>0.05, Welch\'s t-test). (**H-H\'**)
+Confocal images of Larp::GFP::3XFLAG reporter expression stained for 1B1
 (red), GFP (green), and Vasa (blue) in (**H**) *bam* and (**H\'**) *bam*;
-*aramis* depleted germaria. (**G**) A.U. quantification of
-Larp::GFP::FLAG reporter expression in the germline of *bam* RNAi and
+*aramis*-depleted germaria. (**I**) A.U. quantification of
+Larp::GFP::3XFLAG reporter expression in the germline of *bam* RNAi and
 *bam* RNAi ; *aramis* RNAi demonstrates that the germline expression of
 Larp normalized to somatic Larp expression is not elevated in *bam*;
 *aramis* germline RNAi compared to *bam* germline RNAi as a
-developmental control (n=10, NS = p\>0.05, Welch\'s t-test). (**J**)
-Western of representative IP of Larp::GFP::FLAG from ovary tissue used
+developmental control (n=10, NS = p>0.05, Welch\'s t-test). (**J**)
+Western of representative IP of Larp::GFP::3XFLAG from ovary tissue used
 for RNA IP qPCR. (**K-K\'**) Confocal images of (**K**) *nosGAL4*, driver
 control and (**K\'**) ovaries overexpressing the DM15 region of Larp in
 the germline ovaries stained for DAPI (green) and Vasa (blue).
@@ -1593,23 +1638,22 @@ Materials generated during this study are available upon request.
 
 The following Bloomington Stock Center lines were used in this study:
 \#25751 *UAS-Dcr2;nosGAL4*, \#4442 *nosGAL4;MKRS/TM6*, \#32334 Aramis
-RNAi\#1 CG5589^HMS00325^, \#56977 Athos RNAi\#1 CG4901^HMC04417^,
-\#36589 Porthos RNAi\#1 CG9253^GL00549^, \#36537 UAS-tkv.CA, \#33631 bam
+RNAi\#1 CG5589^HMS00325^, \#56977 Athos RNAi\#1 CG4901^HMC04417^, \#36589
+Porthos RNAi\#1 CG9253^GL00549^, \#36537 UAS-tkv.CA, \#33631 bam
 RNAi^HMS00029^, \#6815 p53^5A-1-4^, \#4264 Harwich, \#6816 p53^11-1B-1^,
 \#55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B, \#5431
-UAS-EGFP, \#18942 aramis^f06152^ PBac{WH}CG5589f06152/TM6B, Tb1, \#9503
-athos deficiency Df(2L)BSC143/CyO, \#13988 porthos^KG05120^
-P{SUPor-P}CG9253^KG05120^, \#58178 bam RNAi P{TRiP.HMJ22155}, \#78777
-Non1 RNAi P{TRiP.HMS05872}, \#61790 Larp::GFP::3XFLAG
-Mi{PT-GFSTF.1}larp^MI06928-GFSTF.1^, \#8841 w^1118; Df(3R)Hsp70A,
-Df(3R)Hsp70B, \#55384 Nprl3 RNAi P{TRiP.HMC04072}attP40, \#34814 raptor
-RNAi P{TRiP.HMS00124}attP2
+UAS-EGFP, \#18942 aramis^f06152^ Pbac{WH}CG5589f06152/TM6B, Tb1, \#9503
+athos Df Df(2L)BSC143/CyO, \#13988 porthos^KG^ P{SUPor-P}CG9253^KG05120^,
+\#58178 bam RNAi P{TriP.HMJ22155}, \#78777 Non1 RNAi P{TriP.HMS05872},
+\#61790 Larp::GFP::3XFLAG Mi{PT-GFSTF.1}larp^MI06928-GFSTF.1^, \#8841
+w\[1118\]; Df(3R)Hsp70A, Df(3R)Hsp70B, \#55384 Nprl3 RNAi
+P{TriP.HMC04072}attP40, \#34814 raptor RNAi P{TriP.HMS00124}attP2
 
 The following Vienna Stock Center lines were used in this study: Aramis
-RNAi\#2 CG5589^v44322^, Athos RNAi\#2 CG4901^v34905^, Aramis::GFP
-PBac{fTRG01033.sfGFP-TVPTBF}VK00002, Athos::GFP
-PBac{fTRG01233.sfGFP-TVPTBF}VK00033, Non1::GFP
-PBac{fTRG00617.sfGFP-TVPTBF}VK00033
+RNAi#2 CG5589^v44322^, Athos RNAi#2 CG4901^v34905^, Aramis::GFP
+Pbac{fTRG01033.sfGFP-TVPTBF}VK00002, Athos::GFP
+Pbac{fTRG01233.sfGFP-TVPTBF}VK00033, Non1::GFP
+Pbac{fTRG00617.sfGFP-TVPTBF}VK00033
 
 The following additional fly lines were used in the study:
 UASp-CycB::GFP ([Mathieu et al.,
@@ -1618,9 +1662,10 @@ UASp-CycB::GFP ([Mathieu et al.,
 lab),
 *tjGAL4/CyO* [@tanentzapfIntegrindependentAnchoringStemcell2007],
 UASp-p53 [@bakhratDrosophilaChk2P532010], RpS2::GFP^CB02294^
-[@buszczakCarnegieProteinTrap2007;@Zhang2014d], UASp-Non1 (this
-study), UASp-Larp-DM15 (this study), WT-TOP-Reporter (this study),
-Mutant-TOP-Reporter (this study).
+[@buszczakCarnegieProteinTrap2007;@Zhang2014d],
+UASt-porthos::3XFLAG::3XHA [@emtenaniGeneticProgramBoosts2021],
+UASp-Non1 (this study), UASp-Larp-DM15 (this study), WT-TOP-Reporter
+(this study), Mutant-TOP-Reporter (this study).
 
 **Antibodies IF**
 
@@ -1943,24 +1988,25 @@ polysome fractions was pooled and RNAseq libraries were prepared.
 **Polysome-seq Data Analysis**
 
 Reads were checked for quality using FastQC. Reads were mapped to the
-Drosophila genome (dm6.01) using Hisat version 2.1.0. Mapped reads were
-assigned to features using featureCount version v1.6.4. Translation
-efficiency was calculated as in (Flora et al., 2018) using an R script.
-Briefly, TPMs (transcripts per million) values were calculated. Any gene
-having zero reads in any library was discarded from further analysis.
-The log~2~ ratio of CPMs between the polysome fraction and total mRNA
-was calculated and averaged between replicates. This ratio represents
-TE, TE of each replicate was averaged. Targets were defined as
-transcripts falling greater or less than two standard deviations from
-the median TE in aramis RNAi, but not in either of the two developmental
-controls (NosGAL4\>UAS-*tkv* or NosGAL4\>*bam* RNAi). Additionally,
-genes were only considered targets if their mean TE value in
-NosGAL4\>*aramis* RNAi was higher (for upregulated targets) or lower
-(for downregulated targets) their mean TE values in both of the two
-developmental controls. Finally, only targets meeting a conservative
-expression cutoff of log~2~(TPM) expression greater than five were
-considered to exclude more lowly expressed genes as they are highly
-influenced by noise in polysome-seq.
+*Drosophila* genome (dm6.01) using Hisat version 2.1.0. Mapped reads
+were assigned to features using featureCount version v1.6.4. Translation
+efficiency was calculated as in (Flora et al., 2018; Kronja et al.,
+2014) using an R script. Briefly, TPMs (transcripts per million) values
+were calculated. Any gene having zero reads in any library was discarded
+from further analysis. The log~2~ ratio of CPMs between the polysome
+fraction and total mRNA was calculated and averaged between replicates.
+This ratio represents the TE. TE of each replicate was averaged. Targets
+were defined as transcripts falling greater or less than two standard
+deviations from the median TE in aramis RNAi for upregulated and
+downregulated genes respectively, but not in either of the two
+developmental controls (Nos-GAL4 UAS-*tkv* or Nos-GAL4 UAS-*bam* RNAi).
+Additionally, genes were only considered targets if their mean TE value
+in Nos-GAL4 UAS-*aramis* RNAi was higher (for upregulated targets) or
+lower (for downregulated targets) than their mean TE values in both of
+the two developmental controls. Finally, only targets meeting a
+conservative expression cutoff of log~2~(TPM) expression greater than
+five were considered to exclude more lowly expressed genes as they are
+highly influenced by noise in polysome-seq in both controls.
 
 **CAGE-seq Tracks**
 
