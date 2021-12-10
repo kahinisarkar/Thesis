@@ -27,7 +27,8 @@ output:
  # thesisdown::thesis_word: default
 #  thesisdown::thesis_epub: default
 header-includes:
-- \usepackage[width=\textwidth]{caption}
+# - \usepackage[width=\textwidth]{caption}
+- \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
 # for the .RMD files. If you are NOT producing a PDF, delete or silence

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.24)  10 DEC 2021 18:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.12.10)  10 DEC 2021 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2021-11-15>
+LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22> (./reedthesis.cls
 Document Class: reedthesis 2004/01/27 The Reed College Thesis Class
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
@@ -36,7 +36,7 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@olf=\skip56
 \f@nch@O@orf=\skip57
 ) (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/11/18 v4.0 verbatim text (tvz,hv)
+Package: fancyvrb 2021/11/24\nobreakspace {} 4.1a\nobreakspace {}verbatim text (tvz,hv)
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
@@ -573,7 +573,7 @@ Overfull \hbox (574.78441pt too wide) in paragraph at lines 346--347
 [2
 
 ] [3]
-<./figure/Book Chapter/Figure1.pdf, id=267, 510.7321pt x 259.65207pt>
+<./figure/Book Chapter/Figure1.pdf, id=276, 510.7321pt x 259.65207pt>
 File: ./figure/Book Chapter/Figure1.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure1.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure1.pdf  used on input line 414.
@@ -595,7 +595,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [6]
-<./figure/Book Chapter/Figure2.pdf, id=303, 596.2275pt x 147.57535pt>
+<./figure/Book Chapter/Figure2.pdf, id=312, 596.2275pt x 147.57535pt>
 File: ./figure/Book Chapter/Figure2.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure2.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure2.pdf  used on input line 561.
@@ -616,7 +616,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [8] [9] [10] [11]
-<./figure/Book Chapter/Figure3.pdf, id=353, 448.07399pt x 592.61403pt>
+<./figure/Book Chapter/Figure3.pdf, id=362, 448.07399pt x 592.61403pt>
 File: ./figure/Book Chapter/Figure3.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure3.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure3.pdf  used on input line 839.
@@ -643,7 +643,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
 [15]
-<./figure/Book Chapter/Figure4.pdf, id=394, 439.97975pt x 542.025pt>
+<./figure/Book Chapter/Figure4.pdf, id=403, 439.97975pt x 542.025pt>
 File: ./figure/Book Chapter/Figure4.pdf Graphic file (type pdf)
 <use ./figure/Book Chapter/Figure4.pdf>
 Package pdftex.def Info: ./figure/Book Chapter/Figure4.pdf  used on input line 991.
@@ -663,614 +663,614 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-12.61652pt}.
 
-[17 <./figure/Book Chapter/Figure4.pdf>] [18] [19]
+[17 <./figure/Book Chapter/Figure4.pdf>] [18]
 Chapter 2.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1083.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1069.
 (c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [20
+) [19
 
-] [21] [22]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf, id=454, 614.295pt x 794.97pt>
+] [20] [21]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf, id=459, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf  used on input line 1128.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf  used on input line 1114.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[23]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+[22]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
-[24 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
+[23 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf, id=518, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf, id=523, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf  used on input line 1142.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf  used on input line 1128.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[25]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+[24]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
-[26 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>]
-Underfull \hbox (badness 1009) in paragraph at lines 1148--1149
+[25 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf>]
+Underfull \hbox (badness 1009) in paragraph at lines 1134--1135
 \T1/lmr/m/n/12 Aramis::GFP::3XFLAG and (\T1/lmr/bx/n/12 B'\T1/lmr/m/n/12 ) Aramis::GFP::3XFLAG in con-junc-tion with \T1/lmr/m/it/12 aramis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1152
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
 
-[27]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf, id=621, 614.295pt x 794.97pt>
+[26]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf, id=625, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf  used on input line 1161.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf  used on input line 1147.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[28]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+[27]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
-[29 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>]
+[28 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
+
+ []
+
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf, id=694, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf  used on input line 1161.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+[29] [30]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
+
+[31 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf, id=689, 614.295pt x 794.97pt>
-File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf Graphic file (type pdf)
-<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf  used on input line 1175.
-(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[30] [31]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
-
-[32 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
-
- []
-
-[33]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf, id=783, 614.295pt x 794.97pt>
+[32]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf, id=787, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf  used on input line 1196.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf  used on input line 1182.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[34]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+[33]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
-[35 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1206
+[34 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
 
  []
 
-[36]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf, id=889, 794.97pt x 614.295pt>
+[35]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf, id=894, 794.97pt x 614.295pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf  used on input line 1212.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf  used on input line 1198.
 (pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
 
-Overfull \hbox (36.14922pt too wide) in paragraph at lines 1212--1213
+Overfull \hbox (36.14922pt too wide) in paragraph at lines 1198--1199
  [][] 
  []
 
-[37] [38 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
+[36] [37 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf, id=1016, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf, id=1021, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf  used on input line 1228.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf  used on input line 1214.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[39] [40]
+[38] [39]
 Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[41 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>]
+[40 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
+
+ []
+
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf, id=1121, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf  used on input line 1228.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+[41]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
+
+[42 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4s.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf, id=1116, 614.295pt x 794.97pt>
-File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf Graphic file (type pdf)
-<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf  used on input line 1242.
-(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[42]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
-
-[43 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 4s.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
-
- []
-
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf, id=1195, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf, id=1200, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf  used on input line 1258.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf  used on input line 1244.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
 
-Underfull \hbox (badness 1888) in paragraph at lines 1255--1263
+Underfull \hbox (badness 1888) in paragraph at lines 1241--1249
 []\T1/lmr/m/n/12 During nor-mal oo-ge-n-e-sis, p53 pro-tein is ex-pressed in cyst stages in re-sponse to
  []
 
-[44]
+[43]
 Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[45 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>]
+[44 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
+
+ []
+
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf, id=1288, 794.97pt x 614.295pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf  used on input line 1258.
+(pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
+
+Overfull \hbox (36.14922pt too wide) in paragraph at lines 1258--1259
+ [][] 
+ []
+
+[45] [46 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1267--1268
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf, id=1284, 794.97pt x 614.295pt>
-File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf Graphic file (type pdf)
-<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf  used on input line 1272.
-(pdftex.def)             Requested size: 505.9042pt x 390.91658pt.
-
-Overfull \hbox (36.14922pt too wide) in paragraph at lines 1272--1273
- [][] 
- []
-
-[46] [47 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1281--1282
-
- []
-
-[48]
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf, id=1376, 614.295pt x 794.97pt>
+[47]
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf, id=1381, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf  used on input line 1293.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf  used on input line 1279.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[49]
+[48]
 Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[50 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>]
+[49 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
+
+ []
+
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf, id=1460, 614.295pt x 794.97pt>
+File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf Graphic file (type pdf)
+<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf  used on input line 1293.
+(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
+[50]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
+
+[51 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 1302--1303
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf, id=1455, 614.295pt x 794.97pt>
-File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf Graphic file (type pdf)
-<use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf  used on input line 1307.
-(pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[51]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
-
-[52 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1316--1317
-
- []
-
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf, id=1561, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf, id=1566, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf  used on input line 1326.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf  used on input line 1312.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[53] [54]
+[52] [53]
 Overfull \vbox (20.0058pt too high) has occurred while \output is active []
 
-[55 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1335--1336
+[54 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1321--1322
 
  []
 
-<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf, id=1710, 614.295pt x 794.97pt>
+<./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf, id=1715, 614.295pt x 794.97pt>
 File: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf Graphic file (type pdf)
 <use ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>
-Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf  used on input line 1342.
+Package pdftex.def Info: ./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf  used on input line 1328.
 (pdftex.def)             Requested size: 469.75604pt x 645.9358pt.
-[56] [57]
-Overfull \vbox (20.0058pt too high) has occurred while \output is active []
+[55] [56]
+Overfull \vbox (34.5058pt too high) has occurred while \output is active []
 
-[58 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1352
-
- []
-
-[59] [60] [61] [62] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1403
+[57 <./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
 
  []
 
+[58] [59] [60] [61] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
 
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1409
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
+
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1411--1412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1416--1417
 
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1420--1421
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1430--1431
-
- []
-
-[65]
-Underfull \hbox (badness 2088) in paragraph at lines 1453--1453
+Underfull \hbox (badness 2088) in paragraph at lines 1439--1439
 \T1/lmr/m/n/12 #56977 Athos RNAi#1 CG4901$[]$, #36589 Porthos RNAi#1 CG9253$[]$,
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1453--1453
+Underfull \hbox (badness 2245) in paragraph at lines 1439--1439
 \T1/lmr/m/n/12 p53$[]$, #55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B,
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 1453--1453
+Underfull \hbox (badness 3364) in paragraph at lines 1439--1439
 \T1/lmr/m/n/12 bam RNAi P{TriP.HMJ22155}, #78777 Non1 RNAi P{TriP.HMS05872}, #61790
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 1455--1456
+Underfull \hbox (badness 3209) in paragraph at lines 1441--1442
 \T1/lmr/m/n/12 CG5589$[]$, Athos RNAi#2 CG4901$[]$, Aramis::GFP Pbac{fTRG01033.sfGFP-
  []
 
 
-Overfull \hbox (2.18065pt too wide) in paragraph at lines 1455--1456
+Overfull \hbox (2.18065pt too wide) in paragraph at lines 1441--1442
 \T1/lmr/m/n/12 TVPTBF}VK00002, Athos::GFP Pbac{fTRG01233.sfGFP-TVPTBF}VK00033, Non1::GFP
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 1457--1458
+Underfull \hbox (badness 1178) in paragraph at lines 1443--1444
 \T1/lmr/m/n/12 Non1 (this study), UASp-Larp-DM15 (this study), WT-TOP-Reporter (this study),
  []
 
-[66] [67] [68] [69] [70] [71] [72] [73] [74]
-Overfull \hbox (91.75864pt too wide) in paragraph at lines 1590--1591
+[65] [66] [67] [68] [69] [70] [71] [72] [73]
+Overfull \hbox (91.75864pt too wide) in paragraph at lines 1576--1577
 []\T1/lmr/m/n/12 *Purine-substituted RPL30 con-trol: \T1/lmr/bx/n/12 GAAAAG\T1/lmr/m/n/12 CCAUUGUCAGCCGACGAAGUGCUUUAACCCAAACUA 
  []
 
 
-Overfull \hbox (87.75606pt too wide) in paragraph at lines 1592--1593
+Overfull \hbox (87.75606pt too wide) in paragraph at lines 1578--1579
 []\T1/lmr/m/n/12 *Purine-substituted Non1 con-trol: \T1/lmr/bx/n/12 GAAAAAG\T1/lmr/m/n/12 GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU 
  []
 
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 1611--1612
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 1597--1598
 
  []
 
 
-Overfull \hbox (13.23346pt too wide) in paragraph at lines 1613--1614
+Overfull \hbox (13.23346pt too wide) in paragraph at lines 1599--1600
 []$\OT1/lmr/m/n/12 ^^A\OML/lmm/m/it/12 Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 normalized IP\OT1/lmr/m/n/12 ] = (\OML/lmm/m/it/12 Average Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 IP\OT1/lmr/m/n/12 ]\OML/lmm/m/it/12 =\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 Average Ct\OT1/lmr/m/n/12 [\OML/lmm/m/it/12 Input\OT1/lmr/m/n/12 ] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 log []\OT1/lmr/m/n/12 2 [](\OML/lmm/m/it/12 Input Dilution Factor\OT1/lmr/m/n/12 ))$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
+Underfull \hbox (badness 10000) in paragraph at lines 1602--1603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1621--1622
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1627
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+Underfull \hbox (badness 10000) in paragraph at lines 1617--1618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1638--1639
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1643--1644
+Underfull \hbox (badness 10000) in paragraph at lines 1629--1630
 
  []
 
-[76] [77
+[75] [76
 
 ]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1670.
-[78
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1656.
+[77
 
 ]
 
-LaTeX Warning: Reference `ref-labels' on page 79 undefined on input line 1698.
+LaTeX Warning: Reference `ref-labels' on page 78 undefined on input line 1684.
 
-[79]
+[78]
 Appendix B.
-[80
+[79
 
 ]
-Underfull \hbox (badness 1337) in paragraph at lines 1737--1739
+Underfull \hbox (badness 1337) in paragraph at lines 1723--1725
  []\T1/lmr/m/n/12 Armistead, J., & Triggs-Raine, B. (2014). Di-verse dis-eases from a ubiq-ui-tous
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 1737--1739
+Underfull \hbox (badness 3000) in paragraph at lines 1723--1725
  \T1/lmr/m/n/12 pro-cess: The ri-bo-so-mopa-thy para-dox. \T1/lmr/m/it/12 FEBS Let-ters\T1/lmr/m/n/12 , \T1/lmr/m/it/12 588\T1/lmr/m/n/12 (9), 1491--1500.
  []
 
-[81
+[80
 
 
 ]
-Underfull \hbox (badness 1178) in paragraph at lines 1770--1772
+Underfull \hbox (badness 1178) in paragraph at lines 1756--1758
  \T1/lmr/m/n/12 Struc-tural ba-sis for the Nanos-mediated re-cruit-ment of the CCR4-NOT com-
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 1770--1772
+Underfull \hbox (badness 2591) in paragraph at lines 1756--1758
  \T1/lmr/m/n/12 plex and trans-la-tional re-pres-sion. \T1/lmr/m/it/12 Genes & De-vel-op-ment\T1/lmr/m/n/12 , \T1/lmr/m/it/12 28\T1/lmr/m/n/12 (8), 888--901.
  []
 
-[82]
-Underfull \hbox (badness 1824) in paragraph at lines 1782--1784
+[81]
+Underfull \hbox (badness 1824) in paragraph at lines 1768--1770
  []\T1/lmr/m/n/12 Blatt, P., Wong-Deyrup, S. W., Mc-Carthy, A., Brez-nak, S., Hur-ton, M. D.,
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 1782--1784
+Underfull \hbox (badness 1077) in paragraph at lines 1768--1770
  \T1/lmr/m/n/12 ter-nal tran-scrip-tome dur-ing Drosophila oo-ge-n-e-sis. \T1/lmr/m/it/12 bioRxiv\T1/lmr/m/n/12 , 2020.06.30.179986.
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 1785--1787
+Underfull \hbox (badness 1242) in paragraph at lines 1771--1773
  \T1/lmr/m/n/12 Poly(ADP-Ribose) Poly-merase 1 (PARP-1) Reg-u-lates Ri-bo-so-mal Bio-gen-e-sis in
  []
 
 
-Overfull \hbox (11.57483pt too wide) in paragraph at lines 1785--1787
+Overfull \hbox (11.57483pt too wide) in paragraph at lines 1771--1773
  \T1/lmr/m/n/12 Drosophila Nu-cle-oli. \T1/lmr/m/it/12 PLoS Ge-net-ics\T1/lmr/m/n/12 , \T1/lmr/m/it/12 8\T1/lmr/m/n/12 (1). http://doi.org/[]10.1371/journal.pgen.1002442[] 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 1794--1796
+Underfull \hbox (badness 1320) in paragraph at lines 1780--1782
  []\T1/lmr/m/n/12 Boley, N., Wan, K. H., Bickel, P. J., & Cel-niker, S. E. (2014). Nav-i-gat-ing
  []
 
 
-Overfull \hbox (11.66277pt too wide) in paragraph at lines 1800--1802
+Overfull \hbox (11.66277pt too wide) in paragraph at lines 1786--1788
  \T1/lmr/m/it/12 Jour-nal of Molec-u-lar Cell Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 11\T1/lmr/m/n/12 (3), 200--211. http://doi.org/[]10.1093/jmcb/mjy087[] 
  []
 
-[83] [84]
-Underfull \hbox (badness 1286) in paragraph at lines 1872--1874
+[82] [83]
+Underfull \hbox (badness 1286) in paragraph at lines 1858--1860
  []\T1/lmr/m/n/12 Deisenroth, C., & Zhang, Y. (2010). Ri-bo-some bio-gen-e-sis surveil-lance: Prob-
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 1887--1889
+Underfull \hbox (badness 1062) in paragraph at lines 1873--1875
  \T1/lmr/m/n/12 is mu-tated in Diamond-Blackfan anaemia. \T1/lmr/m/it/12 Na-ture Ge-net-ics\T1/lmr/m/n/12 , \T1/lmr/m/it/12 21\T1/lmr/m/n/12 (2), 169--175.
  []
 
-[85]
-Underfull \hbox (badness 1248) in paragraph at lines 1896--1898
+[84]
+Underfull \hbox (badness 1248) in paragraph at lines 1882--1884
  \T1/lmr/m/n/12 R., ... Siekhaus, D. E. (2021). A ge-netic pro-gram boosts mi-to-chon-drial
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 1896--1898
+Underfull \hbox (badness 2772) in paragraph at lines 1882--1884
  \T1/lmr/m/n/12 func-tion to power macrophage tis-sue in-va-sion. \T1/lmr/m/it/12 bioRxiv\T1/lmr/m/n/12 , 2021.02.18.431643.
  []
 
-[86]
-Underfull \hbox (badness 1424) in paragraph at lines 1923--1925
+[85]
+Underfull \hbox (badness 1424) in paragraph at lines 1909--1911
  \T1/lmr/m/n/12 through Mod-u-la-tion of Mul-ti-ple Path-ways. \T1/lmr/m/it/12 Cell Re-ports\T1/lmr/m/n/12 , \T1/lmr/m/it/12 13\T1/lmr/m/n/12 (7), 1366--1379.
  []
 
 
-Overfull \hbox (36.98332pt too wide) in paragraph at lines 1941--1943
+Overfull \hbox (36.98332pt too wide) in paragraph at lines 1927--1929
  \T1/lmr/m/n/12 40S Ri-bo-somes. \T1/lmr/m/it/12 Molec-u-lar Cell\T1/lmr/m/n/12 , \T1/lmr/m/it/12 67\T1/lmr/m/n/12 (1), 55--70.e4. http://doi.org/[]10.1016/j.molcel.2017.06.005[] 
  []
 
-[87]
-Underfull \hbox (badness 1466) in paragraph at lines 1968--1970
+[86]
+Underfull \hbox (badness 1466) in paragraph at lines 1954--1956
  []\T1/lmr/m/n/12 Granneman, S., Pet-fal-ski, E., Toller-vey, D., & Hurt, E. C. (2011). A clus-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 1968--1970
+Underfull \hbox (badness 1655) in paragraph at lines 1954--1956
  \T1/lmr/m/n/12 ter of ri-bo-some syn-the-sis fac-tors reg-u-late pre-rRNA fold-ing and 5.8S rRNA
  []
 
-[88]
-Underfull \hbox (badness 1748) in paragraph at lines 1992--1994
+[87]
+Underfull \hbox (badness 1748) in paragraph at lines 1978--1980
  \T1/lmr/m/n/12 V., ... Willis, A. E. (2018). Trans-acting trans-la-tional reg-u-la-tory RNA
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 2004--2006
+Underfull \hbox (badness 1584) in paragraph at lines 1990--1992
  \T1/lmr/m/n/12 gin, A., & Henry, Y. (2008). The post-transcriptional steps of eu-kary-otic
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 2007--2009
+Underfull \hbox (badness 1320) in paragraph at lines 1993--1995
  \T1/lmr/m/n/12 de-vel-op-men-tal de-fects in ze-brafish. \T1/lmr/m/it/12 Nu-cleic Acids Re-search\T1/lmr/m/n/12 , \T1/lmr/m/it/12 40\T1/lmr/m/n/12 (1), 391--398.
  []
 
 
-Overfull \hbox (57.08028pt too wide) in paragraph at lines 2022--2024
+Overfull \hbox (57.08028pt too wide) in paragraph at lines 2008--2010
  \T1/lmr/m/n/12 Drosophila. \T1/lmr/m/it/12 De-vel-op-men-tal Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 313\T1/lmr/m/n/12 (2), 700--712. http://doi.org/[]10.1016/j.ydbio.2007.11.006[] 
  []
 
-[89]
-Underfull \hbox (badness 2057) in paragraph at lines 2043--2045
+[88]
+Underfull \hbox (badness 2057) in paragraph at lines 2029--2031
  []\T1/lmr/m/n/12 Jefferies, H. B. J., Fu-ma-galli, S., Den-nis, P. B., Rein-hard, C., Pear-son, R.
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 2043--2045
+Underfull \hbox (badness 2285) in paragraph at lines 2029--2031
  \T1/lmr/m/n/12 B., & Thomas, G. (1997). Ra-pamycin sup-presses 5$[]$TOP mRNA trans-la-
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 2043--2045
+Underfull \hbox (badness 1092) in paragraph at lines 2029--2031
  \T1/lmr/m/n/12 tion through in-hi-bi-tion of P70s6k. \T1/lmr/m/it/12 The EMBO Jour-nal\T1/lmr/m/n/12 , \T1/lmr/m/it/12 16\T1/lmr/m/n/12 (12), 3693--3704.
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 2049--2051
+Underfull \hbox (badness 1122) in paragraph at lines 2035--2037
  \T1/lmr/m/n/12 D., ... Fon-seca, B. D. (2021). mTORC1 pro-motes TOP mRNA trans-la-
  []
 
-[90]
-Overfull \hbox (5.61317pt too wide) in paragraph at lines 2094--2096
+[89]
+Overfull \hbox (5.61317pt too wide) in paragraph at lines 2080--2082
  \T1/lmr/m/n/12 Acids. \T1/lmr/m/it/12 The Jour-nal of Nu-tri-tion\T1/lmr/m/n/12 , \T1/lmr/m/it/12 132\T1/lmr/m/n/12 (5), 883--886. http://doi.org/[]10.1093/jn/132.5.883[] 
  []
 
-[91]
-Overfull \hbox (43.14223pt too wide) in paragraph at lines 2124--2126
+[90]
+Overfull \hbox (43.14223pt too wide) in paragraph at lines 2110--2112
  \T1/lmr/m/n/12 bind-ing pro-teins. \T1/lmr/m/it/12 Jour-nal of Cell Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 150\T1/lmr/m/n/12 (2), 51--56. http://doi.org/[]10.1083/jcb.150.2.F51[] 
  []
 
 
-Overfull \hbox (94.9433pt too wide) in paragraph at lines 2127--2129
+Overfull \hbox (94.9433pt too wide) in paragraph at lines 2113--2115
  \T1/lmr/m/it/12 Cold Spring Har-bor Per-spec-tives in Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 4\T1/lmr/m/n/12 (10), a012294. http://doi.org/[]10.1101/cshperspect.a012294[] 
  []
 
-[92]
-Overfull \hbox (30.19037pt too wide) in paragraph at lines 2154--2156
+[91]
+Overfull \hbox (30.19037pt too wide) in paragraph at lines 2140--2142
  \T1/lmr/m/n/12 Drosophila en-do-cy-cle. \T1/lmr/m/it/12 Onco-gene\T1/lmr/m/n/12 , \T1/lmr/m/it/12 24\T1/lmr/m/n/12 (17), 2765--2775. http://doi.org/[]10.1038/sj.onc.1208610[] 
  []
 
 
-Overfull \hbox (25.09612pt too wide) in paragraph at lines 2169--2171
+Overfull \hbox (25.09612pt too wide) in paragraph at lines 2155--2157
  \T1/lmr/m/n/12 Growth Con-trol. \T1/lmr/m/it/12 Ge-net-ics\T1/lmr/m/n/12 , \T1/lmr/m/it/12 189\T1/lmr/m/n/12 (4), 1177--1201. http://doi.org/[]10.1534/genetics.111.133363[] 
  []
 
-[93]
-Overfull \hbox (0.3107pt too wide) in paragraph at lines 2181--2183
+[92]
+Overfull \hbox (0.3107pt too wide) in paragraph at lines 2167--2169
  \T1/lmr/m/n/12 dif-fer-en-ti-a-tion. \T1/lmr/m/it/12 De-vel-op-ment\T1/lmr/m/n/12 , \T1/lmr/m/it/12 143\T1/lmr/m/n/12 (23), 4312--4323. http://doi.org/[]10.1242/dev.141069[] 
  []
 
-[94]
-Underfull \hbox (badness 1152) in paragraph at lines 2223--2225
+[93]
+Underfull \hbox (badness 1152) in paragraph at lines 2209--2211
  \T1/lmr/m/n/12 cir-cu-lar-iza-tion: Poly(A) tail, poly(A)-binding pro-tein, and eu-kary-otic trans-la-
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 2223--2225
+Underfull \hbox (badness 1259) in paragraph at lines 2209--2211
  \T1/lmr/m/n/12 tion ini-ti-a-tion fac-tor 4G. \T1/lmr/m/it/12 Molec-u-lar and Cel-lu-lar Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 21\T1/lmr/m/n/12 (19), 6440--6449.
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 2229--2231
+Underfull \hbox (badness 2393) in paragraph at lines 2215--2217
  \T1/lmr/m/n/12 la-tional mei-otic pro-gram in fe-male Drosophila. \T1/lmr/m/it/12 bioRxiv\T1/lmr/m/n/12 , 2019.12.18.879874.
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 2241--2243
+Underfull \hbox (badness 2285) in paragraph at lines 2227--2229
  \T1/lmr/m/n/12 trans-la-tional level. \T1/lmr/m/it/12 Eu-ro-pean Jour-nal of Bio-chem-istry\T1/lmr/m/n/12 , \T1/lmr/m/it/12 267\T1/lmr/m/n/12 (21), 6321--6330.
  []
 
-[95]
-Underfull \hbox (badness 2088) in paragraph at lines 2283--2285
+[94]
+Underfull \hbox (badness 2088) in paragraph at lines 2269--2271
  []\T1/lmr/m/n/12 Neumüller, R. A., Betschinger, J., Fis-cher, A., Bushati, N., Po-ern-bacher, I.,
  []
 
-[96] [97] [98]
-Underfull \hbox (badness 1622) in paragraph at lines 2367--2369
+[95] [96] [97]
+Underfull \hbox (badness 1622) in paragraph at lines 2353--2355
  []\T1/lmr/m/n/12 Richter, J. D., & Lasko, P. (2011). Trans-la-tional con-trol in oocyte de-vel-op-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 2367--2369
+Underfull \hbox (badness 1888) in paragraph at lines 2353--2355
  \T1/lmr/m/n/12 ment. \T1/lmr/m/it/12 Cold Spring Har-bor Per-spec-tives in Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 3\T1/lmr/m/n/12 (9), a002758--a002758.
  []
 
-[99]
-Overfull \hbox (30.78693pt too wide) in paragraph at lines 2433--2435
+[98]
+Overfull \hbox (30.78693pt too wide) in paragraph at lines 2419--2421
  \T1/lmr/m/n/12 ment. \T1/lmr/m/it/12 The Jour-nal of Cell Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 207\T1/lmr/m/n/12 (1), 13 LP--21. http://doi.org/[]10.1083/jcb.201407102[] 
  []
 
-[100]
-Overfull \hbox (27.37207pt too wide) in paragraph at lines 2445--2447
+[99]
+Overfull \hbox (27.37207pt too wide) in paragraph at lines 2431--2433
  \T1/lmr/m/n/12 Pumilio. \T1/lmr/m/it/12 Genes & De-vel-op-ment\T1/lmr/m/n/12 , \T1/lmr/m/it/12 13\T1/lmr/m/n/12 (20), 2704--2712. http://doi.org/[]10.1101/gad.13.20.2704[] 
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 2460--2462
+Underfull \hbox (badness 1184) in paragraph at lines 2446--2448
  []\T1/lmr/m/n/12 Spradling, A., Fuller, M. T., Braun, R. E., & Yoshida, S. (2011). Germline
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 2460--2462
+Underfull \hbox (badness 3312) in paragraph at lines 2446--2448
  \T1/lmr/m/n/12 stem cells. \T1/lmr/m/it/12 Cold Spring Har-bor Per-spec-tives in Bi-ol-ogy\T1/lmr/m/n/12 , \T1/lmr/m/it/12 3\T1/lmr/m/n/12 (11), a002642.
  []
 
 
-Overfull \hbox (77.1355pt too wide) in paragraph at lines 2463--2465
+Overfull \hbox (77.1355pt too wide) in paragraph at lines 2449--2451
  \T1/lmr/m/n/12 tures. \T1/lmr/m/it/12 Pro-tein Ex-pres-sion and Pu-rifi-ca-tion\T1/lmr/m/n/12 , \T1/lmr/m/it/12 41\T1/lmr/m/n/12 (1), 207--234. http://doi.org/[]10.1016/j.pep.2005.01.016[] 
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 2481--2483
+Underfull \hbox (badness 1231) in paragraph at lines 2467--2469
  []\T1/lmr/m/n/12 Tanentzapf, G., De-ven-port, D., Godt, D., & Brown, N. H. (2007). Integrin-
  []
 
-[101]
-Underfull \hbox (badness 1762) in paragraph at lines 2499--2501
+[100]
+Underfull \hbox (badness 1762) in paragraph at lines 2485--2487
  []\T1/lmr/m/n/12 Teng, T., Thomas, G., & Mer-cer, C. A. (2013). Growth con-trol and ri-bo-
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 2499--2501
+Underfull \hbox (badness 2726) in paragraph at lines 2485--2487
  \T1/lmr/m/n/12 so-mopathies. \T1/lmr/m/it/12 Cur-rent Opin-ion in Ge-net-ics & De-vel-op-ment\T1/lmr/m/n/12 , \T1/lmr/m/it/12 23\T1/lmr/m/n/12 (1), 63--71.
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 2508--2510
+Underfull \hbox (badness 1292) in paragraph at lines 2494--2496
  \T1/lmr/m/n/12 and Sub-fam-i-lies In-dexed by Func-tion. \T1/lmr/m/it/12 Genome Re-search\T1/lmr/m/n/12 , \T1/lmr/m/it/12 13\T1/lmr/m/n/12 (9), 2129--2141.
  []
 
-[102] [103]
-Overfull \hbox (77.85689pt too wide) in paragraph at lines 2559--2561
+[101] [102]
+Overfull \hbox (77.85689pt too wide) in paragraph at lines 2545--2547
  \T1/lmr/m/n/12 syn-drome. \T1/lmr/m/it/12 Ad-vances in Bi-o-log-i-cal Reg-u-la-tion\T1/lmr/m/n/12 , \T1/lmr/m/it/12 67\T1/lmr/m/n/12 , 109--127. http://doi.org/[]10.1016/j.jbior.2017.09.002[] 
  []
 
 
-Overfull \hbox (9.37332pt too wide) in paragraph at lines 2586--2588
+Overfull \hbox (9.37332pt too wide) in paragraph at lines 2572--2574
  \T1/lmr/m/n/12 Stem Cells. \T1/lmr/m/it/12 PLOS ONE\T1/lmr/m/n/12 , \T1/lmr/m/it/12 11\T1/lmr/m/n/12 (6), e0157276. http://doi.org/[]10.1371/journal.pone.0157276[] 
  []
 
-[104]
-Overfull \hbox (37.46678pt too wide) in paragraph at lines 2598--2600
+[103]
+Overfull \hbox (37.46678pt too wide) in paragraph at lines 2584--2586
  \T1/lmr/m/n/12 Drosophila Ovary. \T1/lmr/m/it/12 Sci-ence\T1/lmr/m/n/12 , \T1/lmr/m/it/12 290\T1/lmr/m/n/12 (5490), 328--330. http://doi.org/[]10.1126/science.290.5490.328[] 
  []
 
-[105]
-Underfull \hbox (badness 1910) in paragraph at lines 2640--2642
+[104]
+Underfull \hbox (badness 1910) in paragraph at lines 2626--2628
  []\T1/lmr/m/n/12 Zhang, K., & Smith, G. W. (2015). Ma-ter-nal con-trol of early em-bryo-ge-n-e-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 2640--2642
+Underfull \hbox (badness 1424) in paragraph at lines 2626--2628
  \T1/lmr/m/n/12 sis in mam-mals. \T1/lmr/m/it/12 Re-pro-duc-tion, Fer-til-ity, and De-vel-op-ment\T1/lmr/m/n/12 , \T1/lmr/m/it/12 27\T1/lmr/m/n/12 (6), 880--896.
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 2658--2660
+Underfull \hbox (badness 1320) in paragraph at lines 2644--2646
  \T1/lmr/m/n/12 Drosophila Cells by Trans-fec-tion with dsRNA. \T1/lmr/m/it/12 Cold Spring Har-bor Pro-to-cols\T1/lmr/m/n/12 ,
  []
 
-[106] (./thesis.aux)
+[105] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1278,18 +1278,18 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 39CA62020AD88583B8A9A2C52A29E0B9;9875.
  ) 
 Here is how much of TeX's memory you used:
- 13129 strings out of 480313
- 225164 string characters out of 5895695
- 496674 words of memory out of 5000000
+ 13128 strings out of 480313
+ 225156 string characters out of 5895695
+ 498518 words of memory out of 5000000
  30228 multiletter control sequences out of 15000+600000
  470459 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,69p,3954b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/Elliot/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on thesis.pdf (116 pages, 65027230 bytes).
+Output written on thesis.pdf (115 pages, 65028180 bytes).
 PDF statistics:
- 2762 PDF objects out of 2984 (max. 8388607)
- 1612 compressed objects within 17 object streams
- 516 named destinations out of 1000 (max. 500000)
+ 2767 PDF objects out of 2984 (max. 8388607)
+ 1618 compressed objects within 17 object streams
+ 515 named destinations out of 1000 (max. 500000)
  323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
