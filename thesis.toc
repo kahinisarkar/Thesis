@@ -5,26 +5,26 @@
 \contentsline {section}{\numberline {1.3}Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline}{8}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Production of ribosomes is finely tuned to facilitate differentiation}{9}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}{14}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Summary}{18}{section.1.7}%
-\contentsline {chapter}{Chapter 2: A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph {Drosophila} oogenesis}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Summary:}{19}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Results}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Three conserved RNA helicases are required in the germline for GSC differentiation}{22}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Athos, Aramis, and Porthos are required for ribosome biogenesis}{26}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Aramis promotes cell cycle progression via p53 repression}{32}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Aramis-regulated targets contain a TOP motif in their 5'UTR}{47}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Larp binds TOP sequences in \emph {Drosophila}}{52}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Discussion}{58}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Aramis, Athos, and Porthos are required for efficient ribosome biogenesis in \emph {Drosophila}}{59}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Ribosome biogenesis defects leads to cell cycle defects mediated by p53}{59}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Ribosome biogenesis defects leads to repression of TOP-containing mRNA}{61}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Larp transduces growth status to ribosome biogenesis targets}{61}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Ribosome biogenesis in stem cell differentiation and ribosomopathies}{62}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Materials and Methods}{65}{section.2.5}%
-\contentsline {subsubsection}{Larp Gel Shifts}{73}{section*.26}%
-\contentsline {chapter}{Conclusion}{76}{chapter*.27}%
-\contentsline {chapter}{Appendix A: The First Appendix}{77}{appendix.A}%
-\contentsline {chapter}{Appendix B: The Second Appendix, for Fun}{79}{appendix.B}%
-\contentsline {chapter}{References}{80}{appendix*.28}%
+\contentsline {section}{\numberline {1.6}Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}{15}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Summary}{19}{section.1.7}%
+\contentsline {chapter}{Chapter 2: A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph {Drosophila} oogenesis}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Summary:}{20}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Results}{23}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Three conserved RNA helicases are required in the germline for GSC differentiation}{23}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Athos, Aramis, and Porthos are required for ribosome biogenesis}{27}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Aramis promotes cell cycle progression via p53 repression}{33}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Aramis-regulated targets contain a TOP motif in their 5'UTR}{48}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Larp binds TOP sequences in \emph {Drosophila}}{53}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Discussion}{59}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Aramis, Athos, and Porthos are required for efficient ribosome biogenesis in \emph {Drosophila}}{60}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Ribosome biogenesis defects leads to cell cycle defects mediated by p53}{60}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Ribosome biogenesis defects leads to repression of TOP-containing mRNA}{62}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Larp transduces growth status to ribosome biogenesis targets}{62}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Ribosome biogenesis in stem cell differentiation and ribosomopathies}{63}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Materials and Methods}{66}{section.2.5}%
+\contentsline {subsubsection}{Larp Gel Shifts}{74}{section*.26}%
+\contentsline {chapter}{Conclusion}{78}{chapter*.27}%
+\contentsline {chapter}{Appendix A: The First Appendix}{79}{appendix.A}%
+\contentsline {chapter}{Appendix B: The Second Appendix, for Fun}{81}{appendix.B}%
+\contentsline {chapter}{References}{82}{appendix*.28}%

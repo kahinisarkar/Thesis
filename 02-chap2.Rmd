@@ -398,7 +398,7 @@ Materials generated during this study are available upon request.
 
 **Data and Code availability:**
 
-> Sequencing data generated during this study are available on GEO under the accession [GSE171350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350), using the following token: araliaokbdqbrqd. Other data generated during this study are available from the lead contact.
+> Sequencing data generated during this study are available on GEO under the accession [GSE171350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350). Other data generated during this study are available from the lead contact.
 
 **Fly lines**
 
@@ -556,31 +556,49 @@ Non1:
 
 Oligos used for run-off transcription
 
-<!-- +----------------------------------+----------------------------------+ -->
-<!-- | **DNA oligo**                    | **Sequence (5\' to 3\')**          | -->
-<!-- +==================================+==================================+ -->
-<!-- | \*\*RpL30 control gene block     | GCGCGCGAATTCTAATACGACTCAC        | -->
-<!-- | (with 3\' HDV)                    | TATA**GAAAAGCCATTGTCAGCC**      | -->
-<!-- |                                  |  **GACGAAGTGCTTTAACCCAAACTA**    | -->
-<!-- |                                  | GGGTCGGCATGGCATCTCCACCT          | -->
-<!-- |                                  | CCTCGCGGTCCGACCTGGGCTAC          | -->
-<!-- |                                  |TTCGGTAGGCTAAGGGAGAAGCTT          | -->
-<!-- |                                  |GGCACTGGCCGTCGTTT                 | -->
-<!-- +----------------------------------+----------------------------------+ -->
-<!-- | Non1 control                     | GCGCGCGAATTCTAATACGAC            | -->
-<!-- |                                  | TCACTATA**GGAAAAAGGA**           | -->
-<!-- | Forward                          | **ATACGAAGCTGACA**               | -->
-<!-- +----------------------------------+----------------------------------+ -->
-<!-- | Non1 control                     | **AAGCAAAAACACCACGCGGTG**        | -->
-<!-- |                                  | **TCAGCTTCGTATTCCTTTTTC**        | -->
-<!-- | Reverse                          | CTATAGTGAG                       | -->
-<!-- +----------------------------------+----------------------------------+ -->
-<!-- | 5\' GEN amp                       | GCGCGCGAATTCTAATACGACTCA         | -->
-<!-- +----------------------------------+----------------------------------+ -->
-<!-- | RpL30 amp Reverse                | TAGTTTGGGTTAAAGCACTTCGTCGGC      | -->
-<!-- +----------------------------------+----------------------------------+ -->
-<!-- | Non1 amp Reverse                 | AAGCAAAAACACCACGCGGTGTCA         | -->
-<!-- +----------------------------------+----------------------------------+ -->
++-------------------------------+--------------------------------------+
+| **DNA oligo**                 | **Sequence (5' to 3')**              |
++===============================+======================================+
+| \*\*RpL30 control             | GCGCGCGAATTCTAATACGACTCACTATA        |
+|                               |                                      |
+| gene block (with 3' HDV)      | [GAAAAGCCATTGTCAGCCGACGAAGTG]{.ul}   |
+|                               |                                      |
+|                               | [CTTTAACCCAAACTA]{.ul}GGGTCGGCATGG   |
+|                               |                                      |
+|                               | CATCTCCACCTCCTCGCGGTCCGACCTG         |
+|                               |                                      |
+|                               | GGCTACTTCGGTAGGCTAAGGGAGAAG          |
+|                               |                                      |
+|                               | CTTGGCACTGGCCGTCGTTTTGGCACTG         |
+|                               |                                      |
+|                               | GCCGTCGTTT                           |
++-------------------------------+--------------------------------------+
+|                               |                                      |
++-------------------------------+--------------------------------------+
+| Non1 control                  | GCGCGCGAATTCTAATACGACTCACTATA        |
+|                               |                                      |
+| Forward                       | [GGAAAAAGGAATACGAAG]{.ul}            |
+|                               |                                      |
+|                               | [CTGACA]{.ul}                        |
++-------------------------------+--------------------------------------+
+|                               |                                      |
++-------------------------------+--------------------------------------+
+| Non1 control                  | [AAGCAAAAACACCACGCGGTGTCAGCTT]{.ul}  |
+|                               |                                      |
+| Reverse                       | [CGTATTCCTTTTTC]{.ul}CTATAGTGAG      |
++-------------------------------+--------------------------------------+
+|                               |                                      |
++-------------------------------+--------------------------------------+
+| 5' GEN amp                    | GCGCGCGAATTCTAATACGACTCA             |
++-------------------------------+--------------------------------------+
+|                               |                                      |
++-------------------------------+--------------------------------------+
+| RpL30 amp Reverse             | TAGTTTGGGTTAAAGCACTTCGTCGGC          |
++-------------------------------+--------------------------------------+
+|                               |                                      |
++-------------------------------+--------------------------------------+
+| Non1 amp Reverse              | AAGCAAAAACACCACGCGGTGTCA             |
++-------------------------------+--------------------------------------+
 
 \* These RNAs were synthesized using run-off transcription.
 

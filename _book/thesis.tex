@@ -225,6 +225,7 @@ Each of the steps from GSC to egg require changes in cellular pathways. These ch
 }
 
 	\usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
+ \usepackage{array}
 % End of CII addition
 %%
 %% End Preamble
@@ -331,11 +332,10 @@ the \emph{Drosophila} germline an elegant model for studying the role of
 post-transcriptional regulation during stem cell differentiation and
 meiosis.
 
-\textbf{Key words}
-
-\underline{Splicing, Translation Control, RNA Modifications, Ribosome Biogenesis,
-Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline
-Differentiation, Gametogenesis, RNA Binding Proteins}
+\textbf{Key words}\\
+\underline{Splicing, Translation Control, RNA Modifications, Ribosome Biogenesis,}\\
+\underline{Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline,}\\
+\underline{Differentiation, Gametogenesis, RNA Binding Proteins}\\
 
 \hypertarget{introduction-1}{%
 \section{Introduction}\label{introduction-1}}
@@ -1429,7 +1429,7 @@ Materials generated during this study are available upon request.
 
 \textbf{Data and Code availability:}
 \begin{quote}
-Sequencing data generated during this study are available on GEO under the accession \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350}{GSE171350}, using the following token: araliaokbdqbrqd. Other data generated during this study are available from the lead contact.
+Sequencing data generated during this study are available on GEO under the accession \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350}{GSE171350}. Other data generated during this study are available from the lead contact.
 \end{quote}
 \textbf{Fly lines}
 
@@ -1587,7 +1587,54 @@ Non1:
 \textbf{GAAAAAG}GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
 Oligos used for run-off transcription
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.44}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.54}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{DNA oligo}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Sequence (5' to 3')}
+\end{minipage} \\
+\midrule
+\endhead
+**RpL30 control
 
+gene block (with 3' HDV) & GCGCGCGAATTCTAATACGACTCACTATA
+
+\underline{GAAAAGCCATTGTCAGCCGACGAAGTG}
+
+\underline{CTTTAACCCAAACTA}GGGTCGGCATGG
+
+CATCTCCACCTCCTCGCGGTCCGACCTG
+
+GGCTACTTCGGTAGGCTAAGGGAGAAG
+
+CTTGGCACTGGCCGTCGTTTTGGCACTG
+
+GCCGTCGTTT \\
+& \\
+Non1 control
+
+Forward & GCGCGCGAATTCTAATACGACTCACTATA
+
+\underline{GGAAAAAGGAATACGAAG}
+
+\underline{CTGACA} \\
+& \\
+Non1 control
+
+Reverse & \underline{AAGCAAAAACACCACGCGGTGTCAGCTT}
+
+\underline{CGTATTCCTTTTTC}CTATAGTGAG \\
+& \\
+5' GEN amp & GCGCGCGAATTCTAATACGACTCA \\
+& \\
+RpL30 amp Reverse & TAGTTTGGGTTAAAGCACTTCGTCGGC \\
+& \\
+Non1 amp Reverse & AAGCAAAAACACCACGCGGTGTCA \\
+\bottomrule
+\end{longtable}
 * These RNAs were synthesized using run-off transcription.
 
 \textbf{Electrophoretic mobility shift assays (EMSAs)}

@@ -24,12 +24,12 @@ output:
   thesisdown::thesis_pdf:
   latex_engine: xelatex
 #  thesisdown::thesis_gitbook: default         
- # thesisdown::thesis_word: 
+ # thesisdown::thesis_word:
  # reference_docx: thesis_word_style.docx
  # thesisdown::thesis_epub: default
 header-includes:
-# - \usepackage[width=\textwidth]{caption}
 - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
+- \usepackage{array}
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
 # for the .RMD files. If you are NOT producing a PDF, delete or silence

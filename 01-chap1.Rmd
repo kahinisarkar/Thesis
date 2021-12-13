@@ -45,11 +45,10 @@ the *Drosophila* germline an elegant model for studying the role of
 post-transcriptional regulation during stem cell differentiation and
 meiosis.
 
-**Key words**
-
-[Splicing, Translation Control, RNA Modifications, Ribosome Biogenesis,
-Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline
-Differentiation, Gametogenesis, RNA Binding Proteins]{.underline}
+**Key words**\
+[Splicing, Translation Control, RNA Modifications, Ribosome Biogenesis,]{.underline}\
+[Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline,]{.underline}\
+[Differentiation, Gametogenesis, RNA Binding Proteins]{.underline}\
 
 ## Introduction
 
@@ -77,7 +76,7 @@ be easily identified by their morphology and molecular markers
 [@Gaspar2017b;@Jia2016b;@Spradling2011f]. At the anterior end of
 the ovary, germline stem cells (GSCs) reside in a structure known as the
 germarium and initiate differentiation to give rise to gametes
-[@Kai2005;@Twombly1996d;@Xie2000;@Xie1998d;@Xie2007a]. GSCs
+[@Kai2005;@Twombly1996d;@Xie2000b;@Xie1998d;@Xie2007a]. GSCs
 are maintained by signaling from the surrounding somatic niche. GSCs
 undergo asymmetric mitotic division, producing a stem cell daughter, or
 cystoblast (CB) which will begin the process of differentiation by
