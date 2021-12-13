@@ -24,8 +24,9 @@ output:
   thesisdown::thesis_pdf:
   latex_engine: xelatex
 #  thesisdown::thesis_gitbook: default         
- # thesisdown::thesis_word: default
-#  thesisdown::thesis_epub: default
+ # thesisdown::thesis_word: 
+ # reference_docx: thesis_word_style.docx
+ # thesisdown::thesis_epub: default
 header-includes:
 # - \usepackage[width=\textwidth]{caption}
 - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
@@ -41,9 +42,9 @@ acknowledgements: |
   '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
 dedication: | 
   Dedicated to my wife and best friend Alli. 
-preface: |  
-  This is an example of a thesis setup to use the reed thesis document class 
-  (for LaTeX) and the R bookdown package, in general.
+# preface: |  
+#   This is an example of a thesis setup to use the reed thesis document class 
+#   (for LaTeX) and the R bookdown package, in general.
 
 # Specify the location of the bibliography below
 bibliography: bib/Zotero_library.bib

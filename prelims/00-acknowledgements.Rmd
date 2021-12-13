@@ -3,7 +3,7 @@ Foremost, my wife Allison Martin, without whom I would have given up countless t
 has been a sounding board, a life-coach, and my best friend for the years this work has taken.
 
 Secondly, my family including my son, Levi, who from childhood supported my curiosity and enabled me to pursue my interests and passions. Knowing
-that I have always had them to fall back on provided a cushion that ahs helped me from struggling in undergrad to the completion of
+that I have always had them to fall back on provided a cushion that has helped me from struggling in undergrad to the completion of
 my PhD.
 
 For direction, motivation, and guidance, I thank my mentors Dr. Prash Rangan and Dr. Gaby Fuchs. They agreed to mentor a 
@@ -17,5 +17,3 @@ To my collaborators, Elaine Nguyen, Roni Lahr, Dr. Andrea
 Berman, Dr. Shamsi Emtenani, and Dr. Daria Siekhaus, that contributed to this work I thank you for your expertise and beautiful results.
 
 Finally, to my committee members, Dr. Thomas Begley, Dr. Paolo Forni, and Dr. Joesph Wade for their guidance and advice throughout my graduate studies.
-
-`r if(!knitr:::is_latex_output()) '## Abstract {-}'`

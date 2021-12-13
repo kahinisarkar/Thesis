@@ -1,22 +1,22 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematic of \emph {Drosophila} ovariole.}}{4}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Schematic of the pathway that promotes alternative splicing of \emph {sxl}}}{7}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Global translation rate, rRNA transcription rate, and mTorc1 activity during development}}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Schematic of combinatorial and dynamic translation regulation in the \emph {Drosophila} germarium.}}{17}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textbf {Schematic of \emph {Drosophila} ovariole.}}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \textbf {Schematic of the pathway that promotes alternative splicing of \emph {sxl}.}}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \textbf {Global translation rate, rRNA transcription rate, and mTorc1 activity during development.}}}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \textbf {Schematic of combinatorial and dynamic translation regulation in the \emph {Drosophila} germarium.}}}{17}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textbf {RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}}}{23}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \textbf {Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}}}{25}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textbf {Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}}}{28}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \textbf {Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}}}{31}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \textbf {Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}}}{34}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces \textbf {Aramis is required for proper cell cycle progression, related to Figure 2.5.}}}{37}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \textbf {Aramis is required for efficient translation of a subset of mRNAs.}}}{40}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces \textbf {The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}}}{42}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces \textbf {Non1 represses p53 expression to allow for GSC differentiation.}}}{44}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces \textbf {Non1 and p53 are inversely expressed, related to Figure 2.9.}}}{46}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces \textbf {Aramis regulated mRNAs contain a TOP motif.}}}{49}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces \textbf {TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.}}}{51}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces \textbf {Larp binds to TOP mRNAs and binding is regulated by Aramis.}}}{54}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces \textbf {Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}}}{57}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textbf {RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}}}{23}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textbf {Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}}}{25}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textbf {Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}}}{28}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \textbf {Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}}}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textbf {Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}}}{34}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \textbf {Aramis is required for proper cell cycle progression, related to Figure 2.5.}}}{37}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textbf {Aramis is required for efficient translation of a subset of mRNAs.}}}{40}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \textbf {The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}}}{42}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \textbf {Non1 represses p53 expression to allow for GSC differentiation.}}}{44}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \textbf {Non1 and p53 are inversely expressed, related to Figure 2.9.}}}{46}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces \textbf {Aramis regulated mRNAs contain a TOP motif.}}}{49}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \textbf {TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.}}}{51}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces \textbf {Larp binds to TOP mRNAs and binding is regulated by Aramis.}}}{54}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \textbf {Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}}}{57}{figure.caption.25}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
