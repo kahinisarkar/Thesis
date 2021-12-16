@@ -1,3 +1,6 @@
+
+\setstretch{1.0}
+
 (ref:RiBi-F2-1-short) **RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.**
 
 (ref:RiBi-F2-2-short) **Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.**
@@ -102,6 +105,8 @@ Elliot T. Martin^1^\*, Patrick Blatt^1^\*, Elaine Nguyen^2^, Roni Lahr^2^, Sange
 
 Email: gfuchs\@albany.edu, prangan\@albany.edu
 
+\setstretch{2.0}
+
 ## Summary:
 
 Ribosomal defects perturb stem cell differentiation, causing ribosomopathies. How ribosome levels control stem cell differentiation is not fully known. Here we discovered that three RNA helicases govern ribosome biogenesis and *Drosophila* oogenesis. Loss of these helicases, which we named Aramis, Athos and Porthos, aberrantly stabilized p53, arrested the cell cycle and stalled GSC differentiation. Aramis controls cell cycle progression by regulating translation of mRNAs containing a Terminal Oligo Pyrimidine (TOP) motif in their 5\'-UTRs; we find TOP motifs confer sensitivity to ribosome levels mediated by La-related protein (Larp). One such TOP-containing mRNA codes for [No]{.ul}vel [N]{.ul}ucleolar protein 1 (Non1), a conserved p53 destabilizing protein. Upon a sufficient ribosome concentration, Non1 is expressed and promotes GSC cell cycle progression via p53 degradation. Thus, a previously unappreciated TOP-motif in *Drosophila* responds to reduced ribosome biogenesis to co-regulate the translation of ribosomal proteins and a p53 repressor, coupling ribosome biogenesis to GSC differentiation.
@@ -128,7 +133,11 @@ We performed a screen to identify RNA helicases that are required for female fer
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-1-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -139,7 +148,11 @@ Aberrant cyst formation proximal to the niche could reflect stem cysts with GSCs
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-2-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -155,7 +168,11 @@ Many factors involved in rRNA biogenesis localize to the nucleolus and interact 
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-3-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -166,7 +183,11 @@ Nucleolar size, and in particular nucleolar hypotrophy, is associated with reduc
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-4-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -183,7 +204,11 @@ CycB is expressed during G2 phase after asymmetric cell division to promote GSC 
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-5-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -196,7 +221,11 @@ To determine if p53 stabilization is required for the cell cycle arrest in *aram
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-6-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -209,7 +238,11 @@ Although p53 protein levels were elevated upon loss of *aramis* in the germline,
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-7-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -220,8 +253,11 @@ Previous work has indicated that excess ribosomal protein expression may be dele
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-8-long)
 
+\setstretch{2.0}
 **\
 **
 
@@ -233,7 +269,11 @@ During normal oogenesis, p53 protein is expressed in cyst stages in response to 
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-9-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -244,7 +284,11 @@ To determine if Aramis, Athos, and Porthos promotes GSC differentiation via tran
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-10-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -261,7 +305,11 @@ In *Drosophila*, TORC1 activity increases during meiotic cyst stages [@Wei2018a;
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-11-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -287,7 +335,11 @@ Next, we performed electrophoretic mobility shift assays (EMSA) to examine prote
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-13-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -300,7 +352,11 @@ If loss of *aramis* inhibits the translation of TOP-containing mRNAs due to incr
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.pdf")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-14-long)
+
+\setstretch{2.0}
 
 **\
 **
@@ -561,9 +617,12 @@ Non1:
 **
 **GAAAAAG**GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
+\setstretch{1.0}
+
 Oligos used for run-off transcription
 **\
 **
+
 +-------------------------------+--------------------------------------+
 | **DNA oligo**                 | **Sequence (5' to 3')**              |
 +===============================+======================================+
@@ -610,6 +669,8 @@ Oligos used for run-off transcription
 
 \* These RNAs were synthesized using run-off transcription.
 
+\setstretch{2.0}
+
 ##### Electrophoretic mobility shift assays (EMSAs)**
 
 Each binding reaction contained 125 total radioactive counts with final reaction conditions of: 20 mM Tris-HCl, pH 8, 150 mM NaCl, 10% glycerol, 1 mM DTT, 0.5 µg tRNA (Ambion), 1 µg BSA (Invitrogen), and \<90 pM RNA. To anneal RNA, oligos were snap-cooled by heating at 95°C for 1 min and cooled on ice for 1 hour. For capped RpL30 shifts and capped purine-substituted controls, final concentrations of 0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, and 100 nM Larp-DM15 were titrated. For capped Non1 shifts, final concentrations of 0, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300, and 1000 nM Larp-DM15 were titrated. Native 7% polyacrylamide 0.5X TBE gels were pre-run on ice at 120 V for 30 min. Binding reactions were run at 120 V on ice for 45-52 min. Gels were dried for 30 min and allowed to expose overnight using a phosphor screen (GE). Screens were imaged using GE Amersham Typhoon. Bands were quantified using ImageQuant TL (GE). Background subtraction was first done using the rolling ball method and then subtracting the signal from the zero-protein lane from each of the shifted bands. Fraction shifted was determined by dividing the background-corrected intensity of the shifted band by total intensity of bands in each lane. Three independent experiments were done for each oligo, with the average plotted and standard deviation shown.
@@ -622,39 +683,18 @@ IPs of Larp and Aramis were performed as described in the RNA IP-seq section abo
 
 Larp RNA IP was performed as described in the Larp RNA IPseq section with the following modifications. As the ovaries used were small, they were flash frozen in order to accumulate 40-50 ovaries for each biological replicate. Additionally, 5% input was taken for both RNA and protein samples. Once RNA was purified all of the RNA was treated with Turbo DNAse as in the **mRNAseq Library Preparation and Analysis** section. Reverse transcription (RT) was performed using Superscript II according to the manufacture\'s protocol with equivalent volumes of RNA for each sample. cDNA was diluted 1:8 before performing qPCR using Syber Green. Each reaction consisted of 5ul Syber Green master mix, 0.4 ul water, 0.3 ul of each primer, and 4 ul of diluted cDNA. For each sample 3 biological and 3 technical replicates were performed. Oulier values of technical replicates were removed using a Dixon test with a cutoff of p\<0.05. Remaining technical replicates were averaged, and the IP Input Ct value, the log~2~ of the Input dilution (20) was also subtracted to account for the Input being 5% of the total sample as follows:
 
-**\
-**
-
 $\Delta Ct[normalized\ IP] = (Average\ Ct[IP]/(Average\ Ct[Input] - log~2~(Input\ Dilution\ Factor))$
-
-**\
-**
 
 Next, RNA recovery was normalized using the spike-in control for each sample as follows:
 
-**\
-**
-
 $\Delta \Delta Ct = \Delta Ct[normalized\ IP]-\Delta\ Ct[Luciferase]$
 
-**\
-**
-
 Next, Each sample was normalized to it\'s matched *bam* RNAi control as follows:
-
-**\
-**
 
 $bam\ RNAi\ normalized Ct= \Delta \Delta Ct[aramis\ RNAi\ IP] - \Delta \Delta Ct[bam\ RNAi\ IP]$
 
 Finally, fold increase of IP from *aramis* RNAi over *bam* RNAi was calculated as follows:
 
-**\
-**
-
 $Fold Enrichment = 2^{-bam\ RNAi\ normalized\ Ct}$
-
-**\
-**
 
 Fold enrichment was plotted and One-sample t-test performed on *aramis* RNAi samples in R using a mu of 1.

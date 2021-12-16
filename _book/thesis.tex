@@ -189,7 +189,10 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \Acknowledgements{
-'The work herein was only able to be completed thanks to the contribution of others.
+'
+\setstretch{2.0}
+
+The work herein was only able to be completed thanks to the contribution of others.
 Foremost, my wife Allison Martin, without whom I would have given up countless times along the way to my PhD. She
 has been a sounding board, a life-coach, and my best friend for the years this work has taken.
 
@@ -219,17 +222,17 @@ Dedicated to my wife and best friend Alli.
 }
 
 \Abstract{
+\setstretch{2.0}
 All dynamic biological processes require control over transcription, translation, or post-translation products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
 The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
 In concert with GSC differentiation, the differentiating progeny of GSCs also transition from a mitotic cell cycle to a meiotic cell cycle, in order to eventually undergo reductional cell division to form an egg. Several of the currently know factors that control this transition have been characterized as RNA binding proteins that likely facilitate the mitotic to meiotic transition by changing the translation landscape of
 Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcription and translation landscape over development and used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
-To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs tage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that Cona, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
+To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs stage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that Cona, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
 A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation. Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation. When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general
 We have discovered a link between the efficient biogenesis of the translation apparatus, the ribosome, and the translation of the proteins constituent proteins of the ribosome. We found that three RNA helicases, Aramis, Athos, and Porthos, which were previously uncharacterized in \emph{Drosophila} are all required for pre-rRNA processing and successfult ribosome biogenesis. We found that proper ribosome biogenesis ensures that ribosomal proteins are translated at normal levels by preventing a translation inhibitor called Larp from binding its targets, which primarily consist of ribosomal proteins. We found that one other mRNA repressed by La-related protein (Larp) is Novel nucleolar protein (Non1), which prevents cell cycle arrest in a p53 dependent manner. Therefore we discovered a novel connection between ribosome biogenesis and cell cycle. This resolves a longstanding question of why most genes involved in ribosome biogenesis all share the same phenotype when knocked down in \emph{Drosophila} ovaries. Our work demonstrates that this likely occurs because when when aspect of ribosome biogenesis is perturbed, translation of core ribosomal proteins are reduced to compensate for this loss in an attempt to balance ribosome biogenesis. This mechanism also results in a cell cycle arrest giving rise to a characteristic stem-like cyst where the GSC fails to divide from its progeny. More broadly, this connection has important implications in how stem cells regulate ribosome production which is known to play a crucial role in stem cell differentiation.
 }
 
 	\usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
- \usepackage{setspace}\doublespacing
  \usepackage{array}
 % End of CII addition
 %%
@@ -242,25 +245,29 @@ We have discovered a link between the efficient biogenesis of the translation ap
   \maketitle
 
 \frontmatter % this stuff will be roman-numbered
-\pagestyle{fancyplain} % this keeps page numbers in the frontmatter
+\pagestyle{plain} % this keeps page numbers in the frontmatter
   \begin{abstract}
   \setcounter{page}{2}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
+    \setstretch{2.0}
     All dynamic biological processes require control over transcription, translation, or post-translation products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
     The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
     In concert with GSC differentiation, the differentiating progeny of GSCs also transition from a mitotic cell cycle to a meiotic cell cycle, in order to eventually undergo reductional cell division to form an egg. Several of the currently know factors that control this transition have been characterized as RNA binding proteins that likely facilitate the mitotic to meiotic transition by changing the translation landscape of
     Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcription and translation landscape over development and used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
-    To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs tage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that Cona, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
+    To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs stage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that Cona, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
     A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation. Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation. When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general
     We have discovered a link between the efficient biogenesis of the translation apparatus, the ribosome, and the translation of the proteins constituent proteins of the ribosome. We found that three RNA helicases, Aramis, Athos, and Porthos, which were previously uncharacterized in \emph{Drosophila} are all required for pre-rRNA processing and successfult ribosome biogenesis. We found that proper ribosome biogenesis ensures that ribosomal proteins are translated at normal levels by preventing a translation inhibitor called Larp from binding its targets, which primarily consist of ribosomal proteins. We found that one other mRNA repressed by La-related protein (Larp) is Novel nucleolar protein (Non1), which prevents cell cycle arrest in a p53 dependent manner. Therefore we discovered a novel connection between ribosome biogenesis and cell cycle. This resolves a longstanding question of why most genes involved in ribosome biogenesis all share the same phenotype when knocked down in \emph{Drosophila} ovaries. Our work demonstrates that this likely occurs because when when aspect of ribosome biogenesis is perturbed, translation of core ribosomal proteins are reduced to compensate for this loss in an attempt to balance ribosome biogenesis. This mechanism also results in a cell cycle arrest giving rise to a characteristic stem-like cyst where the GSC fails to divide from its progeny. More broadly, this connection has important implications in how stem cells regulate ribosome production which is known to play a crucial role in stem cell differentiation.
   \end{abstract}
   \begin{dedication}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
     Dedicated to my wife and best friend Alli.
   \end{dedication}
   \begin{acknowledgements}
-  \pagestyle{fancyplain}
-    'The work herein was only able to be completed thanks to the contribution of others.
+  \pagestyle{plain}
+    '
+    \setstretch{2.0}
+
+    The work herein was only able to be completed thanks to the contribution of others.
     Foremost, my wife Allison Martin, without whom I would have given up countless times along the way to my PhD. She
     has been a sounding board, a life-coach, and my best friend for the years this work has taken.
 
@@ -296,6 +303,8 @@ We have discovered a link between the efficient biogenesis of the translation ap
 \mainmatter % here the regular arabic numbering starts
 \pagestyle{fancyplain} % turns page numbering back on
 
+\setstretch{1.0}
+
 
 
 
@@ -319,10 +328,9 @@ Patrick Blatt, Elliot T. Martin, Shane M. Breznak, Prashanth Rangan*
 
 Department of Biological Sciences/RNA Institute, University at Albany
 SUNY, Albany, NY
-
 University at Albany SUNY, 1400 Washington Avenue, Albany, 12222, USA
-
 *Correspondence to: prangan@albany.edu
+\setstretch{2.0}
 
 \hypertarget{abstract}{%
 \section{Abstract}\label{abstract}}
@@ -420,7 +428,7 @@ oogenesis.
 
 }
 
-\caption[\textbf{Schematic of \emph{Drosophila} ovariole.}]{(A) Schematic of \emph{Drosophila} ovariole. \emph{Drosophila} females have two ovaries consisting of 16--20 ovarioles, which are assembly lines for producing mature eggs. The germarium, the structure that houses the germline stem cell (GSC), is present at anterior tip of the ovariole. The germline stem cell asymmetrically divides, giving rise to another GSC and a GSC daughter. The daughter cell then will undergo four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the 16 cells one will be specified as the egg while the others serve as polyploid nurse cells that support oocyte and egg development. The surrounding somatic cells encapsulate the 16-cell cyst creating egg chambers. As development proceeds, the nurse cells provide mRNAs and proteins allowing the oocyte to grow in size and to eventually become a mature egg. (B) Inset of a germarium showing the developing germline, with the GSC located at the most anterior tip. Upon differentiation, the CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell cyst. Only one cell of the sixteen cells completes meiosis and is destined to become the oocyte.}\label{fig:unnamed-chunk-2}
+\caption[\textbf{Schematic of \emph{Drosophila} ovariole.}]{(A) \textbf{Schematic of \emph{Drosophila} ovariole.} \emph{Drosophila} females have two ovaries consisting of 16--20 ovarioles, which are assembly lines for producing mature eggs. The germarium, the structure that houses the germline stem cell (GSC), is present at anterior tip of the ovariole. The germline stem cell asymmetrically divides, giving rise to another GSC and a GSC daughter. The daughter cell then will undergo four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the 16 cells one will be specified as the egg while the others serve as polyploid nurse cells that support oocyte and egg development. The surrounding somatic cells encapsulate the 16-cell cyst creating egg chambers. As development proceeds, the nurse cells provide mRNAs and proteins allowing the oocyte to grow in size and to eventually become a mature egg. (B) Inset of a germarium showing the developing germline, with the GSC located at the most anterior tip. Upon differentiation, the CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell cyst. Only one cell of the sixteen cells completes meiosis and is destined to become the oocyte.}\label{fig:unnamed-chunk-2}
 \end{figure}
 \hypertarget{alternative-splicing-ensures-accurate-production-of-critical-germline-mrnas-to-regulate-sex-determination-and-differentiation}{%
 \section{Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation}\label{alternative-splicing-ensures-accurate-production-of-critical-germline-mrnas-to-regulate-sex-determination-and-differentiation}}
@@ -567,7 +575,7 @@ splicing in the female germline.
 
 }
 
-\caption[\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl}.}]{Schematic of the pathway that promotes alternative splicing of \emph{sxl} to generate the female \emph{sex determining} variant in the germline. Ovo-B promotes the transcription of \emph{otu,} which enhances splicing of \emph{sxl}. The female-specific splice form of \emph{sxl} is further enhanced by RNA modification by the m6A writer. Formation of the female-specific form generates a functional Sxl protein. Sxl represses Tdrd5l, a protein that promotes male identify. Additionally, Sxl post-transcriptionally represses \emph{nhp2} to promote cyst formation during differentiation.}\label{fig:unnamed-chunk-3}
+\caption[\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl}.}]{\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl} to generate the female \emph{sex determining} variant in the germline.} Ovo-B promotes the transcription of \emph{otu,} which enhances splicing of \emph{sxl}. The female-specific splice form of \emph{sxl} is further enhanced by RNA modification by the m6A writer. Formation of the female-specific form generates a functional Sxl protein. Sxl represses Tdrd5l, a protein that promotes male identify. Additionally, Sxl post-transcriptionally represses \emph{nhp2} to promote cyst formation during differentiation.}\label{fig:unnamed-chunk-3}
 \end{figure}
 \hypertarget{rna-modifications-direct-splicing-of-sex-determinants-and-translation-of-differentiation-promoting-genes-in-the-germline}{%
 \section{RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline}\label{rna-modifications-direct-splicing-of-sex-determinants-and-translation-of-differentiation-promoting-genes-in-the-germline}}
@@ -845,7 +853,7 @@ basis of ribosome biogenesis control.
 
 }
 
-\caption[\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.}]{Schematic representing the germarium and plots representing relative changes in global translation rate, rRNA transcription rate, and mTorc1 activity during development at the developmental stages indicated. As germline stem cell differentiation occurs rRNA production decreases, while global translation initially increases as differentiation occurs then falls off post differentiation. A global regulator of both translation and rRNA production, mTorc1 activity decreases during differentiation and increases post differentiation.}\label{fig:unnamed-chunk-4}
+\caption[\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.}]{\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.} Schematic representing the germarium and plots representing relative changes in global translation rate, rRNA transcription rate, and mTorc1 activity during development at the developmental stages indicated. As germline stem cell differentiation occurs rRNA production decreases, while global translation initially increases as differentiation occurs then falls off post differentiation. A global regulator of both translation and rRNA production, mTorc1 activity decreases during differentiation and increases post differentiation.}\label{fig:unnamed-chunk-4}
 \end{figure}
 \hypertarget{hand-off-mechanisms-facilitated-by-combinatorial-rna-binding-proteins-dynamically-shape-the-translational-landscape-during-oogenesis}{%
 \section{Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}\label{hand-off-mechanisms-facilitated-by-combinatorial-rna-binding-proteins-dynamically-shape-the-translational-landscape-during-oogenesis}}
@@ -997,7 +1005,7 @@ Bru representing a hand-off mechanism for repression of maternal mRNAs
 
 }
 
-\caption[\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.}]{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium. In the GSCs Nos, Pum and Twin form a complex to inhibit the translation of differentiation mRNAs such as \emph{pgc}, which increases throughout oogenesis. Expression of Bam in the CB initiates differentiation by interacting with its partner Bgcn and Mei-P26 to repress the translation of GSC-expressed mRNAs, specifically \emph{nos}. As Nos protein levels decrease in the CB, Pum is available to partner with Brat to repress the translation of self-renewal genes and \emph{pgc}. In cyst stages, Rbfox1 binds the \emph{pum} 3' UTR to inhibit its translation. Throughout oogenesis Bru and Cup continuously block translation of \emph{pgc}.}\label{fig:unnamed-chunk-5}
+\caption[\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.}]{\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.} In the GSCs Nos, Pum and Twin form a complex to inhibit the translation of differentiation mRNAs such as \emph{pgc}, which increases throughout oogenesis. Expression of Bam in the CB initiates differentiation by interacting with its partner Bgcn and Mei-P26 to repress the translation of GSC-expressed mRNAs, specifically \emph{nos}. As Nos protein levels decrease in the CB, Pum is available to partner with Brat to repress the translation of self-renewal genes and \emph{pgc}. In cyst stages, Rbfox1 binds the \emph{pum} 3' UTR to inhibit its translation. Throughout oogenesis Bru and Cup continuously block translation of \emph{pgc}.}\label{fig:unnamed-chunk-5}
 \end{figure}
 \hypertarget{summary}{%
 \section{Summary}\label{summary}}
@@ -1011,6 +1019,10 @@ cost-effective sequencing technologies combined with the increasing
 ability to easily create mutants in previously uncharacterized genes
 will allow us to further elucidate the regulatory logic (underlying or
 of) this critical transition.
+
+\setstretch{1.0}
+
+\setstretch{1.0}
 
 
 
@@ -1089,6 +1101,8 @@ Elliot T. Martin\textsuperscript{1}*, Patrick Blatt\textsuperscript{1}*, Elaine 
 
 Email: gfuchs@albany.edu, prangan@albany.edu
 
+\setstretch{2.0}
+
 \hypertarget{summary-1}{%
 \section{Summary:}\label{summary-1}}
 
@@ -1122,7 +1136,11 @@ We performed a screen to identify RNA helicases that are required for female fer
 
 \caption[\textbf{RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}]{\textbf{RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}}\label{fig:unnamed-chunk-6}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A}) Schematic of \emph{Drosophila} germarium. Germline stem cells are attached to the somatic niche (dark red). The stem cells divide and give rise to a stem cell and a cystoblast (CB) that expresses the differentiation factor Bag-of-marbles (Bam). GSCs and CBs are marked by spectrosomes. The CB undergoes four incomplete mitotic divisions giving rise to a 16-cell cyst (blue). Cysts are marked by branched spectrosome structures known as fusomes (red). One cell of the 16-cell cyst is specified as the oocyte. The 16-cell cyst is encapsulated by the surrounding somatic cells giving rise to an egg chamber. (\textbf{A'}) Ribosome biogenesis promotes GSC cytokinesis and differentiation. Disruption of ribosome biogenesis results in undifferentiated stem cyst accumulation. (\textbf{B}) Conservation of \emph{aramis}, \emph{athos}, and \emph{porthos} between \emph{H. sapiens}, \emph{D. melanogaster}, and \emph{S. cerevisiae} (left), trees are drawn to scale, with branch lengths measured in the number of substitutions per site. Representation of conserved protein domains for three RNA helicases in \emph{Drosophila} compared to \emph{H. sapiens} and \emph{S. cerevisiae} orthologs (right). Percentage values represent similarity to \emph{Drosophila} orthologs. (\textbf{C}) Egg laying assay after germline RNAi knockdown of \emph{aramis}, \emph{athos} or \emph{porthos} indicating a loss of fertility compared to \emph{nosGAL4}, driver control (n=3 trials). *** = p \textless{} 0.001, Tukey's post-hoc test after one-way ANOVA, p \textless{} 0.001. Error bars represent standard error (SE). (\textbf{D-G''}) Confocal micrographs of ovaries from control, \emph{UAS-Dcr2; nosGAL4; bam-GFP} (\textbf{D-D''}) and germline RNAi depletion targeting (\textbf{E-E''}) \emph{aramis}, (\textbf{F-F''}) \emph{athos} or (\textbf{G-G''}) \emph{porthos} stained for 1B1 (red, left grayscale), Vasa (green), and Bam-GFP (blue, right grayscale). Depletion of these genes (\textbf{E-G''}) results in a characteristic phenotype in which early germ cells are connected marked by a 1B1 positive, fusome-like structure highlighted by a yellow dotted line in contrast to the single cells present in (\textbf{D-D''}) controls (white arrow) or differentiating cysts (yellow dashed line). Bam expression, if present, is followed by loss of the germline. (\textbf{H}) Phenotype quantification of ovaries depleted of \emph{aramis}, \emph{athos} or \emph{porthos} compared to control ovaries (n=50 ovarioles, df=2, *** = p \textless{} 0.001, Fisher's exact tests with Holm-Bonferroni correction). Scale bars are 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1136,7 +1154,11 @@ Aberrant cyst formation proximal to the niche could reflect stem cysts with GSCs
 
 \caption[\textbf{Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}]{\textbf{Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}}\label{fig:unnamed-chunk-7}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A}) qPCR targeting \emph{aramis}, \emph{athos}, \emph{porthos} relative to \(\alpha\)\emph{-tub84B} to measure knockdown efficiency of \emph{aramis}, \emph{athos}, and \emph{porthos} RNAi in the germline (n=3, Welch's t-test with Holm-Bonferroni correction, * =p\textless0.05, **=p\textless0.01). (\textbf{B-B'}) Confocal images of (\textbf{B}) Aramis::GFP::3XFLAG and (\textbf{B'}) Aramis::GFP::3XFLAG in conjunction with \emph{aramis} germline knockdown stained for Vasa (blue), and GFP (green). (\textbf{C-C'}) Confocal images of (\textbf{C}) Athos::GFP::3XFLAG and (\textbf{C'}) Athos::GFP::3XFLAG in conjunction with \emph{athos} germline knockdown stained for Vasa (blue), and GFP (green), early germline is outlined in yellow, representative somatic cell indicated by arrow. (\textbf{D}) Quantification of germline expression of GFP normalized to somatic GFP expression in Aramis::GFP::3XFLAG ovaries compared to Aramis::GFP::3XFLAG in conjunction with \emph{aramis} germline knockdown and Athos::GFP::3XFLAG ovaries compared to Athos::GFP::3XFLAG in conjunction with \emph{athos} germline knockdown showing that \emph{aramis} RNAi and \emph{athos} RNAi efficiently knockdown their targets in the germline. (n=14-15, Welch's t-test with Holm-Bonferroni correction, ***=p\textless0.001) (\textbf{E-E'''}) Confocal images of (\textbf{E}) \emph{nosGAL4}, driver control and germline RNAi knockdown using additional RNAi lines for (\textbf{E'}) \emph{aramis} and (\textbf{E''}) \emph{athos} stained for 1B1 (red) and Vasa (green). (\textbf{E'''}) Quantification of percentage of germaria with no defect (black), stem-cysts (salmon), or germline loss (dark red) in ovaries depleted of \emph{athos}, \emph{aramis}, or \emph{porthos} compared to control ovaries recapitulates the phenotypes with independent RNAi lines (n=50, df=2, *** = p\textless0.001, Fisher's exact test with Holm-Bonferroni correction). (\textbf{F-F'''}) Confocal images of germaria stained for 1B1 (red) and Phospho-tyrosine (green). Ring canals, marked by Phosopho-tyrosine, connect differentiating cysts in (\textbf{F}) control \emph{nosGAL4} ovaries and in between the interconnected cells of ovaries depleted of (\textbf{F'}) \emph{aramis}, (\textbf{F''}) \emph{athos}, or (\textbf{F'''}) \emph{porthos} with 1B1 positive structures going through the ring canals. (\textbf{G-G'''}) Confocal images of ovarioles stained for 1B1 (red) and Vasa (green). Control, \emph{nosGAL} ovaries have egg chambers while ovaries depleted of (\textbf{G'}) \emph{aramis}, (\textbf{G''}) \emph{athos}, or (\textbf{G'''}) \emph{porthos} lack egg chambers. (\textbf{H-H'''}) Confocal images of germaria stained for pMad (red, grayscale) and Vasa (green). In (\textbf{H}) control ovaries nuclear pMad staining occurs in cells proximal to the niche marking GSCs. Nuclear pMad staining in ovaries depleted of (\textbf{H'}) \emph{aramis}, (\textbf{H''}) \emph{athos}, and (\textbf{H'''}) \emph{porthos} demonstrates that the observed cysts are not composed of GSCs. Scale bar for main images is 15 micron, scale bar for insets is 3.75 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1155,7 +1177,11 @@ Many factors involved in rRNA biogenesis localize to the nucleolus and interact 
 
 \caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}}\label{fig:unnamed-chunk-8}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-C''}) Confocal images of ovariole immunostained for Fibrillarin (red, right grayscale), Vasa (blue), (\textbf{A-A''}) Aramis::GFP, (\textbf{B-B''}) Athos::GFP and (\textbf{C-C''}) Porthos::HA (green, left grayscale). (\textbf{A'''-C'''}) Fluorescence intensity plot generated from a box of averaged pixels centered around the punctate of Fibrillarin in the white box. The white box also indicates a nucleus, while the yellow dotted outline indicates the divide between soma and germline, with the germline on the interior of the outline and soma on the exterior. R values denote Spearman correlation coefficients between GFP and Fibrillarin from plot profiles generated using Fiji, taken from the nucleolus denoted by the white box. Aramis, Athos and Porthos are expressed throughout oogenesis and localize to the nucleolus. Aramis is also present in the cytoplasm. (\textbf{D-D''}) RNA IP-seq of (\textbf{D}) Aramis, (\textbf{D'}) Athos, and (\textbf{D''}) Porthos aligned to rDNA locus displayed as genome browser tracks. Bar height represents log scaled rRNA reads mapping to rDNA normalized to input and spike-in. Grey boxes outline ETS (external spacers) and ITS (internal spacers) which are only present in pre-rRNA that are significantly enriched in the IP compared to the IgG control (bootstrapped paired t-tests, n=3, * = p-value \textless{} 0.05). (\textbf{E-E''}) Polysome traces from \emph{Drosophila} S2 cells treated with dsRNA targeting \emph{aramis}, (\textbf{E'}) \emph{athos}, (\textbf{E'}) \emph{porthos} (red line) compared to a mock transfection control (black line). \emph{aramis}, athos and porthos are required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and have a smaller 40S/60S ratio. \emph{athos} is required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and has a larger 40S/60S ratio. Additionally, \emph{aramis}, \emph{athos}, and \emph{porthos} are required to maintain polysome levels. All three helicases are required to maintain polysome levels. Scale bar for all images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1169,7 +1195,11 @@ Nucleolar size, and in particular nucleolar hypotrophy, is associated with reduc
 
 \caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}}\label{fig:unnamed-chunk-9}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A''}) Western blots of immunoprecipitations from ovaries for FLAG-tagged (\textbf{A}) Aramis, (\textbf{A'}) Athos, and (\textbf{A''}) Porthos. (\textbf{B-B'''}) Confocal images of (\textbf{B}) \emph{nosGAL4}, driver control, (\textbf{B'}) \emph{aramis} (\textbf{B''}) \emph{athos} and (\textbf{B'''}) \emph{porthos} germline RNAi germaria stained for Fibrillarin (green), and Vasa (blue). (\textbf{C-C'}) Quantification of (\textbf{C}) raw nucleolar volume or (\textbf{C'}) normalized to cell volume nucleolar volume in GSCs of \emph{aramis}, \emph{athos}, and \emph{porthos} RNAi, compared to control indicates loss of each helicase results in nucleolar stress. (n=12-16 GSCs per genotype, One-way ANOVA, p\textless0.001, with Welch's t-test, Holm-Bonferroni corrected, * = p\textless0.05, ** = p\textless0.01, *** = p\textless0.001). (\textbf{D-D'}) Polysome preparations from \emph{Drosophila} S2 cells in cells treated with dsRNA targeting (\textbf{D}) \emph{RpS19a} or (\textbf{D'}) \emph{RpL30} (red line) compared to a mock transfection control (black line). (\textbf{E-K}) Confocal images of heterozygous (\textbf{E}) \emph{shrb}\textsuperscript{O3}/+, (\textbf{F}) \emph{aramis}\textsuperscript{f06152}/+ mutant ovaries, (\textbf{G}) \emph{shrb}\textsuperscript{O3}/+; \emph{aramis}\textsuperscript{f06152}/+ transheterozygous, (\textbf{H}) \emph{athos} deficiency/+ mutant ovaries, (\textbf{I}) \emph{athos} deficiency/\emph{shrb}\textsuperscript{O3} transheterozygous, heterozygous (\textbf{J}) \emph{porthos}\textsuperscript{KG05120}/+ mutant ovaries and (\textbf{K}) \emph{porthos}\textsuperscript{KG05120}/\emph{shrb}\textsuperscript{O3} transheterozygous ovaries stained for 1B1 (red) and Vasa (blue). (\textbf{L}) Quantification of proportion of germaria with presence of a stem-cyst or single cells from the indicated genotypes (pairwise one-sided Fisher's tests, Holm-Bonferroni corrected, * = p\textless0.05, ** = p\textless0.01, *** = p\textless0.001). Scale bar for main images is 15 micron, scale bar for insets is 3.75 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1190,7 +1220,11 @@ CycB is expressed during G2 phase after asymmetric cell division to promote GSC 
 
 \caption[\textbf{Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}}\label{fig:unnamed-chunk-10}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A}) Bar plot representing the most significant Biological Process GO-terms of downregulated genes in ovaries depleted of \emph{aramis} compared to \emph{bam} RNAi control (FDR = False Discovery Rate from p-values using a Fisher's exact test). (\textbf{B-C}) Genome browser tracks representing the gene locus of (\textbf{B}) \emph{CycB} and (\textbf{C}) \emph{aurora B} in ovaries depleted of \emph{aramis} compared to the developmental control, \emph{bam} RNAi. Y-axis represents the number of reads mapping to the locus in bases per million (BPM). (\textbf{D-E''}) Confocal images of germaria stained for CycB (red, left grayscale) and Vasa (blue, right grayscale) in (\textbf{D-D'''}) \emph{bam} RNAi control ovaries and (\textbf{E-E''}) \emph{aramis} germline RNAi. (\textbf{F}) Boxplot of CycB intensity in the germline normalized to Cyc B intensity in the soma in \emph{bam} RNAi and \emph{aramis} RNAi (n=12-14 germaria per sample, *** = p\textless{} 0.001, Welch t-test. (\textbf{G-H''}) Confocal images of germaria stained for p53 (red, left grayscale), GFP (green), and Vasa (blue, right grayscale) in (\textbf{G-G''}) \emph{nosGAL4}, driver control ovaries and (\textbf{H-H''}) germline depletion of \emph{aramis}. Cells highlighted by a dashed yellow circle represent cell shown in the inset. Driver control \emph{nosGAL4} ovaries exhibit attenuated p53 expression in GSCs and CBs, but higher expression in cyst stages as previously reported, while p53 punctate are visible in the germline of \emph{aramis} RNAi in the undifferentiated cells. (\textbf{I}) Box plot of percentage of pixel area exceeding the background threshold for p53 in GSCs and CBs in driver control \emph{nosGAL4} ovaries and the germline of \emph{aramis} RNAi indicates p53 expression is elevated in the germline over the GSCs/CBs of control ovaries. (n=10 germaria per sample, *** = p \textless{} 0.001, Welch's t-test. (\textbf{J-K''}) Confocal images of germaria stained for 1B1 (red, left grayscale) and Vasa (blue, right grayscale) in (\textbf{J-J''}) germline \emph{aramis} RNAi in a wildtype background and (\textbf{K-K''}) germline \emph{aramis} RNAi with a mutant, null, \emph{p53\textsuperscript{5-A-14}} background showing presence of spectrosomes upon loss of p53. (\textbf{L}) Quantification of stem-cyst phenotypes demonstrates a significant rescue upon of loss of \emph{p53\textsuperscript{5-A-14}} in \emph{aramis} germline depletion compared to the control (n=43-55 germaria per genotype, df=2, Fisher's exact test p\textless{} 0.05). (\textbf{M-N}) Confocal images of ovaries stained for 1B1 (red) and Vasa (blue) in \emph{nosGAL4} ovaries (\textbf{M}) and ovaries overexpressing \emph{p53} in the germline. Cysts are denoted by a dotted yellow line, single cells by a white arrow. (\textbf{N}). We observed that 84\% of germaria from \emph{p53} overexpression ovaries had loss of germline while 12\% of germaria contained a cyst, marked by an extended spectrosome structure connecting germline cells together, and an additional 4\% of germaria contained an accumulation of single cells (n=55 germaria, Fisher's exact test, p\textless0.001). Scale bar for main images is 15 micron, scale bar for insets is 3.75 micron
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1206,7 +1240,11 @@ To determine if p53 stabilization is required for the cell cycle arrest in \emph
 
 \caption[\textbf{Aramis is required for proper cell cycle progression, related to Figure 2.5.}]{\textbf{Aramis is required for proper cell cycle progression, related to Figure 2.5.}}\label{fig:unnamed-chunk-11}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A}) Biplot of mRNA levels in \emph{aramis} RNAi compared to \emph{bam} RNAi. Blue points represent mRNAs significantly upregulated \emph{aramis} RNAi compared to \emph{bam} RNAi, red points represent mRNAs significantly downregulated \emph{aramis} RNAi compared to \emph{bam} RNAi. (\textbf{B}) Bar plot representing the most significant Biological Process GO-terms of upregulated genes in ovaries depleted of \emph{aramis} compared to the developmental control, \emph{bam} RNAi. (\textbf{C-C'}) Genome browser tracks of mRNA levels at the (\textbf{C}) \emph{Cyclin} \emph{A} and (\textbf{C'}) \emph{Actin 5C} loci indicate that the RNAseq target gene \emph{Cyclin A} expression is downregulated, while a non-target, \emph{Actin 5C} is not downregulated. (\textbf{D-E'}) Confocal images of germaria stained for 1B1 (red, greyscale) and Vasa (blue) (\textbf{D-D'}) from ovaries with germline depletion of \emph{bam} and (\textbf{E-E'}) germline depletion of \emph{bam} and \emph{aramis} simultaneously demonstrates that simultaneous depletion of \emph{bam} and \emph{aramis} results in a stem-cyst similar to depletion of \emph{aramis} alone. (\textbf{F-G}) Confocal images of germaria stained for 1B1 (red), Vasa (blue), and Cyclin B::GFP (green) in (\textbf{F}) control and (\textbf{G}) germline depletion of \emph{aramis} demonstrates that functional Cyclin B::GFP cannot be efficiently expressed in germline depleted of \emph{aramis}. (\textbf{H-J''}) Confocal images of germaria that express Fly-FUCCI in the germline stained for Vasa (blue). GFP-E2f1\textsuperscript{degron} (green, right grayscale) and RFP-CycB\textsuperscript{degron} (red, left grayscale) in (\textbf{H-H''}) \emph{nosGAL4}, driver control ovaries, (\textbf{I-I''}) \emph{bam} RNAi as a developmental control, and (\textbf{J-J''}) ovaries with germline depletion \emph{of} \emph{aramis} demonstrates that the germline of \emph{aramis} RNAi germline depleted ovaries are negative for both G1 and G2 cell cycle markers. (\textbf{K}) Confocal images of \emph{aramis} germline RNAi expressing GFP in the germline, stained for 1B1 (red), Vasa (blue), and GFP (green) indicates productive translation of transgenes still occurs. (\textbf{L-M}) Confocal images of germaria stained for p53 (red) and Vasa (blue) in (\textbf{L}) hybrid dysgenic, Harwich, ovaries and (\textbf{M}) p53\textsuperscript{11-B-1} ovaries stained for p53 (red) and Vasa (blue) demonstrate the expected p53 staining patterns. (\textbf{N-O}) Confocal images of germaria stained for p53 (red) and Vasa (blue) in ovaries depleted of (\textbf{N}) \emph{athos} or (\textbf{O}) \emph{porthos} in the germline exhibit p53 punctate staining. Cells highlighted by a dashed yellow circle represent cells shown in the inset. (\textbf{P-Q}) Confocal images of germaria stained for 1B1 (red) and Vasa (blue) in (\textbf{P}) germline \emph{athos} RNAi in a wildtype background and (\textbf{Q}) germline \emph{athos} RNAi with a mutant, null, \emph{p53\textsuperscript{5-A-14}} background showing presence of spectrosomes upon loss of p53. (\textbf{R-S}) Confocal images of germaria stained for 1B1 (red) and Vasa (blue) in (\textbf{R}) germline \emph{porthos} RNAi in a wildtype background and (\textbf{S}) germline \emph{porthos} RNAi with a mutant, heterozygous, \emph{p53\textsuperscript{5-A-14}}/+ background showing presence of spectrosomes upon reduction of p53 (\textbf{T}) Phenotypic quantification of demonstrates a significant rescue upon of loss of \emph{p53\textsuperscript{5-A-14}} in germline \emph{athos} (n=63 \emph{athos}, n=47 \emph{athos} RNAi, \emph{p53\textsuperscript{5-A-14}}, Fisher's exact test p \textgreater{} 0.001) or \emph{porthos}-depletion (n=34 \emph{porthos} RNAi; n=41 \emph{porthos} RNAi, \emph{p53\textsuperscript{5-A-14}}/+, Fisher's exact test p \textgreater{} 0.001) compared to the respective control.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1222,7 +1260,11 @@ Although p53 protein levels were elevated upon loss of \emph{aramis} in the germ
 
 \caption[\textbf{Aramis is required for efficient translation of a subset of mRNAs.}]{\textbf{Aramis is required for efficient translation of a subset of mRNAs.}}\label{fig:unnamed-chunk-12}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A''}) Biplots of poly(A)+ mRNA Input versus polysome associated mRNA from (\textbf{A}) ovaries genetically enriched for GSCs (\emph{UAS-tkv}), (\textbf{A'}) Undifferentiated GSC daughter cells (\emph{bam} RNAi) or (\textbf{A''}) germline \emph{aramis} RNAi ovaries. (\textbf{B}) Boxplot of translation efficiency of target genes in \emph{UAS}-\emph{tkv}, \emph{bam} RNAi, and \emph{aramis} RNAi samples (ANOVA p\textless0.001, post-hoc Welch's t-test, n=87, *** = p \textless{} 0.001). (\textbf{C}) Summary of downregulated target genes identified from polysome-seq. (\textbf{D-E'}) Confocal images of germaria stained for 1B1 (red), RpS2::GFP (green, grayscale), and Vasa (blue) in (\textbf{D-D'}) \emph{bam} RNAi control and (\textbf{E-E'}) \emph{aramis} RNAi (yellow dashed line marks approximate region of germline used for quantification). (\textbf{F}) A.U. quantification of germline RpS2::GFP expression normalized to RpS2::GFP expression in the surrounding soma in undifferentiated daughter cells of \emph{bam} RNAi compared to \emph{aramis} RNAi. RpS2::GFP expression is significantly lower in \emph{aramis} RNAi compared to control (n=14 germaria per sample, Welch's t-test, *** = p \textless{} 0.001). (\textbf{G-I'}) Confocal images of germaria stained for 1B1 (red), OPP (green, grayscale), and Vasa (blue) in (\textbf{G-G'}) \emph{nosGAL4}, (\textbf{H-H'}) \emph{bam} RNAi, and (\textbf{I-I'}) \emph{aramis} RNAi (yellow dashed line marks approximate region of germline used for quantification). (\textbf{J}) A.U. quantification of OPP intensity in single cells of nosGAL4 control germeria and undifferentiated daughter cells in \emph{bam} RNAi as controls and \emph{aramis} RNAi (n = 10 germaria per genotype, Welch's t-test, NS = p \textgreater{} 0.05). OPP intensity is not significantly downregulated in \emph{aramis} RNAi compared to either control. Scale bar for all images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1236,7 +1278,11 @@ Previous work has indicated that excess ribosomal protein expression may be dele
 
 \caption[\textbf{The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}]{\textbf{The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}}\label{fig:unnamed-chunk-13}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A'}) Volcano plot of mRNA levels from poly(A)+ mRNA input libraries in germline \emph{aramis} RNAi compared to (\textbf{A}) germline driven \emph{UAS}-\emph{tkv} and (\textbf{A'}) \emph{bam} RNAi of targets identified from polysome-seq. No target genes identified from polysome-seq meet the differential expression cutoff for mRNA in \emph{UAS}-\emph{tkv} compared to \emph{aramis} RNAi or \emph{bam} RNAi compared to \emph{aramis} RNAi input libraries. (\textbf{B-C'}) Confocal images of germaria stained for 1B1 (red) RpS2::GFP (green, greyscale) and Vasa (blue) in (\textbf{B-B'}) germline \emph{bam} RNAi as a control and (\textbf{C-C'}) germline \emph{bam} RNAi; \emph{aramis} RNAi. Yellow dotted outline denotes the germline on the interior of the outline with the soma on the exterior of the outline. (\textbf{D}) Quantification of RpS2::GFP expression in the germline normalized to the soma in germline \emph{bam} RNAi compared to \emph{bam} RNAi; \emph{aramis} RNAi demonstrates a significant decrease in RpS2::GFP expression when \emph{aramis} is knocked down in a germline \emph{bam} RNAi background (Welch's t-test, *** = p\textless0.001, n=15).
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1252,7 +1298,11 @@ During normal oogenesis, p53 protein is expressed in cyst stages in response to 
 
 \caption[\textbf{Non1 represses p53 expression to allow for GSC differentiation.}]{\textbf{Non1 represses p53 expression to allow for GSC differentiation.}}\label{fig:unnamed-chunk-14}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A'}) Confocal images of Non1::GFP germaria stained for 1B1 (red), GFP (green, grayscale), and Vasa (blue). (\textbf{A''}) Boxplot of Non1::GFP expression over germline development in GSCs, CBs and Cyst (CC) stages (n=5-25 cysts of each type, * = p \textless{} 0.05, ** = p \textless{} 0.01, ANOVA with Welch's post-hoc tests). (\textbf{B-C'}) Confocal images of (\textbf{B-B'}) \emph{bam} RNAi and (\textbf{C-C'}) \emph{aramis} RNAi germaria both carrying \emph{Non1::GFP} transgene stained for 1B1 (red), Vasa (blue), and Non1::GFP (green, grayscale). Yellow dashed line marks region of germline used for quantification. (\textbf{D}) Boxplot of Non1::GFP expression in the germline normalized to somatic Non1::GFP expression in \emph{bam} RNAi and \emph{aramis} RNAi (n=24 germaria per genotype, Welch's t-test, *** = p \textless{} 0.001). Non1 expression is significantly lower in the germline of \emph{aramis} RNAi compared to \emph{bam} RNAi control. (\textbf{E-G'}) Confocal images of germaria stained for 1B1 (red, grayscale) and Vasa (blue) in (\textbf{E-E'}) \emph{nosGAL4}, driver control ovaries, (\textbf{F-F'}) germline \emph{Non1} RNAi, and (\textbf{G-G'}) germline \emph{Non1} RNAi in a \emph{p53\textsuperscript{5-A-1-4}} background. Arrow marks the presence of a single cell (\textbf{E, G}), yellow dashed line marks a stem-cyst emanating from the niche (\textbf{F-F'}) or the presence of proper cysts (\textbf{E-E'}). (\textbf{H}) Quantification of percentage of germaria with no defect (black), presence of single cell (salmon), presence of a stem-cyst emanating from the niche (brown-red), or germline loss (dark red) demonstrates a significant rescue of stem-cyst formation upon of loss of \emph{Non1} in \emph{p53\textsuperscript{5-A-14}} compared to the \emph{p53} wildtype control (n=35-55 germaria per genotype, df=3, Fisher's exact test with Holm-Bonferroni correction ** = p\textless{} 0.01, *** = p\textless{} 0.001). (\textbf{I-K'}) Confocal images of germaria stained for 1B1 (red, grayscale) and Vasa (blue) in ovaries with (\textbf{I-I'}) germline Non1 overexpression, (\textbf{J-J'}) \emph{aramis} germline RNAi exhibiting stem-cyst phenotype (yellow dashed line) and (\textbf{K-K}') \emph{aramis} germline RNAi with \emph{Non1} overexpression exhibiting single cells (arrow). (\textbf{L}) Phenotypic quantification of \emph{aramis} RNAi with \emph{Non1} overexpression demonstrates a significant alleviation of the stem-cyst phenotype (n=33-57 germaria per genotype, df=2, Fisher's exact test, ** = p\textless{} 0.01). Scale bar for all images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1266,7 +1316,11 @@ To determine if Aramis, Athos, and Porthos promotes GSC differentiation via tran
 
 \caption[\textbf{Non1 and p53 are inversely expressed, related to Figure 2.9.}]{\textbf{Non1 and p53 are inversely expressed, related to Figure 2.9.}}\label{fig:unnamed-chunk-15}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A''}) Confocal images of ovarioles expressing Non1::GFP stained for p53 (red, right grayscale), Vasa (blue), and Non1::GFP (green, left grayscale). (\textbf{B-B'}) Quantifications of staining, (\textbf{B}) peak Non1 expression in control ovaries occurs in GSC-4 cell cyst stages and 16-cell cyst-region 2b stages where (\textbf{B'}) p53 expression is low. (\textbf{C-E'}) Confocal images of germline (\textbf{C-C'}) \emph{bam} RNAi, (\textbf{D-D'}) germline \emph{athos} RNAi, or (\textbf{E-E'}) germline \emph{porthos} RNAi germaria stained for 1B1 (red), \emph{Non1::GFP} (green, greyscale), and Vasa (blue). (\textbf{F}) Quantification of Non1:GFP expression in germline \emph{athos, or porthos} RNAi compared to germline \emph{bam} RNAi as a developmental control demonstrates there is significantly lower Non1::GFP expression in \emph{athos, or porthos} RNAi compared to \emph{bam} RNAi (n=10 germaria per genotype, Welch's t-test, *** = p\textless0.001) (\textbf{G-H'}) Confocal images of (\textbf{G-G'}) \emph{nosGAL4}, driver control and germline (\textbf{H-H'}) \emph{Non1} RNAi germaria stained for p53 (red, grayscale) and Vasa (blue). (\textbf{I}) Quantification of p53 punctate area above cutoff are markedly brighter in the germline of \emph{Non1} RNAi depleted ovaries compared to the control (n=10 germaria per genotype, Welch's t-test, * = p\textless0.05). Cells highlighted by a dashed yellow circle represent cells shown in the inset. (\textbf{J-M}) Confocal images of germaria stained for 1B1 (red, grayscale), and Vasa (blue) in (\textbf{J}) \emph{athos} germline RNAi exhibiting stem-cyst phenotype (yellow dashed line) and (\textbf{K}) \emph{athos} germline RNAi with \emph{Non1} overexpression exhibiting single cells (arrow), (\textbf{L}) \emph{porthos} germline RNAi exhibiting stem-cyst phenotype (yellow dashed line) and (\textbf{M}) \emph{porthos} germline RNAi with \emph{Non1} overexpression exhibiting single cells (arrow). (\textbf{N}) Phenotypic quantification of germline \emph{athos} RNAi or \emph{porthos} RNAi with \emph{Non1} overexpression demonstrates a significant alleviation of the stem-cyst phenotype compared to germline \emph{athos} or \emph{porthos} RNAi alone (n=26-33 germaria per genotype, df=2, Fisher's exact test, * = p\textless{} 0.05, ** = p\textless{} 0.01). Scale bar for main images is 15 micron, scale bar for insets is 3.75 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1287,7 +1341,11 @@ In \emph{Drosophila}, TORC1 activity increases during meiotic cyst stages (Youhe
 
 \caption[\textbf{Aramis regulated mRNAs contain a TOP motif.}]{\textbf{Aramis regulated mRNAs contain a TOP motif.}}\label{fig:unnamed-chunk-16}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A}) Genome browser tract of \emph{RpL30} locus in ovary CAGE-seq data showing the proportion of transcripts that are produced from a given TSS (orange). Predominant TSSs are shown in orange and putative TOP motif indicated with a green box. The bottom blue and red graph represents sequence conservation of the locus across \emph{Diptera}. The dominant TSS initiates with a canonical TOP motif. (\textbf{B}) Sequence logo generated from \emph{de novo} motif discovery on the first 200 bases downstream of CAGE derived TSSs of \emph{aramis} translation target genes resembles a canonical TOP motif. (\textbf{C}) Histogram representing the location of the first 5-mer polypyrimidine sequence from each CAGE based TSS of \emph{aramis} translation target genes demonstrates that the TOP motifs occur proximal to the TSS (n=76 targets). (\textbf{D}) Diagram of the \emph{WT} and \emph{Mut-TOP-GFP} reporter constructs indicating the TOP sequence that is mutated by transversion in the Mutant reporter (blue). (\textbf{E-F''}) Confocal images and quantifications of (\textbf{E-E'}) \emph{WT-TOP-GFP} and (\textbf{F-F'}) \emph{Mut-TOP-GFP} reporter expression stained for 1B1 (red), GFP (green, grayscale), and Vasa (blue). Yellow dotted-line marks increased reporter expression in 8-cell cysts of \emph{WT-TOP-GFP} but not in \emph{Mut-TOP-GFP}. Reporter expression was quantified over germline development for (\textbf{E''}) \emph{WT-TOP-GFP} and (\textbf{F''}) \emph{Mut-TOP-GFP} reporter expression and normalized to expression in the GSC reveals dynamic expression based on the presence of a TOP motif. (\textbf{G-H'}) Confocal images of \emph{WT-TOP-GFP} reporter ovarioles showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (\textbf{G-G'}) \emph{bam} germline depletion as a developmental control and (\textbf{H-H'}) \emph{aramis} germline depleted ovaries. Yellow dotted lines indicate germline. (\textbf{I-J'}) Confocal images of \emph{Mut-TOP-GFP} reporter expression showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (\textbf{I-I'}) \emph{bam} RNAi and (\textbf{J-J'}) \emph{aramis} germline RNAi. Yellow dotted lines indicate germline. (\textbf{K}) A.U. quantification of WT and Mutant TOP reporter expression in undifferentiated daughter cells in \emph{bam} RNAi compared \emph{aramis} RNAi demonstrates that the \emph{WT-TOP-GFP} reporter shows significantly lower expression in \emph{aramis} RNAi than the \emph{Mut-TOP-GFP} relative to the expression of the respective reporters in \emph{bam} RNAi indicating that the presence of a TOP motif sensitizes transcripts to regulation (n=17-25 germaria per genotype, with Welch's t-test *** = p\textless0.001). Scale bar for all images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1320,7 +1378,11 @@ Next, we performed electrophoretic mobility shift assays (EMSA) to examine prote
 
 \caption[\textbf{Larp binds to TOP mRNAs and binding is regulated by Aramis.}]{\textbf{Larp binds to TOP mRNAs and binding is regulated by Aramis.}}\label{fig:unnamed-chunk-18}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A'}) EMSA of Larp-DM15 and the leading 42 nucleotides of (\textbf{A}) \emph{RpL30} and (\textbf{A'}) \emph{Non1} with increasing concentrations of Larp-DM15 from left to right indicates that both RNAs bind to Larp-DM15. (\textbf{B}) Volcano plot of mRNAs in Larp::GFP::3XFLAG IP compared to input. Blue points represent mRNAs significantly enriched in Larp::GFP::3XFLAG compared to input, but not enriched in an IgG control compared to input. (\textbf{C}) Venn diagram of overlapping Larp IP targets and \emph{aramis} RNAi polysome seq targets indicates that Larp physically associates with mRNAs that are translationally downregulated in germline \emph{aramis} RNAi (p \textless{} 0.001, Hypergeometric Test). (\textbf{D}) Bar plot representing the fold enrichment of mRNAs from Larp RNA IP in germline \emph{aramis} RNAi relative to matched \emph{bam} RNAi ovaries as a developmental control measured with qPCR (n=3, * = p\textless0.5, ** = p\textless0.01, NS = nonsignificant, One-sample t-test, mu=1) indicates that more of two \emph{aramis} translation targets \emph{Non1} and \emph{RpL30} are bound by Larp in \emph{aramis} RNAi. (\textbf{E-F''}) Confocal images of (\textbf{E-E''}) \emph{nosGAL4}, driver control and (\textbf{F-F''}) ovaries overexpressing the DM15 region of Larp in the germline ovaries stained for 1B1 (red, left grayscale), Vasa (blue), and Larp-DM15::GFP (green, right grayscale). Overexpression of Larp results in an accumulation of extended 1B1 structures (highlighted with a dotted yellow line), marking interconnected cells when Larp-DM15 is overexpressed compared to \emph{nosGAL4}, driver control ovaries. (\textbf{G}) In conditions with normal ribosome biogenesis Non1 is efficiently translated, downregulating p53 levels allowing for progression through the cell cycle. When ribosome biogenesis is perturbed Non1 is not translated to sufficient levels, resulting in the accumulation of p53 and cell cycle arrest. Dotted lines indicate indirect affects. Scale bar for all images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1336,7 +1398,11 @@ If loss of \emph{aramis} inhibits the translation of TOP-containing mRNAs due to
 
 \caption[\textbf{Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}]{\textbf{Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}}\label{fig:unnamed-chunk-19}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-A'}) Confocal images of germaria stained for 1B1 (red), Vasa (blue), and \emph{Larp GFP-3XFLAG} (green, grayscale) indicates Larp is expressed throughout early oogenesis. (\textbf{B}) Quantification of EMSAs and summary of K\textsubscript{d} of the protein-RNA interactions. (\textbf{C-C'}) EMSA of Larp-DM15 and the leading 42 nucleotides of (\textbf{B}) \emph{RpL30} and (\textbf{B'}) \emph{Non1} with their TOP sequence mutated to purines as a negative control with increasing concentrations of Larp-DM15 from left to right indicates that Larp-DM15 requires a leading TOP sequence for its binding. (\textbf{D}) Western of representative IP of Larp::GFP::3XFLAG from ovary tissue used for RNA IP-seq. (\textbf{E-F'}) Confocal images of Larp::GFP::3XFLAG reporter expression stained for 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (\textbf{E-E'}) \emph{bam} and (\textbf{F-F'}) \emph{aramis}-depleted germaria. (\textbf{G}) A.U. quantification of Larp::GFP::3XFLAG reporter expression in the germline of \emph{bam} RNAi and \emph{aramis} RNAi normalized to germline Vasa intensity demonstrates that the germline expression of Larp is not elevated in \emph{aramis} germline RNAi compared to \emph{bam} germline RNAi as a developmental control (n=10, NS = p\textgreater0.05, Welch's t-test). (\textbf{H-H'}) Confocal images of Larp::GFP::3XFLAG reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue) in (\textbf{H}) \emph{bam} and (\textbf{H'}) \emph{bam}; \emph{aramis}-depleted germaria. (\textbf{I}) A.U. quantification of Larp::GFP::3XFLAG reporter expression in the germline of \emph{bam} RNAi and \emph{bam} RNAi ; \emph{aramis} RNAi demonstrates that the germline expression of Larp normalized to somatic Larp expression is not elevated in \emph{bam}; \emph{aramis} germline RNAi compared to \emph{bam} germline RNAi as a developmental control (n=10, NS = p\textgreater0.05, Welch's t-test). (\textbf{J}) Western of representative IP of Larp::GFP::3XFLAG from ovary tissue used for RNA IP qPCR. (\textbf{K-K'}) Confocal images of (\textbf{K}) \emph{nosGAL4}, driver control and (\textbf{K'}) ovaries overexpressing the DM15 region of Larp in the germline ovaries stained for DAPI (green) and Vasa (blue). Overexpression of Larp-DM15 results in the production of 32-cell egg chambers which indicates it causes a cytokinesis defect. Scale bar for all images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1631,54 +1697,62 @@ Non1:
 }
 \textbf{GAAAAAG}GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
+\setstretch{1.0}
+
 Oligos used for run-off transcription
 \textbf{\hfill\break
 }
-+-------------------------------+--------------------------------------+
-\textbar{} \textbf{DNA oligo} \textbar{} \textbf{Sequence (5' to 3')} \textbar{}
-+===============================+======================================+
-\textbar{} **RpL30 control \textbar{} GCGCGCGAATTCTAATACGACTCACTATA \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} gene block (with 3' HDV) \textbar{} \underline{GAAAAGCCATTGTCAGCCGACGAAGTG} \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} \textbar{} \underline{CTTTAACCCAAACTA}GGGTCGGCATGG \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} \textbar{} CATCTCCACCTCCTCGCGGTCCGACCTG \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} \textbar{} GGCTACTTCGGTAGGCTAAGGGAGAAG \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} \textbar{} CTTGGCACTGGCCGTCGTTTTGGCACTG \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} \textbar{} GCCGTCGTTT \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} \textbar{} \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} Non1 control \textbar{} GCGCGCGAATTCTAATACGACTCACTATA \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} Forward \textbar{} \underline{GGAAAAAGGAATACGAAG} \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} \textbar{} \underline{CTGACA} \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} \textbar{} \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} Non1 control \textbar{} \underline{AAGCAAAAACACCACGCGGTGTCAGCTT} \textbar{}
-\textbar{} \textbar{} \textbar{}
-\textbar{} Reverse \textbar{} \underline{CGTATTCCTTTTTC}CTATAGTGAG \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} \textbar{} \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} 5' GEN amp \textbar{} GCGCGCGAATTCTAATACGACTCA \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} \textbar{} \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} RpL30 amp Reverse \textbar{} TAGTTTGGGTTAAAGCACTTCGTCGGC \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} \textbar{} \textbar{}
-+-------------------------------+--------------------------------------+
-\textbar{} Non1 amp Reverse \textbar{} AAGCAAAAACACCACGCGGTGTCA \textbar{}
-+-------------------------------+--------------------------------------+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.44}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.54}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{DNA oligo}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Sequence (5' to 3')}
+\end{minipage} \\
+\midrule
+\endhead
+**RpL30 control
 
+gene block (with 3' HDV) & GCGCGCGAATTCTAATACGACTCACTATA
+
+\underline{GAAAAGCCATTGTCAGCCGACGAAGTG}
+
+\underline{CTTTAACCCAAACTA}GGGTCGGCATGG
+
+CATCTCCACCTCCTCGCGGTCCGACCTG
+
+GGCTACTTCGGTAGGCTAAGGGAGAAG
+
+CTTGGCACTGGCCGTCGTTTTGGCACTG
+
+GCCGTCGTTT \\
+& \\
+Non1 control
+
+Forward & GCGCGCGAATTCTAATACGACTCACTATA
+
+\underline{GGAAAAAGGAATACGAAG}
+
+\underline{CTGACA} \\
+& \\
+Non1 control
+
+Reverse & \underline{AAGCAAAAACACCACGCGGTGTCAGCTT}
+
+\underline{CGTATTCCTTTTTC}CTATAGTGAG \\
+& \\
+5' GEN amp & GCGCGCGAATTCTAATACGACTCA \\
+& \\
+RpL30 amp Reverse & TAGTTTGGGTTAAAGCACTTCGTCGGC \\
+& \\
+Non1 amp Reverse & AAGCAAAAACACCACGCGGTGTCA \\
+\bottomrule
+\end{longtable}
 * These RNAs were synthesized using run-off transcription.
+
+\setstretch{2.0}
 
 \hypertarget{electrophoretic-mobility-shift-assays-emsas}{%
 \paragraph{Electrophoretic mobility shift assays (EMSAs)**}\label{electrophoretic-mobility-shift-assays-emsas}}
@@ -1731,6 +1805,8 @@ Finally, fold increase of IP from \emph{aramis} RNAi over \emph{bam} RNAi was ca
 }
 
 Fold enrichment was plotted and One-sample t-test performed on \emph{aramis} RNAi samples in R using a mu of 1.
+
+\setstretch{2.0}
 
 \hypertarget{conclusion}{%
 \chapter{Conclusion}\label{conclusion}}

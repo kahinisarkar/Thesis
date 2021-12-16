@@ -1,3 +1,5 @@
+\setstretch{2.0}
+
 # Preliminary Content {-}
 
 ## Acknowledgements {-}

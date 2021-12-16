@@ -28,7 +28,7 @@ output:
  # thesisdown::thesis_epub: default
 header-includes:
 - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
-- \usepackage{setspace}\doublespacing
+# - \usepackage{setspace}\doublespacing
 - \usepackage{array}
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
@@ -42,6 +42,7 @@ acknowledgements: |
   '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
 dedication: | 
   Dedicated to my wife and best friend Alli. 
+  
 # preface: |  
 #   This is an example of a thesis setup to use the reed thesis document class 
 #   (for LaTeX) and the R bookdown package, in general.

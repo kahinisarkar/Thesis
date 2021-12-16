@@ -193,33 +193,33 @@ $if(title)$
 $endif$
 
 \frontmatter % this stuff will be roman-numbered
-\pagestyle{fancyplain} % this keeps page numbers in the frontmatter
+\pagestyle{plain} % this keeps page numbers in the frontmatter
 
 $if(abstract)$
   \begin{abstract}
   \setcounter{page}{2}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
     $abstract$
   \end{abstract}
 $endif$
 
 $if(dedication)$
   \begin{dedication}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
     $dedication$
   \end{dedication}
 $endif$
 
 $if(acknowledgements)$
   \begin{acknowledgements}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
     $acknowledgements$
   \end{acknowledgements}
 $endif$
 
 $if(preface)$
   \begin{preface}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
     $preface$
   \end{preface}
 $endif$

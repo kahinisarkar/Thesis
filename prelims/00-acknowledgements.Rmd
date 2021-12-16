@@ -1,3 +1,6 @@
+
+\setstretch{2.0}
+
 The work herein was only able to be completed thanks to the contribution of others. 
 Foremost, my wife Allison Martin, without whom I would have given up countless times along the way to my PhD. She
 has been a sounding board, a life-coach, and my best friend for the years this work has taken.
