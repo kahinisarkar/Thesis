@@ -228,18 +228,18 @@ $if(toc)$
   \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
   \setcounter{secnumdepth}{$toc-depth$}
   \setcounter{tocdepth}{$toc-depth$}
-  \pagestyle{fancyplain}
+  \pagestyle{plain}
   \tableofcontents
 $endif$
 
 $if(lot)$
-  \pagestyle{fancyplain}
   \listoftables
+  \pagestyle{plain}
 $endif$
 
 $if(lof)$
-  \pagestyle{fancyplain}
   \listoffigures
+  \pagestyle{plain}
 $endif$
 
 \mainmatter % here the regular arabic numbering starts
