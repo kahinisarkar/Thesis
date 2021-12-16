@@ -1,3 +1,6 @@
+\contentsline {chapter}{Abstract}{ii}{chapter*.1}%
+\contentsline {chapter}{Dedication}{v}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{vi}{chapter*.3}%
 \contentsline {chapter}{Chapter 1: Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during \emph {Drosophila} oogenesis}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}%

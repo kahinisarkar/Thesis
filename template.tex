@@ -86,13 +86,13 @@ $endif$
 \degree{$degree$}
 %If you have two advisors for some reason, you can use the following
 % Uncommented out by CII
-$if(altadvisor)$
-\altadvisor{$altadvisor$}
-$endif$
+% $if(altadvisor)$
+% \altadvisor{$altadvisor$}
+% $endif$
 % End of CII addition
 
 %%% Remember to use the correct department!
-\department{$department$}
+% \department{$department$}
 % if you're writing a thesis in an interdisciplinary major,
 % uncomment the line below and change the text as appropriate.
 % check the Senior Handbook if unsure.
@@ -193,16 +193,33 @@ $if(title)$
 $endif$
 
 \frontmatter % this stuff will be roman-numbered
-\pagestyle{empty} % this removes page numbers from the frontmatter
+\pagestyle{fancyplain} % this keeps page numbers in the frontmatter
+
+$if(abstract)$
+  \begin{abstract}
+  \setcounter{page}{2}
+  \pagestyle{fancyplain}
+    $abstract$
+  \end{abstract}
+$endif$
+
+$if(dedication)$
+  \begin{dedication}
+  \pagestyle{fancyplain}
+    $dedication$
+  \end{dedication}
+$endif$
 
 $if(acknowledgements)$
   \begin{acknowledgements}
+  \pagestyle{fancyplain}
     $acknowledgements$
   \end{acknowledgements}
 $endif$
 
 $if(preface)$
   \begin{preface}
+  \pagestyle{fancyplain}
     $preface$
   \end{preface}
 $endif$
@@ -211,27 +228,18 @@ $if(toc)$
   \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
   \setcounter{secnumdepth}{$toc-depth$}
   \setcounter{tocdepth}{$toc-depth$}
+  \pagestyle{fancyplain}
   \tableofcontents
 $endif$
 
 $if(lot)$
+  \pagestyle{fancyplain}
   \listoftables
 $endif$
 
 $if(lof)$
+  \pagestyle{fancyplain}
   \listoffigures
-$endif$
-
-$if(abstract)$
-  \begin{abstract}
-    $abstract$
-  \end{abstract}
-$endif$
-
-$if(dedication)$
-  \begin{dedication}
-    $dedication$
-  \end{dedication}
 $endif$
 
 \mainmatter % here the regular arabic numbering starts

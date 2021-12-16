@@ -35,7 +35,7 @@ header-includes:
 # for the .RMD files. If you are NOT producing a PDF, delete or silence
 # lines 25-39 in this YAML header.
 abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-abstract.Rmd")), collapse = "\n  ")`'
-# If you'd rather include the preliminary content in fil  es instead of inline
+# If you'd rather include the preliminary content in files instead of inline
 # like below, use a command like that for the abstract above.  Note that a tab 
 # is needed on the line after the `|`.
 acknowledgements: | 
@@ -50,7 +50,6 @@ dedication: |
 bibliography: bib/Zotero_library.bib
 # Download your specific csl file and refer to it in the line below.
 csl: csl/apa.csl
-# linestretch: 2
 lot: true
 lof: true
 ---

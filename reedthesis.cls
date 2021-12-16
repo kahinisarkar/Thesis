@@ -104,7 +104,8 @@
 % This gives us rules below the headers
 \AtBeginDocument{%
   \fancyhf{}
-  \fancyhead[LE,RO]{\thepage}
+  % \fancyhead[LE,RO]{\thepage}
+  \fancyfoot[C]{\thepage}
 %\fancyhead{\slshape \nouppercase \leftmark}
 %	The above makes your headers in all caps. If you would like different headers, choose one of the following options (be sure to remove the % symbol from both the right and left headers):
 	 \fancyhead[RE]{\slshape \nouppercase \leftmark} % This makes the headers on the RIGHT side pages be italic and use lowercase With Capitals When Specified.
@@ -191,6 +192,7 @@
 %\addtolength\textheight{\headheight}
 %\addtolength\textheight{\headsep}
 
+% approval page
 \def\degree#1{\gdef \@degree{#1}}
 \def\@degree{\@latex@warning@no@line{No \noexpand\degree given}}
 \def\institution#1{\gdef \@institution{#1}}
@@ -200,7 +202,7 @@
 \def\department#1{\gdef \@department{#1}}
 \def\@department{\@latex@warning@no@line{No \noexpand\department given}}
 \def\thedivisionof#1{\gdef \@thedivisionof{#1}}
-\def\@thedivisionof{The Division of}
+\def\@thedivisionof{The Department of}
 \def\approvedforthe#1{\gdef \@approvedforthe{#1}}
 \def\@approvedforthe{Division}
 \def\advisor#1{\gdef \@advisor{#1}}
@@ -211,6 +213,7 @@
 \@altadvisorfalse
 
 \renewcommand\l@chapter[2]{%
+  \thispagestyle{plain}
   \ifnum \c@tocdepth >\m@ne
     \addpenalty{-\@highpenalty}%
     \vskip 1.0em \@plus\p@
@@ -235,7 +238,8 @@
   \else
     \@restonecolfalse
   \fi
-  \chapter*{Acknowledgements}
+  \chapter{Acknowledgements}
+  \thispagestyle{plain}
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
 
@@ -245,7 +249,8 @@
   \else
     \@restonecolfalse
   \fi
-  \chapter*{Preface}
+  \chapter{Preface}
+  \thispagestyle{plain}
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
 % End of CII add
@@ -256,7 +261,8 @@
   \else
     \@restonecolfalse
   \fi
-  \chapter*{Abstract}
+  \chapter{Abstract}
+  \thispagestyle{plain}
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
 
@@ -266,7 +272,8 @@
   \else
     \@restonecolfalse
   \fi
-  \chapter*{Dedication}
+  \chapter{Dedication}
+  \thispagestyle{plain}
   \fontsize{12}{14}\selectfont
 }{\clearpage \if@restonecol\twocolumn\fi}%
 
@@ -326,21 +333,21 @@
   \end{titlepage}
 
 %% Approved for the division page
-  \cleardoublepage
-  {\fontsize{12}{14}
-  \setbox0=\hbox{Approved for the \@approvedforthe}
-  \thispagestyle{empty}
-  \null\vfil		% just below center of page
-  \par\vskip 6cm	% below center, not center
-  \centerline{\copy0}	% approved
-  \centerline{(\@department)} %major
-  \vskip 1cm		%space to sign
-  \centerline{\makebox[\wd0][c]{\hrulefill}
-	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\hrulefill} \fi}
-  \centerline{\makebox[\wd0][c]{\@advisor}
-	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\@altadvisor} \fi}
-  \par\vfil\null}
-  \cleardoublepage
+%   \cleardoublepage
+%   {\fontsize{12}{14}
+%   \setbox0=\hbox{Approved for the \@approvedforthe}
+%   \thispagestyle{empty}
+%   \null\vfil		% just below center of page
+%   \par\vskip 6cm	% below center, not center
+%   \centerline{\copy0}	% approved
+%   \centerline{(\@department)} %major
+%   \vskip 1cm		%space to sign
+%   \centerline{\makebox[\wd0][c]{\hrulefill}
+% 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\hrulefill} \fi}
+%   \centerline{\makebox[\wd0][c]{\@advisor}
+% 	\if@altadvisor \makebox[.5in]{} \makebox[\wd0][c]{\@altadvisor} \fi}
+%   \par\vfil\null}
+%   \cleardoublepage
   }
 }
 
