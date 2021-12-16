@@ -36,7 +36,7 @@
 
 <!-- **Figure 2.3. Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.**  -->
 
-(ref:RiBi-F2-3-long) \setlength\parindent{0pt}(**A-C\\\'\\\'**) Confocal images of ovariole immunostained for Fibrillarin (red, right grayscale), Vasa (blue), (**A-A\'\'**) Aramis::GFP, (**B-B\'\'**) Athos::GFP and (**C-C\'\'**) Porthos::HA (green, left grayscale). (**A\'\'\'-C\'\'\'**) Fluorescence intensity plot generated from a box of averaged pixels centered around the punctate of Fibrillarin in the white box. The white box also indicates a nucleus, while the yellow dotted outline indicates the divide between soma and germline, with the germline on the interior of the outline and soma on the exterior. R values denote Spearman correlation coefficients between GFP and Fibrillarin from plot profiles generated using Fiji, taken from the nucleolus denoted by the white box. Aramis, Athos and Porthos are expressed throughout oogenesis and localize to the nucleolus. Aramis is also present in the cytoplasm. (**D-D\'\'**) RNA IP-seq of (**D**) Aramis, (**D\'**) Athos, and (**D\'\'**) Porthos aligned to rDNA locus displayed as genome browser tracks. Bar height represents log scaled rRNA reads mapping to rDNA normalized to input and spike-in. Grey boxes outline ETS (external spacers) and ITS (internal spacers) which are only present in pre-rRNA that are significantly enriched in the IP compared to the IgG control (bootstrapped paired t-tests, n=3, \* = p-value \< 0.05). (**E-E\'\'**) Polysome traces from *Drosophila* S2 cells treated with dsRNA targeting *aramis*, (**E\'**) *athos*, (**E\'**) *porthos* (red line) compared to a mock transfection control (black line). *aramis*, athos and porthos are required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and have a smaller 40S/60S ratio. *athos* is required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and has a larger 40S/60S ratio. Additionally, *aramis*, *athos*, and *porthos* are required to maintain polysome levels. All three helicases are required to maintain polysome levels. Scale bar for all images is 15 micron.
+(ref:RiBi-F2-3-long) \setlength\parindent{0pt}(**A-C\'\'**) Confocal images of ovariole immunostained for Fibrillarin (red, right grayscale), Vasa (blue), (**A-A\'\'**) Aramis::GFP, (**B-B\'\'**) Athos::GFP and (**C-C\'\'**) Porthos::HA (green, left grayscale). (**A\'\'\'-C\'\'\'**) Fluorescence intensity plot generated from a box of averaged pixels centered around the punctate of Fibrillarin in the white box. The white box also indicates a nucleus, while the yellow dotted outline indicates the divide between soma and germline, with the germline on the interior of the outline and soma on the exterior. R values denote Spearman correlation coefficients between GFP and Fibrillarin from plot profiles generated using Fiji, taken from the nucleolus denoted by the white box. Aramis, Athos and Porthos are expressed throughout oogenesis and localize to the nucleolus. Aramis is also present in the cytoplasm. (**D-D\'\'**) RNA IP-seq of (**D**) Aramis, (**D\'**) Athos, and (**D\'\'**) Porthos aligned to rDNA locus displayed as genome browser tracks. Bar height represents log scaled rRNA reads mapping to rDNA normalized to input and spike-in. Grey boxes outline ETS (external spacers) and ITS (internal spacers) which are only present in pre-rRNA that are significantly enriched in the IP compared to the IgG control (bootstrapped paired t-tests, n=3, \* = p-value \< 0.05). (**E-E\'\'**) Polysome traces from *Drosophila* S2 cells treated with dsRNA targeting *aramis*, (**E\'**) *athos*, (**E\'**) *porthos* (red line) compared to a mock transfection control (black line). *aramis*, athos and porthos are required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and have a smaller 40S/60S ratio. *athos* is required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and has a larger 40S/60S ratio. Additionally, *aramis*, *athos*, and *porthos* are required to maintain polysome levels. All three helicases are required to maintain polysome levels. Scale bar for all images is 15 micron.
 
 <!-- **Figure 2.4. Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.**  -->
 
@@ -150,7 +150,8 @@ We found that Aramis, Athos, and Porthos are conserved from yeast to humans (**F
 
 Many factors involved in rRNA biogenesis localize to the nucleolus and interact with rRNA [@arabiCMycAssociatesRibosomal2005; @grandoriCMycBindsHuman2005; @Henras2008c; @Karpen1988a]. To detect the subcellular localization of Aramis and Athos, we used available lines that express Aramis::GFP::FLAG or Athos::GFP::FLAG fusion proteins under endogenous control. For Porthos, we expressed a Porthos::FLAG::HA fusion under the control of UASt promoter in the germline using a previously described approach [@delucaEfficientExpressionGenes2018]. We found that in the germline, Aramis, Athos and Porthos colocalized with Fibrillarin, which marks the nucleolus, the site of rRNA synthesis (**Figure 2.3A-C\'\'\'**) [@ochsFibrillarinNewProtein1985]. Aramis was also in the cytoplasm of the germline and somatic cells of the gonad. To determine if Aramis, Athos, and Porthos directly interact with rRNA, we performed immunoprecipitation (IP) followed by RNA-seq. We found that rRNA immunopurified with Aramis, Athos, and Porthos **(Figure 2.3D-D\'\', Figure 2.4A-A\'\')**. Thus, Aramis, Athos, and Porthos are present in thenucleolus and interact with rRNA, suggesting that they might regulate rRNA biogenesis.
 
-```{r, fig.align="center", include=TRUE, out.height="8.9375 in", out.width="6.5 in", fig.align="center", fig.cap="(ref:RiBi-F2-3-short)", fig.scap="(ref:RiBi-F2-3-short)", echo=FALSE}
+```{r, fig.align="center", include=TRUE, out.height="6.347059 in", out.width="6.5 in", fig.align="center", fig.cap="(ref:RiBi-F2-3-short)", fig.scap="(ref:RiBi-F2-3-short)", echo=FALSE}
+# (8.3/8.5)*6.5
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.pdf")
 ```
 
@@ -342,47 +343,53 @@ In this study we demonstrate that loss of helicases involved in rRNA processing 
 
 We are grateful to all members of the Rangan and Fuchs labs for their discussion and comments on the manuscript. We also thanks Dr. Sammons, Dr. Marlow and Life Science Editors for their thoughts and comments the manuscript Additionally, we thank the Bloomington Stock Center, the Vienna *Drosophila* Resource Center, the BDGP Gene Disruption Project, and Flybase for fly stocks, reagents, and other resources. P.R. is funded by the NIH/NIGMS (R01GM111779-06 and RO1GM135628-01), G.F. is funded by NSF MCB-2047629 and NIH RO3 AI144839, D.E.S. was funded by Marie Curie CIG 334077/IRTIM and the Austrian Science Fund (FWF) grant ASI_FWF01_P29638S, and A.B is funded by NIH R01GM116889 and American Cancer Society RSG-17-197-01-RMC.
 
-**Author Contributions\$**
+**Author Contributions**
 
 Conceptualization, E.T.M., P.B., G.F., and P.R.; Methodology, E.T.M., P.B., G.F., and P.R.; Investigation, E.T.M., P.B., E.N., R.L., S.S., H.Y., T.P., and S.E.; Writing -- Original Draft, E.T.M., D.E.S., and P.R.; Writing -- Review & Editing, E.T.M., P.B., D.E.S, A.B., G.F., and P.R.; Funding Acquisition, G.F. and P.R.; Visualization, E.T.M., E.N.; Supervision, G.F. and P.R.
 
 **\
 **
 
-Supplemental Tables can be found along with the original publication here: XXX
+Supplemental Tables can be found along with the original publication here: XXX\
 
-**\
-**
-
-**Supplemental Table 2.1. Results of germline helicase RNAi screen on ovariole morphology.**\
+**Supplemental Table 2.1. Results of germline helicase RNAi screen on ovariole morphology.**
 Results of screen of RNA helicases depleted from the germline. Reported is the majority phenotype from n=50 ovarioles.
 
 **\
 **
 
-**Supplemental Table 2.2. Differential expression analysis fromRNAseq of ovaries depleted of *aramis* in the germline compared to a developmental control.** DEseq2 output from RNAseq of ovaries depleted of *aramis* in the germline compared to ovaries depleted of bam in the germline as a developmental control. Sheet 1 (Downregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered downregulated in *aramis* RNAi compared to *bam* RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered upregulated in *aramis* RNAi compared to *bam* RNAi. Sheet 3 (All Genes) contains Deseq2 output for all genes in the dm6 assembly.
-
-**Supplemental Table 2.3. Differential expression analysis from RNAseq of ovaries depleted of *bam* and *aramis* in the germline compared to ovaries depleted of *bam* in the germline.** DEseq2 output from RNAseq of ovaries depleted of *bam* and *aramis* in the germline compared to ovaries depleted of *bam* in the germline as a control. Sheet 1 (Downregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered downregulated in *bam*; *aramis* RNAi compared to *bam* RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered upregulated in *bam*; *aramis* *aramis* RNAi compared to *bam* RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly. Sheet 4(BP GO terms - downregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as downregulated targets from Sheet 1. Sheet 5 (BP GO terms - upregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as upregulated targets from Sheet 2.
-
-**\
-**
-
-**Supplemental Table 2.4. Analysis of polysome-seq of ovaries depleted of *aramis* in the germline compared to developmental controls.** Results of polysome-seq from ovaries depleted of *aramis* in the germline, ovaries depleted of *bam*, and ovaries overexpressing tkv in the germline as developmental controls. Sheet 1 (Downregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between *aramis* RNAi and the developmental controls meeting the cutoffs to be considered downregulated in *aramis* RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between *aramis* RNAi and the developmental controls meeting the cutoffs to be considered upregulated in *aramis* RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly.
+**Supplemental Table 2.2. Differential expression analysis from RNAseq of ovaries depleted of *aramis* in the germline compared to a developmental control.** 
+DEseq2 output from RNAseq of ovaries depleted of *aramis* in the germline compared to ovaries depleted of bam in the germline as a developmental control. Sheet 1 (Downregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered downregulated in *aramis* RNAi compared to *bam* RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered upregulated in *aramis* RNAi compared to *bam* RNAi. Sheet 3 (All Genes) contains Deseq2 output for all genes in the dm6 assembly.  
 
 **\
 **
 
-**Supplemental Table 2.5. Enrichment analysis of Aramis RNA IPmRNA-seq.** Results of Aramis::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet contains the output of results from DEseq2. Sheet 1 (aramis polysome IP Enrichment) contains the enrichment value of all *aramis* polysome targets from Aramis IP. Sheet 2 (aramis polysome IgG Enrichment) contains the enrichment value of all *aramis* polysome targets from Aramis IgG control. Sheet 3 (Aramis IP Targets) contains Aramis IP targets as defined in methods. Sheet 4 (IP vs In Enriched) contains genes significantly enriched in the Aramis IP samples compared to the input samples. Sheet 5 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 6 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Aramis IP samples compared to the input samples. Sheet 7 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
+**Supplemental Table 2.3. Differential expression analysis from RNAseq of ovaries depleted of *bam* and *aramis* in the germline compared to ovaries depleted of *bam* in the germline.** 
+DEseq2 output from RNAseq of ovaries depleted of *bam* and *aramis* in the germline compared to ovaries depleted of *bam* in the germline as a control. Sheet 1 (Downregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered downregulated in *bam*; *aramis* RNAi compared to *bam* RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered upregulated in *bam*; *aramis* RNAi compared to *bam* RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly. Sheet 4(BP GO terms - downregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as downregulated targets from Sheet 1. Sheet 5 (BP GO terms - upregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as upregulated targets from Sheet 2.
 
 **\
 **
 
-**Supplemental Table 2.6. Aramis translation targets contain TOP sequences.** Sheet 1 (aramisRNAi target CAGE 5\'UTRs) contains the CAGE corrected 5\'UTRs of *aramis* RNAi polysome downregulated targets with leading TOP sequences and start codons annotated. Sheet 2 (TOP location) contains a list of *aramis* RNAi polysome downregulated targets and the position and sequence of the first instance of a 5-mer pyrimidine sequence downstream of the CAGE-defined TSS of each gene.
+**Supplemental Table 2.4. Analysis of polysome-seq of ovaries depleted of *aramis* in the germline compared to developmental controls.** 
+Results of polysome-seq from ovaries depleted of *aramis* in the germline, ovaries depleted of *bam*, and ovaries overexpressing tkv in the germline as developmental controls. Sheet 1 (Downregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between *aramis* RNAi and the developmental controls meeting the cutoffs to be considered downregulated in *aramis* RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between *aramis* RNAi and the developmental controls meeting the cutoffs to be considered upregulated in *aramis* RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly.
 
 **\
 **
 
-**Supplemental Table 2.7. Enrichment analysis of Larp RNA IP mRNA-seq.** Results of Larp::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet contains the output of DEseq2. Sheet 1 (Larp Targets) contains Larp IP targets as defined in methods. Sheet 2 (IP vs In Enriched) contains genes significantly enriched in the Larp IP samples compared to the input samples. Sheet 3 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 4 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Larp IP samples compared to the input samples. Sheet 5 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
+**Supplemental Table 2.5. Enrichment analysis of Aramis RNA IPmRNA-seq.** 
+Results of Aramis::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet contains the output of results from DEseq2. Sheet 1 (aramis polysome IP Enrichment) contains the enrichment value of all *aramis* polysome targets from Aramis IP. Sheet 2 (aramis polysome IgG Enrichment) contains the enrichment value of all *aramis* polysome targets from Aramis IgG control. Sheet 3 (Aramis IP Targets) contains Aramis IP targets as defined in methods. Sheet 4 (IP vs In Enriched) contains genes significantly enriched in the Aramis IP samples compared to the input samples. Sheet 5 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 6 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Aramis IP samples compared to the input samples. Sheet 7 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
+
+**\
+**
+
+**Supplemental Table 2.6. Aramis translation targets contain TOP sequences.** 
+Sheet 1 (aramisRNAi target CAGE 5\'UTRs) contains the CAGE corrected 5\'UTRs of *aramis* RNAi polysome downregulated targets with leading TOP sequences and start codons annotated. Sheet 2 (TOP location) contains a list of *aramis* RNAi polysome downregulated targets and the position and sequence of the first instance of a 5-mer pyrimidine sequence downstream of the CAGE-defined TSS of each gene.
+
+**\
+**
+
+**Supplemental Table 2.7. Enrichment analysis of Larp RNA IP mRNA-seq.** 
+Results of Larp::GFP::3XFLAG IP/IgG/Input mRNAseq. Each sheet contains the output of DEseq2. Sheet 1 (Larp Targets) contains Larp IP targets as defined in methods. Sheet 2 (IP vs In Enriched) contains genes significantly enriched in the Larp IP samples compared to the input samples. Sheet 3 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 4 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Larp IP samples compared to the input samples. Sheet 5 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
 
 ## Materials and Methods
 
@@ -390,7 +397,7 @@ Results of screen of RNA helicases depleted from the germline. Reported is the m
 
 **Lead Contact:**
 
-> Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Prashanth Rangan ([prangan\@albany.edu](mailto:prangan@albany.edu){.email}).
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Prashanth Rangan ([prangan\@albany.edu](mailto:prangan@albany.edu){.email}).
 
 **Materials availability:**
 
@@ -398,21 +405,21 @@ Materials generated during this study are available upon request.
 
 **Data and Code availability:**
 
-> Sequencing data generated during this study are available on GEO under the accession [GSE171350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350). Other data generated during this study are available from the lead contact.
+Sequencing data generated during this study are available on GEO under the accession [GSE171350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350). Other data generated during this study are available from the lead contact.
 
-**Fly lines**
+#### Fly lines
 
-The following Bloomington Stock Center lines were used in this study: #25751 *UAS-Dcr2;nosGAL4*, #4442 *nosGAL4;MKRS/TM6*, #32334 Aramis RNAi#1 CG5589^HMS00325^, #56977 Athos RNAi#1 CG4901^HMC04417^, #36589 Porthos RNAi#1 CG9253^GL00549^, #36537 UAS-tkv.CA, #33631 bam RNAi^HMS00029^, #6815 p53^5A-1-4^, #4264 Harwich, #6816 p53^11-1B-1^, #55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B, #5431 UAS-EGFP, #18942 aramis^f06152^ Pbac{WH}CG5589f06152/TM6B, Tb1, #9503 athos Df Df(2L)BSC143/CyO, #13988 porthos^KG^ P{SUPor-P}CG9253^KG05120^, #58178 bam RNAi P{TriP.HMJ22155}, #78777 Non1 RNAi P{TriP.HMS05872}, #61790 Larp::GFP::3XFLAG Mi{PT-GFSTF.1}larp^MI06928-GFSTF.1^, #8841 w$$1118$$; Df(3R)Hsp70A, Df(3R)Hsp70B, #55384 Nprl3 RNAi P{TriP.HMC04072}attP40, #34814 raptor RNAi P{TriP.HMS00124}attP2
+The following Bloomington Stock Center lines were used in this study: #25751 *UAS-Dcr2;nosGAL4*, #4442 *nosGAL4;MKRS/TM6*, #32334 Aramis RNAi#1 CG5589^HMS00325^, #56977 Athos RNAi#1 CG4901^HMC04417^, #36589 Porthos RNAi#1 CG9253^GL00549^, #36537 UAS-tkv.CA, #33631 bam RNAi^HMS00029^, #6815 p53^5A-1-4^, #4264 Harwich, #6816 p53^11-1B-1^, #55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B, #5431 UAS-EGFP, #18942 aramis^f06152^ Pbac{WH}CG5589f06152/TM6B, Tb1, #9503 athos Df Df(2L)BSC143/CyO, #13988 porthos^KG^ P{SUPor-P}CG9253^KG05120^, #58178 bam RNAi P{TriP.HMJ22155}, #78777 Non1 RNAi P{TriP.HMS05872}, #61790 Larp::GFP::3XFLAG Mi{PT-GFSTF.1}larp^MI06928-GFSTF.1^, #8841 w1118; Df(3R)Hsp70A, Df(3R)Hsp70B, #55384 Nprl3 RNAi P{TriP.HMC04072}attP40, #34814 raptor RNAi P{TriP.HMS00124}attP2
 
 The following Vienna Stock Center lines were used in this study: Aramis RNAi#2 CG5589^v44322^, Athos RNAi#2 CG4901^v34905^, Aramis::GFP Pbac{fTRG01033.sfGFP-TVPTBF}VK00002, Athos::GFP Pbac{fTRG01233.sfGFP-TVPTBF}VK00033, Non1::GFP Pbac{fTRG00617.sfGFP-TVPTBF}VK00033
 
 The following additional fly lines were used in the study: UASp-CycB::GFP ([Mathieu et al., 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830152/#R25)), *UAS-Dcr2;nosGAL4;bamGFP, If/CyO;nosGAL4* (Lehmann Lab), w1118 (Lehmann lab), *tjGAL4/CyO* [@tanentzapfIntegrindependentAnchoringStemcell2007], UASp-p53 [@bakhratDrosophilaChk2P532010], RpS2::GFP^CB02294^ [@buszczakCarnegieProteinTrap2007; @Zhang2014d], UASt-porthos::3XFLAG::3XHA [@emtenaniGeneticProgramBoosts2021], UASp-Non1 (this study), UASp-Larp-DM15 (this study), WT-TOP-Reporter (this study), Mutant-TOP-Reporter (this study).
 
-**Antibodies IF**
+#### Antibodies IF
 
 The following antibodies were used for immunoflourenscence: mouse anti-1B1 1:20 (DSHB 1B1), rabbit anti-Vasa 1:833-1:4000 (Rangan Lab), chicken anti-Vasa 1:833-1:4000 (Rangan Lab) [@upadhyayTransposonDysregulationModulates2016], rabbit anti-pTyr 1:500 (Sigma T1235), rabbit anti-pMad 1:200 (Abcam ab52903), rabbit anti-GFP 1:2000 (abcam, ab6556), mouse anti-p53 1:200 (DSHB 25F4), Rabbit anti-CycB 1:200 (Santa Cruz Biotechnology, 25764), Rabbit anti-Fibrillarin 1:200 (Abcam ab5821), Mouse anti-Fibrillarin 1:50 (Fuchs Lab) [@McCarthy2018h]. Alexa 488 (Molecular Probes), Cy3 and Cy5 (Jackson Labs) were used at a dilution of 1:500.
 
-**Antibodies Western/IP**
+#### Antibodies Western/IP
 
 Mouse anti-FLAG-HRP 1:5000 (Sigma Aldrich, A8592)
 
@@ -426,39 +433,39 @@ Rabbit anti-DHX33 1:5000 (Bethyl, A300-800A)
 
 Rabbit anti-DDX47 1:1000 (Bethyl, A302-977A)
 
-**Protein Domain Analysis**
+#### Protein Domain Analysis
 
 Protein domain figures were adapted from: The Pfam protein families database in 2019: S. El-Gebali et al. Nucleic Acids Research (2019). Protein Similarity values were obtained from the DRSC/TRiP Functional Genomics Resources.
 
-**Protein Conservation Analysis**
+#### Protein Conservation Analysis
 
 Evolutionary trees were generated using MEGA. The evolutionary history was inferred by using the Maximum Likelihood method and JTT matrix-based model. The tree with the highest log likelihood is shown. Initial tree(s) for the heuristic search were obtained automatically by applying Neighbor-Join and BioNJ algorithms to a matrix of pairwise distances estimated using a JTT model, and then selecting the topology with superior log likelihood value. Trees are drawn to scale, with branch lengths measured in the number of substitutions per site.
 
-**TOP Reporter Cloning**
+#### TOP Reporter Cloning
 
 gBlocks (see primer list for details) were cloned into pCasper2 containing a Nos promoter, HA-tag, GFP-tag, and K10 3\'UTR. PCR was used in order to amplify the gBlock and to remove the 5\'-end of the RpL30 5\'UTR in order to generate the 5\'-UTR discovered via CAGE-seq. In order to clone the Nos promoter followed by the RpL30 5\'UTR without an intervening restriction site, the portion of the plasmid 5\' of the 5\'UTR consisting of a portion of the plasmid backbone, a NotI restriction site, and the Nos Promoter was amplified from the pCasper plasmid using PCR. HiFi cloning was performed on the amplified fragments. The backbone was cut with NotI and SpeI and HiFi cloning was performed according to the manufactures\' instructions except the HiFi incubation was performed for 1 hour to increase cloning efficiency. Colonies were picked and cultured and plasmids were purified using standard techniques. Sequencing was performed by Eton Bioscience Inc. to confirm the correct sequence was present in the final plasmids. Midi-prep scale plasmid was prepared using standard methods and plasmids were sent to BestGene Inc. for microinjection.
 
-**Gateway Cloning**
+#### Gateway Cloning
 
 Gateway cloning was performed as described according to the manufacture\'s manual. Briefly, primers containing the appropriate Gateway *attb* sequence on the 5\'-ends and gene specific sequences on the 3\'-ends (see primer list for sequences) were used to PCR amplify each gene of interest. PCR fragments were BP cloned into pEntr221 as detailed in the Thermofisher Gateway Cloning Manual and used to transform Invitrogen One Shot OmniMAX 2 T1 Phage-Resistant Cells. Resulting clones were picked and used to perform LR cloning into either pPGW or pPWG as appropriate. Cloning was carried out according to the Thermofisher Gateway Cloning Manual except the LR incubation was carried out up to 16 hours. Colonies were picked and cultured and plasmids were purified using standard techniques. Sequencing was performed by Eton Bioscience Inc. to confirm the correct sequence was present in the final plasmids. Midi-prep scale plasmid was prepared using standard methods and plasmids were sent to BestGene Inc. for microinjection.
 
-**Egg Laying Test**
+#### Egg Laying Test
 
 Newly eclosed flies were collected and fattened overnight on yeast. Six female flies were crossed to 4 male controls and kept in cages at 25°C. Flies were allowed to lay for three days, and plates were changed and counted daily. Total number of eggs laid over the three day laying periods were determined and averaged between three replicate crosses for control and experimental crosses.
 
-**Immunostaining**
+#### Immunostaining
 
 Ovaries were dissected and teased apart with mounting needles in cold PBS and kept on ice for subsequent dissections. All incubations were performed with nutation. Ovaries were fixed for 10-15 min in 5% methanol-free formaldehyde in PBS. Ovaries were washed with PBT (1x PBS, 0.5% Triton X-100, 0.3% BSA) once quickly, twice for 5 min, and finally for 15 min. Ovaries were incubated overnight, up to 72 hours in PBT with the appropriate primary antibodies. Ovaries were again washed with PBT once quickly, twice for 5 min, and finally for 15 min. Ovaries were then incubated with the appropriate secondary antibodies in PBT overnight up to 72 hours at 4°C. Ovaries were washed once quickly, twice for 5 min, and finally for 15 min in PBST (1x PBS, 0.2% Tween 20 Ovaries). Ovaries were mounted with Vectashield with 4\',6-diamidino-2-phenylindole (DAPI) (Vector Laboratories) and imaged on a Zeiss 710. All gain, laser power, and other relevant settings were kept constant for any immunostainings being compared. Image processing was performed in Fiji, gain was adjusted, and images were cropped in Photoshop CC 2018.
 
-**Florescent Imaging**
+#### Florescent Imaging
 
 Tissues were visualized and imaged were acquired using a Zeiss LSM-710 confocal microscope under the 20x--- and 40x--- oil objectives.
 
-**Measurement of global protein synthesis**
+#### Measurement of global protein synthesis
 
 OPP (Thermo Fisher, C10456) treatment was performed as in McCarthy [@mccarthyMSL3CoordinatesTranscriptional2019]. Briefly, ovaries were dissected in Schneider\'s media (Thermo Fisher, 21720024) and incubated in 50 µM of OPP reagent for 30 minutes. Tissue was washed in 1x PBS and fixed for 10 minutes in 1x PBS plus 5% methanol-free formaldehyde. Tissue was permeabilized with 1% Triton X-100 in 1x PBST (1x PBS, 0.2% Tween 20) for 30 minutes. Samples were washed with 1x PBS and incubated with Click-iT reaction cocktail, washed with Click-iT reaction rinse buffer according to manufacturer\'s instructions. Samples were then immunostained according to previously described procedures.
 
-**Image Quantifications**
+#### Image Quantifications
 
 All quantifications were performed on images using the same confocal settings. A.U. quantifications were performed in Fiji on images taken with identical settings using the "Measure" function. Intensities were normalized as indicated in the figure legends, boxplots of A.U. measurements were plotted using R and statistics were calculated using R.
 
@@ -470,65 +477,65 @@ Colocalization analysis of helicases with Fibrillarin was performed in Fiji usin
 
 Quantification of Non1-GFP expression and p53 expression over development was calculated in Fiji using the Auto Threshold tool with the Yen method [@sezginSurveyImageThresholding2004] to threshold expression. Quantifications were performed on 3 merged slices and egg chambers were cropped out of quantified images prior to thresholding to prevent areas outside of the germarium from influencing the thresholding algorithm. Areas of germline with "high" and "low" expression of Non1-GFP were outlined manually and a custom Fiji script was used in order to quantify the proportion of pixels in the selected marked as positive for expression for either Non1-GFP or p53, staging was inferred from the results of the Non1-GFP quantification performed using 1B1 to determine the stages of peak Non1 expression. Percent area was plotted with ggplot2 as boxplots in a custom R script.
 
-**RNA Extraction from Ovaries**
+#### RNA Extraction from Ovaries
 
 RNA extraction was performed using standard methods. Ovaries were dissected into PBS and transferred to microcentrifuge tubes. PBS was removed and 100ul of Trizol was added and ovaries were flash frozen and stored at -80°C. Ovaries were lysed in the microcentrifuge tube using a plastic disposable pestle. Trizol was added to 1 mL total volume and sample was vigorously shaken and incubated for 5 min at RT. The samples were centrifuged for x min at \>13,000 g at 4°C and the supernatant was transferred to a fresh microcentrifuge tube. 500 ul of chloroform was added and the samples were vigorously shaken and incubated for 5 minutes at RT. Samples were spun at max speed for 10 minutes at 4°C. The supernatant was transferred to a fresh microcentrifuge tube and ethanol precipitated. Sodium acetate was added equaling 10% of the volume transferred and 2-2.5 volumes of 100% ethanol were added. The samples were shaken thoroughly and left to precipitate at -20°C overnight. The samples were centrifuged at max speed at 4°C for 15 min to pellet the RNA. The supernatant was discarded and 500 ul of 75% ethanol was added to wash the pellet. The samples were vortexed to dislodge the pellet to ensure thorough washing. The samples were spun at 4°C for 5 min and the supernatant was discarded. The pellets were left for 10-20 min until dry. The pellets were resuspended in 20-50ul of RNAse free water and the absorbance at 260 was measured on a nanodrop to measure the concentration of each sample.
 
-**S2 Cell RNAi**
+#### S2 Cell RNAi
 
 DRSC-S2 cells (Stock #181, DGRC) were cultured according to standard methods in M3+BPYE media supplemented with 10% heat-inactivated FBS. dsRNA for RNAi was prepared as described by the SnapDragon manual. Briefly, template was prepared from S2 cell cDNA using the appropriate primers (see primer list) designed using SnapDragon (<https://www.flyrnai.org/snapdragon>). Template was either used directly for *in-vitro* transcription or TA-cloned into the pCR2.1-TOPO vector (K450002) followed by transformation into TOP-10 cells (K450002), plasmid purified, and digested with *Eco*R I prior to *in-vitro* transcription. For *in-vitro* transcription the T7 Megascript kit (AM1334) was used following manufacturer\'s instructions and in-vitro transcriptions were incubated overnight at 37°C. The RNA was treated with DNAse according to the T7 Megascript manual and the RNA was purified using acid-phenol chloroform extraction and ethanol precipitated. The resulting RNA was annealed by heating at 65°C for 5 minutes and slow cooling to 37°C for an hour. S2 cell RNAi was performed essentially as previously described using Effectine [@zhouInducingRNAiDrosophila2013]. 1.0x10^6^ cells were seeded 30 minutes prior to transfection and allowed to attach. After 30 minutes, just prior to transfection, the media was changed for 500 µl of fresh media. 500µl of transfection complexes using 1 µg of dsRNA was prepared per well of a 6-well plate and pipetted dropwise onto seeded cells. After 24 hours an additional 1 mL of media was added to each well. After an additional 24 hours cells were passaged to 10 cm dishes. After an additional 3 days cells were harvested for further analysis.
 
-**Polysome-profiling**
+#### Polysome-profiling
 
 Polysome-profiling in S2 cells was performed as in Fuchs et al. [@fuchsProteomicAnalysisRibosomes2011] with minor modifications. S2 cells were resuspended by pipetting, pelleted by centrifugation at 800g for one minute, and washed in cold PBS. Cells were again pelleted and resuspended in 400 µl of lysis buffer (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM EDTA, 100 g/mL cycloheximide, 1% Triton X-100). Cells were then allowed to continue to lyse for 15 min on ice. Lysate was cleared by centrifugation at 8500g for 5 min at 4°C. Cleared lysate was loaded onto 10%-50% sucrose gradients (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM MgCl2, 100 g/mL cycloheximide) and centrifuged in an SW41 rotor at 35,000 RPM, for 3 hours. Gradients were fractionated on a Density Gradient Fractionation System (Brandel, #621140007) at 0.75 mL/min. Data generated from gradients were plotted using R.
 
-**Western Blot**
+#### Western Blot
 
 HeLa cells were harvested for Western by in RIPA buffer by scraping. Western blotting were performed according to standard methods, briefly, each sample was loaded onto a 4-20% commercial, precast gels and run at 100V for 60-90m depending on the size of the protein of interest. Gels were transferred to nitrocellulose membranes at 100V for 1hr at 4°C. Blot was blocked in 1% milk in PBS and washed 3 times with PBS-T for 5 minutes. Primary antibodies were diluted in PBS-T+5% BSA and incubated overnight. Blot was washed once quickly, once for 5m, and once for 10m in PBS-T. Blot was subsequently imaged with ECL for conjugated primaries. For unconjugated primaries, the appropriate secondary was diluted 1:10,000 in 5% milk and incubated for 2-4 hours at RT. Blot was washed once quickly, once for 5m, and once for 10m in PBS-T and imaged. Images were quantified using Fiji.
 
-**mRNAseq Library Preparation and Analysis**
+#### mRNAseq Library Preparation and Analysis
 
 Libraries were prepared with the Biooscientific kit (Bioo Scientific Corp., NOVA-5138-08) according to manufacturer\'s instructions with minor modifications. Briefly, RNA was prepared with Turbo DNAse according to manufacturer\'s instructions (TURBO DNA-free Kit, Life Technologies, AM1907), and incubated at 37°C for 30 min. DNAse was inactivated using the included DNAse Inactivation reagent and buffer according to manufactures instructions. The RNA was centrifuged at 1000 g for 1.5 min and 19 µl of supernatant was transferred into a new 1.5 mL tube. This tube was again centrifuged at 1000 g for 1.5 min and 18 µl of supernatant was transferred to a new tube to minimize any Inactivation reagent carry-over. RNA concentration was measured on a nanodrop. Poly-A selection was performed on a normalized quantity of RNA dependent on the lowest amount of RNA in a sample, but within the manufacturer\'s specifications for starting material. Poly-A selection was performed according to manufacturer\'s instructions (Bioo Scientific Corp., 710 NOVA-512991). Following Poly-A selection mRNA libraries were generated according to manufactures instructions (Bioo Scientific Corp., NOVA-5138-08) except RNA was incubated for 13 min at 95°C to generate optimal fragment sizes. Library quantity was assessed via Qubit according to manufacturer\'s instructions and library quality was assessed with a Bioanalyzer or Fragment Analyzer according to manufacturer\'s instructions to assess the library size distribution. Sequencing was performed on biological duplicates from each genotype on an Illumina NextSeq500 by the Center for Functional Genomics (CFG) to generate single end 75 base pair reads. Reads were aligned to the dm6.01 assembly of the Drosophila genome using HISAT v2.1.0. Reads were counted using featureCounts v1.4.6.p5. UCSC genome browser tracks were generated using the bam coverage module of deeptools v3.1.2.0.0. Differential expression analysis was performed using DEseq2 (v1.24.0) and data was plotted using R. Differentially expressed genes were those with log~2~(foldchange) \> \|1.5\| and FDR \< 0.05 in the *aramis* RNAi versus *bam* RNAi experiment and foldchange \> \|1.5\| and FDR \< 0.05 in the *bam* RNAi; *aramis* RNAi versus *bam* RNAi experiment. GO-term analysis of GO biological processes was performed on differentially expressed genes using PANTHER via <http://geneontology.org/>. Fisher\'s exact test was used to calculate significance and FDR was used to correct for multiple testing. GO-term analysis results were plotted using R.
 
-**Polysome-seq**
+#### Polysome-seq
 
 Polysome-seq was performed as in Flora et al. [@Flora2018k] with minor modifications. Ovaries were dissected in PBS and transferred to a microcentrifuge tube in liquid nitrogen. Ovaries were lysed in 300µl of lysis buffer (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM EDTA, 100 µg/mL cycloheximide, 1% Triton X-100) and allowed to lyse for 15 min on ice. Lysate was cleared by centrifugation at 8500g for 5 min at 4°C. 20% of the lysate was reserved as input, 1 mL of Trizol (Invitrogen, 15596026) was added and RNA was stored at -80°C. Cleared lysate was loaded onto 10%-50% sucrose gradients (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM MgCl2, 100 g/mL cycloheximide) and centrifuged in an SW41 rotor at 35,000 RPM, for 3 hours. Gradients were fractionated on a Density Gradient Fractionation System (Brandel, #621140007) at 0.75 mL/min, 20 µl of 20% SDS, 8 µl of 0.5 M pH 8 EDTA, and 16 µl of proteinase K (NEB, P8107S) was added to each polysome fraction. Fractions were incubated for 30m at 37°C. Standard acid phenol chloroform purification followed by ethanol precipitation was performed on each fraction. The RNA from polysome fractions was pooled and RNAseq libraries were prepared.
 
-**Polysome-seq Data Analysis**
+#### Polysome-seq Data Analysis
 
 Reads were checked for quality using FastQC. Reads were mapped to the *Drosophila* genome (dm6.01) using Hisat version 2.1.0. Mapped reads were assigned to features using featureCount version v1.6.4. Translation efficiency was calculated as in (Flora et al., 2018; Kronja et al., 2014) using an R script. Briefly, TPMs (transcripts per million) values were calculated. Any gene having zero reads in any library was discarded from further analysis. The log~2~ ratio of CPMs between the polysome fraction and total mRNA was calculated and averaged between replicates. This ratio represents the TE. TE of each replicate was averaged. Targets were defined as transcripts falling greater or less than two standard deviations from the median TE in aramis RNAi for upregulated and downregulated genes respectively, but not in either of the two developmental controls (Nos-GAL4 UAS-*tkv* or Nos-GAL4 UAS-*bam* RNAi). Additionally, genes were only considered targets if their mean TE value in Nos-GAL4 UAS-*aramis* RNAi was higher (for upregulated targets) or lower (for downregulated targets) than their mean TE values in both of the two developmental controls. Finally, only targets meeting a conservative expression cutoff of log~2~(TPM) expression greater than five were considered to exclude more lowly expressed genes as they are highly influenced by noise in polysome-seq in both controls.
 
-**CAGE-seq Tracks**
+#### CAGE-seq Tracks
 
 CAGE-seq tracks were visualized using the UCSC Genome Browser after adding the publicly available track hub \'EPD Viewer Hub\'.
 
-**CAGE-seq Data Reanalysis**
+#### CAGE-seq Data Reanalysis
 
 Publicly available genome browser tracks were obtained of CAGE-seq data (generated by Chen et al. (2014) and viewed through the UCSC Genome Browser. The original CAGE-seq data from ovaries was obtained from SRA under the accession number SRR488282. Reads were aligned to the dm6.01 assembly of the *Drosophila* genome using HISAT v2.1.0. cageFightR was used to determine the dominant TSS for every gene with sufficient expression in from the aligned dataset according to its documentation with default parameters excepting the following: For getCTSS, a mappingQualityThreshold of 10 was used. For normalizeTagCount the method used was "simpleTPM". For clusterCTSS the following parameters were used; threshold = 1, thresholdIsTPM = TRUE, nrPassThreshold = 1, method = "paraclu", maxDist = 20, removeSingletons = TRUE, keepSingletonsAbove = 5. R was used to obtain genome sequence information downstream of the TSS of each gene identified.
 
 To generate a table of *aramis* polysome-seq target 5\'UTRs adjusted using CAGE-seq data, bigwig files of CAGE-seq from ovaries were obtained from EPD Viewer Hub. The most highly expressed TSS within a CAGE cluster (obtained as described in this section) was used to determine the new 5\'-end coordinate associated with each *aramis* polysome-seq target gene at the transcript level. These coordinates were used to obtain the corrected 5\'UTR using R and transcripts with identical sequences were discarded.
 
-**Motif Enrichment Analysis**
+#### Motif Enrichment Analysis
 
 Motif enrichment analysis was performed using Homer [@heinzSimpleCombinationsLineagedetermining2010] using the findmotifs.pl module, supplying Homer with the first 200 nucleotides downstream of the TSS as determined by CAGE-seq for polysome-seq targets and non-targets as a background control with the following parameters "-rna -nogo -p 6 -len 6". Only motifs not marked as potential false positives were considered. The position of the putative TOP motifs was determined using a custom R script by searching for the first instance of any five pyrimidines in a row within the first 200 nucleotides of the TSS using the Biostrings package [@pagesBiostringsEfficientManipulation2019]. Results were plotted as a histogram in R.
 
-**RNA Immunoprecipitation (RNA IP)**\*
+#### RNA Immunoprecipitation (RNA IP)
 
 All RIPs were performed with biological triplicates. 50-60 ovary pairs were dissected for each sample in RNase free PBS and dissected ovaries were kept on ice during subsequent dissections. After dissection, ovaries were washed with 500µl of PBS to remove any debris. This PBS was removed, and ovaries were lysed in 100µl of RIPA buffer (10 mM Tris-Cl Buffer (pH 8.0), 1 mM EDTA, 1% Triton X-100,0.1% Sodium deoxycholate, 0.1% SDS, 140 mM NaCl, 1 mM PMSF, 1 cOmplete, EDTA-free Protease Inhibitor/10mLbuffer (Roche, 11873580001), RNase free H2O) supplemented with 8µl of RNase Out. Following lysis an additional 180µl of RIPA was added to each sample. Lysate was cleared with centrifugation at 14,000g for 20m at 4°C. Cleared lysate was transferred to a new 1.5 mL tube. 10% of this lysate was reserved for RNA input and 5% was reserved as a protein input. To the RNA input 100µl of Trizol was added and the input was stored at -80°C. To the protein input SDS loading buffer was added to a 1X working concentration and the sample was heated at 95°C for 5m and stored at -20°C. The remaining lysate was equally divided into two new 1.5 mL tubes. To one tube 3µg of mouse anti-FLAG antibody was added and to the other tube 3µg of mouse IgG was added. These samples were incubated for 3 hours with nutation at 4°C. NP40 buffer was diluted to a 1X working concentration from a 10X stock (10x NP40 Buffer: 50 mM Tris-Cl Buffer (pH 8.0), 150 mM NaCl, 10% NP-40, 1 cOmplete, EDTA-free Protease Inhibitor Cocktail Pill/10mL buffer, RNase free H2O). 30µl of Protein-G beads per RIP were pelleted on a magnetic stand and supernatant was discarded. 500µl of 1X NP40 buffer was used to resuspend Protein-G beads by nutation. Once beads were resuspended, they were again pelleted on the magnetic stand. This washing process was repeated a total of 5 times. Washed Protein-G beads were added to each lysate and incubated overnight. The next day fresh 1X NP40 buffer was prepared. Lysates were pelleted on a magnetic stand at 4°C and supernatant was discarded. 300µl of 1X NP40 buffer was added to each sample and samples were resuspended by nutation at 4°C. Once samples were thoroughly resuspended, they were pelleted on a magnetic stand. These washing steps were repeated 6 times. Following the final washing steps, beads were resuspended in 25 ul of 1X NP40 Buffer. 5µl of beads were set aside for Western and the remaining beads were stored at -80°C in 100µl of Trizol. SDS loading buffer was added was added to a 1X working concentration and the sample was heated at 95°C for 5m and stored at -20°C or used for Western (refer to Western Blot section).
 
-**Helicase RNA IPseq**
+#### Helicase RNA IPseq
 
 RNA was purified as previously described. RNA yield was quantified using Qubit or nanodrop according to manufactures instructions. RNA was run on a Fragment Analyzer according to manufactures instructions to assess quality. Inputs were diluted 1:50 to bring them into a similar range as the IgG and IP samples. To each sample 0.5 ng of Promega Luciferase Control RNA was added as a spike-in. Libraries were prepared as previously described except Poly(A) selection steps were skipped and library preparation was started with between 1-100 ng of total RNA. Reads were mapped to the M21017.1 NCBI *Drosophila* rRNA sequence record and the sequence of Luciferase obtained from Promega. All further analysis was performed using custom R scripts. Reads were assigned to features using featureCounts based off of a custom GTF file assembled based off of the Flybase record of rRNA sequences. Reads mapping to rRNA were normalized to reads mapping to the Luciferase spike-in control. Reads were further normalized to the reads from the corresponding input library to account for differences in input rRNA concentration between replicates and replicates were subsequently averaged. Tracks were visualized using the R package \'ggplot2\', with additional formatting performed using \'scales\' and \'egg\'. The rRNA GTF was read into R using \'rtracklayer\' and visualized using \'gggenes\'. Average reads mapping to rRNA from IgG control and IP was plotted and a one-sided bootstrapped paired t-test for was performed on regions on rRNA that appeared to be enriched in the IP samples compared to the IgG control as it is a non-parametric test suitable for use with low n using R with 100,000 iterations.
 
 #### Larp Gel Shifts
 
-**Cloning, Protein expression and purification**
+##### Cloning, Protein expression and purification
 
 The Larp-DM15 protein expression construct (amino acids 1330-1481 corresponding to isoform D) was cloned into a modified pET28a vector by PCR using cDNA corresponding to accession ID NP_733244.5. The resulting fusion protein has an N-fHis~10~-maltose binding protein (MBP)-tobacco etch virus (TEV) protease recognition site tag. Protein expression and purification were performed as described previously [@lahrLarelatedProtein1specific2015]. Briefly, plasmid was transformed into BL21(DE3) *E. coli* cells and plated onto kanamycin-supplemented agar plates. A confluent plate was used to inoculate 500 mL of autoinduction media [@studierProteinProductionAutoinduction2005]. Cells were grown for three hours at 37ºC and induced overnight at 18ºC. Cells were harvested, flash frozen, and stored at -80ºC.
 
 Cells were resuspended in lysis buffer (50 mM Tris, pH 8, 400 mM NaCl, 10 mM imidazole, 10% glycerol) supplemented with aprotinin (Gold Bio), leupeptin (RPI Research), and PMSF (Sigma) protease inhibitors. Cells were lysed via homogenization. Lysate was clarified by centrifugation and incubated with Ni-NTA resin (ThermoScientific) for batch purification. Resin was washed with lysis buffer supplemented with 35 mM imidazole to remove non-specific interactions. His~10~-MBP-DM15 was eluted with 250 mM imidazole. The tag was removed via proteolysis using TEV protease and simultaneously dialyzed overnight (3 mg TEV to 40 mL protein elution). Larp-DM15 was further purified by tandem anion (GE HiTrap Q) and cation exchange (GE HiTrap SP) chromatography using an AKTA Pure (GE) to remove nucleic acid and protein contaminants. The columns were washed with in buffer containing 50 mM Tris, pH 7, 175 mM NaCl, 0.5 mM EDTA, and 10% glycerol and eluted with a gradient of the same buffer containing higher salt (1 M NaCl). Fractions containing Larp-DM15 were pooled, and 3 M ammonium sulfate was added to a final concentration of 1 M. A butyl column (GE HiTrap Butyl HP) was run to remove TEV contamination. The wash buffer contained 50 mM Tris, pH 7, 1 M ammonium sulfate, and 5% glycerol, and the elution buffer contained 50 mM Tris pH 7 and 2 mM DTT. Fractions containing Larp-DM15 were buffer exchanged into storage buffer (50 mM Tris pH, 7.5, 250 mM NaCl, 2 mM DTT, 25% glycerol), flash frozen in liquid nitrogen, and stored at -80°C. The purification scheme and buffer conditions were the same as with *Hs*DM15 [@lahrLarelatedProtein1specific2015], except cation and anion exchange buffers were at pH 7, as noted above.
 
-**RNA preparation**
+##### RNA preparation
 
 5\'-triphosphorylated *RpL30* and *Non1* 42-mers were synthesized (ChemGenes). Purine-substituted controls were synthesized by *in vitro* transcription using homemade P266L T7 RNAP polymerase [@guillerezMutationT7RNA2005]. The transcription reaction containing 40 mM Tris, pH 8, 10 mM DTT, 5 mM spermidine, 2 mM NTPs, and 10-15 mM MgCl~2~ was incubated at 37°C for 4 hours. Transcripts were subsequently purified from an 8% polyacrylamide/6M urea/1XTBE denaturing gel, eluted passively using 10 mM sodium cacodylate, pH 6.5, and concentrated using spin concentrators (Millipore Amicon). All oligos were radioactively capped using Vaccinia virus capping system (NEB) and $\alpha^{32}$-GTP (Perkin-Elmer). Labelled oligos were purified using a 10% polyacrylamide/6M urea/1XTBE denaturing gel, eluted with 10 mM sodium cacodylate, pH 6.5, and concentrated by ethanol precipitation.
 
@@ -555,7 +562,8 @@ Non1:
 **GAAAAAG**GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
 Oligos used for run-off transcription
-
+**\
+**
 +-------------------------------+--------------------------------------+
 | **DNA oligo**                 | **Sequence (5' to 3')**              |
 +===============================+======================================+
@@ -602,15 +610,15 @@ Oligos used for run-off transcription
 
 \* These RNAs were synthesized using run-off transcription.
 
-**Electrophoretic mobility shift assays (EMSAs)**
+##### Electrophoretic mobility shift assays (EMSAs)**
 
 Each binding reaction contained 125 total radioactive counts with final reaction conditions of: 20 mM Tris-HCl, pH 8, 150 mM NaCl, 10% glycerol, 1 mM DTT, 0.5 µg tRNA (Ambion), 1 µg BSA (Invitrogen), and \<90 pM RNA. To anneal RNA, oligos were snap-cooled by heating at 95°C for 1 min and cooled on ice for 1 hour. For capped RpL30 shifts and capped purine-substituted controls, final concentrations of 0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, and 100 nM Larp-DM15 were titrated. For capped Non1 shifts, final concentrations of 0, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300, and 1000 nM Larp-DM15 were titrated. Native 7% polyacrylamide 0.5X TBE gels were pre-run on ice at 120 V for 30 min. Binding reactions were run at 120 V on ice for 45-52 min. Gels were dried for 30 min and allowed to expose overnight using a phosphor screen (GE). Screens were imaged using GE Amersham Typhoon. Bands were quantified using ImageQuant TL (GE). Background subtraction was first done using the rolling ball method and then subtracting the signal from the zero-protein lane from each of the shifted bands. Fraction shifted was determined by dividing the background-corrected intensity of the shifted band by total intensity of bands in each lane. Three independent experiments were done for each oligo, with the average plotted and standard deviation shown.
 
-**mRNA IPseq**
+#### mRNA IPseq
 
 IPs of Larp and Aramis were performed as described in the RNA IP-seq section above in triplicate. mRNA libraries were prepared as described in mRNAseq Library Preparation and Data Processing using a constant volume of RNA from each sample with input samples having been diluted 1:50. Data was processed as described as in the mRNAseq Library Preparation and Data Processing section. Targets are defined as genes with \>2 fold enrichment and an adjusted p-value \<0.05 in the Larp-IP libraries compared to input libraries, but not meeting those criteria in the IgG libraries compared to input.
 
-**Larp RNA IP qPCR**
+#### Larp RNA IP qPCR
 
 Larp RNA IP was performed as described in the Larp RNA IPseq section with the following modifications. As the ovaries used were small, they were flash frozen in order to accumulate 40-50 ovaries for each biological replicate. Additionally, 5% input was taken for both RNA and protein samples. Once RNA was purified all of the RNA was treated with Turbo DNAse as in the **mRNAseq Library Preparation and Analysis** section. Reverse transcription (RT) was performed using Superscript II according to the manufacture\'s protocol with equivalent volumes of RNA for each sample. cDNA was diluted 1:8 before performing qPCR using Syber Green. Each reaction consisted of 5ul Syber Green master mix, 0.4 ul water, 0.3 ul of each primer, and 4 ul of diluted cDNA. For each sample 3 biological and 3 technical replicates were performed. Oulier values of technical replicates were removed using a Dixon test with a cutoff of p\<0.05. Remaining technical replicates were averaged, and the IP Input Ct value, the log~2~ of the Input dilution (20) was also subtracted to account for the Input being 5% of the total sample as follows:
 

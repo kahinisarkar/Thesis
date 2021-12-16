@@ -219,9 +219,13 @@ Dedicated to my wife and best friend Alli.
 }
 
 \Abstract{
-All dynamic biological processes require control over transcription, translation, or post-translational products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
+All dynamic biological processes require control over transcription, translation, or post-translation products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
 The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
-Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcriptional and translational landscape over development. I have also used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
+In concert with GSC differentiation, the differentiating progeny of GSCs also transition from a mitotic cell cycle to a meiotic cell cycle, in order to eventually undergo reductional cell division to form an egg. Several of the currently know factors that control this transition have been characterized as RNA binding proteins that likely facilitate the mitotic to meiotic transition by changing the translation landscape of
+Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcription and translation landscape over development and used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
+To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs tage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that Cona, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
+A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation. Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation. When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general
+We have discovered a link between the efficient biogenesis of the translation apparatus, the ribosome, and the translation of the proteins constituent proteins of the ribosome. We found that three RNA helicases, Aramis, Athos, and Porthos, which were previously uncharacterized in \emph{Drosophila} are all required for pre-rRNA processing and successfult ribosome biogenesis. We found that proper ribosome biogenesis ensures that ribosomal proteins are translated at normal levels by preventing a translation inhibitor called Larp from binding its targets, which primarily consist of ribosomal proteins. We found that one other mRNA repressed by La-related protein (Larp) is Novel nucleolar protein (Non1), which prevents cell cycle arrest in a p53 dependent manner. Therefore we discovered a novel connection between ribosome biogenesis and cell cycle. This resolves a longstanding question of why most genes involved in ribosome biogenesis all share the same phenotype when knocked down in \emph{Drosophila} ovaries. Our work demonstrates that this likely occurs because when when aspect of ribosome biogenesis is perturbed, translation of core ribosomal proteins are reduced to compensate for this loss in an attempt to balance ribosome biogenesis. This mechanism also results in a cell cycle arrest giving rise to a characteristic stem-like cyst where the GSC fails to divide from its progeny. More broadly, this connection has important implications in how stem cells regulate ribosome production which is known to play a crucial role in stem cell differentiation.
 }
 
 	\usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
@@ -269,19 +273,19 @@ Each of the steps from GSC to egg require changes in cellular pathways. These ch
 
   \listoffigures
   \begin{abstract}
-    All dynamic biological processes require control over transcription, translation, or post-translational products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
+    All dynamic biological processes require control over transcription, translation, or post-translation products. Stem cells in particular require dynamic control of gene expression. My work has focused on characterizing this control, primarily at the translation level, to better understand how stem cell differentiation occurs. Stem cells are cells with the unique ability to develop into more specialized cell types in a process called differentiation. Some stem cell, including those focused on in my work, also have the ability to ``self-renew,'' a process that allows one stem cell to copy itself giving rise to two stem cells. These processes must be carefully balanced as excess self-renewal will result in cells that do not give rise to differentiated cells necessary for further development or biological function. However, excess differentiation will result in the lack of an available pool of stem cells, preventing future differentiation and development.
     The decision of a stem cell to either self renew or differentiate is controlled by specific cellular pathways that can act at the level of transcription, translation, or post-translation. To study the regulation of these pathways in-vivo I have used the female \emph{Drosophila} germline as a model system. The female \emph{Drosophila} germline is contained within two pairs of ovaries. Ovaries consist of two main types of tissue, soma and germline. Each ovary is made up of strands called ovarioles. Ovarioles represent an assembly line of successive development. At the anterior tip of each ovariole a structure called a germarium is present. At the anterior of the germarium two to three stem cells are housed in a somatic niche. These germline stem cells (GSCs) can self-renew, or differentiate giving rise to a daughter cell called a cystoblast (CB). The CB turns on a differentiation factor called bag of marbles (bam). This CB then undergoes four incomplete cellular divisions, resulting in interconnected cysts consisting of two, four, eight, and finally sixteen cells. One of these cells is designated as the oocyte while the rest of the cells will become nurse cells. The sixteen cell cyst is then encapsulated by somatic cells, forming egg chambers. Egg chambers successively grow in size in fourteen stages. During this time the nurse cells produce mRNAs and proteins that are transported to the oocyte. The oocyte continues to grow, while the nurse cells eventually die, dumping their contents into the oocyte. Once the oocyte reaches the final, 14th stage it is known as an egg.
-    Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcriptional and translational landscape over development. I have also used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
+    In concert with GSC differentiation, the differentiating progeny of GSCs also transition from a mitotic cell cycle to a meiotic cell cycle, in order to eventually undergo reductional cell division to form an egg. Several of the currently know factors that control this transition have been characterized as RNA binding proteins that likely facilitate the mitotic to meiotic transition by changing the translation landscape of
+    Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, translation, or post-translation. Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcription and translation landscape over development and used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
+    To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs tage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that Cona, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
+    A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation. Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation. When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general
+    We have discovered a link between the efficient biogenesis of the translation apparatus, the ribosome, and the translation of the proteins constituent proteins of the ribosome. We found that three RNA helicases, Aramis, Athos, and Porthos, which were previously uncharacterized in \emph{Drosophila} are all required for pre-rRNA processing and successfult ribosome biogenesis. We found that proper ribosome biogenesis ensures that ribosomal proteins are translated at normal levels by preventing a translation inhibitor called Larp from binding its targets, which primarily consist of ribosomal proteins. We found that one other mRNA repressed by La-related protein (Larp) is Novel nucleolar protein (Non1), which prevents cell cycle arrest in a p53 dependent manner. Therefore we discovered a novel connection between ribosome biogenesis and cell cycle. This resolves a longstanding question of why most genes involved in ribosome biogenesis all share the same phenotype when knocked down in \emph{Drosophila} ovaries. Our work demonstrates that this likely occurs because when when aspect of ribosome biogenesis is perturbed, translation of core ribosomal proteins are reduced to compensate for this loss in an attempt to balance ribosome biogenesis. This mechanism also results in a cell cycle arrest giving rise to a characteristic stem-like cyst where the GSC fails to divide from its progeny. More broadly, this connection has important implications in how stem cells regulate ribosome production which is known to play a crucial role in stem cell differentiation.
   \end{abstract}
   \begin{dedication}
     Dedicated to my wife and best friend Alli.
   \end{dedication}
 \mainmatter % here the regular arabic numbering starts
 \pagestyle{fancyplain} % turns page numbering back on
-
-\hypertarget{introduction}{%
-\chapter*{Introduction}\label{introduction}}
-\addcontentsline{toc}{chapter}{Introduction}
 
 
 
@@ -337,8 +341,8 @@ meiosis.
 \underline{Oogenesis, Drosophila, Germline Stem Cell, RNA regulation, Germline,}\\
 \underline{Differentiation, Gametogenesis, RNA Binding Proteins}\\
 
-\hypertarget{introduction-1}{%
-\section{Introduction}\label{introduction-1}}
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
 
 Gametogenesis gives rise to eggs or sperm in all sexually-reproducing
 organisms (Cinalli, Rangan, \& Lehmann, 2008; Ellis \& Kimble, 1994; Lesch \& Page, 2012; Seydoux \& Braun, 2006).
@@ -1081,8 +1085,8 @@ Email: gfuchs@albany.edu, prangan@albany.edu
 
 Ribosomal defects perturb stem cell differentiation, causing ribosomopathies. How ribosome levels control stem cell differentiation is not fully known. Here we discovered that three RNA helicases govern ribosome biogenesis and \emph{Drosophila} oogenesis. Loss of these helicases, which we named Aramis, Athos and Porthos, aberrantly stabilized p53, arrested the cell cycle and stalled GSC differentiation. Aramis controls cell cycle progression by regulating translation of mRNAs containing a Terminal Oligo Pyrimidine (TOP) motif in their 5'-UTRs; we find TOP motifs confer sensitivity to ribosome levels mediated by La-related protein (Larp). One such TOP-containing mRNA codes for \underline{No}vel \underline{N}ucleolar protein 1 (Non1), a conserved p53 destabilizing protein. Upon a sufficient ribosome concentration, Non1 is expressed and promotes GSC cell cycle progression via p53 degradation. Thus, a previously unappreciated TOP-motif in \emph{Drosophila} responds to reduced ribosome biogenesis to co-regulate the translation of ribosomal proteins and a p53 repressor, coupling ribosome biogenesis to GSC differentiation.
 
-\hypertarget{introduction-2}{%
-\section{Introduction}\label{introduction-2}}
+\hypertarget{introduction-1}{%
+\section{Introduction}\label{introduction-1}}
 
 All life depends on the ability of ribosomes to translate mRNAs into proteins. Despite this universal requirement, perturbations in ribosome biogenesis affects some cell types more than others. Stem cells, the unique cell type that underlies the generation and expansion of tissues, in particular have an increased ribosomal requirement (Gabut, Bourdelais, \& Durand, 2020; Sanchez et al., 2016; Woolnough, Atwood, Liu, Zhao, \& Giles, 2016; Zahradkal, Larson, \& Sells, 1991; Q. Zhang et al., 2014). Ribosome production and levels are dynamically regulated to maintain higher amounts in stem cells (Fichelson et al., 2009; Gabut et al., 2020; Sanchez et al., 2016; Woolnough et al., 2016; Zahradkal et al., 1991; Q. Zhang et al., 2014). For example, ribosome biogenesis components are often differentially expressed, as observed during the differentiation of embryonic stem cells, osteoblasts, and myotubes (Gabut et al., 2020; Watanabe-Susaki et al., 2014; Zahradkal et al., 1991). In some cases, such as during \emph{Drosophila} germline stem cell (GSC) division, ribosome biogenesis factors asymmetrically segregate during asymmetric cell division, such that a higher pool of ribosome biogenesis factors is maintained in the stem cell compared to the daughter cell (Blatt, Martin, Breznak, \& Rangan, 2020; Fichelson et al., 2009; Q. Zhang et al., 2014). Reduction of ribosome levels in several stem cell systems can cause differentiation defects (Corsini et al., 2018; Fortier, MacRae, Bilodeau, Sargeant, \& Sauvageau, 2015; Khajuria et al., 2018; Q. Zhang et al., 2014). In \emph{Drosophila,} perturbations that reduce ribosome levels in the GSCs result in differentiation defects causing infertility (Sanchez et al., 2016). Similarly, humans with reduced ribosome levels are afflicted with clinically distinct diseases known as ribosomopathies, such as Diamond-Blackfan anemia, that often result from loss of proper differentiation of tissue-specific progenitor cells (Armistead \& Triggs-Raine, 2014; Barlow et al., 2010; Brooks et al., 2014; Higa-Nakamine et al., 2012; Lipton, Kudisch, Gross, \& Nathan, 1986; Mills \& Green, 2017). However, the mechanisms by which ribosome biogenesis is coupled to proper stem cell differentiation remain incompletely understood.
 
@@ -1136,13 +1140,13 @@ We found that Aramis, Athos, and Porthos are conserved from yeast to humans (\te
 Many factors involved in rRNA biogenesis localize to the nucleolus and interact with rRNA (Arabi et al., 2005; Grandori et al., 2005; Henras et al., 2008; Karpen et al., 1988). To detect the subcellular localization of Aramis and Athos, we used available lines that express Aramis::GFP::FLAG or Athos::GFP::FLAG fusion proteins under endogenous control. For Porthos, we expressed a Porthos::FLAG::HA fusion under the control of UASt promoter in the germline using a previously described approach (DeLuca \& Spradling, 2018). We found that in the germline, Aramis, Athos and Porthos colocalized with Fibrillarin, which marks the nucleolus, the site of rRNA synthesis (\textbf{Figure 2.3A-C'''}) (Ochs, Lischwe, Spohn, \& Busch, 1985). Aramis was also in the cytoplasm of the germline and somatic cells of the gonad. To determine if Aramis, Athos, and Porthos directly interact with rRNA, we performed immunoprecipitation (IP) followed by RNA-seq. We found that rRNA immunopurified with Aramis, Athos, and Porthos \textbf{(Figure 2.3D-D'', Figure 2.4A-A'')}. Thus, Aramis, Athos, and Porthos are present in thenucleolus and interact with rRNA, suggesting that they might regulate rRNA biogenesis.
 \begin{figure}
 
-{\centering \includegraphics[width=6.5 in,height=8.9375 in]{./figure/Ribosome Biogenesis/Ribosome Biogenesis 2} 
+{\centering \includegraphics[width=6.5 in,height=6.347059 in]{./figure/Ribosome Biogenesis/Ribosome Biogenesis 2} 
 
 }
 
 \caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}}\label{fig:unnamed-chunk-8}
 \end{figure}
-\setlength\parindent{0pt}(\textbf{A-C\textbackslash'\textbackslash'}) Confocal images of ovariole immunostained for Fibrillarin (red, right grayscale), Vasa (blue), (\textbf{A-A''}) Aramis::GFP, (\textbf{B-B''}) Athos::GFP and (\textbf{C-C''}) Porthos::HA (green, left grayscale). (\textbf{A'''-C'''}) Fluorescence intensity plot generated from a box of averaged pixels centered around the punctate of Fibrillarin in the white box. The white box also indicates a nucleus, while the yellow dotted outline indicates the divide between soma and germline, with the germline on the interior of the outline and soma on the exterior. R values denote Spearman correlation coefficients between GFP and Fibrillarin from plot profiles generated using Fiji, taken from the nucleolus denoted by the white box. Aramis, Athos and Porthos are expressed throughout oogenesis and localize to the nucleolus. Aramis is also present in the cytoplasm. (\textbf{D-D''}) RNA IP-seq of (\textbf{D}) Aramis, (\textbf{D'}) Athos, and (\textbf{D''}) Porthos aligned to rDNA locus displayed as genome browser tracks. Bar height represents log scaled rRNA reads mapping to rDNA normalized to input and spike-in. Grey boxes outline ETS (external spacers) and ITS (internal spacers) which are only present in pre-rRNA that are significantly enriched in the IP compared to the IgG control (bootstrapped paired t-tests, n=3, * = p-value \textless{} 0.05). (\textbf{E-E''}) Polysome traces from \emph{Drosophila} S2 cells treated with dsRNA targeting \emph{aramis}, (\textbf{E'}) \emph{athos}, (\textbf{E'}) \emph{porthos} (red line) compared to a mock transfection control (black line). \emph{aramis}, athos and porthos are required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and have a smaller 40S/60S ratio. \emph{athos} is required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and has a larger 40S/60S ratio. Additionally, \emph{aramis}, \emph{athos}, and \emph{porthos} are required to maintain polysome levels. All three helicases are required to maintain polysome levels. Scale bar for all images is 15 micron.
+\setlength\parindent{0pt}(\textbf{A-C''}) Confocal images of ovariole immunostained for Fibrillarin (red, right grayscale), Vasa (blue), (\textbf{A-A''}) Aramis::GFP, (\textbf{B-B''}) Athos::GFP and (\textbf{C-C''}) Porthos::HA (green, left grayscale). (\textbf{A'''-C'''}) Fluorescence intensity plot generated from a box of averaged pixels centered around the punctate of Fibrillarin in the white box. The white box also indicates a nucleus, while the yellow dotted outline indicates the divide between soma and germline, with the germline on the interior of the outline and soma on the exterior. R values denote Spearman correlation coefficients between GFP and Fibrillarin from plot profiles generated using Fiji, taken from the nucleolus denoted by the white box. Aramis, Athos and Porthos are expressed throughout oogenesis and localize to the nucleolus. Aramis is also present in the cytoplasm. (\textbf{D-D''}) RNA IP-seq of (\textbf{D}) Aramis, (\textbf{D'}) Athos, and (\textbf{D''}) Porthos aligned to rDNA locus displayed as genome browser tracks. Bar height represents log scaled rRNA reads mapping to rDNA normalized to input and spike-in. Grey boxes outline ETS (external spacers) and ITS (internal spacers) which are only present in pre-rRNA that are significantly enriched in the IP compared to the IgG control (bootstrapped paired t-tests, n=3, * = p-value \textless{} 0.05). (\textbf{E-E''}) Polysome traces from \emph{Drosophila} S2 cells treated with dsRNA targeting \emph{aramis}, (\textbf{E'}) \emph{athos}, (\textbf{E'}) \emph{porthos} (red line) compared to a mock transfection control (black line). \emph{aramis}, athos and porthos are required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and have a smaller 40S/60S ratio. \emph{athos} is required to maintain a proper 40S/60S ribosomal subunit ratio compared to control and has a larger 40S/60S ratio. Additionally, \emph{aramis}, \emph{athos}, and \emph{porthos} are required to maintain polysome levels. All three helicases are required to maintain polysome levels. Scale bar for all images is 15 micron.
 
 \textbf{\hfill\break
 }
@@ -1372,47 +1376,53 @@ In this study we demonstrate that loss of helicases involved in rRNA processing 
 
 We are grateful to all members of the Rangan and Fuchs labs for their discussion and comments on the manuscript. We also thanks Dr.~Sammons, Dr.~Marlow and Life Science Editors for their thoughts and comments the manuscript Additionally, we thank the Bloomington Stock Center, the Vienna \emph{Drosophila} Resource Center, the BDGP Gene Disruption Project, and Flybase for fly stocks, reagents, and other resources. P.R. is funded by the NIH/NIGMS (R01GM111779-06 and RO1GM135628-01), G.F. is funded by NSF MCB-2047629 and NIH RO3 AI144839, D.E.S. was funded by Marie Curie CIG 334077/IRTIM and the Austrian Science Fund (FWF) grant ASI\_FWF01\_P29638S, and A.B is funded by NIH R01GM116889 and American Cancer Society RSG-17-197-01-RMC.
 
-\textbf{Author Contributions\$}
+\textbf{Author Contributions}
 
 Conceptualization, E.T.M., P.B., G.F., and P.R.; Methodology, E.T.M., P.B., G.F., and P.R.; Investigation, E.T.M., P.B., E.N., R.L., S.S., H.Y., T.P., and S.E.; Writing -- Original Draft, E.T.M., D.E.S., and P.R.; Writing -- Review \& Editing, E.T.M., P.B., D.E.S, A.B., G.F., and P.R.; Funding Acquisition, G.F. and P.R.; Visualization, E.T.M., E.N.; Supervision, G.F. and P.R.
 
 \textbf{\hfill\break
 }
 
-Supplemental Tables can be found along with the original publication here: XXX
+Supplemental Tables can be found along with the original publication here: XXX\\
 
-\textbf{\hfill\break
-}
-
-\textbf{Supplemental Table 2.1. Results of germline helicase RNAi screen on ovariole morphology.}\\
+\textbf{Supplemental Table 2.1. Results of germline helicase RNAi screen on ovariole morphology.}
 Results of screen of RNA helicases depleted from the germline. Reported is the majority phenotype from n=50 ovarioles.
 
 \textbf{\hfill\break
 }
 
-\textbf{Supplemental Table 2.2. Differential expression analysis fromRNAseq of ovaries depleted of \emph{aramis} in the germline compared to a developmental control.} DEseq2 output from RNAseq of ovaries depleted of \emph{aramis} in the germline compared to ovaries depleted of bam in the germline as a developmental control. Sheet 1 (Downregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered downregulated in \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered upregulated in \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 3 (All Genes) contains Deseq2 output for all genes in the dm6 assembly.
-
-\textbf{Supplemental Table 2.3. Differential expression analysis from RNAseq of ovaries depleted of \emph{bam} and \emph{aramis} in the germline compared to ovaries depleted of \emph{bam} in the germline.} DEseq2 output from RNAseq of ovaries depleted of \emph{bam} and \emph{aramis} in the germline compared to ovaries depleted of \emph{bam} in the germline as a control. Sheet 1 (Downregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered downregulated in \emph{bam}; \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered upregulated in \emph{bam}; \emph{aramis} \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly. Sheet 4(BP GO terms - downregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as downregulated targets from Sheet 1. Sheet 5 (BP GO terms - upregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as upregulated targets from Sheet 2.
-
-\textbf{\hfill\break
-}
-
-\textbf{Supplemental Table 2.4. Analysis of polysome-seq of ovaries depleted of \emph{aramis} in the germline compared to developmental controls.} Results of polysome-seq from ovaries depleted of \emph{aramis} in the germline, ovaries depleted of \emph{bam}, and ovaries overexpressing tkv in the germline as developmental controls. Sheet 1 (Downregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between \emph{aramis} RNAi and the developmental controls meeting the cutoffs to be considered downregulated in \emph{aramis} RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between \emph{aramis} RNAi and the developmental controls meeting the cutoffs to be considered upregulated in \emph{aramis} RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly.
+\textbf{Supplemental Table 2.2. Differential expression analysis from RNAseq of ovaries depleted of \emph{aramis} in the germline compared to a developmental control.}
+DEseq2 output from RNAseq of ovaries depleted of \emph{aramis} in the germline compared to ovaries depleted of bam in the germline as a developmental control. Sheet 1 (Downregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered downregulated in \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding Deseq2 output meeting the cutoffs to be considered upregulated in \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 3 (All Genes) contains Deseq2 output for all genes in the dm6 assembly.
 
 \textbf{\hfill\break
 }
 
-\textbf{Supplemental Table 2.5. Enrichment analysis of Aramis RNA IPmRNA-seq.} Results of Aramis::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet contains the output of results from DEseq2. Sheet 1 (aramis polysome IP Enrichment) contains the enrichment value of all \emph{aramis} polysome targets from Aramis IP. Sheet 2 (aramis polysome IgG Enrichment) contains the enrichment value of all \emph{aramis} polysome targets from Aramis IgG control. Sheet 3 (Aramis IP Targets) contains Aramis IP targets as defined in methods. Sheet 4 (IP vs In Enriched) contains genes significantly enriched in the Aramis IP samples compared to the input samples. Sheet 5 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 6 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Aramis IP samples compared to the input samples. Sheet 7 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
+\textbf{Supplemental Table 2.3. Differential expression analysis from RNAseq of ovaries depleted of \emph{bam} and \emph{aramis} in the germline compared to ovaries depleted of \emph{bam} in the germline.}
+DEseq2 output from RNAseq of ovaries depleted of \emph{bam} and \emph{aramis} in the germline compared to ovaries depleted of \emph{bam} in the germline as a control. Sheet 1 (Downregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered downregulated in \emph{bam}; \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding DEseq2 output meeting the cutoffs to be considered upregulated in \emph{bam}; \emph{aramis} RNAi compared to \emph{bam} RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly. Sheet 4(BP GO terms - downregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as downregulated targets from Sheet 1. Sheet 5 (BP GO terms - upregulated) contains the output of a Biological Process PANTHER Overrepresentation Test of significantly enriched GO terms performed on genes identified as upregulated targets from Sheet 2.
 
 \textbf{\hfill\break
 }
 
-\textbf{Supplemental Table 2.6. Aramis translation targets contain TOP sequences.} Sheet 1 (aramisRNAi target CAGE 5'UTRs) contains the CAGE corrected 5'UTRs of \emph{aramis} RNAi polysome downregulated targets with leading TOP sequences and start codons annotated. Sheet 2 (TOP location) contains a list of \emph{aramis} RNAi polysome downregulated targets and the position and sequence of the first instance of a 5-mer pyrimidine sequence downstream of the CAGE-defined TSS of each gene.
+\textbf{Supplemental Table 2.4. Analysis of polysome-seq of ovaries depleted of \emph{aramis} in the germline compared to developmental controls.}
+Results of polysome-seq from ovaries depleted of \emph{aramis} in the germline, ovaries depleted of \emph{bam}, and ovaries overexpressing tkv in the germline as developmental controls. Sheet 1 (Downregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between \emph{aramis} RNAi and the developmental controls meeting the cutoffs to be considered downregulated in \emph{aramis} RNAi. Sheet 2 (Upregulated Genes) contains genes and corresponding polysome/input ratio values and values representing the difference in the polysome/input ratios between \emph{aramis} RNAi and the developmental controls meeting the cutoffs to be considered upregulated in \emph{aramis} RNAi. Sheet 3 (All Genes) contains DEseq2 output for all genes in the dm6 assembly.
 
 \textbf{\hfill\break
 }
 
-\textbf{Supplemental Table 2.7. Enrichment analysis of Larp RNA IP mRNA-seq.} Results of Larp::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet contains the output of DEseq2. Sheet 1 (Larp Targets) contains Larp IP targets as defined in methods. Sheet 2 (IP vs In Enriched) contains genes significantly enriched in the Larp IP samples compared to the input samples. Sheet 3 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 4 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Larp IP samples compared to the input samples. Sheet 5 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
+\textbf{Supplemental Table 2.5. Enrichment analysis of Aramis RNA IPmRNA-seq.}
+Results of Aramis::GFP::FLAG IP/IgG/Input mRNAseq. Each sheet contains the output of results from DEseq2. Sheet 1 (aramis polysome IP Enrichment) contains the enrichment value of all \emph{aramis} polysome targets from Aramis IP. Sheet 2 (aramis polysome IgG Enrichment) contains the enrichment value of all \emph{aramis} polysome targets from Aramis IgG control. Sheet 3 (Aramis IP Targets) contains Aramis IP targets as defined in methods. Sheet 4 (IP vs In Enriched) contains genes significantly enriched in the Aramis IP samples compared to the input samples. Sheet 5 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 6 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Aramis IP samples compared to the input samples. Sheet 7 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
+
+\textbf{\hfill\break
+}
+
+\textbf{Supplemental Table 2.6. Aramis translation targets contain TOP sequences.}
+Sheet 1 (aramisRNAi target CAGE 5'UTRs) contains the CAGE corrected 5'UTRs of \emph{aramis} RNAi polysome downregulated targets with leading TOP sequences and start codons annotated. Sheet 2 (TOP location) contains a list of \emph{aramis} RNAi polysome downregulated targets and the position and sequence of the first instance of a 5-mer pyrimidine sequence downstream of the CAGE-defined TSS of each gene.
+
+\textbf{\hfill\break
+}
+
+\textbf{Supplemental Table 2.7. Enrichment analysis of Larp RNA IP mRNA-seq.}
+Results of Larp::GFP::3XFLAG IP/IgG/Input mRNAseq. Each sheet contains the output of DEseq2. Sheet 1 (Larp Targets) contains Larp IP targets as defined in methods. Sheet 2 (IP vs In Enriched) contains genes significantly enriched in the Larp IP samples compared to the input samples. Sheet 3 (IgG vs In Enriched) contains genes significantly enriched (see methods) in the IgG samples compared to the input samples. Sheet 4 (IPvsIn All Genes) contains the DEseq2 output of all genes in the Larp IP samples compared to the input samples. Sheet 5 (IgG vs In All Genes) contains the DEseq2 output of all genes in the IgG samples compared to the input samples.
 
 \hypertarget{materials-and-methods}{%
 \section{Materials and Methods}\label{materials-and-methods}}
@@ -1420,30 +1430,33 @@ Results of screen of RNA helicases depleted from the germline. Reported is the m
 \textbf{Resource Availability}
 
 \textbf{Lead Contact:}
-\begin{quote}
+
 Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Prashanth Rangan (\href{mailto:prangan@albany.edu}{\nolinkurl{prangan@albany.edu}}).
-\end{quote}
+
 \textbf{Materials availability:}
 
 Materials generated during this study are available upon request.
 
 \textbf{Data and Code availability:}
-\begin{quote}
-Sequencing data generated during this study are available on GEO under the accession \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350}{GSE171350}. Other data generated during this study are available from the lead contact.
-\end{quote}
-\textbf{Fly lines}
 
-The following Bloomington Stock Center lines were used in this study: \#25751 \emph{UAS-Dcr2;nosGAL4}, \#4442 \emph{nosGAL4;MKRS/TM6}, \#32334 Aramis RNAi\#1 CG5589\textsuperscript{HMS00325}, \#56977 Athos RNAi\#1 CG4901\textsuperscript{HMC04417}, \#36589 Porthos RNAi\#1 CG9253\textsuperscript{GL00549}, \#36537 UAS-tkv.CA, \#33631 bam RNAi\textsuperscript{HMS00029}, \#6815 p53\textsuperscript{5A-1-4}, \#4264 Harwich, \#6816 p53\textsuperscript{11-1B-1}, \#55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B, \#5431 UAS-EGFP, \#18942 aramis\textsuperscript{f06152} Pbac\{WH\}CG5589f06152/TM6B, Tb1, \#9503 athos Df Df(2L)BSC143/CyO, \#13988 porthos\textsuperscript{KG} P\{SUPor-P\}CG9253\textsuperscript{KG05120}, \#58178 bam RNAi P\{TriP.HMJ22155\}, \#78777 Non1 RNAi P\{TriP.HMS05872\}, \#61790 Larp::GFP::3XFLAG Mi\{PT-GFSTF.1\}larp\textsuperscript{MI06928-GFSTF.1}, \#8841 w\[1118\]; Df(3R)Hsp70A, Df(3R)Hsp70B, \#55384 Nprl3 RNAi P\{TriP.HMC04072\}attP40, \#34814 raptor RNAi P\{TriP.HMS00124\}attP2
+Sequencing data generated during this study are available on GEO under the accession \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171350}{GSE171350}. Other data generated during this study are available from the lead contact.
+
+\hypertarget{fly-lines}{%
+\subsubsection{Fly lines}\label{fly-lines}}
+
+The following Bloomington Stock Center lines were used in this study: \#25751 \emph{UAS-Dcr2;nosGAL4}, \#4442 \emph{nosGAL4;MKRS/TM6}, \#32334 Aramis RNAi\#1 CG5589\textsuperscript{HMS00325}, \#56977 Athos RNAi\#1 CG4901\textsuperscript{HMC04417}, \#36589 Porthos RNAi\#1 CG9253\textsuperscript{GL00549}, \#36537 UAS-tkv.CA, \#33631 bam RNAi\textsuperscript{HMS00029}, \#6815 p53\textsuperscript{5A-1-4}, \#4264 Harwich, \#6816 p53\textsuperscript{11-1B-1}, \#55101 FUCCI: UASp-GFP.E2f1.1-230, UASp-mRFP1.CycB.1-266/TM6B, \#5431 UAS-EGFP, \#18942 aramis\textsuperscript{f06152} Pbac\{WH\}CG5589f06152/TM6B, Tb1, \#9503 athos Df Df(2L)BSC143/CyO, \#13988 porthos\textsuperscript{KG} P\{SUPor-P\}CG9253\textsuperscript{KG05120}, \#58178 bam RNAi P\{TriP.HMJ22155\}, \#78777 Non1 RNAi P\{TriP.HMS05872\}, \#61790 Larp::GFP::3XFLAG Mi\{PT-GFSTF.1\}larp\textsuperscript{MI06928-GFSTF.1}, \#8841 w1118; Df(3R)Hsp70A, Df(3R)Hsp70B, \#55384 Nprl3 RNAi P\{TriP.HMC04072\}attP40, \#34814 raptor RNAi P\{TriP.HMS00124\}attP2
 
 The following Vienna Stock Center lines were used in this study: Aramis RNAi\#2 CG5589\textsuperscript{v44322}, Athos RNAi\#2 CG4901\textsuperscript{v34905}, Aramis::GFP Pbac\{fTRG01033.sfGFP-TVPTBF\}VK00002, Athos::GFP Pbac\{fTRG01233.sfGFP-TVPTBF\}VK00033, Non1::GFP Pbac\{fTRG00617.sfGFP-TVPTBF\}VK00033
 
 The following additional fly lines were used in the study: UASp-CycB::GFP (\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5830152/\#R25}{Mathieu et al., 2013}), \emph{UAS-Dcr2;nosGAL4;bamGFP, If/CyO;nosGAL4} (Lehmann Lab), w1118 (Lehmann lab), \emph{tjGAL4/CyO} (Tanentzapf, Devenport, Godt, \& Brown, 2007), UASp-p53 (Bakhrat et al., 2010), RpS2::GFP\textsuperscript{CB02294} (Buszczak et al., 2007; Q. Zhang et al., 2014), UASt-porthos::3XFLAG::3XHA (Emtenani et al., 2021), UASp-Non1 (this study), UASp-Larp-DM15 (this study), WT-TOP-Reporter (this study), Mutant-TOP-Reporter (this study).
 
-\textbf{Antibodies IF}
+\hypertarget{antibodies-if}{%
+\subsubsection{Antibodies IF}\label{antibodies-if}}
 
 The following antibodies were used for immunoflourenscence: mouse anti-1B1 1:20 (DSHB 1B1), rabbit anti-Vasa 1:833-1:4000 (Rangan Lab), chicken anti-Vasa 1:833-1:4000 (Rangan Lab) (Upadhyay et al., 2016), rabbit anti-pTyr 1:500 (Sigma T1235), rabbit anti-pMad 1:200 (Abcam ab52903), rabbit anti-GFP 1:2000 (abcam, ab6556), mouse anti-p53 1:200 (DSHB 25F4), Rabbit anti-CycB 1:200 (Santa Cruz Biotechnology, 25764), Rabbit anti-Fibrillarin 1:200 (Abcam ab5821), Mouse anti-Fibrillarin 1:50 (Fuchs Lab) (McCarthy et al., 2018). Alexa 488 (Molecular Probes), Cy3 and Cy5 (Jackson Labs) were used at a dilution of 1:500.
 
-\textbf{Antibodies Western/IP}
+\hypertarget{antibodies-westernip}{%
+\subsubsection{Antibodies Western/IP}\label{antibodies-westernip}}
 
 Mouse anti-FLAG-HRP 1:5000 (Sigma Aldrich, A8592)
 
@@ -1457,39 +1470,48 @@ Rabbit anti-DHX33 1:5000 (Bethyl, A300-800A)
 
 Rabbit anti-DDX47 1:1000 (Bethyl, A302-977A)
 
-\textbf{Protein Domain Analysis}
+\hypertarget{protein-domain-analysis}{%
+\subsubsection{Protein Domain Analysis}\label{protein-domain-analysis}}
 
 Protein domain figures were adapted from: The Pfam protein families database in 2019: S. El-Gebali et al.~Nucleic Acids Research (2019). Protein Similarity values were obtained from the DRSC/TRiP Functional Genomics Resources.
 
-\textbf{Protein Conservation Analysis}
+\hypertarget{protein-conservation-analysis}{%
+\subsubsection{Protein Conservation Analysis}\label{protein-conservation-analysis}}
 
 Evolutionary trees were generated using MEGA. The evolutionary history was inferred by using the Maximum Likelihood method and JTT matrix-based model. The tree with the highest log likelihood is shown. Initial tree(s) for the heuristic search were obtained automatically by applying Neighbor-Join and BioNJ algorithms to a matrix of pairwise distances estimated using a JTT model, and then selecting the topology with superior log likelihood value. Trees are drawn to scale, with branch lengths measured in the number of substitutions per site.
 
-\textbf{TOP Reporter Cloning}
+\hypertarget{top-reporter-cloning}{%
+\subsubsection{TOP Reporter Cloning}\label{top-reporter-cloning}}
 
 gBlocks (see primer list for details) were cloned into pCasper2 containing a Nos promoter, HA-tag, GFP-tag, and K10 3'UTR. PCR was used in order to amplify the gBlock and to remove the 5'-end of the RpL30 5'UTR in order to generate the 5'-UTR discovered via CAGE-seq. In order to clone the Nos promoter followed by the RpL30 5'UTR without an intervening restriction site, the portion of the plasmid 5' of the 5'UTR consisting of a portion of the plasmid backbone, a NotI restriction site, and the Nos Promoter was amplified from the pCasper plasmid using PCR. HiFi cloning was performed on the amplified fragments. The backbone was cut with NotI and SpeI and HiFi cloning was performed according to the manufactures' instructions except the HiFi incubation was performed for 1 hour to increase cloning efficiency. Colonies were picked and cultured and plasmids were purified using standard techniques. Sequencing was performed by Eton Bioscience Inc.~to confirm the correct sequence was present in the final plasmids. Midi-prep scale plasmid was prepared using standard methods and plasmids were sent to BestGene Inc.~for microinjection.
 
-\textbf{Gateway Cloning}
+\hypertarget{gateway-cloning}{%
+\subsubsection{Gateway Cloning}\label{gateway-cloning}}
 
 Gateway cloning was performed as described according to the manufacture's manual. Briefly, primers containing the appropriate Gateway \emph{attb} sequence on the 5'-ends and gene specific sequences on the 3'-ends (see primer list for sequences) were used to PCR amplify each gene of interest. PCR fragments were BP cloned into pEntr221 as detailed in the Thermofisher Gateway Cloning Manual and used to transform Invitrogen One Shot OmniMAX 2 T1 Phage-Resistant Cells. Resulting clones were picked and used to perform LR cloning into either pPGW or pPWG as appropriate. Cloning was carried out according to the Thermofisher Gateway Cloning Manual except the LR incubation was carried out up to 16 hours. Colonies were picked and cultured and plasmids were purified using standard techniques. Sequencing was performed by Eton Bioscience Inc.~to confirm the correct sequence was present in the final plasmids. Midi-prep scale plasmid was prepared using standard methods and plasmids were sent to BestGene Inc.~for microinjection.
 
-\textbf{Egg Laying Test}
+\hypertarget{egg-laying-test}{%
+\subsubsection{Egg Laying Test}\label{egg-laying-test}}
 
 Newly eclosed flies were collected and fattened overnight on yeast. Six female flies were crossed to 4 male controls and kept in cages at 25°C. Flies were allowed to lay for three days, and plates were changed and counted daily. Total number of eggs laid over the three day laying periods were determined and averaged between three replicate crosses for control and experimental crosses.
 
-\textbf{Immunostaining}
+\hypertarget{immunostaining}{%
+\subsubsection{Immunostaining}\label{immunostaining}}
 
 Ovaries were dissected and teased apart with mounting needles in cold PBS and kept on ice for subsequent dissections. All incubations were performed with nutation. Ovaries were fixed for 10-15 min in 5\% methanol-free formaldehyde in PBS. Ovaries were washed with PBT (1x PBS, 0.5\% Triton X-100, 0.3\% BSA) once quickly, twice for 5 min, and finally for 15 min. Ovaries were incubated overnight, up to 72 hours in PBT with the appropriate primary antibodies. Ovaries were again washed with PBT once quickly, twice for 5 min, and finally for 15 min. Ovaries were then incubated with the appropriate secondary antibodies in PBT overnight up to 72 hours at 4°C. Ovaries were washed once quickly, twice for 5 min, and finally for 15 min in PBST (1x PBS, 0.2\% Tween 20 Ovaries). Ovaries were mounted with Vectashield with 4',6-diamidino-2-phenylindole (DAPI) (Vector Laboratories) and imaged on a Zeiss 710. All gain, laser power, and other relevant settings were kept constant for any immunostainings being compared. Image processing was performed in Fiji, gain was adjusted, and images were cropped in Photoshop CC 2018.
 
-\textbf{Florescent Imaging}
+\hypertarget{florescent-imaging}{%
+\subsubsection{Florescent Imaging}\label{florescent-imaging}}
 
 Tissues were visualized and imaged were acquired using a Zeiss LSM-710 confocal microscope under the 20x--- and 40x--- oil objectives.
 
-\textbf{Measurement of global protein synthesis}
+\hypertarget{measurement-of-global-protein-synthesis}{%
+\subsubsection{Measurement of global protein synthesis}\label{measurement-of-global-protein-synthesis}}
 
 OPP (Thermo Fisher, C10456) treatment was performed as in McCarthy (McCarthy et al., 2019). Briefly, ovaries were dissected in Schneider's media (Thermo Fisher, 21720024) and incubated in 50 µM of OPP reagent for 30 minutes. Tissue was washed in 1x PBS and fixed for 10 minutes in 1x PBS plus 5\% methanol-free formaldehyde. Tissue was permeabilized with 1\% Triton X-100 in 1x PBST (1x PBS, 0.2\% Tween 20) for 30 minutes. Samples were washed with 1x PBS and incubated with Click-iT reaction cocktail, washed with Click-iT reaction rinse buffer according to manufacturer's instructions. Samples were then immunostained according to previously described procedures.
 
-\textbf{Image Quantifications}
+\hypertarget{image-quantifications}{%
+\subsubsection{Image Quantifications}\label{image-quantifications}}
 
 All quantifications were performed on images using the same confocal settings. A.U. quantifications were performed in Fiji on images taken with identical settings using the ``Measure'' function. Intensities were normalized as indicated in the figure legends, boxplots of A.U. measurements were plotted using R and statistics were calculated using R.
 
@@ -1501,66 +1523,80 @@ Colocalization analysis of helicases with Fibrillarin was performed in Fiji usin
 
 Quantification of Non1-GFP expression and p53 expression over development was calculated in Fiji using the Auto Threshold tool with the Yen method (Sezgin \& Sankur, 2004) to threshold expression. Quantifications were performed on 3 merged slices and egg chambers were cropped out of quantified images prior to thresholding to prevent areas outside of the germarium from influencing the thresholding algorithm. Areas of germline with ``high'' and ``low'' expression of Non1-GFP were outlined manually and a custom Fiji script was used in order to quantify the proportion of pixels in the selected marked as positive for expression for either Non1-GFP or p53, staging was inferred from the results of the Non1-GFP quantification performed using 1B1 to determine the stages of peak Non1 expression. Percent area was plotted with ggplot2 as boxplots in a custom R script.
 
-\textbf{RNA Extraction from Ovaries}
+\hypertarget{rna-extraction-from-ovaries}{%
+\subsubsection{RNA Extraction from Ovaries}\label{rna-extraction-from-ovaries}}
 
 RNA extraction was performed using standard methods. Ovaries were dissected into PBS and transferred to microcentrifuge tubes. PBS was removed and 100ul of Trizol was added and ovaries were flash frozen and stored at -80°C. Ovaries were lysed in the microcentrifuge tube using a plastic disposable pestle. Trizol was added to 1 mL total volume and sample was vigorously shaken and incubated for 5 min at RT. The samples were centrifuged for x min at \textgreater13,000 g at 4°C and the supernatant was transferred to a fresh microcentrifuge tube. 500 ul of chloroform was added and the samples were vigorously shaken and incubated for 5 minutes at RT. Samples were spun at max speed for 10 minutes at 4°C. The supernatant was transferred to a fresh microcentrifuge tube and ethanol precipitated. Sodium acetate was added equaling 10\% of the volume transferred and 2-2.5 volumes of 100\% ethanol were added. The samples were shaken thoroughly and left to precipitate at -20°C overnight. The samples were centrifuged at max speed at 4°C for 15 min to pellet the RNA. The supernatant was discarded and 500 ul of 75\% ethanol was added to wash the pellet. The samples were vortexed to dislodge the pellet to ensure thorough washing. The samples were spun at 4°C for 5 min and the supernatant was discarded. The pellets were left for 10-20 min until dry. The pellets were resuspended in 20-50ul of RNAse free water and the absorbance at 260 was measured on a nanodrop to measure the concentration of each sample.
 
-\textbf{S2 Cell RNAi}
+\hypertarget{s2-cell-rnai}{%
+\subsubsection{S2 Cell RNAi}\label{s2-cell-rnai}}
 
 DRSC-S2 cells (Stock \#181, DGRC) were cultured according to standard methods in M3+BPYE media supplemented with 10\% heat-inactivated FBS. dsRNA for RNAi was prepared as described by the SnapDragon manual. Briefly, template was prepared from S2 cell cDNA using the appropriate primers (see primer list) designed using SnapDragon (\url{https://www.flyrnai.org/snapdragon}). Template was either used directly for \emph{in-vitro} transcription or TA-cloned into the pCR2.1-TOPO vector (K450002) followed by transformation into TOP-10 cells (K450002), plasmid purified, and digested with \emph{Eco}R I prior to \emph{in-vitro} transcription. For \emph{in-vitro} transcription the T7 Megascript kit (AM1334) was used following manufacturer's instructions and in-vitro transcriptions were incubated overnight at 37°C. The RNA was treated with DNAse according to the T7 Megascript manual and the RNA was purified using acid-phenol chloroform extraction and ethanol precipitated. The resulting RNA was annealed by heating at 65°C for 5 minutes and slow cooling to 37°C for an hour. S2 cell RNAi was performed essentially as previously described using Effectine (Zhou, Mohr, Hannon, \& Perrimon, 2013). 1.0x10\textsuperscript{6} cells were seeded 30 minutes prior to transfection and allowed to attach. After 30 minutes, just prior to transfection, the media was changed for 500 µl of fresh media. 500µl of transfection complexes using 1 µg of dsRNA was prepared per well of a 6-well plate and pipetted dropwise onto seeded cells. After 24 hours an additional 1 mL of media was added to each well. After an additional 24 hours cells were passaged to 10 cm dishes. After an additional 3 days cells were harvested for further analysis.
 
-\textbf{Polysome-profiling}
+\hypertarget{polysome-profiling}{%
+\subsubsection{Polysome-profiling}\label{polysome-profiling}}
 
 Polysome-profiling in S2 cells was performed as in Fuchs et al. (Fuchs, Diges, Kohlstaedt, Wehner, \& Sarnow, 2011) with minor modifications. S2 cells were resuspended by pipetting, pelleted by centrifugation at 800g for one minute, and washed in cold PBS. Cells were again pelleted and resuspended in 400 µl of lysis buffer (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM EDTA, 100 g/mL cycloheximide, 1\% Triton X-100). Cells were then allowed to continue to lyse for 15 min on ice. Lysate was cleared by centrifugation at 8500g for 5 min at 4°C. Cleared lysate was loaded onto 10\%-50\% sucrose gradients (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM MgCl2, 100 g/mL cycloheximide) and centrifuged in an SW41 rotor at 35,000 RPM, for 3 hours. Gradients were fractionated on a Density Gradient Fractionation System (Brandel, \#621140007) at 0.75 mL/min. Data generated from gradients were plotted using R.
 
-\textbf{Western Blot}
+\hypertarget{western-blot}{%
+\subsubsection{Western Blot}\label{western-blot}}
 
 HeLa cells were harvested for Western by in RIPA buffer by scraping. Western blotting were performed according to standard methods, briefly, each sample was loaded onto a 4-20\% commercial, precast gels and run at 100V for 60-90m depending on the size of the protein of interest. Gels were transferred to nitrocellulose membranes at 100V for 1hr at 4°C. Blot was blocked in 1\% milk in PBS and washed 3 times with PBS-T for 5 minutes. Primary antibodies were diluted in PBS-T+5\% BSA and incubated overnight. Blot was washed once quickly, once for 5m, and once for 10m in PBS-T. Blot was subsequently imaged with ECL for conjugated primaries. For unconjugated primaries, the appropriate secondary was diluted 1:10,000 in 5\% milk and incubated for 2-4 hours at RT. Blot was washed once quickly, once for 5m, and once for 10m in PBS-T and imaged. Images were quantified using Fiji.
 
-\textbf{mRNAseq Library Preparation and Analysis}
+\hypertarget{mrnaseq-library-preparation-and-analysis}{%
+\subsubsection{mRNAseq Library Preparation and Analysis}\label{mrnaseq-library-preparation-and-analysis}}
 
 Libraries were prepared with the Biooscientific kit (Bioo Scientific Corp., NOVA-5138-08) according to manufacturer's instructions with minor modifications. Briefly, RNA was prepared with Turbo DNAse according to manufacturer's instructions (TURBO DNA-free Kit, Life Technologies, AM1907), and incubated at 37°C for 30 min. DNAse was inactivated using the included DNAse Inactivation reagent and buffer according to manufactures instructions. The RNA was centrifuged at 1000 g for 1.5 min and 19 µl of supernatant was transferred into a new 1.5 mL tube. This tube was again centrifuged at 1000 g for 1.5 min and 18 µl of supernatant was transferred to a new tube to minimize any Inactivation reagent carry-over. RNA concentration was measured on a nanodrop. Poly-A selection was performed on a normalized quantity of RNA dependent on the lowest amount of RNA in a sample, but within the manufacturer's specifications for starting material. Poly-A selection was performed according to manufacturer's instructions (Bioo Scientific Corp., 710 NOVA-512991). Following Poly-A selection mRNA libraries were generated according to manufactures instructions (Bioo Scientific Corp., NOVA-5138-08) except RNA was incubated for 13 min at 95°C to generate optimal fragment sizes. Library quantity was assessed via Qubit according to manufacturer's instructions and library quality was assessed with a Bioanalyzer or Fragment Analyzer according to manufacturer's instructions to assess the library size distribution. Sequencing was performed on biological duplicates from each genotype on an Illumina NextSeq500 by the Center for Functional Genomics (CFG) to generate single end 75 base pair reads. Reads were aligned to the dm6.01 assembly of the Drosophila genome using HISAT v2.1.0. Reads were counted using featureCounts v1.4.6.p5. UCSC genome browser tracks were generated using the bam coverage module of deeptools v3.1.2.0.0. Differential expression analysis was performed using DEseq2 (v1.24.0) and data was plotted using R. Differentially expressed genes were those with log\textsubscript{2}(foldchange) \textgreater{} \textbar1.5\textbar{} and FDR \textless{} 0.05 in the \emph{aramis} RNAi versus \emph{bam} RNAi experiment and foldchange \textgreater{} \textbar1.5\textbar{} and FDR \textless{} 0.05 in the \emph{bam} RNAi; \emph{aramis} RNAi versus \emph{bam} RNAi experiment. GO-term analysis of GO biological processes was performed on differentially expressed genes using PANTHER via \url{http://geneontology.org/}. Fisher's exact test was used to calculate significance and FDR was used to correct for multiple testing. GO-term analysis results were plotted using R.
 
-\textbf{Polysome-seq}
+\hypertarget{polysome-seq}{%
+\subsubsection{Polysome-seq}\label{polysome-seq}}
 
 Polysome-seq was performed as in Flora et al. (Flora, Wong-Deyrup, et al., 2018) with minor modifications. Ovaries were dissected in PBS and transferred to a microcentrifuge tube in liquid nitrogen. Ovaries were lysed in 300µl of lysis buffer (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM EDTA, 100 µg/mL cycloheximide, 1\% Triton X-100) and allowed to lyse for 15 min on ice. Lysate was cleared by centrifugation at 8500g for 5 min at 4°C. 20\% of the lysate was reserved as input, 1 mL of Trizol (Invitrogen, 15596026) was added and RNA was stored at -80°C. Cleared lysate was loaded onto 10\%-50\% sucrose gradients (300 mM NaCl, 15 mM Tris-HCl, pH 7.5, 15 mM MgCl2, 100 g/mL cycloheximide) and centrifuged in an SW41 rotor at 35,000 RPM, for 3 hours. Gradients were fractionated on a Density Gradient Fractionation System (Brandel, \#621140007) at 0.75 mL/min, 20 µl of 20\% SDS, 8 µl of 0.5 M pH 8 EDTA, and 16 µl of proteinase K (NEB, P8107S) was added to each polysome fraction. Fractions were incubated for 30m at 37°C. Standard acid phenol chloroform purification followed by ethanol precipitation was performed on each fraction. The RNA from polysome fractions was pooled and RNAseq libraries were prepared.
 
-\textbf{Polysome-seq Data Analysis}
+\hypertarget{polysome-seq-data-analysis}{%
+\subsubsection{Polysome-seq Data Analysis}\label{polysome-seq-data-analysis}}
 
 Reads were checked for quality using FastQC. Reads were mapped to the \emph{Drosophila} genome (dm6.01) using Hisat version 2.1.0. Mapped reads were assigned to features using featureCount version v1.6.4. Translation efficiency was calculated as in (Flora et al., 2018; Kronja et al., 2014) using an R script. Briefly, TPMs (transcripts per million) values were calculated. Any gene having zero reads in any library was discarded from further analysis. The log\textsubscript{2} ratio of CPMs between the polysome fraction and total mRNA was calculated and averaged between replicates. This ratio represents the TE. TE of each replicate was averaged. Targets were defined as transcripts falling greater or less than two standard deviations from the median TE in aramis RNAi for upregulated and downregulated genes respectively, but not in either of the two developmental controls (Nos-GAL4 UAS-\emph{tkv} or Nos-GAL4 UAS-\emph{bam} RNAi). Additionally, genes were only considered targets if their mean TE value in Nos-GAL4 UAS-\emph{aramis} RNAi was higher (for upregulated targets) or lower (for downregulated targets) than their mean TE values in both of the two developmental controls. Finally, only targets meeting a conservative expression cutoff of log\textsubscript{2}(TPM) expression greater than five were considered to exclude more lowly expressed genes as they are highly influenced by noise in polysome-seq in both controls.
 
-\textbf{CAGE-seq Tracks}
+\hypertarget{cage-seq-tracks}{%
+\subsubsection{CAGE-seq Tracks}\label{cage-seq-tracks}}
 
 CAGE-seq tracks were visualized using the UCSC Genome Browser after adding the publicly available track hub 'EPD Viewer Hub'.
 
-\textbf{CAGE-seq Data Reanalysis}
+\hypertarget{cage-seq-data-reanalysis}{%
+\subsubsection{CAGE-seq Data Reanalysis}\label{cage-seq-data-reanalysis}}
 
 Publicly available genome browser tracks were obtained of CAGE-seq data (generated by Chen et al.~(2014) and viewed through the UCSC Genome Browser. The original CAGE-seq data from ovaries was obtained from SRA under the accession number SRR488282. Reads were aligned to the dm6.01 assembly of the \emph{Drosophila} genome using HISAT v2.1.0. cageFightR was used to determine the dominant TSS for every gene with sufficient expression in from the aligned dataset according to its documentation with default parameters excepting the following: For getCTSS, a mappingQualityThreshold of 10 was used. For normalizeTagCount the method used was ``simpleTPM.'' For clusterCTSS the following parameters were used; threshold = 1, thresholdIsTPM = TRUE, nrPassThreshold = 1, method = ``paraclu,'' maxDist = 20, removeSingletons = TRUE, keepSingletonsAbove = 5. R was used to obtain genome sequence information downstream of the TSS of each gene identified.
 
 To generate a table of \emph{aramis} polysome-seq target 5'UTRs adjusted using CAGE-seq data, bigwig files of CAGE-seq from ovaries were obtained from EPD Viewer Hub. The most highly expressed TSS within a CAGE cluster (obtained as described in this section) was used to determine the new 5'-end coordinate associated with each \emph{aramis} polysome-seq target gene at the transcript level. These coordinates were used to obtain the corrected 5'UTR using R and transcripts with identical sequences were discarded.
 
-\textbf{Motif Enrichment Analysis}
+\hypertarget{motif-enrichment-analysis}{%
+\subsubsection{Motif Enrichment Analysis}\label{motif-enrichment-analysis}}
 
 Motif enrichment analysis was performed using Homer (Heinz et al., 2010) using the findmotifs.pl module, supplying Homer with the first 200 nucleotides downstream of the TSS as determined by CAGE-seq for polysome-seq targets and non-targets as a background control with the following parameters ``-rna -nogo -p 6 -len 6.'' Only motifs not marked as potential false positives were considered. The position of the putative TOP motifs was determined using a custom R script by searching for the first instance of any five pyrimidines in a row within the first 200 nucleotides of the TSS using the Biostrings package (Pagès, Aboyoun, Gentleman, \& DebRoy, 2019). Results were plotted as a histogram in R.
 
-\textbf{RNA Immunoprecipitation (RNA IP)}*
+\hypertarget{rna-immunoprecipitation-rna-ip}{%
+\subsubsection{RNA Immunoprecipitation (RNA IP)}\label{rna-immunoprecipitation-rna-ip}}
 
 All RIPs were performed with biological triplicates. 50-60 ovary pairs were dissected for each sample in RNase free PBS and dissected ovaries were kept on ice during subsequent dissections. After dissection, ovaries were washed with 500µl of PBS to remove any debris. This PBS was removed, and ovaries were lysed in 100µl of RIPA buffer (10 mM Tris-Cl Buffer (pH 8.0), 1 mM EDTA, 1\% Triton X-100,0.1\% Sodium deoxycholate, 0.1\% SDS, 140 mM NaCl, 1 mM PMSF, 1 cOmplete, EDTA-free Protease Inhibitor/10mLbuffer (Roche, 11873580001), RNase free H2O) supplemented with 8µl of RNase Out. Following lysis an additional 180µl of RIPA was added to each sample. Lysate was cleared with centrifugation at 14,000g for 20m at 4°C. Cleared lysate was transferred to a new 1.5 mL tube. 10\% of this lysate was reserved for RNA input and 5\% was reserved as a protein input. To the RNA input 100µl of Trizol was added and the input was stored at -80°C. To the protein input SDS loading buffer was added to a 1X working concentration and the sample was heated at 95°C for 5m and stored at -20°C. The remaining lysate was equally divided into two new 1.5 mL tubes. To one tube 3µg of mouse anti-FLAG antibody was added and to the other tube 3µg of mouse IgG was added. These samples were incubated for 3 hours with nutation at 4°C. NP40 buffer was diluted to a 1X working concentration from a 10X stock (10x NP40 Buffer: 50 mM Tris-Cl Buffer (pH 8.0), 150 mM NaCl, 10\% NP-40, 1 cOmplete, EDTA-free Protease Inhibitor Cocktail Pill/10mL buffer, RNase free H2O). 30µl of Protein-G beads per RIP were pelleted on a magnetic stand and supernatant was discarded. 500µl of 1X NP40 buffer was used to resuspend Protein-G beads by nutation. Once beads were resuspended, they were again pelleted on the magnetic stand. This washing process was repeated a total of 5 times. Washed Protein-G beads were added to each lysate and incubated overnight. The next day fresh 1X NP40 buffer was prepared. Lysates were pelleted on a magnetic stand at 4°C and supernatant was discarded. 300µl of 1X NP40 buffer was added to each sample and samples were resuspended by nutation at 4°C. Once samples were thoroughly resuspended, they were pelleted on a magnetic stand. These washing steps were repeated 6 times. Following the final washing steps, beads were resuspended in 25 ul of 1X NP40 Buffer. 5µl of beads were set aside for Western and the remaining beads were stored at -80°C in 100µl of Trizol. SDS loading buffer was added was added to a 1X working concentration and the sample was heated at 95°C for 5m and stored at -20°C or used for Western (refer to Western Blot section).
 
-\textbf{Helicase RNA IPseq}
+\hypertarget{helicase-rna-ipseq}{%
+\subsubsection{Helicase RNA IPseq}\label{helicase-rna-ipseq}}
 
 RNA was purified as previously described. RNA yield was quantified using Qubit or nanodrop according to manufactures instructions. RNA was run on a Fragment Analyzer according to manufactures instructions to assess quality. Inputs were diluted 1:50 to bring them into a similar range as the IgG and IP samples. To each sample 0.5 ng of Promega Luciferase Control RNA was added as a spike-in. Libraries were prepared as previously described except Poly(A) selection steps were skipped and library preparation was started with between 1-100 ng of total RNA. Reads were mapped to the M21017.1 NCBI \emph{Drosophila} rRNA sequence record and the sequence of Luciferase obtained from Promega. All further analysis was performed using custom R scripts. Reads were assigned to features using featureCounts based off of a custom GTF file assembled based off of the Flybase record of rRNA sequences. Reads mapping to rRNA were normalized to reads mapping to the Luciferase spike-in control. Reads were further normalized to the reads from the corresponding input library to account for differences in input rRNA concentration between replicates and replicates were subsequently averaged. Tracks were visualized using the R package 'ggplot2', with additional formatting performed using 'scales' and 'egg'. The rRNA GTF was read into R using 'rtracklayer' and visualized using 'gggenes'. Average reads mapping to rRNA from IgG control and IP was plotted and a one-sided bootstrapped paired t-test for was performed on regions on rRNA that appeared to be enriched in the IP samples compared to the IgG control as it is a non-parametric test suitable for use with low n using R with 100,000 iterations.
 
 \hypertarget{larp-gel-shifts}{%
 \subsubsection{Larp Gel Shifts}\label{larp-gel-shifts}}
 
-\textbf{Cloning, Protein expression and purification}
+\hypertarget{cloning-protein-expression-and-purification}{%
+\paragraph{Cloning, Protein expression and purification}\label{cloning-protein-expression-and-purification}}
 
 The Larp-DM15 protein expression construct (amino acids 1330-1481 corresponding to isoform D) was cloned into a modified pET28a vector by PCR using cDNA corresponding to accession ID NP\_733244.5. The resulting fusion protein has an N-fHis\textsubscript{10}-maltose binding protein (MBP)-tobacco etch virus (TEV) protease recognition site tag. Protein expression and purification were performed as described previously (Roni M. Lahr et al., 2015). Briefly, plasmid was transformed into BL21(DE3) \emph{E. coli} cells and plated onto kanamycin-supplemented agar plates. A confluent plate was used to inoculate 500 mL of autoinduction media (Studier, 2005). Cells were grown for three hours at 37ºC and induced overnight at 18ºC. Cells were harvested, flash frozen, and stored at -80ºC.
 
 Cells were resuspended in lysis buffer (50 mM Tris, pH 8, 400 mM NaCl, 10 mM imidazole, 10\% glycerol) supplemented with aprotinin (Gold Bio), leupeptin (RPI Research), and PMSF (Sigma) protease inhibitors. Cells were lysed via homogenization. Lysate was clarified by centrifugation and incubated with Ni-NTA resin (ThermoScientific) for batch purification. Resin was washed with lysis buffer supplemented with 35 mM imidazole to remove non-specific interactions. His\textsubscript{10}-MBP-DM15 was eluted with 250 mM imidazole. The tag was removed via proteolysis using TEV protease and simultaneously dialyzed overnight (3 mg TEV to 40 mL protein elution). Larp-DM15 was further purified by tandem anion (GE HiTrap Q) and cation exchange (GE HiTrap SP) chromatography using an AKTA Pure (GE) to remove nucleic acid and protein contaminants. The columns were washed with in buffer containing 50 mM Tris, pH 7, 175 mM NaCl, 0.5 mM EDTA, and 10\% glycerol and eluted with a gradient of the same buffer containing higher salt (1 M NaCl). Fractions containing Larp-DM15 were pooled, and 3 M ammonium sulfate was added to a final concentration of 1 M. A butyl column (GE HiTrap Butyl HP) was run to remove TEV contamination. The wash buffer contained 50 mM Tris, pH 7, 1 M ammonium sulfate, and 5\% glycerol, and the elution buffer contained 50 mM Tris pH 7 and 2 mM DTT. Fractions containing Larp-DM15 were buffer exchanged into storage buffer (50 mM Tris pH, 7.5, 250 mM NaCl, 2 mM DTT, 25\% glycerol), flash frozen in liquid nitrogen, and stored at -80°C. The purification scheme and buffer conditions were the same as with \emph{Hs}DM15 (Roni M. Lahr et al., 2015), except cation and anion exchange buffers were at pH 7, as noted above.
 
-\textbf{RNA preparation}
+\hypertarget{rna-preparation}{%
+\paragraph{RNA preparation}\label{rna-preparation}}
 
 5'-triphosphorylated \emph{RpL30} and \emph{Non1} 42-mers were synthesized (ChemGenes). Purine-substituted controls were synthesized by \emph{in vitro} transcription using homemade P266L T7 RNAP polymerase (Guillerez, Lopez, Proux, Launay, \& Dreyfus, 2005). The transcription reaction containing 40 mM Tris, pH 8, 10 mM DTT, 5 mM spermidine, 2 mM NTPs, and 10-15 mM MgCl\textsubscript{2} was incubated at 37°C for 4 hours. Transcripts were subsequently purified from an 8\% polyacrylamide/6M urea/1XTBE denaturing gel, eluted passively using 10 mM sodium cacodylate, pH 6.5, and concentrated using spin concentrators (Millipore Amicon). All oligos were radioactively capped using Vaccinia virus capping system (NEB) and \(\alpha^{32}\)-GTP (Perkin-Elmer). Labelled oligos were purified using a 10\% polyacrylamide/6M urea/1XTBE denaturing gel, eluted with 10 mM sodium cacodylate, pH 6.5, and concentrated by ethanol precipitation.
 
@@ -1587,65 +1623,66 @@ Non1:
 \textbf{GAAAAAG}GAAUACGAAGCUGACACCGCGUGGUGUUUUUGCUU
 
 Oligos used for run-off transcription
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.44}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.54}}@{}}
-\toprule
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{DNA oligo}
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Sequence (5' to 3')}
-\end{minipage} \\
-\midrule
-\endhead
-**RpL30 control
+\textbf{\hfill\break
+}
++-------------------------------+--------------------------------------+
+\textbar{} \textbf{DNA oligo} \textbar{} \textbf{Sequence (5' to 3')} \textbar{}
++===============================+======================================+
+\textbar{} **RpL30 control \textbar{} GCGCGCGAATTCTAATACGACTCACTATA \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} gene block (with 3' HDV) \textbar{} \underline{GAAAAGCCATTGTCAGCCGACGAAGTG} \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} \textbar{} \underline{CTTTAACCCAAACTA}GGGTCGGCATGG \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} \textbar{} CATCTCCACCTCCTCGCGGTCCGACCTG \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} \textbar{} GGCTACTTCGGTAGGCTAAGGGAGAAG \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} \textbar{} CTTGGCACTGGCCGTCGTTTTGGCACTG \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} \textbar{} GCCGTCGTTT \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} \textbar{} \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} Non1 control \textbar{} GCGCGCGAATTCTAATACGACTCACTATA \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} Forward \textbar{} \underline{GGAAAAAGGAATACGAAG} \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} \textbar{} \underline{CTGACA} \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} \textbar{} \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} Non1 control \textbar{} \underline{AAGCAAAAACACCACGCGGTGTCAGCTT} \textbar{}
+\textbar{} \textbar{} \textbar{}
+\textbar{} Reverse \textbar{} \underline{CGTATTCCTTTTTC}CTATAGTGAG \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} \textbar{} \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} 5' GEN amp \textbar{} GCGCGCGAATTCTAATACGACTCA \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} \textbar{} \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} RpL30 amp Reverse \textbar{} TAGTTTGGGTTAAAGCACTTCGTCGGC \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} \textbar{} \textbar{}
++-------------------------------+--------------------------------------+
+\textbar{} Non1 amp Reverse \textbar{} AAGCAAAAACACCACGCGGTGTCA \textbar{}
++-------------------------------+--------------------------------------+
 
-gene block (with 3' HDV) & GCGCGCGAATTCTAATACGACTCACTATA
-
-\underline{GAAAAGCCATTGTCAGCCGACGAAGTG}
-
-\underline{CTTTAACCCAAACTA}GGGTCGGCATGG
-
-CATCTCCACCTCCTCGCGGTCCGACCTG
-
-GGCTACTTCGGTAGGCTAAGGGAGAAG
-
-CTTGGCACTGGCCGTCGTTTTGGCACTG
-
-GCCGTCGTTT \\
-& \\
-Non1 control
-
-Forward & GCGCGCGAATTCTAATACGACTCACTATA
-
-\underline{GGAAAAAGGAATACGAAG}
-
-\underline{CTGACA} \\
-& \\
-Non1 control
-
-Reverse & \underline{AAGCAAAAACACCACGCGGTGTCAGCTT}
-
-\underline{CGTATTCCTTTTTC}CTATAGTGAG \\
-& \\
-5' GEN amp & GCGCGCGAATTCTAATACGACTCA \\
-& \\
-RpL30 amp Reverse & TAGTTTGGGTTAAAGCACTTCGTCGGC \\
-& \\
-Non1 amp Reverse & AAGCAAAAACACCACGCGGTGTCA \\
-\bottomrule
-\end{longtable}
 * These RNAs were synthesized using run-off transcription.
 
-\textbf{Electrophoretic mobility shift assays (EMSAs)}
+\hypertarget{electrophoretic-mobility-shift-assays-emsas}{%
+\paragraph{Electrophoretic mobility shift assays (EMSAs)**}\label{electrophoretic-mobility-shift-assays-emsas}}
 
 Each binding reaction contained 125 total radioactive counts with final reaction conditions of: 20 mM Tris-HCl, pH 8, 150 mM NaCl, 10\% glycerol, 1 mM DTT, 0.5 µg tRNA (Ambion), 1 µg BSA (Invitrogen), and \textless90 pM RNA. To anneal RNA, oligos were snap-cooled by heating at 95°C for 1 min and cooled on ice for 1 hour. For capped RpL30 shifts and capped purine-substituted controls, final concentrations of 0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, and 100 nM Larp-DM15 were titrated. For capped Non1 shifts, final concentrations of 0, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300, and 1000 nM Larp-DM15 were titrated. Native 7\% polyacrylamide 0.5X TBE gels were pre-run on ice at 120 V for 30 min. Binding reactions were run at 120 V on ice for 45-52 min. Gels were dried for 30 min and allowed to expose overnight using a phosphor screen (GE). Screens were imaged using GE Amersham Typhoon. Bands were quantified using ImageQuant TL (GE). Background subtraction was first done using the rolling ball method and then subtracting the signal from the zero-protein lane from each of the shifted bands. Fraction shifted was determined by dividing the background-corrected intensity of the shifted band by total intensity of bands in each lane. Three independent experiments were done for each oligo, with the average plotted and standard deviation shown.
 
-\textbf{mRNA IPseq}
+\hypertarget{mrna-ipseq}{%
+\subsubsection{mRNA IPseq}\label{mrna-ipseq}}
 
 IPs of Larp and Aramis were performed as described in the RNA IP-seq section above in triplicate. mRNA libraries were prepared as described in mRNAseq Library Preparation and Data Processing using a constant volume of RNA from each sample with input samples having been diluted 1:50. Data was processed as described as in the mRNAseq Library Preparation and Data Processing section. Targets are defined as genes with \textgreater2 fold enrichment and an adjusted p-value \textless0.05 in the Larp-IP libraries compared to input libraries, but not meeting those criteria in the IgG libraries compared to input.
 
-\textbf{Larp RNA IP qPCR}
+\hypertarget{larp-rna-ip-qpcr}{%
+\subsubsection{Larp RNA IP qPCR}\label{larp-rna-ip-qpcr}}
 
 Larp RNA IP was performed as described in the Larp RNA IPseq section with the following modifications. As the ovaries used were small, they were flash frozen in order to accumulate 40-50 ovaries for each biological replicate. Additionally, 5\% input was taken for both RNA and protein samples. Once RNA was purified all of the RNA was treated with Turbo DNAse as in the \textbf{mRNAseq Library Preparation and Analysis} section. Reverse transcription (RT) was performed using Superscript II according to the manufacture's protocol with equivalent volumes of RNA for each sample. cDNA was diluted 1:8 before performing qPCR using Syber Green. Each reaction consisted of 5ul Syber Green master mix, 0.4 ul water, 0.3 ul of each primer, and 4 ul of diluted cDNA. For each sample 3 biological and 3 technical replicates were performed. Oulier values of technical replicates were removed using a Dixon test with a cutoff of p\textless0.05. Remaining technical replicates were averaged, and the IP Input Ct value, the log\textsubscript{2} of the Input dilution (20) was also subtracted to account for the Input being 5\% of the total sample as follows:
 
@@ -1687,14 +1724,13 @@ Finally, fold increase of IP from \emph{aramis} RNAi over \emph{bam} RNAi was ca
 Fold enrichment was plotted and One-sample t-test performed on \emph{aramis} RNAi samples in R using a mu of 1.
 
 \hypertarget{conclusion}{%
-\chapter*{Conclusion}\label{conclusion}}
-\addcontentsline{toc}{chapter}{Conclusion}
+\chapter{Conclusion}\label{conclusion}}
 
-If we don't want Conclusion to have a chapter number next to it, we can add the \texttt{\{-\}} attribute.
+This work has developed tools to study and described the crucial role of post-transcriptional gene regulation in GSC differentiation and entry into meiosis in \emph{Drosophila}. Work in other systems has underscored the importance of translation control in stem cell differentiation in general. Historically, study of post-trancriptional control has lagged behind that of control at the level of transcription. This is in part due to the lack of equity in tools and techniques between the two areas of study. One salient example is the lag in single-cell sequencing of mRNA which was first published in 2009 compared to the first published example of single-cell Ribo-seq, the first example of which was published in 2021, a 12 year lag. This exemplifies that those interested in understanding translation control must continue to develop tools and use those tools to better understand developmental systems, regeneration, and disease states. Without equity in understanding between the domains of transcription control and translation control, gaps in our knowledge will prevent our understanding of fundamental biological questions. However, as our toolkits grow we must also remember that every year we generate more data than the previous, but only a subset of the scientific community has the skills necessary to process that data. Therefore, the we must attempt to democratize access to the high-throughput data we generate to empower the research of others.
 
-\textbf{More info}
+Future work should aim to understand the pathways that underlie stem cell differentiation and meiotic entry, in particular the interplay and feedback between the Torc1 pathway and the synthesis of ribosomes. Our work has demonstrated that a feedback loop exists between Larp activity and ribosome biogenesis, but future work in other systems should determine if this loop is conserved and if Torc1 acts upstream of Larp as has been shown in other systems. More importantly, how the balance of the Larp-ribosome axis informs differentiation and what levers upstream of Larp might play a role in the initiation of differentiation are of great interest to better understand differentiation, regeneration, and developmental diseases. Emerging techniques such as single-cell Ribo-seq will no doubt allow for these questions to be studied in complex tissues including developmental systems and disease states.
 
-And here's some other random info: the first paragraph after a chapter title or section head \emph{shouldn't be} indented, because indents are to tell the reader that you're starting a new paragraph. Since that's obvious after a chapter or section title, proper typesetting doesn't add an indent there.
+Additionally, future work should examine whether the Larp-ribosome axis is tissue specific. So far we have demonstrated its importance in GSCs, but it remains an open question whether this mechanism acts in other stem cell populations or perhaps in unipotent cells. With our collaborators, we have found certain translational changes related to mitochondrial function that result when perturbing ribosome biogenesis in S2 cells. As Larp as been previously implicated in playing a role in mitochrodrial translation in spermatogenesis, this may speak to a tissue specific mode of regulation however, additional work is required to solidify the linkage between ribosome biogenesis, Larp, and Larp's targets outside of GSCs.
 
 \appendix
 
