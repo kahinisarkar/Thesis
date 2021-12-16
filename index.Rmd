@@ -11,7 +11,6 @@ department: 'Biology'
 degree: 'Doctor of Philosophy'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
-# geometry: "left=0.25in, right=0.25in, top=0.25in, bottom=0.25in"
 
 # This will automatically install the {remotes} package and {thesisdown}
 # Change this to FALSE if you'd like to install them manually on your own.
@@ -29,13 +28,14 @@ output:
  # thesisdown::thesis_epub: default
 header-includes:
 - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
+- \usepackage{setspace}\doublespacing
 - \usepackage{array}
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
 # for the .RMD files. If you are NOT producing a PDF, delete or silence
 # lines 25-39 in this YAML header.
 abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-abstract.Rmd")), collapse = "\n  ")`'
-# If you'd rather include the preliminary content in files instead of inline
+# If you'd rather include the preliminary content in fil  es instead of inline
 # like below, use a command like that for the abstract above.  Note that a tab 
 # is needed on the line after the `|`.
 acknowledgements: | 
@@ -50,6 +50,7 @@ dedication: |
 bibliography: bib/Zotero_library.bib
 # Download your specific csl file and refer to it in the line below.
 csl: csl/apa.csl
+# linestretch: 2
 lot: true
 lof: true
 ---
