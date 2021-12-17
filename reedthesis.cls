@@ -103,17 +103,17 @@
 
 % This gives us rules below the headers
 \AtBeginDocument{%
-  \fancyhf{}
+  % \fancyhf{}
   % \fancyhead[LE,RO]{\thepage}
   \fancyfoot[C]{\thepage}
 %\fancyhead{\slshape \nouppercase \leftmark}
 %	The above makes your headers in all caps. If you would like different headers, choose one of the following options (be sure to remove the % symbol from both the right and left headers):
-	 \fancyhead[RE]{\slshape \nouppercase \leftmark} % This makes the headers on the RIGHT side pages be italic and use lowercase With Capitals When Specified.
-	\fancyhead[LO]{\slshape \nouppercase \rightmark} % This does the same thing to the LEFT side pages
+	 % \fancyhead[RE]{\slshape \nouppercase \leftmark} % This makes the headers on the RIGHT side pages be italic and use lowercase With Capitals When Specified.
+	% \fancyhead[LO]{\slshape \nouppercase \rightmark} % This does the same thing to the LEFT side pages
 %	or
 %	\fancyhead[RE]{\scshape \leftmark} % The RIGHT headers will be in small caps.
 %	\fancyhead[LO]{\scshape \rightmark} %  And so will the LEFT headers
-  \pagestyle{fancy}
+  % \pagestyle{fancy}
 
 % Psych majors: You do not need the following six lines, as it conflicts with apacite, so comment them out.
   \let\oldthebibliography=\thebibliography
@@ -255,6 +255,18 @@
 }{\clearpage \if@restonecol\twocolumn\fi}%
 % End of CII add
 
+%EM add attribution env
+\newenvironment{attribution}{%
+  \if@twocolumn
+    \@restonecoltrue\onecolumn
+  \else
+    \@restonecolfalse
+  \fi
+  \chapter{Attribution}
+  \thispagestyle{plain}
+  \fontsize{12}{14}\selectfont
+}{\clearpage \if@restonecol\twocolumn\fi}%
+
 \newenvironment{abstract}{%
   \if@twocolumn
     \@restonecoltrue\onecolumn
@@ -308,14 +320,13 @@
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
-    A Thesis \\
-    Presented to \\
-    \@thedivisionof \ \@division \\
-    \@institution
+    by \@author
     \vfil
     \centerline{\hbox to \wd0 {\hbox{}\hrulefill\hbox{}}}
     \vfil
-    In Partial Fulfillment \\
+    A Thesis Submitted to \\
+    \@institution \\
+    in Partial Fulfillment \\
     of the Requirements for the Degree \\
     \@degree
     \vfil
@@ -325,7 +336,8 @@
     \bigskip
     {\fontsize{12}{14}\selectfont \lineskip .75em
     \begin{tabular}[t]{c}%
-      \@author
+      \@institution \\
+      \@thedivisionof \ \@division
     \end{tabular}\par}
     \vskip 1.5em
     {\fontsize{12}{14}\selectfont \@date \par}
@@ -362,4 +374,5 @@
 \newcommand{\Acknowledgements}[1]{\def\@Acknowledgements{#1}}
 \newcommand{\Dedication}[1]{\def\@Dedication{#1}}
 \newcommand{\Preface}[1]{\def\@Preface{#1}}
+\newcommand{\Attribution}[1]{\def\@Attribution{#1}}
 % End of CII add

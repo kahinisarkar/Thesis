@@ -1,0 +1,27 @@
+
+\setstretch{2.0}
+
+1.  **Chapter 1: "Post-transcriptional gene regulation mediates critical cell fate transitions during Drosophila oogenesis"** was published as Blatt P, Martin ET, Breznak SM, Rangan P. 2020. [Post-transcriptional gene regulation regulates germline]{.ul}  
+[stem cell to oocyte transition during Drosophila oogenesis.]{.ul} Current Topics in Cell Biology 140: 3--34.
+
+\newline
+\newline
+
+2.  Except for minimal re-organization of the figures, the entire **Chapter 2: "A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis"** was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. [A translation control module coordinates germline stem cell differentiation with]{.ul}  
+[ribosome biogenesis during Drosophila oogenesis.]{.ul} bioRxiv.
+
+\newline
+\newline
+
+3.  Chapter 3: **"Oo-site: Dashboard to visualize gene expression in the Drosophila germarium"** is in preparation as Martin, E.T., Sarkar, K., Kotb, N., and Rangan, P., 2021. [Oo-site: Dashboard to visualize gene expression in the Drosophila]{.ul}  
+[germarium.]{.ul}
+
+\newline
+\newline
+
+These studies or articles are being included because they were part of the programmatic line of research that comprised the dissertation and that including them provides a coherent and appropriately sequenced investigation.
+
+\newline
+\newline
+
+I was the primary researcher for the work reported in this dissertation.

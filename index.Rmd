@@ -2,7 +2,7 @@
 title: 'Translation control tunes *Drosophila* oogenesis'
 author: 'Elliot T. Martin'
 date: 'December 2021'
-institution: 'University at Albany'
+institution: 'University at Albany, State University of New York'
 division: 'Biology'
 advisor: 'Prashanth Rangan'
 # If you have more two advisors, un-silence line 9
@@ -38,10 +38,11 @@ abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims"
 # If you'd rather include the preliminary content in files instead of inline
 # like below, use a command like that for the abstract above.  Note that a tab 
 # is needed on the line after the `|`.
-acknowledgements: | 
-  '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
+acknowledgements: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
 dedication: | 
-  Dedicated to my wife and best friend Alli. 
+  Dedicated to my wife and best friend Alli.
+
+attribution: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-attribution.Rmd")), collapse = "\n  ")`'
   
 # preface: |  
 #   This is an example of a thesis setup to use the reed thesis document class 
@@ -107,10 +108,11 @@ Alternatively, you can put that content in files like 00--prelim.Rmd and
 00-abstract.Rmd like done below.
 -->
 
-
+<!--
 ```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00--prelim.Rmd")}
-
+ 
 ```
+-->
 
 <!-- The {.unnumbered} option here means that the introduction will be 
 "Chapter 0." You can also use {-} for no numbers on chapters.

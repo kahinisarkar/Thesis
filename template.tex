@@ -172,6 +172,10 @@ $dedication$
 $preface$
 }
 
+\Attribution{
+$attribution$
+}
+
 \Abstract{
 $abstract$
 }
@@ -224,6 +228,13 @@ $if(preface)$
   \end{preface}
 $endif$
 
+$if(attribution)$
+  \begin{attribution}
+  \pagestyle{plain}
+    $attribution$
+  \end{attribution}
+$endif$
+
 $if(toc)$
   \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
   \setcounter{secnumdepth}{$toc-depth$}
@@ -243,7 +254,7 @@ $if(lof)$
 $endif$
 
 \mainmatter % here the regular arabic numbering starts
-\pagestyle{fancyplain} % turns page numbering back on
+\pagestyle{plain} % turns page numbering back on
 
 $body$
 
