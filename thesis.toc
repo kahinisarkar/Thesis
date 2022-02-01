@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}{chapter*.1}%
-\contentsline {chapter}{Dedication}{vi}{chapter*.2}%
-\contentsline {chapter}{Acknowledgements}{vii}{chapter*.3}%
-\contentsline {chapter}{Attribution}{viii}{chapter*.4}%
+\contentsline {chapter}{Dedication}{vii}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{viii}{chapter*.3}%
+\contentsline {chapter}{Attribution}{ix}{chapter*.4}%
 \contentsline {chapter}{Chapter 1: Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during \emph {Drosophila} oogenesis}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}%
@@ -56,6 +56,13 @@
 \contentsline {paragraph}{Electrophoretic mobility shift assays (EMSAs)**}{115}{section*.53}%
 \contentsline {subsubsection}{mRNA IPseq}{116}{section*.54}%
 \contentsline {subsubsection}{Larp RNA IP qPCR}{116}{section*.55}%
-\contentsline {chapter}{Chapter 3: Conclusion}{118}{chapter.3}%
-\contentsline {chapter}{Appendix A: The First Appendix}{120}{appendix.A}%
-\contentsline {chapter}{References}{121}{appendix*.56}%
+\contentsline {chapter}{Chapter 3: Oo-site: A dashboard to visualize gene expression during \emph {Drosophila} oogenesis reveals meiotic entry is regulated post-transcriptionally}{118}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary}{118}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction}{119}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Results}{122}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Discussion}{145}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Acknowledgements}{146}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Materials and Methods}{147}{section.3.6}%
+\contentsline {chapter}{Chapter 4: Conclusion}{151}{chapter.4}%
+\contentsline {chapter}{Appendix A: The First Appendix}{153}{appendix.A}%
+\contentsline {chapter}{References}{154}{appendix*.64}%

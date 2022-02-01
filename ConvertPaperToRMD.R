@@ -78,3 +78,4 @@ convert_docx_to_rmd_citekeys <- function(examplefile) {
 # convert_docx_to_rmd_citekeys(examplefile = "Martin et al 11.24.21_DevCell_EM.docx")
 # convert_docx_to_rmd_citekeys(examplefile = "Oo_site_Paper_Text_11_27_2021.docx")
 # convert_docx_to_rmd_citekeys(examplefile = "Martin et al 12.08.21_DevCell_track_changes_EM2.docx")
+# convert_docx_to_rmd_citekeys(examplefile = "Seq-Paper2_Text_EM_PR.docx")
