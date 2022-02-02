@@ -13,8 +13,8 @@
 \newline
 \newline
 
-3.  Chapter 3: **"Oo-site: Dashboard to visualize gene expression in the Drosophila germarium"** is in preparation as Martin, E.T., Sarkar, K., Kotb, N., and Rangan, P., 2021. [Oo-site: Dashboard to visualize gene expression in the Drosophila]{.ul}  
-[germarium.]{.ul}
+3.  **Chapter 3: "Oo-site: A dashboard to visualize gene expression during *Drosophila* oogenesis reveals meiotic entry is regulated post-transcriptionally"** was published as as Martin, Elliot Todd, Kahini Sarkar, Alicia McCarthy, and Prashanth Rangan. 2022. {.ul}[“Oo-Site: A Dashboard to Visualize Gene Expression during Drosophila Oogenesis Reveals Meiotic Entry Is Regulated Post-Transcriptionally.]{.ul} bioRxiv.
+
 
 \newline
 \newline
