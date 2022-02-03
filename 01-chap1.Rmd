@@ -119,7 +119,7 @@ oogenesis.
 
 ```{r, out.width="6 in", out.height="3.046676 in", include=TRUE, fig.align="center", fig.cap='(ref:book-F1)', fig.scap='(ref:book-F1-short)', echo=FALSE}
 # 6*(3.59/7.07)
-knitr::include_graphics("./figure/Book Chapter/Figure1.pdf")
+knitr::include_graphics("./figure/Book Chapter/Figure1.png")
 ```
 
 ## Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation
@@ -263,7 +263,7 @@ splicing in the female germline.
 
 ```{r, include=TRUE, out.width="6.0 in", out.height= "1.483636 in", fig.align="center", fig.cap='(ref:book-F2)', fig.scap='(ref:book-F2-short)', echo=FALSE}
 # 6*(2.04/8.25)
-knitr::include_graphics("./figure/Book Chapter/Figure2.pdf")
+knitr::include_graphics("./figure/Book Chapter/Figure2.png")
 ```
 
 ## RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline
@@ -537,7 +537,7 @@ basis of ribosome biogenesis control.
 
 ```{r, include=TRUE, out.width="4.536585 in", out.height="6 in", fig.align="center", fig.cap='(ref:book-F3)', fig.scap='(ref:book-F3-short)', echo=FALSE}
 # 5*(8.2/6.2)
-knitr::include_graphics("./figure/Book Chapter/Figure3.pdf")
+knitr::include_graphics("./figure/Book Chapter/Figure3.png")
 ```
 
 ## Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis
@@ -686,7 +686,7 @@ Bru representing a hand-off mechanism for repression of maternal mRNAs
 
 ```{r, include=TRUE, out.height="6.157635 in", out.width="5 in", fig.align="center", fig.cap='(ref:book-F4)', fig.scap='(ref:book-F4-short)', echo=FALSE}
  # 5*(7.5/6.09)
-knitr::include_graphics("./figure/Book Chapter/Figure4.pdf")
+knitr::include_graphics("./figure/Book Chapter/Figure4.png")
 ```
 
 ## Summary

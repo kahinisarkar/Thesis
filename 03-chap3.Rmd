@@ -298,7 +298,7 @@ collection of genes of interest to determine their expression
 pattern(s).
 
 ```{r oosite-fig-1, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-1-short)", fig.scap="(ref:Oosite-1-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Figure1.pdf")
+knitr::include_graphics("./figure/Oo_site/Figure1.png")
 ```
 
 \setstretch{1.0}
@@ -334,7 +334,7 @@ enhance hypothesis generation or to confirm expression patterns observed
 from other methods.
 
 ```{r oosite-fig-2, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-2-short)", fig.scap="(ref:Oosite-2-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Supplemental_Figure1.pdf")
+knitr::include_graphics("./figure/Oo_site/Supplemental_Figure1.png")
 ```
 
 \setstretch{1.0}
@@ -360,7 +360,7 @@ FACS purification, enrichment of cell types reproduces meaningful mRNA
 expression changes over these stages (**Figure 3.4A-A\'**).
 
 ```{r oosite-fig-3, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-3-short)", fig.scap="(ref:Oosite-3-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Figure2.pdf")
+knitr::include_graphics("./figure/Oo_site/Figure2.png")
 ```
 
 \setstretch{1.0}
@@ -393,7 +393,7 @@ However, simultaneous comparison with scRNA-seq can alleviate this
 problem.
 
 ```{r oosite-fig-4, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-4-short)", fig.scap="(ref:Oosite-4-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Supplemental_Figure2.pdf")
+knitr::include_graphics("./figure/Oo_site/Supplemental_Figure2.png")
 ```
 
 \setstretch{1.0}
@@ -427,7 +427,7 @@ early egg chambers, indicated that downregulated genes were enriched in
 GO-terms involving vitelline and eggshell coat proteins (**Figure 3.5A**).
 
 ```{r oosite-fig-5, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-5-short)", fig.scap="(ref:Oosite-5-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Figure3.pdf")
+knitr::include_graphics("./figure/Oo_site/Figure3.png")
 ```
 
 \setstretch{1.0}
@@ -476,7 +476,7 @@ GSCs is 36.1 TPM, which exceeds the 70^th^ expression percentile among
 all genes in enriched GSCs.
 
 ```{r oosite-fig-6, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-6-short)", fig.scap="(ref:Oosite-6-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Figure4.pdf")
+knitr::include_graphics("./figure/Oo_site/Figure4.png")
 ```
 
 \setstretch{1.0}
@@ -510,7 +510,7 @@ utility of Oo-site in exploring post-transcriptional gene expression
 changes.
 
 ```{r oosite-fig-7, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-7-short)", fig.scap="(ref:Oosite-7-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Supplemental_Figure3.pdf")
+knitr::include_graphics("./figure/Oo_site/Supplemental_Figure3.png")
 ```
 
 \setstretch{1.0}
@@ -550,7 +550,7 @@ such as Bam and Rbfox1 in differentiation and meiotic commitment during
 *Drosophila* oogenesis [@blattPosttranscriptionalGeneRegulation2020;@Carreira-Rosario2016e;@flora2018sequential;@Kim-Ha1995i;@Li2009h;@Slaidina2014h;@tastanDrosophilaAtaxin2binding2010].
 
 ```{r oosite-fig-8, fig.align="center", include=TRUE, out.height="8.490625 in", out.width="6.175 in", fig.align="center", fig.cap="(ref:Oosite-8-short)", fig.scap="(ref:Oosite-8-short)", echo=FALSE}
-knitr::include_graphics("./figure/Oo_site/Figure5.pdf")
+knitr::include_graphics("./figure/Oo_site/Figure5.png")
 ```
 
 \setstretch{1.0}

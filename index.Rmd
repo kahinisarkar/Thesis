@@ -20,15 +20,14 @@ params:
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
 output:
-  thesisdown::thesis_pdf:
-  latex_engine: xelatex
+  # thesisdown::thesis_pdf:
+  # latex_engine: xelatex
 #  thesisdown::thesis_gitbook: default         
- # thesisdown::thesis_word:
- # reference_docx: thesis_word_style.docx
+ thesisdown::thesis_word:
+ reference_docx: thesis_word_style.docx
  # thesisdown::thesis_epub: default
 header-includes:
 - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
-# - \usepackage{setspace}\doublespacing
 - \usepackage{array}
 # If you are creating a PDF you'll need to write your preliminary content 
 # (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
@@ -39,8 +38,8 @@ abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims"
 # like below, use a command like that for the abstract above.  Note that a tab 
 # is needed on the line after the `|`.
 acknowledgements: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
-dedication: | 
-  Dedicated to my wife and best friend Alli.
+# dedication: | 
+#   Dedicated to my wife and best friend Alli.
 
 attribution: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-attribution.Rmd")), collapse = "\n  ")`'
   
@@ -101,19 +100,17 @@ library(thesisdown)
 options(width = 100)
 ```
 
-<!--
-The acknowledgments, preface, dedication, and abstract are added into the PDF
-version automatically by inputting them in the YAML at the top of this file.
-Alternatively, you can put that content in files like 00--prelim.Rmd and
-00-abstract.Rmd like done below.
--->
-
-<!--
-```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00--prelim.Rmd")}
- 
+```{r doctype, include=FALSE}
+# tex  <- TRUE
+docx <- TRUE
+# html <- FALSE
+# if (!knitr:::is_latex_output()) {
+#     tex <- FALSE
+#     if (knitr:::is_html_output()) {
+#         html <- TRUE
+#     } else {
+#         docx <- TRUE
+#     }
+# }
 ```
--->
-
-<!-- The {.unnumbered} option here means that the introduction will be 
-"Chapter 0." You can also use {-} for no numbers on chapters.
--->
+`r if(docx) '# Front matter {-}'`
