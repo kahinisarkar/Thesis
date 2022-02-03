@@ -76,7 +76,7 @@
 \title{Translation control tunes \emph{Drosophila} oogenesis}
 \author{Elliot T. Martin}
 % The month and year that you submit your FINAL draft TO THE LIBRARY (May or December)
-\date{December 2021}
+\date{May 2022}
 \division{Biology}
 \advisor{Prashanth Rangan}
 \institution{University at Albany, State University of New York}
@@ -170,9 +170,9 @@ Dedicated to my wife and best friend Alli.
 \setstretch{2.0}
 1. \textbf{Chapter 1: ``Post-transcriptional gene regulation mediates critical cell fate transitions during Drosophila oogenesis''} was published as Blatt P, Martin ET, Breznak SM, Rangan P. 2020. \underline{Post-transcriptional gene regulation regulates germline} \underline{stem cell to oocyte transition during Drosophila oogenesis.} Current Topics in Cell Biology 140: 3--34.
 \newline \newline
-2. Except for minimal re-organization of the figures, the entire \textbf{Chapter 2: ``A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph{Drosophila} oogenesis''} was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. \underline{A translation control module coordinates germline stem cell differentiation with} \underline{ribosome biogenesis during Drosophila oogenesis.} bioRxiv.
+2. Except for minimal re-organization of the figures, the entire \textbf{Chapter 2: ``A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph{Drosophila} oogenesis''} was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. \underline{A translation control module coordinates germline stem cell differentiation with ribosome} \underline{biogenesis during Drosophila oogenesis.} bioRxiv.
 \newline \newline
-3. Chapter 3: \textbf{``Oo-site: Dashboard to visualize gene expression in the Drosophila germarium''} is in preparation as Martin, E.T., Sarkar, K., Kotb, N., and Rangan, P., 2021. \underline{Oo-site: Dashboard to visualize gene expression in the Drosophila} \underline{germarium.}
+3. \textbf{Chapter 3: ``Oo-site: A dashboard to visualize gene expression during \emph{Drosophila} oogenesis reveals meiotic entry is regulated post-transcriptionally''} was published as as Martin, Elliot Todd, Kahini Sarkar, Alicia McCarthy, and Prashanth Rangan. 2022. \underline{Oo-Site: A Dashboard to Visualize Gene Expression during Drosophila} \underline{Oogenesis Reveals Meiotic Entry Is Regulated Post-Transcriptionally.} bioRxiv.
 \newline \newline
 These studies or articles are being included because they were part of the programmatic line of research that comprised the dissertation and that including them provides a coherent and appropriately sequenced investigation.
 \newline \newline
@@ -187,8 +187,10 @@ The decision of a stem cell to either self renew or differentiate is controlled 
 In concert with GSC differentiation, the differentiating progeny of GSCs also transition from a mitotic cell cycle to a meiotic cell cycle, in order to eventually undergo reductional cell division to form an egg {[}Kimble (2011); mckimMeioticRecombinationChromosome2002{]}. Several of the currently know factors that control this transition have been characterized as RNA binding proteins that likely facilitate the mitotic to meiotic transition by changing the translation landscape of the differentiating cysts {[}Tastan, Maines, Li, Mckearin, \& Buszczak (2010); Carreira-Rosario et al. (2016); Slaidina2014h; Blatt, Martin, Breznak, \& Rangan (2020); Y. Li, Minor, Park, McKearin, \& Maines (2009); Flora, Wong-Deyrup, et al. (2018b); Kim-Ha, Kerr, \& Macdonald (1995){]}.
 Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, post-transciption, translation, or post-translation (Blatt, Martin, Breznak, \& Rangan, 2020; Flora, McCarthy, Upadhyay, \& Rangan, 2017). Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcription and translation landscape over development and used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
 To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs stage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that \emph{Ord}, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
-A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation (Brombin, Joly, \& Jamen, 2015; Gabut, Bourdelais, \& Durand, 2020; Genuth \& Barna, 2018). Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation (Gabut, Bourdelais, \& Durand, 2020; Sanchez et al., 2016; Woolnough, Atwood, Liu, Zhao, \& Giles, 2016; Zahradkal, Larson, \& Sells, 1991; Q. Zhang, Shalaby, \& Buszczak, 2014). When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general
+A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation (Brombin, Joly, \& Jamen, 2015; Gabut, Bourdelais, \& Durand, 2020; Genuth \& Barna, 2018). Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation (Gabut, Bourdelais, \& Durand, 2020; Sanchez et al., 2016; Woolnough, Atwood, Liu, Zhao, \& Giles, 2016; Zahradkal, Larson, \& Sells, 1991; Q. Zhang, Shalaby, \& Buszczak, 2014). When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general these diseases arise from misregulation of stem cell differentiation.
 We have discovered a link between the efficient biogenesis of the translation apparatus, the ribosome, and the translation of the proteins constituent proteins of the ribosome. We found that three RNA helicases, Aramis, Athos, and Porthos, which were previously uncharacterized in \emph{Drosophila} are all required for pre-rRNA processing and successfult ribosome biogenesis. We found that proper ribosome biogenesis ensures that ribosomal proteins are translated at normal levels by preventing a translation inhibitor called Larp from binding its targets, which primarily consist of ribosomal proteins. We found that one of the mRNAs repressed by La-related protein (Larp) is Novel nucleolar protein (\emph{Non1}), which prevents cell cycle arrest in a p53 dependent manner. Therefore we discovered a novel connection between ribosome biogenesis and cell cycle. This resolves a longstanding question of why most genes involved in ribosome biogenesis all share the same phenotype when knocked down in \emph{Drosophila} ovaries. Our work demonstrates that this likely occurs because when when aspect of ribosome biogenesis is perturbed, translation of core ribosomal proteins are reduced to compensate for this loss in an attempt to balance ribosome biogenesis. This mechanism also results in a cell cycle arrest giving rise to a characteristic stem-like cyst where the GSC fails to divide from its progeny. More broadly, this connection has important implications in how stem cells regulate ribosome production which is known to play a crucial role in stem cell differentiation.
+Additionally, I have developed a tool called Oo-cyte to allow researchers to investigate changes in gene experssion at the mRNA level and post-transcriptionally over the course of GSC differentiation. Using this tool I elucidated that crucial meoitic genes are in fact regulated post-transcriptionally.
+Overall, my work has emphasized the role the ribosome plays regulating stem cell differentiation. This regulation occurs both directly and indirectly. The ribosome regulation stem cell differentation directly in that sufficient ribosome levels are requried in order to overcome cell cycle blocks that ensure differentiation occors properly. Indirectly, the ribosome carries out translation, which my work has demonstrated is a key point of regulation during stem cell differentiation. Moving forward, discovering the factors that enact translation regulation during differentiation is of critical importance to fully understanding stem cell differentation and therefore differentation related disease states.
 }
 
 	\usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
@@ -215,8 +217,10 @@ We have discovered a link between the efficient biogenesis of the translation ap
     In concert with GSC differentiation, the differentiating progeny of GSCs also transition from a mitotic cell cycle to a meiotic cell cycle, in order to eventually undergo reductional cell division to form an egg {[}Kimble (2011); mckimMeioticRecombinationChromosome2002{]}. Several of the currently know factors that control this transition have been characterized as RNA binding proteins that likely facilitate the mitotic to meiotic transition by changing the translation landscape of the differentiating cysts {[}Tastan, Maines, Li, Mckearin, \& Buszczak (2010); Carreira-Rosario et al. (2016); Slaidina2014h; Blatt, Martin, Breznak, \& Rangan (2020); Y. Li, Minor, Park, McKearin, \& Maines (2009); Flora, Wong-Deyrup, et al. (2018b); Kim-Ha, Kerr, \& Macdonald (1995){]}.
     Each of the steps from GSC to egg require changes in cellular pathways. These changes can occur at the level of transcription, post-transciption, translation, or post-translation (Blatt, Martin, Breznak, \& Rangan, 2020; Flora, McCarthy, Upadhyay, \& Rangan, 2017). Decades of research has elucidated many of the changes that occur during oogenesis, however, many players in this process still remain mysterious. My work has helped to identify and characterize novel developmental mechanisms that are required for the successive developmental transitions that take place during oogenesis. I have leveraged RNAseq and polysome-seq to probe the global transcription and translation landscape over development and used the power of \emph{Drosophila} genetics in concert with these sequencing techniques to identify and characterize misregulated pathways.
     To aid the research and hypothesis generation of other researchers in the field I have made a tool called Oo-site which democratizes access to our labs stage specific mRNAseq and polysome-seq data, as well as integrates publically available single-cell seq data. This tool allows non-bioinformaticians to quickly and easily view expression data across \emph{Drosophila} GSC differentiation and development. This work has revealed that \emph{Ord}, a key meiotic gene is controlled post-transcriptionally, at the level of translation and suggests that other key genes involved in the transition of a GSC from a mitotic to a meiotic fate may be controlled though modulating their translation.
-    A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation (Brombin, Joly, \& Jamen, 2015; Gabut, Bourdelais, \& Durand, 2020; Genuth \& Barna, 2018). Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation (Gabut, Bourdelais, \& Durand, 2020; Sanchez et al., 2016; Woolnough, Atwood, Liu, Zhao, \& Giles, 2016; Zahradkal, Larson, \& Sells, 1991; Q. Zhang, Shalaby, \& Buszczak, 2014). When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general
+    A crucial participant in translation control is the ribosome which is the molecular machine that carries out translation (Brombin, Joly, \& Jamen, 2015; Gabut, Bourdelais, \& Durand, 2020; Genuth \& Barna, 2018). Stem cells generally have high levels of ribosomes and ribosome biogenesis components, but relatively low levels of global translation (Gabut, Bourdelais, \& Durand, 2020; Sanchez et al., 2016; Woolnough, Atwood, Liu, Zhao, \& Giles, 2016; Zahradkal, Larson, \& Sells, 1991; Q. Zhang, Shalaby, \& Buszczak, 2014). When ribosome biogenesis is perturbed stem cells can differentiate inappropriately, at least sometimes in part because specific mRNAs become misregulated. This can result in tissue specific diseases called ribosomopathies. The tissue specific nature of these diseases has long been a question of study, but recently several examples have uncovered that in general these diseases arise from misregulation of stem cell differentiation.
     We have discovered a link between the efficient biogenesis of the translation apparatus, the ribosome, and the translation of the proteins constituent proteins of the ribosome. We found that three RNA helicases, Aramis, Athos, and Porthos, which were previously uncharacterized in \emph{Drosophila} are all required for pre-rRNA processing and successfult ribosome biogenesis. We found that proper ribosome biogenesis ensures that ribosomal proteins are translated at normal levels by preventing a translation inhibitor called Larp from binding its targets, which primarily consist of ribosomal proteins. We found that one of the mRNAs repressed by La-related protein (Larp) is Novel nucleolar protein (\emph{Non1}), which prevents cell cycle arrest in a p53 dependent manner. Therefore we discovered a novel connection between ribosome biogenesis and cell cycle. This resolves a longstanding question of why most genes involved in ribosome biogenesis all share the same phenotype when knocked down in \emph{Drosophila} ovaries. Our work demonstrates that this likely occurs because when when aspect of ribosome biogenesis is perturbed, translation of core ribosomal proteins are reduced to compensate for this loss in an attempt to balance ribosome biogenesis. This mechanism also results in a cell cycle arrest giving rise to a characteristic stem-like cyst where the GSC fails to divide from its progeny. More broadly, this connection has important implications in how stem cells regulate ribosome production which is known to play a crucial role in stem cell differentiation.
+    Additionally, I have developed a tool called Oo-cyte to allow researchers to investigate changes in gene experssion at the mRNA level and post-transcriptionally over the course of GSC differentiation. Using this tool I elucidated that crucial meoitic genes are in fact regulated post-transcriptionally.
+    Overall, my work has emphasized the role the ribosome plays regulating stem cell differentiation. This regulation occurs both directly and indirectly. The ribosome regulation stem cell differentation directly in that sufficient ribosome levels are requried in order to overcome cell cycle blocks that ensure differentiation occors properly. Indirectly, the ribosome carries out translation, which my work has demonstrated is a key point of regulation during stem cell differentiation. Moving forward, discovering the factors that enact translation regulation during differentiation is of critical importance to fully understanding stem cell differentation and therefore differentation related disease states.
   \end{abstract}
   \begin{dedication}
   \pagestyle{plain}
@@ -237,9 +241,9 @@ We have discovered a link between the efficient biogenesis of the translation ap
     \setstretch{2.0}
     1. \textbf{Chapter 1: ``Post-transcriptional gene regulation mediates critical cell fate transitions during Drosophila oogenesis''} was published as Blatt P, Martin ET, Breznak SM, Rangan P. 2020. \underline{Post-transcriptional gene regulation regulates germline} \underline{stem cell to oocyte transition during Drosophila oogenesis.} Current Topics in Cell Biology 140: 3--34.
     \newline \newline
-    2. Except for minimal re-organization of the figures, the entire \textbf{Chapter 2: ``A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph{Drosophila} oogenesis''} was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. \underline{A translation control module coordinates germline stem cell differentiation with} \underline{ribosome biogenesis during Drosophila oogenesis.} bioRxiv.
+    2. Except for minimal re-organization of the figures, the entire \textbf{Chapter 2: ``A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph{Drosophila} oogenesis''} was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. \underline{A translation control module coordinates germline stem cell differentiation with ribosome} \underline{biogenesis during Drosophila oogenesis.} bioRxiv.
     \newline \newline
-    3. Chapter 3: \textbf{``Oo-site: Dashboard to visualize gene expression in the Drosophila germarium''} is in preparation as Martin, E.T., Sarkar, K., Kotb, N., and Rangan, P., 2021. \underline{Oo-site: Dashboard to visualize gene expression in the Drosophila} \underline{germarium.}
+    3. \textbf{Chapter 3: ``Oo-site: A dashboard to visualize gene expression during \emph{Drosophila} oogenesis reveals meiotic entry is regulated post-transcriptionally''} was published as as Martin, Elliot Todd, Kahini Sarkar, Alicia McCarthy, and Prashanth Rangan. 2022. \underline{Oo-Site: A Dashboard to Visualize Gene Expression during Drosophila} \underline{Oogenesis Reveals Meiotic Entry Is Regulated Post-Transcriptionally.} bioRxiv.
     \newline \newline
     These studies or articles are being included because they were part of the programmatic line of research that comprised the dissertation and that including them provides a coherent and appropriately sequenced investigation.
     \newline \newline
@@ -386,7 +390,7 @@ oogenesis.
 
 }
 
-\caption[\textbf{Schematic of \emph{Drosophila} ovariole.}]{(A) \textbf{Schematic of \emph{Drosophila} ovariole.} \emph{Drosophila} females have two ovaries consisting of 16--20 ovarioles, which are assembly lines for producing mature eggs. The germarium, the structure that houses the germline stem cell (GSC), is present at anterior tip of the ovariole. The germline stem cell asymmetrically divides, giving rise to another GSC and a GSC daughter. The daughter cell then will undergo four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the 16 cells one will be specified as the egg while the others serve as polyploid nurse cells that support oocyte and egg development. The surrounding somatic cells encapsulate the 16-cell cyst creating egg chambers. As development proceeds, the nurse cells provide mRNAs and proteins allowing the oocyte to grow in size and to eventually become a mature egg. (B) Inset of a germarium showing the developing germline, with the GSC located at the most anterior tip. Upon differentiation, the CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell cyst. Only one cell of the sixteen cells completes meiosis and is destined to become the oocyte.}\label{fig:unnamed-chunk-2}
+\caption[\textbf{Schematic of \emph{Drosophila} ovariole.}]{(A) \textbf{Schematic of \emph{Drosophila} ovariole.} \emph{Drosophila} females have two ovaries consisting of 16--20 ovarioles, which are assembly lines for producing mature eggs. The germarium, the structure that houses the germline stem cell (GSC), is present at anterior tip of the ovariole. The germline stem cell asymmetrically divides, giving rise to another GSC and a GSC daughter. The daughter cell then will undergo four incomplete rounds of mitosis, giving rise to a 16-cell cyst. Of the 16 cells one will be specified as the egg while the others serve as polyploid nurse cells that support oocyte and egg development. The surrounding somatic cells encapsulate the 16-cell cyst creating egg chambers. As development proceeds, the nurse cells provide mRNAs and proteins allowing the oocyte to grow in size and to eventually become a mature egg. (B) Inset of a germarium showing the developing germline, with the GSC located at the most anterior tip. Upon differentiation, the CB will undergo 4 incomplete mitotic divisions giving rise to a 16-cell cyst. Only one cell of the sixteen cells completes meiosis and is destined to become the oocyte.}\label{fig:unnamed-chunk-4}
 \end{figure}
 \hypertarget{alternative-splicing-ensures-accurate-production-of-critical-germline-mrnas-to-regulate-sex-determination-and-differentiation}{%
 \section{Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation}\label{alternative-splicing-ensures-accurate-production-of-critical-germline-mrnas-to-regulate-sex-determination-and-differentiation}}
@@ -533,7 +537,7 @@ splicing in the female germline.
 
 }
 
-\caption[\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl}.}]{\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl} to generate the female \emph{sex determining} variant in the germline.} Ovo-B promotes the transcription of \emph{otu,} which enhances splicing of \emph{sxl}. The female-specific splice form of \emph{sxl} is further enhanced by RNA modification by the m6A writer. Formation of the female-specific form generates a functional Sxl protein. Sxl represses Tdrd5l, a protein that promotes male identify. Additionally, Sxl post-transcriptionally represses \emph{nhp2} to promote cyst formation during differentiation.}\label{fig:unnamed-chunk-3}
+\caption[\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl}.}]{\textbf{Schematic of the pathway that promotes alternative splicing of \emph{sxl} to generate the female \emph{sex determining} variant in the germline.} Ovo-B promotes the transcription of \emph{otu,} which enhances splicing of \emph{sxl}. The female-specific splice form of \emph{sxl} is further enhanced by RNA modification by the m6A writer. Formation of the female-specific form generates a functional Sxl protein. Sxl represses Tdrd5l, a protein that promotes male identify. Additionally, Sxl post-transcriptionally represses \emph{nhp2} to promote cyst formation during differentiation.}\label{fig:unnamed-chunk-5}
 \end{figure}
 \hypertarget{rna-modifications-direct-splicing-of-sex-determinants-and-translation-of-differentiation-promoting-genes-in-the-germline}{%
 \section{RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline}\label{rna-modifications-direct-splicing-of-sex-determinants-and-translation-of-differentiation-promoting-genes-in-the-germline}}
@@ -811,7 +815,7 @@ basis of ribosome biogenesis control.
 
 }
 
-\caption[\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.}]{\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.} Schematic representing the germarium and plots representing relative changes in global translation rate, rRNA transcription rate, and mTorc1 activity during development at the developmental stages indicated. As germline stem cell differentiation occurs rRNA production decreases, while global translation initially increases as differentiation occurs then falls off post differentiation. A global regulator of both translation and rRNA production, mTorc1 activity decreases during differentiation and increases post differentiation.}\label{fig:unnamed-chunk-4}
+\caption[\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.}]{\textbf{Global translation rate, rRNA transcription rate, and mTorc1 activity during development.} Schematic representing the germarium and plots representing relative changes in global translation rate, rRNA transcription rate, and mTorc1 activity during development at the developmental stages indicated. As germline stem cell differentiation occurs rRNA production decreases, while global translation initially increases as differentiation occurs then falls off post differentiation. A global regulator of both translation and rRNA production, mTorc1 activity decreases during differentiation and increases post differentiation.}\label{fig:unnamed-chunk-6}
 \end{figure}
 \hypertarget{hand-off-mechanisms-facilitated-by-combinatorial-rna-binding-proteins-dynamically-shape-the-translational-landscape-during-oogenesis}{%
 \section{Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}\label{hand-off-mechanisms-facilitated-by-combinatorial-rna-binding-proteins-dynamically-shape-the-translational-landscape-during-oogenesis}}
@@ -963,7 +967,7 @@ Bru representing a hand-off mechanism for repression of maternal mRNAs
 
 }
 
-\caption[\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.}]{\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.} In the GSCs Nos, Pum and Twin form a complex to inhibit the translation of differentiation mRNAs such as \emph{pgc}, which increases throughout oogenesis. Expression of Bam in the CB initiates differentiation by interacting with its partner Bgcn and Mei-P26 to repress the translation of GSC-expressed mRNAs, specifically \emph{nos}. As Nos protein levels decrease in the CB, Pum is available to partner with Brat to repress the translation of self-renewal genes and \emph{pgc}. In cyst stages, Rbfox1 binds the \emph{pum} 3' UTR to inhibit its translation. Throughout oogenesis Bru and Cup continuously block translation of \emph{pgc}.}\label{fig:unnamed-chunk-5}
+\caption[\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.}]{\textbf{Schematic of combinatorial and dynamic translation regulation in the \emph{Drosophila} germarium.} In the GSCs Nos, Pum and Twin form a complex to inhibit the translation of differentiation mRNAs such as \emph{pgc}, which increases throughout oogenesis. Expression of Bam in the CB initiates differentiation by interacting with its partner Bgcn and Mei-P26 to repress the translation of GSC-expressed mRNAs, specifically \emph{nos}. As Nos protein levels decrease in the CB, Pum is available to partner with Brat to repress the translation of self-renewal genes and \emph{pgc}. In cyst stages, Rbfox1 binds the \emph{pum} 3' UTR to inhibit its translation. Throughout oogenesis Bru and Cup continuously block translation of \emph{pgc}.}\label{fig:unnamed-chunk-7}
 \end{figure}
 \hypertarget{summary}{%
 \section{Summary}\label{summary}}
@@ -1092,7 +1096,7 @@ We performed a screen to identify RNA helicases that are required for female fer
 
 }
 
-\caption[\textbf{RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}]{\textbf{RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}}\label{fig:unnamed-chunk-6}
+\caption[\textbf{RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}]{\textbf{RNA helicases Aramis, Athos and Porthos are required for GSC differentiation.}}\label{fig:unnamed-chunk-8}
 \end{figure}
 \setstretch{1.0}
 
@@ -1110,7 +1114,7 @@ Aberrant cyst formation proximal to the niche could reflect stem cysts with GSCs
 
 }
 
-\caption[\textbf{Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}]{\textbf{Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}}\label{fig:unnamed-chunk-7}
+\caption[\textbf{Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}]{\textbf{Aramis, Athos, and Porthos are required for proper cytokinesis and differentiation, related to Figure 2.1.}}\label{fig:unnamed-chunk-9}
 \end{figure}
 \setstretch{1.0}
 
@@ -1133,7 +1137,7 @@ Many factors involved in rRNA biogenesis localize to the nucleolus and interact 
 
 }
 
-\caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}}\label{fig:unnamed-chunk-8}
+\caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis.}}\label{fig:unnamed-chunk-10}
 \end{figure}
 \setstretch{1.0}
 
@@ -1151,7 +1155,7 @@ Nucleolar size, and in particular nucleolar hypotrophy, is associated with reduc
 
 }
 
-\caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}}\label{fig:unnamed-chunk-9}
+\caption[\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}]{\textbf{Athos, Aramis, and Porthos are required for efficient ribosome biogenesis., related to Figure 2.3.}}\label{fig:unnamed-chunk-11}
 \end{figure}
 \setstretch{1.0}
 
@@ -1176,7 +1180,7 @@ CycB is expressed during G2 phase after asymmetric cell division to promote GSC 
 
 }
 
-\caption[\textbf{Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}}\label{fig:unnamed-chunk-10}
+\caption[\textbf{Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}]{\textbf{Athos, Aramis, and Porthos are required for cell cycle progression during early oogenesis.}}\label{fig:unnamed-chunk-12}
 \end{figure}
 \setstretch{1.0}
 
@@ -1196,7 +1200,7 @@ To determine if p53 stabilization is required for the cell cycle arrest in \emph
 
 }
 
-\caption[\textbf{Aramis is required for proper cell cycle progression, related to Figure 2.5.}]{\textbf{Aramis is required for proper cell cycle progression, related to Figure 2.5.}}\label{fig:unnamed-chunk-11}
+\caption[\textbf{Aramis is required for proper cell cycle progression, related to Figure 2.5.}]{\textbf{Aramis is required for proper cell cycle progression, related to Figure 2.5.}}\label{fig:unnamed-chunk-13}
 \end{figure}
 \setstretch{1.0}
 
@@ -1216,7 +1220,7 @@ Although p53 protein levels were elevated upon loss of \emph{aramis} in the germ
 
 }
 
-\caption[\textbf{Aramis is required for efficient translation of a subset of mRNAs.}]{\textbf{Aramis is required for efficient translation of a subset of mRNAs.}}\label{fig:unnamed-chunk-12}
+\caption[\textbf{Aramis is required for efficient translation of a subset of mRNAs.}]{\textbf{Aramis is required for efficient translation of a subset of mRNAs.}}\label{fig:unnamed-chunk-14}
 \end{figure}
 \setstretch{1.0}
 
@@ -1234,7 +1238,7 @@ Previous work has indicated that excess ribosomal protein expression may be dele
 
 }
 
-\caption[\textbf{The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}]{\textbf{The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}}\label{fig:unnamed-chunk-13}
+\caption[\textbf{The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}]{\textbf{The mRNA levels of Aramis polysome-seq targets are not significantly changing, related to Figure 2.7.}}\label{fig:unnamed-chunk-15}
 \end{figure}
 \setstretch{1.0}
 
@@ -1254,7 +1258,7 @@ During normal oogenesis, p53 protein is expressed in cyst stages in response to 
 
 }
 
-\caption[\textbf{Non1 represses p53 expression to allow for GSC differentiation.}]{\textbf{Non1 represses p53 expression to allow for GSC differentiation.}}\label{fig:unnamed-chunk-14}
+\caption[\textbf{Non1 represses p53 expression to allow for GSC differentiation.}]{\textbf{Non1 represses p53 expression to allow for GSC differentiation.}}\label{fig:unnamed-chunk-16}
 \end{figure}
 \setstretch{1.0}
 
@@ -1272,7 +1276,7 @@ To determine if Aramis, Athos, and Porthos promotes GSC differentiation via tran
 
 }
 
-\caption[\textbf{Non1 and p53 are inversely expressed, related to Figure 2.9.}]{\textbf{Non1 and p53 are inversely expressed, related to Figure 2.9.}}\label{fig:unnamed-chunk-15}
+\caption[\textbf{Non1 and p53 are inversely expressed, related to Figure 2.9.}]{\textbf{Non1 and p53 are inversely expressed, related to Figure 2.9.}}\label{fig:unnamed-chunk-17}
 \end{figure}
 \setstretch{1.0}
 
@@ -1297,7 +1301,7 @@ In \emph{Drosophila}, TORC1 activity increases during meiotic cyst stages (Youhe
 
 }
 
-\caption[\textbf{Aramis regulated mRNAs contain a TOP motif.}]{\textbf{Aramis regulated mRNAs contain a TOP motif.}}\label{fig:unnamed-chunk-16}
+\caption[\textbf{Aramis regulated mRNAs contain a TOP motif.}]{\textbf{Aramis regulated mRNAs contain a TOP motif.}}\label{fig:unnamed-chunk-18}
 \end{figure}
 \setstretch{1.0}
 
@@ -1315,9 +1319,13 @@ TOP mRNAs show increased translation in response to TOR signaling, leading to in
 
 }
 
-\caption[\textbf{TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.}]{\textbf{TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.}}\label{fig:unnamed-chunk-17}
+\caption[\textbf{TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.}]{\textbf{TORC1 activity, Athos, and Porthos, regulate TOP expression in the germarium, related to Figure 2.11.}}\label{fig:unnamed-chunk-19}
 \end{figure}
+\setstretch{1.0}
+
 \setlength\parindent{0pt}(\textbf{A-B}) Confocal images of \emph{WT-TOP} reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue) in (\textbf{A}) \emph{nosGAL4}, driver control ovaries and (\textbf{B}) ovaries depleted of \emph{Nprl3} in the germline. (\textbf{C-D}) Confocal images of \emph{Mut-TOP-GFP} reporter expression stained for 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (\textbf{C}) \emph{nosGAL4}, driver control ovaries and (\textbf{D}) ovaries depleted of \emph{Nprl3} in the germline. (\textbf{E}) A.U. quantification of WT and Mutant TOP reporter expression in GSCs of \emph{nosGAL4}, driver control ovaries and GSCs of \emph{Nprl3} germline depleted ovaries normalized to Vasa expression indicate that the relative expression of the \emph{WT-TOP-GFP} reporter is higher than the \emph{Mut-TOP-GFP} reporter (n=9-11 germaria per genotype, Welch's t-test, * = p\textless0.05, ** = p\textless0.01, *** = p\textless0.001). (\textbf{F-G}) Confocal images of \emph{WT-TOP} reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue) in (\textbf{F}) \emph{nosGAL4}, driver control ovaries and (\textbf{G}) ovaries depleted of \emph{raptor} in the germline. (\textbf{H-I}) Confocal images of \emph{Mut-TOP-GFP} reporter expression stained for 1B1 (red), GFP (green), and Vasa (blue) in (\textbf{H}) \emph{nosGAL4}, driver control ovaries and (\textbf{I}) ovaries depleted of \emph{raptor} in the germline. (\textbf{J}) A.U. quantification of WT and Mutant TOP reporter expression in GSCs of \emph{nosGAL4}, driver control ovaries and GSCs of \emph{raptor} germline depleted ovaries normalized to Vasa expression indicate that the relative expression of the \emph{WT-TOP-GFP} reporter is lower than the \emph{Mut-TOP-GFP} reporter (n=10 germaria per genotype, Welch's t-test, * = p\textless0.05, ** = p\textless0.01). (\textbf{K-M'}) Confocal images of \emph{WT-TOP-GFP} reporter ovarioles showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (\textbf{K-K'}) \emph{bam} germline depletion as a developmental control, (\textbf{L-L'}) \emph{athos} germline depleted ovaries, and (\textbf{M-M'}) \emph{porthos} germline depleted ovaries. Yellow dotted lines indicate germline. (\textbf{N-P'}) Confocal images of \emph{Mut-TOP-GFP} reporter expression showing 1B1 (red), GFP (green, grayscale), and Vasa (blue) in (\textbf{N-N'}) \emph{bam} RNAi, (\textbf{O-O'}) \emph{athos} germline RNAi, and (\textbf{P-P'}) \emph{porthos} germline depleted ovaries. Yellow dotted lines indicate germline. (\textbf{Q}) A.U. quantification of WT and Mutant TOP reporter expression in undifferentiated daughter cells in \emph{bam} RNAi compared \emph{athos} or \emph{porthos} RNAi demonstrates that the \emph{WT-TOP-GFP} reporter shows significantly lower expression in \emph{athos} and \emph{porthos} RNAi than the \emph{Mut-TOP-GFP} relative to the expression of the respective reporters in \emph{bam} RNAi indicating that the presence of a TOP motif sensitizes transcripts to regulation (n=17-25 germaria per genotype, with Welch's t-test with , ** = p\textless0.01, *** = p\textless0.001). Scale bar for images is 15 micron.
+
+\setstretch{2.0}
 
 \textbf{\hfill\break
 }
@@ -1334,7 +1342,7 @@ Next, we performed electrophoretic mobility shift assays (EMSA) to examine prote
 
 }
 
-\caption[\textbf{Larp binds to TOP mRNAs and binding is regulated by Aramis.}]{\textbf{Larp binds to TOP mRNAs and binding is regulated by Aramis.}}\label{fig:unnamed-chunk-18}
+\caption[\textbf{Larp binds to TOP mRNAs and binding is regulated by Aramis.}]{\textbf{Larp binds to TOP mRNAs and binding is regulated by Aramis.}}\label{fig:unnamed-chunk-20}
 \end{figure}
 \setstretch{1.0}
 
@@ -1354,7 +1362,7 @@ If loss of \emph{aramis} inhibits the translation of TOP-containing mRNAs due to
 
 }
 
-\caption[\textbf{Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}]{\textbf{Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}}\label{fig:unnamed-chunk-19}
+\caption[\textbf{Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}]{\textbf{Larp binds specifically to TOP containing mRNAs and regulates cytokinesis, related to Figure 2.13.}}\label{fig:unnamed-chunk-21}
 \end{figure}
 \setstretch{1.0}
 

@@ -320,7 +320,11 @@ TOP mRNAs show increased translation in response to TOR signaling, leading to in
 knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.png")
 ```
 
+\setstretch{1.0}
+
 (ref:RiBi-F2-12-long)
+
+\setstretch{2.0}
 
 **\
 **
