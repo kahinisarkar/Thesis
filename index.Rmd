@@ -20,15 +20,15 @@ params:
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
 output:
-  # thesisdown::thesis_pdf:
-  # latex_engine: xelatex
+  thesisdown::thesis_pdf:
+  latex_engine: xelatex
  # thesisdown::thesis_gitbook: default
-  thesisdown::thesis_word:
-    reference_docx: "thesis_word_style.docx"
-    toc: true
-    toc_depth: 3
-    fig_caption: true
-    lot: true
+ # thesisdown::thesis_word:
+ #   reference_docx: "thesis_word_style.docx"
+ #   toc: true
+ #   toc_depth: 3
+ #   fig_caption: true
+ #   lof: true
  # thesisdown::thesis_epub: default
  
 header-includes:

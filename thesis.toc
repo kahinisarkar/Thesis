@@ -26,43 +26,52 @@
 \contentsline {subsection}{\numberline {2.4.4}Larp transduces growth status to ribosome biogenesis targets}{87}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Ribosome biogenesis in stem cell differentiation and ribosomopathies}{89}{subsection.2.4.5}%
 \contentsline {section}{\numberline {2.5}Materials and Methods}{94}{section.2.5}%
-\contentsline {subsubsection}{Fly lines}{95}{section*.26}%
-\contentsline {subsubsection}{Antibodies IF}{96}{section*.27}%
-\contentsline {subsubsection}{Antibodies Western/IP}{96}{section*.28}%
-\contentsline {subsubsection}{Protein Domain Analysis}{96}{section*.29}%
-\contentsline {subsubsection}{Protein Conservation Analysis}{97}{section*.30}%
-\contentsline {subsubsection}{TOP Reporter Cloning}{97}{section*.31}%
-\contentsline {subsubsection}{Gateway Cloning}{98}{section*.32}%
-\contentsline {subsubsection}{Egg Laying Test}{98}{section*.33}%
-\contentsline {subsubsection}{Immunostaining}{99}{section*.34}%
-\contentsline {subsubsection}{Florescent Imaging}{99}{section*.35}%
-\contentsline {subsubsection}{Measurement of global protein synthesis}{99}{section*.36}%
-\contentsline {subsubsection}{Image Quantifications}{100}{section*.37}%
-\contentsline {subsubsection}{RNA Extraction from Ovaries}{101}{section*.38}%
-\contentsline {subsubsection}{S2 Cell RNAi}{102}{section*.39}%
-\contentsline {subsubsection}{Polysome-profiling}{103}{section*.40}%
-\contentsline {subsubsection}{Western Blot}{104}{section*.41}%
-\contentsline {subsubsection}{mRNAseq Library Preparation and Analysis}{104}{section*.42}%
-\contentsline {subsubsection}{Polysome-seq}{106}{section*.43}%
-\contentsline {subsubsection}{Polysome-seq Data Analysis}{106}{section*.44}%
-\contentsline {subsubsection}{CAGE-seq Tracks}{107}{section*.45}%
-\contentsline {subsubsection}{CAGE-seq Data Reanalysis}{107}{section*.46}%
-\contentsline {subsubsection}{Motif Enrichment Analysis}{108}{section*.47}%
-\contentsline {subsubsection}{RNA Immunoprecipitation (RNA IP)}{109}{section*.48}%
-\contentsline {subsubsection}{Helicase RNA IPseq}{110}{section*.49}%
-\contentsline {subsubsection}{Larp Gel Shifts}{111}{section*.50}%
-\contentsline {paragraph}{Cloning, Protein expression and purification}{111}{section*.51}%
-\contentsline {paragraph}{RNA preparation}{112}{section*.52}%
-\contentsline {paragraph}{Electrophoretic mobility shift assays (EMSAs)**}{114}{section*.53}%
-\contentsline {subsubsection}{mRNA IPseq}{115}{section*.54}%
-\contentsline {subsubsection}{Larp RNA IP qPCR}{115}{section*.55}%
+\contentsline {subsubsection}{Fly lines}{95}{section*.25}%
+\contentsline {subsubsection}{Antibodies IF}{96}{section*.26}%
+\contentsline {subsubsection}{Antibodies Western/IP}{96}{section*.27}%
+\contentsline {subsubsection}{Protein Domain Analysis}{96}{section*.28}%
+\contentsline {subsubsection}{Protein Conservation Analysis}{97}{section*.29}%
+\contentsline {subsubsection}{TOP Reporter Cloning}{97}{section*.30}%
+\contentsline {subsubsection}{Gateway Cloning}{98}{section*.31}%
+\contentsline {subsubsection}{Egg Laying Test}{98}{section*.32}%
+\contentsline {subsubsection}{Immunostaining}{99}{section*.33}%
+\contentsline {subsubsection}{Florescent Imaging}{99}{section*.34}%
+\contentsline {subsubsection}{Measurement of global protein synthesis}{99}{section*.35}%
+\contentsline {subsubsection}{Image Quantifications}{100}{section*.36}%
+\contentsline {subsubsection}{RNA Extraction from Ovaries}{101}{section*.37}%
+\contentsline {subsubsection}{S2 Cell RNAi}{102}{section*.38}%
+\contentsline {subsubsection}{Polysome-profiling}{103}{section*.39}%
+\contentsline {subsubsection}{Western Blot}{104}{section*.40}%
+\contentsline {subsubsection}{mRNAseq Library Preparation and Analysis}{104}{section*.41}%
+\contentsline {subsubsection}{Polysome-seq}{106}{section*.42}%
+\contentsline {subsubsection}{Polysome-seq Data Analysis}{106}{section*.43}%
+\contentsline {subsubsection}{CAGE-seq Tracks}{107}{section*.44}%
+\contentsline {subsubsection}{CAGE-seq Data Reanalysis}{107}{section*.45}%
+\contentsline {subsubsection}{Motif Enrichment Analysis}{108}{section*.46}%
+\contentsline {subsubsection}{RNA Immunoprecipitation (RNA IP)}{109}{section*.47}%
+\contentsline {subsubsection}{Helicase RNA IPseq}{110}{section*.48}%
+\contentsline {subsubsection}{Larp Gel Shifts}{111}{section*.49}%
+\contentsline {paragraph}{Cloning, Protein expression and purification}{111}{section*.50}%
+\contentsline {paragraph}{RNA preparation}{112}{section*.51}%
+\contentsline {paragraph}{Electrophoretic mobility shift assays (EMSAs)**}{114}{section*.52}%
+\contentsline {subsubsection}{mRNA IPseq}{115}{section*.53}%
+\contentsline {subsubsection}{Larp RNA IP qPCR}{115}{section*.54}%
 \contentsline {chapter}{Chapter 3: Oo-site: A dashboard to visualize gene expression during \emph {Drosophila} oogenesis reveals meiotic entry is regulated post-transcriptionally}{117}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Summary}{117}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{118}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Results}{121}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Discussion}{144}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Acknowledgements}{145}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Materials and Methods}{146}{section.3.6}%
+\contentsline {section}{\numberline {3.4}Discussion}{143}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Acknowledgements}{144}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Materials and Methods}{145}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Sequencing data}{145}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Code Availability}{145}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Antibodies}{146}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Polysome-seq}{146}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Polysome-seq data processing}{146}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Differential Expression}{147}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}GO term heatmaps}{147}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}Fluorescent \emph {in situ} hybridization}{148}{subsection.3.6.8}%
+\contentsline {subsection}{\numberline {3.6.9}Quantification of Stainings}{148}{subsection.3.6.9}%
 \contentsline {chapter}{Chapter 4: Conclusion}{150}{chapter.4}%
 \contentsline {chapter}{Appendix A: The First Appendix}{153}{appendix.A}%
-\contentsline {chapter}{References}{154}{appendix*.64}%
+\contentsline {chapter}{References}{154}{appendix*.63}%
