@@ -64,5 +64,5 @@
 \contentsline {section}{\numberline {3.5}Acknowledgements}{145}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Materials and Methods}{146}{section.3.6}%
 \contentsline {chapter}{Chapter 4: Conclusion}{150}{chapter.4}%
-\contentsline {chapter}{Appendix A: The First Appendix}{152}{appendix.A}%
-\contentsline {chapter}{References}{153}{appendix*.64}%
+\contentsline {chapter}{Appendix A: The First Appendix}{153}{appendix.A}%
+\contentsline {chapter}{References}{154}{appendix*.64}%

@@ -117,7 +117,7 @@ focus on post-transcriptional processing of germline mRNAs and
 translational regulation both of which are required for successful
 oogenesis.
 
-```{r, out.width="6 in", out.height="3.046676 in", include=TRUE, fig.align="center", fig.cap='(ref:book-F1)', fig.scap='(ref:book-F1-short)', echo=FALSE}
+```{r, out.width="70.58824%", include=TRUE, fig.align="center", fig.cap='(ref:book-F1)', fig.scap='(ref:book-F1-short)', echo=FALSE}
 # 6*(3.59/7.07)
 knitr::include_graphics("./figure/Book Chapter/Figure1.png")
 ```
@@ -261,7 +261,7 @@ and production of the determinants of embryonic patterning for the next
 generation are all regulated by mechanisms involving alternative
 splicing in the female germline.
 
-```{r, include=TRUE, out.width="6.0 in", out.height= "1.483636 in", fig.align="center", fig.cap='(ref:book-F2)', fig.scap='(ref:book-F2-short)', echo=FALSE}
+```{r, include=TRUE, out.width="70.58824%", fig.align="center", fig.cap='(ref:book-F2)', fig.scap='(ref:book-F2-short)', echo=FALSE}
 # 6*(2.04/8.25)
 knitr::include_graphics("./figure/Book Chapter/Figure2.png")
 ```
@@ -684,7 +684,7 @@ to *pgc*, rather a cohort of maternal mRNAs are co-regulated by Pum and
 Bru representing a hand-off mechanism for repression of maternal mRNAs
 [@Flora2018k].
 
-```{r, include=TRUE, out.height="6.157635 in", out.width="5 in", fig.align="center", fig.cap='(ref:book-F4)', fig.scap='(ref:book-F4-short)', echo=FALSE}
+```{r, include=TRUE, out.width="82%", fig.align="center", fig.cap='(ref:book-F4)', fig.scap='(ref:book-F4-short)', echo=FALSE}
  # 5*(7.5/6.09)
 knitr::include_graphics("./figure/Book Chapter/Figure4.png")
 ```

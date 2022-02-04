@@ -20,15 +20,15 @@ params:
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
 output:
-  thesisdown::thesis_pdf:
-  latex_engine: xelatex
-#  thesisdown::thesis_gitbook: default
-    # thesisdown::thesis_word:
-    #     reference_docx: "thesis_word_style.docx"
-    #     toc: true
-    #     toc_depth: 3
-    #     fig_caption: true
-    #     lot: true
+  # thesisdown::thesis_pdf:
+  # latex_engine: xelatex
+ # thesisdown::thesis_gitbook: default
+  thesisdown::thesis_word:
+    reference_docx: "thesis_word_style.docx"
+    toc: true
+    toc_depth: 3
+    fig_caption: true
+    lot: true
  # thesisdown::thesis_epub: default
  
 header-includes:
@@ -55,7 +55,7 @@ attribution: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("preli
 bibliography: bib/Zotero_library.bib
 # Download your specific csl file and refer to it in the line below.
 csl: csl/apa.csl
-lot: true
+lot: false
 lof: true
 ---
 
