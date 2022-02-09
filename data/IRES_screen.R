@@ -44,5 +44,9 @@ ggboxplot(replicated, x = "Gene", y = "normalized_ratio",
 
 ggsave("data/IRES_screen.png", width = 7, height = 10)
 
+replicated %>% filter(Significant == "Significant") %>% summarise(unique(Gene))
+replicated %>% filter(Gene == "Set8")
+replicated %>% filter(Gene == "Bam")
+
 all_RNAi_lines = read.xlsx("data/All_Alicia_RNAi_lines.xlsx")
 match = all_RNAi_lines %>% filter(Protein %in% gene_order)

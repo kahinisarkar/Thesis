@@ -1933,7 +1933,6 @@ pattern(s).
 \setstretch{1.0}
 
 \setlength\parindent{0pt}(\textbf{A}) Schematic illustrating developmental stages of germline development. (\textbf{B}) Summary of the samples used for bulk RNA-seq and polysome-seq and the cell types these samples are enriched for. (\textbf{C}) Screenshot of Oo-site dashboard, indicating: (1) ``Take a Tour!'' function, which guides the user through the functionality and operation of Oo-site. (2) The available seq datasets which the user can view, including RNA-seq of ovaries genetically enriched for developmental stages (bulk RNA-seq), polysome-seq of ovaries genetically enriched for developmental stages (Polysome-seq), single-cell seq of germline stages (Single-Cell seq: Germline), and single-cell seq of somatic stages in the germarium (Single-Cell seq: Soma). (3) the available visualizations which the user can use, including viewing the expression of genes over development at the level of a single gene (Developmental Progression), viewing all significantly changing genes as heatmaps (Heatmap), and viewing groups of genes either derived from GO-term categories or supplied by the user (Gene Groups). (4) The control panel, which the user can use to control the current visualization, and (5) the Generate Report Function, which can be used to download a PDF report of either the current visualization or all active visualizations.
-test\_ref with a dash
 
 \setstretch{2.0}
 
@@ -2398,6 +2397,284 @@ germarium. Data were plotted using ggplot2 and a fit line was added
 using ggplot2 geom\_smooth with a ``loess'' function with default settings.
 The shaded area around the line represents standard error.
 
+\setstretch{1.0}
+
+
+
+
+
+
+
+
+
+\hypertarget{screen-of-post-translational-modifying-enzymes-for-their-effects-on-translation}{%
+\chapter{Screen of post-translational modifying enzymes for their effects on translation}\label{screen-of-post-translational-modifying-enzymes-for-their-effects-on-translation}}
+
+Elliot Martin, Siu Wah Wong-Deyrup, Gaby Fuchs, and Prashanth Rangan
+
+\setstretch{2.0}
+
+\hypertarget{abstract-1}{%
+\section{Abstract}\label{abstract-1}}
+
+The ribosome has been demonstrated to play an active role in regulating
+translation. We hypothesized that post-translational modifications on
+ribosomal proteins might modulate the activity of the ribosome.
+Therefore, we attempted to screen for enzymes known to deposit
+post-translational modifications with the goal of identifying genes that
+play a role in regulating translation using a dual-luciferase assay
+which monitors the relative amount of Internal Ribosome Entry Site
+(IRES) translation compared to cap-based translation. We identified
+several genes that had a significant effect on the translation of the
+dual luciferase reporter, however, these affects were modest. We also
+found that ovaries enriched for stem cells and stem cell daughters had
+significantly higher relative IRES translation, however, we did not
+observe the expected result when we knocked down RpS25, which is known
+to be required for efficient IRES translation. Due to these limitations,
+we did not pursue these findings further.
+
+\hypertarget{introduction-3}{%
+\section{Introduction}\label{introduction-3}}
+
+In the past, ribosomes have been considered as passive players in the
+process of translation. However, evidence has begun to accumulate that
+ribosomes can play a regulatory role in translation
+(Gościńska \& Topf, 2020). There are several mechanisms
+through which ribosomes have been found to regulate translation. One
+example of this is Rack1 which is a core ribosomal protein
+(Gerbasi, Weaver, Hill, Friedman, \& Link, 2004). Despite the role of Rack1 as a
+core ribosomal protein, it is dispensable for cell viability, but
+required for efficient Internal Ribosome Entry Site (IRES) translation
+(Coyle, Gilbert, \& Doudna, 2009; LaFontaine, Miller, Permaul, Martin, \& Fuchs, 2020; Majzoub et al., 2014). Furthermore, Rack1 activity
+can be regulated through post-translational phosphorylation which can be
+exploited during viral infection to allow for translation initiation on
+polyA-leader sequences (Jha et al., 2017).
+
+Other mechanisms of translation control involving the ribosome have not
+been conclusively demonstrated but show promise. For instance, under
+stress conditions, ribosomal proteins have been shown to carry different
+post-translational modifications than under basal conditions
+(Jha et al., 2017; Mukhopadhyay et al., 2008; Simsek \& Barna, 2017). The modifications in some cases can
+alter the propensity of the ribosome to translate certain mRNAs, which
+could allow the cell to better adapt to varying conditions
+(Jha et al., 2017).
+
+There are two main modes of translation initiation, canonical cap-based
+translation and cap-independent translation. Cap-based translation is a
+complex many-stepped process in which the 43S ribosome pre-initiation
+complex (43S PIC) is recruited to an mRNA through interacting with
+cap-binding protein (eIF4E) as well as other components
+(Jackson, Hellen, \& Pestova, 2010). This initiates scanning
+where the 43S PIC moves along the mRNA until a suitable start codon is
+identified and translation begins once a 60S ribosomal subunit is
+recruited (Jackson, Hellen, \& Pestova, 2010). Translation
+can also be initiated cap-independently
+(Jackson, Hellen, \& Pestova, 2010). Several mechanisms can
+allow translation to occur without the presence of eIF4E, but of
+interest to this work is IRES-based initiation
+(Shatsky, Terenin, Smirnova, \& Andreev, 2018). IRESs are secondary
+structures of RNA of which several classes have been described which are
+classified based on the initiation factors they require as well as their
+secondary structure (Mailliot \& Martin, 2018). IRESs
+bypass at least the use of eIF4E and can bypass the use of any
+initiation factors at all, requiring only the 40S and 60S ribosomal
+subunits to perform initiation (Mailliot \& Martin, 2018; Shatsky, Terenin, Smirnova, \& Andreev, 2018). In general, IRESs are used
+at a higher rate under stress conditions such as those initiated by
+viral infection, but also under other stress conditions
+(Mailliot \& Martin, 2018; Shatsky, Terenin, Smirnova, \& Andreev, 2018). However, how cellular
+stress changes the usage of IRES translation vs cap-based translation is
+not fully understood.
+
+We performed a screen to attempt to identify enzymes that
+post-translationally modify proteins and have the potential to alter the
+translation landscape. To perform this screen, we used the \emph{Drosophila}
+ovary as it has several advantages. First, \emph{Drosophila} have thousands
+of available RNAi lines that can be used to knock down genes of interest
+(del Valle Rodríguez, Didiano, \& Desplan, 2012). Second, many of the genes we
+chose to screen are histone modifying enzymes that may be required for
+cell survival, by using the ovary as our tissue of interest, we were
+able to deplete those genes in the germline without affecting the
+viability of the flies. The last major advantage to working in the
+\emph{Drosophila} ovary in this case is that endogenous control elements have
+been identified allowing for expression of a reporter specifically in
+the germline (Rørth, 1998; Serano, Cheung, Frank, \& Cohen, 1994). This in combination with
+germline specific RNAi allowed us to assay for changes in translation
+only in the germline tissue.
+
+\hypertarget{results-and-conclusions}{%
+\section{Results and Conclusions}\label{results-and-conclusions}}
+
+To assess the status of translation we adapted a dual luciferase assay
+commonly used to monitor translation status. This reporter contains two
+ORFs encoded in a single transcript which allowed us to assay for
+changes in translation while eliminating confounding differences in
+transcription. The reporter transcript was under the control of a Nos
+promoter, which is only expressed in the germline. The reporter had a
+Nos 5'UTR and a K10 3'UTR which have both been demonstrated to have a
+neutral effect on translation (Gavis \& Lehmann, 1992, 1992; Serano, Cheung, Frank, \& Cohen, 1994). The first ORF encodes
+\emph{Renilla} luciferse under the control of the Nos 5'UTR and its
+production monitors for cap-based translation, this ORF is followed by
+hairpins to prevent ribosomal read-through. The second ORF encodes a
+firefly luciferase under the control of the Cricket Paralysis Virus
+intergenic (CrPV) IRES . These luciferases can be monitored sequentially
+as they require different conditions in order to produce luminescence
+and in this way can be used to monitor changes in the relative amount of
+IRES to cap-based translation.
+\begin{figure}
+
+{\centering \includegraphics[width=0.97\linewidth]{./figure/Screen/Construct} 
+
+}
+
+\caption[\textbf{Schematic of dual luciferase reporter used for screen.}]{\textbf{Schematic of dual luciferase reporter used for screen.}}\label{fig:Screen-fig-1}
+\end{figure}
+\setstretch{1.0}
+
+\setlength\parindent{0pt}The dual luciferase reporter consists of a Nos promoter and 5'UTR controlling translation initaiation of \emph{Renilla} luciferase followed by a read-though stop consisting of hairpins and the CrPV-IGR IRES which controls initiation of Firefly luciferase.
+
+\setstretch{2.0}
+
+We performed a screen of 35 genes known to perform post-translational
+modification to determine if any of them played a role in regulating
+IRES vs cap-based translation. We also screened several control genes to
+ensure our reporter system was working as intended. We knocked down
+RpS25 which is known to be required for IRES, but not cap-based
+translation, however, we did not find a statistically significant
+difference between the knockdown and control ovaries
+(Hertz, Landry, Willis, Luo, \& Thompson, 2013; Landry, Hertz, \& Thompson, 2009). There are a several
+explanations of this finding. First, knockdown of RpS25 had a severe
+phenotype, which was unexpected as previous work indicated that RpS25 is
+required for IRES, but not cap-based translation
+(Landry, Hertz, \& Thompson, 2009). Therefore, it could be that
+developmental differences between the control and RpS25 RNAi masked any
+change in relative IRES translation. Second, it is possible RpS25 is not
+efficiently depleted or that the RNAi line used has off-target effects.
+Because of this lack of a result from RpS25 RNAi, our positive control,
+the remainder of our findings must be taken in context. Several genes
+were found to have a significant affect on the amount of relative IRES
+translation, including Not, HDAC3, Lsd1, nsl-1, and Set8.
+
+We additionally included two developmental controls to determine if a
+phenotype which enriched for stem cells (UAS-\emph{tkv}) or stem cell
+daughters (\emph{bam} RNAi) would alter the relative IRES translation .
+Indeed, we found that the relative IRES translation was slight, but
+significantly elevated. This could suggest that IRES translation occurs
+more in the stem cells and stem cell daughters of the ovary.
+
+Lastly, we identified five genes that when knocked down resulted in
+significantly lower relative IRES translation, including \emph{Set8},
+\emph{nsl-1}, \emph{Lsd1}, \emph{HDAC3}, and \emph{Not}. However, the affect size observed
+when these genes were knocked down was modest, with Set8 having the most
+dramatic affect with a 23.6\% reduction in the relative amount of IRES
+translation. However, it should also be noted that as is widely
+accepted, no multiple test-correction was performed as for screens
+multiple-test correction leads to a high degree of type I error and
+screens typically are followed by confirmatory studies
+(Gaus, 2015). In this case the
+results have not been followed-up for the aforementioned limitations
+regarding RpS25 as well as how the subtle changes in relative IRES
+translation were.
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{./figure/Screen/IRES_screen} 
+
+}
+
+\caption[\textbf{Screen of post-translational modification enzymes.}]{\textbf{Screen of post-translational modification enzymes.}}\label{fig:Screen-fig-2}
+\end{figure}
+\setstretch{1.0}
+
+\setlength\parindent{0pt}Boxplot of relative IRES translation normalized to control ovaries resulting from knockdown of indicated target proteins. Boxes in green represent significant changes in relative IRES-mediated translation compared to control.
+
+\setstretch{2.0}
+
+As one of the largest changes to relative IRES translation was in \emph{bam}
+RNAi, which increased relative IRES translation by 23\%, it could indeed
+be that IRES translation is regulated over the course of stem cell
+differentiation. Future work should be aimed at this aspect of these
+findings. A spatial version of this reporter could be made using
+fluorescent reporters to assay the relative IRES translation over stem
+cell differentiation in the ovary.
+
+\hypertarget{methods}{%
+\section{Methods}\label{methods}}
+
+\hypertarget{flylines}{%
+\subsection{Flylines}\label{flylines}}
+
+\emph{nosGAL4} (Bloomington stock 7303)
+
+Generated by this work: \emph{nosGAL4}; \emph{dLuciferase}
+
+Protein targets screened and corresponding RNAi line number used:
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Protein Target & Line Number \\
+\midrule
+\endhead
+Gpp & v110264 \\
+D12 & v29954 \\
+Art8 & v100228 \\
+Su(z)12 & 33402 \\
+Sgf29 & 36637 \\
+Atac2 & 32890 \\
+CG2051 & 34730 \\
+chm & 32484 \\
+Tip60 & 28563 \\
+Set1 & 33704 \\
+chm & 32484 \\
+Atac2 & 53918 \\
+Lsd1 & V16235 \\
+Ada3 (dik) & 28905 \\
+Caf1 & 31714 \\
+CG10289 & 35597 \\
+Spt7 (comr) & 42552 \\
+E(z) & 36068 \\
+Enok & 29518 \\
+faf & 35728 \\
+Gcn5 & 33981 \\
+Hdac3 & 31633 \\
+Jarid2 & 32891 \\
+Ubp8 (not) & 28725 \\
+nsl1 (wah) & 32561 \\
+Polybromo & 32840 \\
+Set8 & 35322 \\
+Su(var)205 & 33400 \\
+Sxc & 50909 \\
+Trr & 29563 \\
+Wda & 31125 \\
+Rps25 & V101342 \\
+LRRK & 32457 \\
+S6K & 41895 \\
+S6KII & 41895 \\
+TKV & 36537 \\
+\bottomrule
+\end{longtable}
+\hypertarget{cloning}{%
+\subsection{Cloning}\label{cloning}}
+
+A gBlock corresponding to a codon optimized version of \emph{Renilla} and
+firefly luciferase as well as the readthrough block and CrPV IGR IRES
+were purchased from IDT. This gBlock was cloned using Gibson cloning
+according to manufacturer's instructions (\#E2611S) into pCasper2
+containing a Nos promoter and K10 3'UTR. Colonies were picked, cultured,
+and plasmids purified and sequenced by Eton Bioscience Inc.~to conform
+the correct sequence had been cloned. A midi-prep scale of the plasmid
+was prepared using standard methods and plasmids were sent to BestGene
+Inc.~for microinjection.
+
+\hypertarget{dual-luciferase-assay}{%
+\subsection{Dual luciferase assay}\label{dual-luciferase-assay}}
+
+Ovaries were dissected on 1X PBS in microcentrifuge tubes. Excess PBS
+was aspirated and ovaries were stored at -20°C. Ovaries were lysed in 25
+µl of passive lysis buffer (Promega) using a plastic pestle. 20 µl of
+lysate was added to a white 96 well plate and luminance was measured
+using a Glomax 20/20 luminometer (Promega) using the dual luciferase
+assay reagent (Promega \#E1910). At least three biological replicates
+for Firefly/\emph{Renilla} luminescence values of each RNAi line were
+generated.
+
 \setstretch{2.0}
 
 \hypertarget{conclusion}{%
@@ -2597,6 +2874,9 @@ Cohn, W. E. (1960). Pseudouridine, a carbon-carbon linked ribonucleoside in ribo
 \leavevmode\hypertarget{ref-corsiniCoordinatedControlMRNA2018}{}%
 Corsini, N. S., Peer, A. M., Moeseneder, P., Roiuk, M., Burkard, T. R., Theussl, H.-C., \ldots{} Knoblich, J. A. (2018). Coordinated {Control} of {mRNA} and {rRNA Processing Controls Embryonic Stem Cell Pluripotency} and {Differentiation}. \emph{Cell Stem Cell}, \emph{22}(4), 543--558.e12. http://doi.org/\href{https://doi.org/10.1016/j.stem.2018.03.002}{10.1016/j.stem.2018.03.002}
 
+\leavevmode\hypertarget{ref-coyleDirectLinkRACK12009}{}%
+Coyle, S. M., Gilbert, W. V., \& Doudna, J. A. (2009). Direct {Link} between {RACK1 Function} and {Localization} at the {Ribosome In Vivo}. \emph{Molecular and Cellular Biology}, \emph{29}(6), 1626--1634. http://doi.org/\href{https://doi.org/10.1128/MCB.01718-08}{10.1128/MCB.01718-08}
+
 \leavevmode\hypertarget{ref-Cramton1994a}{}%
 Cramton, S. E., \& Laski, F. A. (1994). String of pearls encodes {Drosophila} ribosomal protein {S2}, has {Minute-like} characteristics, and is required during oogenesis. \emph{Genetics}, \emph{137}(4), 1039--1048.
 
@@ -2617,6 +2897,9 @@ Decotto, E., \& Spradling, A. C. (2005). The {Drosophila} ovarian and testis ste
 
 \leavevmode\hypertarget{ref-Deisenroth2010e}{}%
 Deisenroth, C., \& Zhang, Y. (2010). Ribosome biogenesis surveillance: {Probing} the ribosomal protein-{Mdm2-p53} pathway. \emph{Oncogene}, \emph{29}(30), 4253--4260. http://doi.org/\href{https://doi.org/10.1038/onc.2010.189}{10.1038/onc.2010.189}
+
+\leavevmode\hypertarget{ref-delvallerodriguezPowerToolsGene2012}{}%
+del Valle Rodríguez, A., Didiano, D., \& Desplan, C. (2012). Power tools for gene expression and clonal analysis in {Drosophila}. \emph{Nature Methods}, \emph{9}(1), 47--55. http://doi.org/\href{https://doi.org/10.1038/nmeth.1800}{10.1038/nmeth.1800}
 
 \leavevmode\hypertarget{ref-delucaEfficientExpressionGenes2018}{}%
 DeLuca, S. Z., \& Spradling, A. C. (2018). Efficient {Expression} of {Genes} in the {\emph{Drosophila}} {Germline Using} a {UAS Promoter Free} of {Interference} by {Hsp70 piRNAs}. \emph{Genetics}, \emph{209}(2), 381--387. http://doi.org/\href{https://doi.org/10.1534/genetics.118.300874}{10.1534/genetics.118.300874}
@@ -2693,6 +2976,12 @@ Fuller, M. T. (1998). Genetic control of cell proliferation and differentiation 
 \leavevmode\hypertarget{ref-gabutRibosomeTranslationalControl2020}{}%
 Gabut, M., Bourdelais, F., \& Durand, S. (2020). Ribosome and {Translational Control} in {Stem Cells}. \emph{Cells}, \emph{9}(2), 497. http://doi.org/\href{https://doi.org/10.3390/cells9020497}{10.3390/cells9020497}
 
+\leavevmode\hypertarget{ref-gausInterpretationStatisticalSignificance2015}{}%
+Gaus, W. (2015). Interpretation of {Statistical Significance} - {Exploratory Versus Confirmative Testing} in {Clinical Trials}, {Epidemiological Studies}, {Meta-Analyses} and {Toxicological Screening} ({Using Ginkgo} biloba as an {Example}). \emph{Clinical \& Experimental Pharmacology}, \emph{05}. http://doi.org/\href{https://doi.org/10.4172/2161-1459.1000182}{10.4172/2161-1459.1000182}
+
+\leavevmode\hypertarget{ref-gavisLocalizationNanosRNA1992}{}%
+Gavis, E. R., \& Lehmann, R. (1992). Localization of nanos {RNA} controls embryonic polarity. \emph{Cell}, \emph{71}(2), 301--313. http://doi.org/\href{https://doi.org/10.1016/0092-8674(92)90358-J}{10.1016/0092-8674(92)90358-J}
+
 \leavevmode\hypertarget{ref-Gaspar2017b}{}%
 Gáspár, I., \& Ephrussi, A. (2017). {RNA} localization feeds translation. \emph{Science}, \emph{357}(6357), 1235 LP--1236. http://doi.org/\href{https://doi.org/10.1126/science.aao5796}{10.1126/science.aao5796}
 
@@ -2701,6 +2990,9 @@ Gentilella, A., Morón-Duran, F. D., Fuentes, P., Zweig-Rocha, G., Riaño-Canali
 
 \leavevmode\hypertarget{ref-genuthDiscoveryRibosomeHeterogeneity2018}{}%
 Genuth, N. R., \& Barna, M. (2018). The discovery of ribosome heterogeneity and its implications for gene regulation and organismal life. \emph{Molecular Cell}, \emph{71}(3), 364. http://doi.org/\href{https://doi.org/10.1016/j.molcel.2018.07.018}{10.1016/j.molcel.2018.07.018}
+
+\leavevmode\hypertarget{ref-gerbasiYeastAsc1pMammalian2004}{}%
+Gerbasi, V. R., Weaver, C. M., Hill, S., Friedman, D. B., \& Link, A. J. (2004). Yeast {Asc1p} and {Mammalian RACK1 Are Functionally Orthologous Core 40S Ribosomal Proteins That Repress Gene Expression}. \emph{Molecular and Cellular Biology}, \emph{24}(18), 8276--8287. http://doi.org/\href{https://doi.org/10.1128/MCB.24.18.8276-8287.2004}{10.1128/MCB.24.18.8276-8287.2004}
 
 \leavevmode\hypertarget{ref-Gerstberger2017}{}%
 Gerstberger, S., Meyer, C., Benjamin-Hong, S., Rodriguez, J., Briskin, D., Bognanni, C., \ldots{} Tuschl, T. (2017). The conserved {RNA} exonuclease {Rexo5} is required for 3{\({'}\)} end maturation of {28S rRNA}, {5S rRNA}, and {snoRNAs}. \emph{Cell Reports}, \emph{21}(3), 758--772.
@@ -2716,6 +3008,9 @@ Glotzer, M., Murray, A. W., \& Kirschner, M. W. (1991). Cyclin is degraded by th
 
 \leavevmode\hypertarget{ref-Goldstrohm2018c}{}%
 Goldstrohm, A. C., Hall, T. M. T., \& McKenney, K. M. (2018). Post-transcriptional {Regulatory Functions} of {Mammalian Pumilio Proteins}. \emph{Trends in Genetics}, \emph{34}(12), 972--990. http://doi.org/\href{https://doi.org/10.1016/j.tig.2018.09.006}{10.1016/j.tig.2018.09.006}
+
+\leavevmode\hypertarget{ref-goscinskaEvolvingRoleRibosomes2020}{}%
+Gościńska, K., \& Topf, U. (2020). The evolving role of ribosomes in the regulation of protein synthesis. \emph{Acta Biochimica Polonica}, \emph{67}(4), 465--473. http://doi.org/\href{https://doi.org/10.18388/abp.2020_5384}{10.18388/abp.2020\_5384}
 
 \leavevmode\hypertarget{ref-grandoriCMycBindsHuman2005}{}%
 Grandori, C., Gomez-Roman, N., Felton-Edkins, Z. A., Ngouenet, C., Galloway, D. A., Eisenman, R. N., \& White, R. J. (2005). C-{Myc} binds to human ribosomal {DNA} and stimulates transcription of {rRNA} genes by {RNA} polymerase {I}. \emph{Nature Cell Biology}, \emph{7}(3), 311--318. http://doi.org/\href{https://doi.org/10.1038/ncb1224}{10.1038/ncb1224}
@@ -2774,6 +3069,9 @@ Hendrix, N. W., Clemens, M., Canavan, T. P., Surti, U., \& Rajkovic, A. (2012). 
 \leavevmode\hypertarget{ref-Henras2008c}{}%
 Henras, A. K., Soudet, J., Gérus, M., Lebaron, S., Caizergues-Ferrer, M., Mougin, A., \& Henry, Y. (2008). The post-transcriptional steps of eukaryotic ribosome biogenesis. \emph{Cellular and Molecular Life Sciences}, \emph{65}(15), 2334--2359. http://doi.org/\href{https://doi.org/10.1007/s00018-008-8027-0}{10.1007/s00018-008-8027-0}
 
+\leavevmode\hypertarget{ref-hertzRibosomalProteinS252013}{}%
+Hertz, M. I., Landry, D. M., Willis, A. E., Luo, G., \& Thompson, S. R. (2013). Ribosomal {Protein S25 Dependency Reveals} a {Common Mechanism} for {Diverse Internal Ribosome Entry Sites} and {Ribosome Shunting}. \emph{Molecular and Cellular Biology}, \emph{33}(5), 1016--1026. http://doi.org/\href{https://doi.org/10.1128/MCB.00879-12}{10.1128/MCB.00879-12}
+
 \leavevmode\hypertarget{ref-Higa-Nakamine2012o}{}%
 Higa-Nakamine, S., Suzuki, T. T., Uechi, T., Chakraborty, A., Nakajima, Y., Nakamura, M., \ldots{} Kenmochi, N. (2012). Loss of ribosomal {RNA} modification causes developmental defects in zebrafish. \emph{Nucleic Acids Research}, \emph{40}(1), 391--398. http://doi.org/\href{https://doi.org/10.1093/nar/gkr700}{10.1093/nar/gkr700}
 
@@ -2816,6 +3114,9 @@ Ichihara, K., Shimizu, H., Taguchi, O., Yamaguchi, M., \& Inoue, Y. H. (2007). A
 \leavevmode\hypertarget{ref-Inoue1990}{}%
 Inoue, K., Hoshijima, K., Sakamoto, H., \& Shimura, Y. (1990). Binding of the {Drosophila} sex-lethal gene product to the alternative splice site of transformer primary transcript. \emph{Nature}, \emph{344}(6265), 461.
 
+\leavevmode\hypertarget{ref-jacksonMECHANISMEUKARYOTICTRANSLATION2010}{}%
+Jackson, R. J., Hellen, C. U. T., \& Pestova, T. V. (2010). {THE MECHANISM OF EUKARYOTIC TRANSLATION INITIATION AND PRINCIPLES OF ITS REGULATION}. \emph{Nature Reviews. Molecular Cell Biology}, \emph{11}(2), 113. http://doi.org/\href{https://doi.org/10.1038/nrm2838}{10.1038/nrm2838}
+
 \leavevmode\hypertarget{ref-jacobCellFunctionOvary1959}{}%
 Jacob, J., \& Sirlin, J. L. (1959). Cell function in the ovary of drosophila. \emph{Chromosoma}, \emph{10}(1), 210--228. http://doi.org/\href{https://doi.org/10.1007/BF00396572}{10.1007/BF00396572}
 
@@ -2827,6 +3128,9 @@ Jády, B. E., \& Kiss, T. (2001). A small nucleolar guide {RNA} functions both i
 
 \leavevmode\hypertarget{ref-jefferiesRapamycinSuppressesTOP1997}{}%
 Jefferies, H. B. J., Fumagalli, S., Dennis, P. B., Reinhard, C., Pearson, R. B., \& Thomas, G. (1997). Rapamycin suppresses 5{\({'}\)}{TOP mRNA} translation through inhibition of P70s6k. \emph{The EMBO Journal}, \emph{16}(12), 3693--3704. http://doi.org/\href{https://doi.org/10.1093/emboj/16.12.3693}{10.1093/emboj/16.12.3693}
+
+\leavevmode\hypertarget{ref-jhaTranskingdomMimicryUnderlies2017}{}%
+Jha, S., Rollins, M. G., Fuchs, G., Procter, D. J., Hall, E. A., Cozzolino, K., \ldots{} Walsh, D. (2017). Trans-kingdom mimicry underlies ribosome customization by a poxvirus kinase. \emph{Nature}, \emph{546}(7660), 651--655. http://doi.org/\href{https://doi.org/10.1038/nature22814}{10.1038/nature22814}
 
 \leavevmode\hypertarget{ref-Jia2016b}{}%
 Jia, D., Xu, Q., Xie, Q., Mio, W., \& Deng, W.-M. (2016). Automatic stage identification of {Drosophila} egg chamber based on {DAPI} images. \emph{Scientific Reports}, \emph{6}, 18850. http://doi.org/\href{https://doi.org/10.1038/srep18850}{10.1038/srep18850}
@@ -2912,11 +3216,17 @@ Koziol, M. J., Garrett, N., \& Gurdon, J. B. (2007). Tpt1 {Activates Transcripti
 \leavevmode\hypertarget{ref-Kronja2014}{}%
 Kronja, I., Yuan, B., Eichhorn, S. W. W., Dzeyk, K., Krijgsveld, J., Bartel, D. P. P., \& Orr-Weaver, T. L. L. (2014). Widespread {Changes} in the {Posttranscriptional Landscape} at the {Drosophila Oocyte-to-Embryo Transition}. \emph{Cell Reports}, \emph{7}(5), 1495--1508. http://doi.org/\href{https://doi.org/10.1016/j.celrep.2014.05.002}{10.1016/j.celrep.2014.05.002}
 
+\leavevmode\hypertarget{ref-lafontaine2020ribosomal}{}%
+LaFontaine, E., Miller, C. M., Permaul, N., Martin, E. T., \& Fuchs, G. (2020). Ribosomal protein {RACK1} enhances translation of poliovirus and other viral {IRESs}. \emph{Virology}, \emph{545}, 53--62.
+
 \leavevmode\hypertarget{ref-Lahr2017b}{}%
 Lahr, Roni M., Fonseca, B. D., Ciotti, G. E., Al-Ashtal, H. A., Jia, J.-J., Niklaus, M. R., \ldots{} Berman, A. J. (2017). La-related protein 1 ({LARP1}) binds the {mRNA} cap, blocking {eIF4F} assembly on {TOP mRNAs}. \emph{Elife}, \emph{6}, e24146.
 
 \leavevmode\hypertarget{ref-lahrLarelatedProtein1specific2015}{}%
 Lahr, Roni M., Mack, S. M., Héroux, A., Blagden, S. P., Bousquet-Antonelli, C., Deragon, J.-M., \& Berman, A. J. (2015). The {La-related} protein 1-specific domain repurposes {HEAT-like} repeats to directly bind a 5{\({'}\)}{TOP} sequence. \emph{Nucleic Acids Research}, \emph{43}(16), 8077--8088. http://doi.org/\href{https://doi.org/10.1093/nar/gkv748}{10.1093/nar/gkv748}
+
+\leavevmode\hypertarget{ref-landryRPS25EssentialTranslation2009}{}%
+Landry, D. M., Hertz, M. I., \& Thompson, S. R. (2009). {RPS25} is essential for translation initiation by the {Dicistroviridae} and hepatitis {C} viral {IRESs}. \emph{Genes \& Development}, \emph{23}(23), 2753--2764. http://doi.org/\href{https://doi.org/10.1101/gad.1832209}{10.1101/gad.1832209}
 
 \leavevmode\hypertarget{ref-Lasko2000}{}%
 Lasko, P. (2000). The {Drosophila} melanogaster genome: {Translation} factors and {RNA} binding proteins. \emph{Journal of Cell Biology}, \emph{150}(2), 51--56. http://doi.org/\href{https://doi.org/10.1083/jcb.150.2.F51}{10.1083/jcb.150.2.F51}
@@ -2998,6 +3308,12 @@ Magnuson, B., Ekim, B., \& Fingar, D. C. (2012). Regulation and function of ribo
 
 \leavevmode\hypertarget{ref-Magnusdottir2014d}{}%
 Magnúsdóttir, E., \& Surani, M. A. (2014). How to make a primordial germ cell. \emph{Development}, \emph{141}(2), 245 LP--252. http://doi.org/\href{https://doi.org/10.1242/dev.098269}{10.1242/dev.098269}
+
+\leavevmode\hypertarget{ref-mailliotViralInternalRibosomal2018}{}%
+Mailliot, J., \& Martin, F. (2018). Viral internal ribosomal entry sites: Four classes for one goal. \emph{Wiley Interdisciplinary Reviews. RNA}, \emph{9}(2). http://doi.org/\href{https://doi.org/10.1002/wrna.1458}{10.1002/wrna.1458}
+
+\leavevmode\hypertarget{ref-majzoubRACK1ControlsIRESMediated2014}{}%
+Majzoub, K., Hafirassou, M. L., Meignin, C., Goto, A., Marzi, S., Fedorova, A., \ldots{} Imler, J.-L. (2014). {RACK1 Controls IRES-Mediated Translation} of {Viruses}. \emph{Cell}, \emph{159}(5), 1086--1095. http://doi.org/\href{https://doi.org/10.1016/j.cell.2014.10.041}{10.1016/j.cell.2014.10.041}
 
 \leavevmode\hypertarget{ref-Maniatis2002}{}%
 Maniatis, T., \& Tasic, B. (2002). Alternative pre-{mRNA} splicing and proteome expansion in metazoans. \emph{Nature}, \emph{418}(6894), 236.
@@ -3082,6 +3398,9 @@ Morrison, S. J., \& Spradling, A. C. (2008). Stem {Cells} and {Niches}: {Mechani
 
 \leavevmode\hypertarget{ref-Mukherjee2012}{}%
 Mukherjee, C., Patil, D. P., Kennedy, B. A., Bakthavachalu, B., Bundschuh, R., \& Schoenberg, D. R. (2012). Identification of cytoplasmic capping targets reveals a role for cap homeostasis in translation and {mRNA} stability. \emph{Cell Reports}, \emph{2}(3), 674--684.
+
+\leavevmode\hypertarget{ref-mukhopadhyayDAPKZIPKL13aAxisConstitutes2008}{}%
+Mukhopadhyay, R., Ray, P. S., Arif, A., Brady, A. K., Kinter, M., \& Fox, P. L. (2008). {DAPK-ZIPK-L13a Axis Constitutes} a {Negative-Feedback Module Regulating Inflammatory Gene Expression}. \emph{Molecular Cell}, \emph{32}(3), 371--382. http://doi.org/\href{https://doi.org/10.1016/j.molcel.2008.09.019}{10.1016/j.molcel.2008.09.019}
 
 \leavevmode\hypertarget{ref-Nagengast2003}{}%
 Nagengast, A. A., Stitzinger, S. M., Tseng, C.-H., Mount, S. M., \& Salz, H. K. (2003). Sex-lethal splicing autoregulation in vivo: Interactions between {SEX-LETHAL}, the {U1 snRNP} and {U2AF} underlie male exon skipping. \emph{Development}, \emph{130}(3), 463--471.
@@ -3278,11 +3597,17 @@ Sezgin, M., \& Sankur, B. (2004). Survey over image thresholding techniques and 
 \leavevmode\hypertarget{ref-shachakBarriersEnablersAcceptance2007}{}%
 Shachak, A., Shuval, K., \& Fine, S. (2007). Barriers and enablers to the acceptance of bioinformatics tools: A qualitative study. \emph{Journal of the Medical Library Association : JMLA}, \emph{95}(4), 454. http://doi.org/\href{https://doi.org/10.3163/1536-5050.95.4.454}{10.3163/1536-5050.95.4.454}
 
+\leavevmode\hypertarget{ref-shatskyCapIndependentTranslationWhat2018}{}%
+Shatsky, I. N., Terenin, I. M., Smirnova, V. V., \& Andreev, D. E. (2018). Cap-{Independent Translation}: {What}'s in a {Name}? \emph{Trends in Biochemical Sciences}, \emph{43}(11), 882--895. http://doi.org/\href{https://doi.org/10.1016/j.tibs.2018.04.011}{10.1016/j.tibs.2018.04.011}
+
 \leavevmode\hypertarget{ref-shiProgressiveSomaticCell2021}{}%
 Shi, J., Jin, Z., Yu, Y., Zhang, Y., Yang, F., Huang, H., \ldots{} Xi, R. (2021). A {Progressive Somatic Cell Niche Regulates Germline Cyst Differentiation} in the {Drosophila Ovary}. \emph{Current Biology}, \emph{31}(4), 840--852.e5. http://doi.org/\href{https://doi.org/10.1016/j.cub.2020.11.053}{10.1016/j.cub.2020.11.053}
 
 \leavevmode\hypertarget{ref-shuNutrientControlMRNA2020}{}%
 Shu, X. E., Swanda, R. V., \& Qian, S.-B. (2020). Nutrient {Control} of {mRNA Translation}. \emph{Annual Review of Nutrition}, \emph{40}(1), 51--75. http://doi.org/\href{https://doi.org/10.1146/annurev-nutr-120919-041411}{10.1146/annurev-nutr-120919-041411}
+
+\leavevmode\hypertarget{ref-simsekEmergingRoleRibosome2017}{}%
+Simsek, D., \& Barna, M. (2017). An emerging role for the ribosome as a nexus for post-translational modifications. \emph{Current Opinion in Cell Biology}, \emph{45}, 92--101. http://doi.org/\href{https://doi.org/10.1016/j.ceb.2017.02.010}{10.1016/j.ceb.2017.02.010}
 
 \leavevmode\hypertarget{ref-slaidinaSinglecellAtlasReveals2021}{}%
 Slaidina, M., Gupta, S., Banisch, T. U., \& Lehmann, R. (2021). A single-cell atlas reveals unanticipated cell type complexity in {Drosophila} ovaries. \emph{Genome Research}, gr.274340.120. http://doi.org/\href{https://doi.org/10.1101/gr.274340.120}{10.1101/gr.274340.120}

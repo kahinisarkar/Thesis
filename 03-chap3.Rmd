@@ -193,7 +193,6 @@ knitr::include_graphics("./figure/Oo_site/Figure1.png")
 \setstretch{1.0}
 
 (ref:Oosite-1-long)
-(ref:test-test)
 
 \setstretch{2.0}
 
