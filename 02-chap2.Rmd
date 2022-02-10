@@ -136,9 +136,9 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1.png"
 \setstretch{1.0}
 
 (ref:RiBi-F2-1-long)
-(ref:test)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -154,6 +154,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 1S.png
 (ref:RiBi-F2-2-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -174,6 +175,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2.png"
 (ref:RiBi-F2-3-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -189,6 +191,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 2S.png
 (ref:RiBi-F2-4-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -210,6 +213,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3.png"
 (ref:RiBi-F2-5-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -227,6 +231,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 3S.png
 (ref:RiBi-F2-6-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -244,6 +249,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4.png"
 (ref:RiBi-F2-7-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -259,6 +265,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 4S.png
 (ref:RiBi-F2-8-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 **\
 **
 
@@ -275,6 +282,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5.png"
 (ref:RiBi-F2-9-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -290,6 +298,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 5S.png
 (ref:RiBi-F2-10-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -311,6 +320,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6.png"
 (ref:RiBi-F2-11-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -326,6 +336,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 6S.png
 (ref:RiBi-F2-12-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -345,6 +356,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7.png"
 (ref:RiBi-F2-13-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **
@@ -362,6 +374,7 @@ knitr::include_graphics("./figure/Ribosome Biogenesis/Ribosome Biogenesis 7S.png
 (ref:RiBi-F2-14-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 **\
 **

@@ -13,6 +13,7 @@
 Elliot Martin, Siu Wah Wong-Deyrup, Gaby Fuchs, and Prashanth Rangan
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 ## Abstract
 
@@ -128,6 +129,7 @@ knitr::include_graphics("./figure/Screen/Construct.png")
 (ref:Screen-1-long)
 
 \setstretch{2.0}
+\setlength\parindent{24pt}
 
 We performed a screen of 35 genes known to perform post-translational
 modification to determine if any of them played a role in regulating
@@ -147,14 +149,14 @@ efficiently depleted or that the RNAi line used has off-target effects.
 Because of this lack of a result from RpS25 RNAi, our positive control,
 the remainder of our findings must be taken in context. Several genes
 were found to have a significant affect on the amount of relative IRES
-translation, including Not, HDAC3, Lsd1, nsl-1, and Set8.
+translation, including Not, HDAC3, Lsd1, nsl-1, and Set8.  
 
 We additionally included two developmental controls to determine if a
 phenotype which enriched for stem cells (UAS-*tkv*) or stem cell
 daughters (*bam* RNAi) would alter the relative IRES translation .
 Indeed, we found that the relative IRES translation was slight, but
 significantly elevated. This could suggest that IRES translation occurs
-more in the stem cells and stem cell daughters of the ovary.
+more in the stem cells and stem cell daughters of the ovary.  
 
 Lastly, we identified five genes that when knocked down resulted in
 significantly lower relative IRES translation, including *Set8*,

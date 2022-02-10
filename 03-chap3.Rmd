@@ -70,7 +70,7 @@ Email: <etmartin@albany.edu> and <prashanth.rangan@mssm.edu>
 \setstretch{2.0}
 
 ## Summary
-
+\setlength\parindent{24pt}
 Determining how stem cell differentiation is controlled has important
 implications for understanding the etiology of degenerative disease and
 designing regenerative therapies. *In vivo* analyses of stem cell model
@@ -113,7 +113,7 @@ somatic cells and buds off from the germarium, forming an egg chamber
 (**Figure 3.1A**) [@bastock2008drosophila;@forbesHedgehogRequiredProliferation1996;@Xie2000b]. In each
 chamber, the oocyte grows as the nurse cells synthesize and then deposit
 mRNAs and proteins into the oocyte, which eventually gives rise to a
-mature egg [@bastock2008drosophila;@huynhRoleBicDEgl2000].
+mature egg [@bastock2008drosophila;@huynhRoleBicDEgl2000].  
 
 Expression of differentiation factors, including those that regulate
 translation, results in progressive differentiation of GSCs to an oocyte
