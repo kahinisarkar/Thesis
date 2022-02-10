@@ -15,15 +15,15 @@ site: bookdown::bookdown_site
 params:
   'Install needed packages for {thesisdown}': true
 output:
-  thesisdown::thesis_pdf:
-  latex_engine: xelatex
+  # thesisdown::thesis_pdf:
+  # latex_engine: xelatex
    # thesisdown::thesis_gitbook: default
- # thesisdown::thesis_word:
- #   reference_docx: "thesis_word_style.docx"
- #   toc: true
- #   toc_depth: 3
- #   fig_caption: true
- #   lof: true
+ thesisdown::thesis_word:
+   reference_docx: "thesis_word_style.docx"
+   toc: true
+   toc_depth: 3
+   fig_caption: true
+   lof: true
  # thesisdown::thesis_epub: default
 header-includes:
   - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
