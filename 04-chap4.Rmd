@@ -2,7 +2,7 @@
 
 (ref:Screen-1-short) **Schematic of dual luciferase reporter used for screen.**
 
-(ref:Screen-1-long) \setlength\parindent{0pt}The dual luciferase reporter consists of a Nos promoter and 5'UTR controlling translation initaiation of *Renilla* luciferase followed by a read-though stop consisting of hairpins and the CrPV-IGR IRES which controls initiation of Firefly luciferase.
+(ref:Screen-1-long) \setlength\parindent{0pt}The dual luciferase reporter consists of a Nos promoter and 5'UTR controlling translation initiation of *Renilla* luciferase followed by a read-though stop consisting of hairpins and the CrPV-IGR IRES which controls initiation of Firefly luciferase.
 
 (ref:Screen-2-short) **Screen of post-translational modification enzymes.**
 
@@ -26,7 +26,7 @@ play a role in regulating translation using a dual-luciferase assay
 which monitors the relative amount of Internal Ribosome Entry Site
 (IRES) translation compared to cap-based translation. We identified
 several genes that had a significant effect on the translation of the
-dual luciferase reporter, however, these affects were modest. We also
+dual luciferase reporter, however, these effects were modest. We also
 found that ovaries enriched for stem cells and stem cell daughters had
 significantly higher relative IRES translation, however, we did not
 observe the expected result when we knocked down RpS25, which is known
@@ -45,13 +45,13 @@ example of this is Rack1 which is a core ribosomal protein
 core ribosomal protein, it is dispensable for cell viability, but
 required for efficient Internal Ribosome Entry Site (IRES) translation
 [@coyleDirectLinkRACK12009;@lafontaine2020ribosomal;@majzoubRACK1ControlsIRESMediated2014]. Furthermore, Rack1 activity
-can be regulated through post-translational phosphorylation which can be
+can be regulated through post-translational phosphorylation, which can be
 exploited during viral infection to allow for translation initiation on
 polyA-leader sequences [@jhaTranskingdomMimicryUnderlies2017].
 
 Other mechanisms of translation control involving the ribosome have not
 been conclusively demonstrated but show promise. For instance, under
-stress conditions, ribosomal proteins have been shown to carry different
+stress-conditions, ribosomal proteins have been shown to carry different
 post-translational modifications than under basal conditions
 [@jhaTranskingdomMimicryUnderlies2017;@mukhopadhyayDAPKZIPKL13aAxisConstitutes2008;@simsekEmergingRoleRibosome2017]. The modifications in some cases can
 alter the propensity of the ribosome to translate certain mRNAs, which
@@ -72,22 +72,21 @@ can also be initiated cap-independently
 allow translation to occur without the presence of eIF4E, but of
 interest to this work is IRES-based initiation
 [@shatskyCapIndependentTranslationWhat2018]. IRESs are secondary
-structures of RNA of which several classes have been described which are
+structures of RNA, of which several classes have been described which are
 classified based on the initiation factors they require as well as their
 secondary structure [@mailliotViralInternalRibosomal2018]. IRESs
 bypass at least the use of eIF4E and can bypass the use of any
 initiation factors at all, requiring only the 40S and 60S ribosomal
 subunits to perform initiation [@mailliotViralInternalRibosomal2018;@shatskyCapIndependentTranslationWhat2018]. In general, IRESs are used
-at a higher rate under stress conditions such as those initiated by
-viral infection, but also under other stress conditions
+at a higher rate under stress-conditions such as those initiated by
+viral infection, but also under other stress-conditions
 [@mailliotViralInternalRibosomal2018;@shatskyCapIndependentTranslationWhat2018]. However, how cellular
 stress changes the usage of IRES translation vs cap-based translation is
 not fully understood.
 
 We performed a screen to attempt to identify enzymes that
 post-translationally modify proteins and have the potential to alter the
-translation landscape. To perform this screen, we used the *Drosophila*
-  ovary as it has several advantages. First, *Drosophila* have thousands
+translation landscape. To perform this screen, we used the *Drosophila* ovary, as it has several advantages. First, *Drosophila* have thousands
 of available RNAi lines that can be used to knock down genes of interest
 [@delvallerodriguezPowerToolsGene2012]. Second, many of the genes we
 chose to screen are histone modifying enzymes that may be required for
@@ -96,25 +95,25 @@ able to deplete those genes in the germline without affecting the
 viability of the flies. The last major advantage to working in the
 *Drosophila* ovary in this case is that endogenous control elements have
 been identified allowing for expression of a reporter specifically in
-the germline [@rorthGal4DrosophilaFemale1998;@seranoElementTransformationVectors1994]. This in combination with
-germline specific RNAi allowed us to assay for changes in translation
+the germline [@rorthGal4DrosophilaFemale1998;@seranoElementTransformationVectors1994]. This, in combination with
+germline specific RNAi, allowed us to assay for changes in translation
 only in the germline tissue.
 
 ## Results and Conclusions
 
-To assess the status of translation we adapted a dual luciferase assay
+To assess the status of translation, we adapted a dual luciferase assay
 commonly used to monitor translation status. This reporter contains two
-ORFs encoded in a single transcript which allowed us to assay for
+ORFs encoded in a single transcript, which allowed us to assay for
 changes in translation while eliminating confounding differences in
 transcription. The reporter transcript was under the control of a Nos
 promoter, which is only expressed in the germline. The reporter had a
 Nos 5\'UTR and a K10 3\'UTR which have both been demonstrated to have a
 neutral effect on translation [@gavisLocalizationNanosRNA1992;@gavisLocalizationNanosRNA1992;@seranoElementTransformationVectors1994]. The first ORF encodes
-*Renilla* luciferse under the control of the Nos 5\'UTR and its
+*Renilla* luciferase under the control of the Nos 5\'UTR and its
 production monitors for cap-based translation, this ORF is followed by
 hairpins to prevent ribosomal read-through. The second ORF encodes a
 firefly luciferase under the control of the Cricket Paralysis Virus
-intergenic (CrPV) IRES . These luciferases can be monitored sequentially
+intergenic (CrPV) IRES. These luciferases can be monitored sequentially
 as they require different conditions in order to produce luminescence
 and in this way can be used to monitor changes in the relative amount of
 IRES to cap-based translation.
@@ -138,36 +137,36 @@ ensure our reporter system was working as intended. We knocked down
 RpS25 which is known to be required for IRES, but not cap-based
 translation, however, we did not find a statistically significant
 difference between the knockdown and control ovaries
-[@hertzRibosomalProteinS252013;@landryRPS25EssentialTranslation2009]. There are a several
+[@hertzRibosomalProteinS252013;@landryRPS25EssentialTranslation2009]. There are several
 explanations of this finding. First, knockdown of RpS25 had a severe
 phenotype, which was unexpected as previous work indicated that RpS25 is
 required for IRES, but not cap-based translation
 [@landryRPS25EssentialTranslation2009]. Therefore, it could be that
-developmental differences between the control and RpS25 RNAi masked any
+developmental differences between the control and *RpS25* RNAi masked any
 change in relative IRES translation. Second, it is possible RpS25 is not
 efficiently depleted or that the RNAi line used has off-target effects.
-Because of this lack of a result from RpS25 RNAi, our positive control,
+Because of this lack of a result from *RpS25* RNAi, our positive control,
 the remainder of our findings must be taken in context. Several genes
-were found to have a significant affect on the amount of relative IRES
+were found to have a significant effect on the amount of relative IRES
 translation, including Not, HDAC3, Lsd1, nsl-1, and Set8.  
 
 We additionally included two developmental controls to determine if a
-phenotype which enriched for stem cells (UAS-*tkv*) or stem cell
-daughters (*bam* RNAi) would alter the relative IRES translation .
+phenotype which enriched for stem cells (germline UAS-*tkv*) or stem cell
+daughters (germline *bam* RNAi) would alter the relative IRES translation.
 Indeed, we found that the relative IRES translation was slight, but
 significantly elevated. This could suggest that IRES translation occurs
 more in the stem cells and stem cell daughters of the ovary.  
 
 Lastly, we identified five genes that when knocked down resulted in
 significantly lower relative IRES translation, including *Set8*,
-*nsl-1*, *Lsd1*, *HDAC3*, and *Not*. However, the affect size observed
+*nsl-1*, *Lsd1*, *HDAC3*, and *Not*. However, the effect size observed
 when these genes were knocked down was modest, with Set8 having the most
-dramatic affect with a 23.6% reduction in the relative amount of IRES
+dramatic effect with a 23.6% reduction in the relative amount of IRES
 translation. However, it should also be noted that as is widely
 accepted, no multiple test-correction was performed as for screens
 multiple-test correction leads to a high degree of type I error and
 screens typically are followed by confirmatory studies
-[@gausInterpretationStatisticalSignificance2015]. In this case the
+[@gausInterpretationStatisticalSignificance2015]. In this case, the
 results have not been followed-up for the aforementioned limitations
 regarding RpS25 as well as how the subtle changes in relative IRES
 translation were.
@@ -243,7 +242,7 @@ Protein targets screened and corresponding RNAi line number used:
 ### Cloning
 
 A gBlock corresponding to a codon optimized version of *Renilla* and
-firefly luciferase as well as the readthrough block and CrPV IGR IRES
+firefly luciferase, as well as the readthrough block and CrPV IGR IRES
 were purchased from IDT. This gBlock was cloned using Gibson cloning
 according to manufacturer\'s instructions (\#E2611S) into pCasper2
 containing a Nos promoter and K10 3\'UTR. Colonies were picked, cultured,
@@ -257,7 +256,7 @@ Inc. for microinjection.
 Ovaries were dissected on 1X PBS in microcentrifuge tubes. Excess PBS
 was aspirated and ovaries were stored at -20°C. Ovaries were lysed in 25
 µl of passive lysis buffer (Promega) using a plastic pestle. 20 µl of
-lysate was added to a white 96 well plate and luminance was measured
+lysate was added to a white 96 well plate and luminances were measured
 using a Glomax 20/20 luminometer (Promega) using the dual luciferase
 assay reagent (Promega \#E1910). At least three biological replicates
 for Firefly/*Renilla* luminescence values of each RNAi line were

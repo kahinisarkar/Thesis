@@ -14,9 +14,8 @@
 \newline
 \newline
 
-3.  **Chapter 3: "Oo-site: A dashboard to visualize gene expression during *Drosophila* oogenesis reveals meiotic entry is regulated post-transcriptionally"** was published as as Martin, Elliot Todd, Kahini Sarkar, Alicia McCarthy, and Prashanth Rangan. 2022. 
+3.  **Chapter 3: "Oo-site: A dashboard to visualize gene expression during *Drosophila* oogenesis reveals meiotic entry is regulated post-transcriptionally"** was published as Martin, Elliot Todd, Kahini Sarkar, Alicia McCarthy, and Prashanth Rangan. 2022. 
 [Oo-Site: A Dashboard to Visualize Gene Expression during Drosophila]{.ul}
-[Oogenesis Reveals Meiotic Entry Is Regulated Post-Transcriptionally.]{.ul} bioRxiv.
 
 \newline
 \newline

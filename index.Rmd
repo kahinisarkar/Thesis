@@ -1,28 +1,23 @@
 ---
-title: 'Translation control tunes *Drosophila* oogenesis'
-author: 'Elliot T. Martin'
-date: 'May 2022'
+title: Translation control tunes *Drosophila* oogenesis
+author: Elliot T. Martin
+date: May 2022
 institution: 'University at Albany, State University of New York'
-division: 'Biology'
-advisor: 'Prashanth Rangan'
-# If you have more two advisors, un-silence line 9
-altadvisor: 'Gabriele Fuchs'
-department: 'Biology'
-degree: 'Doctor of Philosophy'
+division: Biology
+advisor: Prashanth Rangan
+altadvisor: Gabriele Fuchs
+department: Biology
+degree: Doctor of Philosoph
 knit: bookdown::render_book
 site: bookdown::bookdown_site
-
-# This will automatically install the {remotes} package and {thesisdown}
-# Change this to FALSE if you'd like to install them manually on your own.
-params:
-  'Install needed packages for {thesisdown}': True
-  
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
+params:
+  'Install needed packages for {thesisdown}': true
 output:
   thesisdown::thesis_pdf:
   latex_engine: xelatex
- # thesisdown::thesis_gitbook: default
+   # thesisdown::thesis_gitbook: default
  # thesisdown::thesis_word:
  #   reference_docx: "thesis_word_style.docx"
  #   toc: true
@@ -30,16 +25,10 @@ output:
  #   fig_caption: true
  #   lof: true
  # thesisdown::thesis_epub: default
- 
 header-includes:
   - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
   - \usepackage{array}
   # - \usepackage{indentfirst}
-  
-# If you are creating a PDF you'll need to write your preliminary content 
-# (e.g., abstract, acknowledgements) below or use code similar to line 25-26 
-# for the .RMD files. If you are NOT producing a PDF, delete or silence
-# lines 25-39 in this YAML header.
 abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-abstract.Rmd")), collapse = "\n  ")`'
 
 acknowledgements: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
@@ -48,14 +37,7 @@ dedication: |
   Dedicated to my wife and best friend Alli.
 
 attribution: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-attribution.Rmd")), collapse = "\n  ")`'
-  
-# preface: |  
-#   This is an example of a thesis setup to use the reed thesis document class 
-#   (for LaTeX) and the R bookdown package, in general.
-
-# Specify the location of the bibliography below
 bibliography: bib/Zotero_library.bib
-# Download your specific csl file and refer to it in the line below.
 csl: csl/apa.csl
 lot: false
 lof: true
