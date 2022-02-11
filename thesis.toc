@@ -81,4 +81,4 @@
 \contentsline {subsection}{\numberline {4.4.2}Cloning}{159}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Dual luciferase assay}{160}{subsection.4.4.3}%
 \contentsline {chapter}{Chapter 5: Conclusion}{161}{chapter.5}%
-\contentsline {chapter}{References}{164}{chapter*.65}%
+\contentsline {chapter}{References}{166}{chapter*.65}%
