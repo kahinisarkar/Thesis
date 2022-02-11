@@ -7,7 +7,7 @@ division: Biology
 advisor: Prashanth Rangan
 altadvisor: Gabriele Fuchs
 department: Biology
-degree: Doctor of Philosoph
+degree: Doctor of Philosophy
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 # Remove the hashtag to specify which version of output you would like.
