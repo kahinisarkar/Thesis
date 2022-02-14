@@ -7,7 +7,7 @@
 \newline
 \newline
 
-2.  Except for minimal re-organization of the figures, the entire **Chapter 2: "A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis"** was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. 
+2.  Except for minimal changes, the entire **Chapter 2: "A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during *Drosophila* oogenesis"** was published as Martin, E.T., Blatt, P., Nguyen, E., Lahr, R., Selvam, S., Yoon, H.A.M., Pocchiari, T., Emtenani, S., Siekhaus, D., Berman, A.J., Fuchs, G., and Rangan, P. 2021. 
 [A translation control module coordinates germline stem cell differentiation with ribosome]{.ul} 
 [biogenesis during Drosophila oogenesis.]{.ul} bioRxiv.
 
