@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}{chapter*.1}%
-\contentsline {chapter}{Dedication}{viii}{chapter*.2}%
-\contentsline {chapter}{Acknowledgements}{ix}{chapter*.3}%
-\contentsline {chapter}{Attribution}{xi}{chapter*.4}%
+\contentsline {chapter}{Dedication}{v}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{vi}{chapter*.3}%
+\contentsline {chapter}{Attribution}{viii}{chapter*.4}%
 \contentsline {chapter}{Chapter 1: Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during \emph {Drosophila} oogenesis}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}%
@@ -81,4 +81,4 @@
 \contentsline {subsection}{\numberline {4.4.2}Cloning}{159}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Dual luciferase assay}{160}{subsection.4.4.3}%
 \contentsline {chapter}{Chapter 5: Conclusion}{161}{chapter.5}%
-\contentsline {chapter}{References}{166}{chapter*.65}%
+\contentsline {chapter}{References}{167}{chapter*.65}%
