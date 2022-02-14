@@ -5,57 +5,64 @@
 \contentsline {chapter}{Chapter 1: Post-transcriptional gene regulation instructs germline stem cell to oocyte transition during \emph {Drosophila} oogenesis}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Production of ribosomes is finely tuned to facilitate differentiation}{13}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}{23}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Summary}{30}{section.1.7}%
-\contentsline {chapter}{Chapter 2: A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph {Drosophila} oogenesis}{31}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Summary:}{31}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction}{32}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Results}{37}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Three conserved RNA helicases are required in the germline for GSC differentiation}{37}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Athos, Aramis, and Porthos are required for ribosome biogenesis}{44}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Aramis promotes cell cycle progression via p53 repression}{50}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Aramis-regulated targets contain a TOP motif in their 5'UTR}{68}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Larp binds TOP sequences in \emph {Drosophila}}{76}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Discussion}{82}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Aramis, Athos, and Porthos are required for efficient ribosome biogenesis in \emph {Drosophila}}{83}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Ribosome biogenesis defects leads to cell cycle defects mediated by p53}{84}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Ribosome biogenesis defects leads to repression of TOP-containing mRNA}{87}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Larp transduces growth status to ribosome biogenesis targets}{88}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Ribosome biogenesis in stem cell differentiation and ribosomopathies}{90}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Materials and Methods}{95}{section.2.5}%
-\contentsline {subsubsection}{Fly lines}{96}{section*.26}%
-\contentsline {subsubsection}{Antibodies IF}{97}{section*.27}%
-\contentsline {subsubsection}{Antibodies Western/IP}{97}{section*.28}%
-\contentsline {subsubsection}{Protein Domain Analysis}{97}{section*.29}%
-\contentsline {subsubsection}{Protein Conservation Analysis}{98}{section*.30}%
-\contentsline {subsubsection}{TOP Reporter Cloning}{98}{section*.31}%
-\contentsline {subsubsection}{Gateway Cloning}{99}{section*.32}%
-\contentsline {subsubsection}{Egg Laying Test}{99}{section*.33}%
-\contentsline {subsubsection}{Immunostaining}{100}{section*.34}%
-\contentsline {subsubsection}{Florescent Imaging}{100}{section*.35}%
-\contentsline {subsubsection}{Measurement of global protein synthesis}{100}{section*.36}%
-\contentsline {subsubsection}{Image Quantifications}{101}{section*.37}%
-\contentsline {subsubsection}{RNA Extraction from Ovaries}{102}{section*.38}%
-\contentsline {subsubsection}{S2 Cell RNAi}{103}{section*.39}%
-\contentsline {subsubsection}{Polysome-profiling}{104}{section*.40}%
-\contentsline {subsubsection}{Western Blot}{105}{section*.41}%
-\contentsline {subsubsection}{mRNAseq Library Preparation and Analysis}{105}{section*.42}%
-\contentsline {subsubsection}{Polysome-seq}{107}{section*.43}%
-\contentsline {subsubsection}{Polysome-seq Data Analysis}{107}{section*.44}%
-\contentsline {subsubsection}{CAGE-seq Tracks}{108}{section*.45}%
-\contentsline {subsubsection}{CAGE-seq Data Reanalysis}{108}{section*.46}%
-\contentsline {subsubsection}{Motif Enrichment Analysis}{109}{section*.47}%
-\contentsline {subsubsection}{RNA Immunoprecipitation (RNA IP)}{110}{section*.48}%
-\contentsline {subsubsection}{Helicase RNA IPseq}{111}{section*.49}%
-\contentsline {subsubsection}{Larp Gel Shifts}{112}{section*.50}%
-\contentsline {paragraph}{Cloning, Protein expression and purification}{112}{section*.51}%
-\contentsline {paragraph}{RNA preparation}{113}{section*.52}%
-\contentsline {paragraph}{Electrophoretic mobility shift assays (EMSAs)**}{115}{section*.53}%
-\contentsline {subsubsection}{mRNA IPseq}{116}{section*.54}%
-\contentsline {subsubsection}{Larp RNA IP qPCR}{116}{section*.55}%
-\contentsline {chapter}{Chapter 3: Conclusion}{118}{chapter.3}%
-\contentsline {chapter}{Appendix A: The First Appendix}{120}{appendix.A}%
-\contentsline {chapter}{References}{121}{appendix*.56}%
+\contentsline {section}{\numberline {1.3}Alternative splicing ensures accurate production of critical germline mRNAs to regulate sex determination and differentiation}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}RNA modifications direct splicing of sex determinants and translation of differentiation promoting genes in the germline}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Production of ribosomes is finely tuned to facilitate differentiation}{12}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Hand off mechanisms facilitated by combinatorial RNA binding proteins dynamically shape the translational landscape during oogenesis}{20}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Summary}{26}{section.1.7}%
+\contentsline {chapter}{Chapter 2: A translation control module coordinates germline stem cell differentiation with ribosome biogenesis during \emph {Drosophila} oogenesis}{27}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Summary:}{27}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction}{28}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Results}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Three conserved RNA helicases are required in the germline for GSC differentiation}{32}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Athos, Aramis, and Porthos are required for ribosome biogenesis}{39}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Aramis promotes cell cycle progression via p53 repression}{44}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Aramis-regulated targets contain a TOP motif in their 5'UTR}{62}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Larp binds TOP sequences in \emph {Drosophila}}{70}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Discussion}{76}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Aramis, Athos, and Porthos are required for efficient ribosome biogenesis in \emph {Drosophila}}{77}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Ribosome biogenesis defects leads to cell cycle defects mediated by p53}{78}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Ribosome biogenesis defects leads to repression of TOP-containing mRNA}{80}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Larp transduces growth status to ribosome biogenesis targets}{81}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Ribosome biogenesis in stem cell differentiation and ribosomopathies}{83}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Materials and Methods}{88}{section.2.5}%
+\contentsline {subsubsection}{Fly lines}{89}{section*.25}%
+\contentsline {subsubsection}{Antibodies IF}{90}{section*.26}%
+\contentsline {subsubsection}{Antibodies Western/IP}{90}{section*.27}%
+\contentsline {subsubsection}{Protein Domain Analysis}{90}{section*.28}%
+\contentsline {subsubsection}{Protein Conservation Analysis}{91}{section*.29}%
+\contentsline {subsubsection}{TOP Reporter Cloning}{91}{section*.30}%
+\contentsline {subsubsection}{Gateway Cloning}{92}{section*.31}%
+\contentsline {subsubsection}{Egg Laying Test}{92}{section*.32}%
+\contentsline {subsubsection}{Immunostaining}{93}{section*.33}%
+\contentsline {subsubsection}{Florescent Imaging}{93}{section*.34}%
+\contentsline {subsubsection}{Measurement of global protein synthesis}{93}{section*.35}%
+\contentsline {subsubsection}{Image Quantifications}{94}{section*.36}%
+\contentsline {subsubsection}{RNA Extraction from Ovaries}{95}{section*.37}%
+\contentsline {subsubsection}{S2 Cell RNAi}{96}{section*.38}%
+\contentsline {subsubsection}{Polysome-profiling}{97}{section*.39}%
+\contentsline {subsubsection}{Western Blot}{97}{section*.40}%
+\contentsline {subsubsection}{mRNAseq Library Preparation and Analysis}{98}{section*.41}%
+\contentsline {subsubsection}{Polysome-seq}{99}{section*.42}%
+\contentsline {subsubsection}{Polysome-seq Data Analysis}{100}{section*.43}%
+\contentsline {subsubsection}{CAGE-seq Tracks}{101}{section*.44}%
+\contentsline {subsubsection}{CAGE-seq Data Reanalysis}{101}{section*.45}%
+\contentsline {subsubsection}{Motif Enrichment Analysis}{102}{section*.46}%
+\contentsline {subsubsection}{RNA Immunoprecipitation (RNA IP)}{102}{section*.47}%
+\contentsline {subsubsection}{Helicase RNA IPseq}{104}{section*.48}%
+\contentsline {subsubsection}{Larp Gel Shifts}{105}{section*.49}%
+\contentsline {paragraph}{Cloning, Protein expression and purification}{105}{section*.50}%
+\contentsline {paragraph}{RNA preparation}{106}{section*.51}%
+\contentsline {paragraph}{Electrophoretic mobility shift assays (EMSAs)**}{107}{section*.52}%
+\contentsline {subsubsection}{mRNA IPseq}{108}{section*.53}%
+\contentsline {subsubsection}{Larp RNA IP qPCR}{109}{section*.54}%
+\contentsline {chapter}{Chapter 3: A feedback loop between heterochromatin and the nucleopore complex controls germ-cell to oocyte transition during \emph {Drosophila} oogenesis}{111}{chapter.3}%
+\contentsline {chapter}{Chapter 4: To determine if nuclear SETDB1 was required to repress \emph {RpS19b-GFP} post-oocyte specification, we depleted \emph {wde} in the germline and independently assayed for SETDB1 nuclear localization, H3K9me3, and RpS19b-GFP (Figure S1C). GKD of \emph {wde} resulted in loss of nuclear SETDB1 in the differentiated stages of oogenesis without affecting cytoplasmic levels in the undifferentiated stages (Figure S1D-F). Whereas GKD of \emph {SETDB1} reduced H3K9me3 throughout oogenesis, GKD of \emph {wde} reduced H3K9me3 only in the differentiated egg chambers but not in the undifferentiated stages (Figure S1G-J). We found that GKD of \emph {wde}, like GKD of \emph {SETDB1}, results in ectopic RpS19b-GFP protein expression in the egg chambers without affecting levels in the undifferentiated stages (Figure 1C-G). In addition to upregulation of RpS19b-GFP, GKD of both \emph {SETDB1} and \emph {wde} resulted in egg chambers that did not grow in size and died mid-oogenesis as previously reported (Figure S1K) (Clough et al., 2014; Koch et al., 2009). Thus, repression of the \emph {RpS19b-GFP} reporter in the differentiated egg chambers requires nuclear SETDB1.}{119}{chapter.4}%
+\contentsline {chapter}{Chapter 5: SETDB1 and Wde are known to repress gene expression, thus we first focused on mRNAs with increased levels in the GKD ovaries (Clough et al., 2014; Osumi et al., 2019). Gene Ontology (GO) analysis of the shared upregulated RNAs indicated that many were genes involved in differentiation (Figure 2D). Among the upregulated RNAs was \emph {RpS19b}, validating our initial screen, as well as genes that promote synaptonemal complex formation such as \emph {sunn, ord} and \emph {cona} (Figure 2E; Figure S2C-E). In addition, the \emph {blanks} mRNA, which is highly expressed only in GSCs, cystoblasts and early cysts of WT, was upregulated and ectopically expressed in the egg chambers of \emph {SETDB1-} and \emph {wde-}GKD ovaries (Figure 2F; Figure S2F-I) (Blatt et al., 2021). Blanks is a component of a nuclear siRNA pathway that has critical roles in the testis but does not have any overt function during oogenesis (Gerbasi et al., 2011). Thus, \emph {SETDB1} and \emph {wde} repress a cohort of RNAs that are either critical for transition from GSC to an oocyte or merely expressed during early oogenesis.}{122}{chapter.5}%
+\contentsline {chapter}{Chapter 6: \emph {SETDB1} is required for transposon repression during oogenesis (Andersen, Tirian, Vunjak, \& Brennecke, 2017; Rangan et al., 2011), and the upregulation of transposons can affect gene expression (Sienski, Dönertas, \& Brennecke, 2012; Upadhyay et al., 2016). However, we found that the upregulation of genes in the differentiated stages that we observed upon depletion of \emph {SETDB1} was not due to the secondary effect of transposon upregulation as the expression of \emph {RpS19b} reporter was not altered in germline depleted of \emph {aubergine} (\emph {aub}), a critical component of the piRNA pathway (Figure S3D-F) (Chen, Pane, \& Schüpbach, 2007; Czech et al., 2018; Malone et al., 2009; Wang et al., 2015). Nor, did \emph {aub} depletion cause mid-oogenesis death as we observed in \emph {SETDB1} and \emph {wde} GKDs (Figure S3D-F) (Chen et al., 2007; Wilson, Connell, \& Macdonald, 1996). Overall, our data suggest that loss of \emph {SETDB1} derepresses a subset of genes during late oogenesis via decreased H3K9me3, independent of transposon dysregulation.}{126}{chapter.6}%
+\contentsline {chapter}{Chapter 7: SETDB1 is required for the expression of NPC components}{128}{chapter.7}%
+\contentsline {chapter}{Chapter 8: Based on our findings above that Nups are required to maintain H3K9me3 levels and localization, we hypothesized that they are also required to silence the early-oogenesis RNAs in differentiated egg chambers. To test this hypothesis, we depleted \emph {Nup154} and \emph {Nup107} in the germline of a fly carrying the \emph {RpS19b-GFP} reporter. We found that GKD of these nucleoporins resulted in upregulation of RpS19b-GFP phenocopying GKD of \emph {SETDB1/wde} (Figure 6A-C; Figure S6A-B1, D). Moreover, germline depletion of \emph {Nup62,} which is within the NPC but not regulated by SETDB1, also resulted in upregulation of \emph {RpS19bGFP} and egg chambers that did not grow (Figure S6A-D). This suggests that activity of NPC components and not just the Nups regulated by SETDB1 are required for silencing \emph {RpS19b-GFP} reporter.}{132}{chapter.8}%
+\contentsline {chapter}{Chapter 9: To determine if Nups are required for silencing other early oogenesis RNAs, we performed RNA-seq, and compared \emph {Nup154} GKD ovaries with young ovaries as a developmental control (Figure S2A). Using a 1.5-fold cut off (\(Fold Change (FC)\ge |1.5|\)) and False discovery rate (FDR)\textless 0.05), we found that compared to control, in \emph {Nup154} GKD 2809 genes are upregulated, and 2922 genes are downregulated (Figure 6D) (Supplemental Table 1). Strikingly, 97\% of upregulated genes and 89\% of downregulated \emph {SETDB1}/\emph {Wde} targets overlapped with \emph {Nup154} GKD (Figure 6E; S6E). \emph {Nup154} was involved in silencing genes that promote oocyte differentiation including synaptonemal complex components \emph {ord}, \emph {sunn} and \emph {cona} as well as \emph {RpS19b} (Figure 6F; S6F-H). In addition, GKD of \emph {Nup154} also resulted in upregulation of \emph {blanks} (Figure 6G). The levels of \emph {Nup154}-regulated RNAs decreased after the cyst stage, when the oocyte is specified, in contrast to non-targets, which have similar RNA levels at all stages (Figure 6H; S6I-J). Thus, Nup154 is critical for silencing early-oogenic mRNAs in the differentiated egg chambers.}{134}{chapter.9}%
+\contentsline {chapter}{Chapter 10: Conclusion}{161}{chapter.10}%
+\contentsline {chapter}{Appendix A: The First Appendix}{163}{appendix.A}%
+\contentsline {chapter}{References}{164}{appendix*.55}%

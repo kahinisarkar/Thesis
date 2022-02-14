@@ -1,10 +1,9 @@
 # this script will convert a docx to an rmarkdown file. For citations to be carried over do the following prior to conversion:
 # 1) use Zotero as your citation manager
 # 2) install the BetterBibTex addon
-# 3) change the hidden option citeprocNoteCitekey to "yes"
-# 4) in Zotero prefrences>BetterBibtex. Change citekey to the following: 
+# 3) in Zotero prefrences>BetterBibtex. Change citekey to the following: 
 # [auth:lower:clean:fold:condense][shorttitle3_3:clean:fold:condense][year:clean:fold:condense]
-# 5) use this csl https://raw.githubusercontent.com/retorquere/zotero-better-bibtex/master/better-bibtex-citekeys.csl
+# 4) use this csl https://github.com/elliotmartin92/Thesis/blob/8b9703459063846be3ed02fe1e08be76a3b42479/bib/better-bibtex-citekeys2.csl
 # for citation style
 
 # To get rMarkdown working make sure to do the following:
@@ -74,7 +73,6 @@ convert_docx_to_rmd_citekeys <- function(examplefile) {
 
 }
 
-# convert_docx_to_rmd_citekeys(examplefile = "CH0002_Rangan_v2_PB_EM_SB_9.3_mendeley_citekeys.docx")
+convert_docx_to_rmd_citekeys(examplefile = "Sarkar et al_11.2.2021_final.docx")
 # convert_docx_to_rmd_citekeys(examplefile = "Martin et al 11.24.21_DevCell_EM.docx")
-# convert_docx_to_rmd_citekeys(examplefile = "Oo_site_Paper_Text_11_27_2021.docx")
-# convert_docx_to_rmd_citekeys(examplefile = "Martin et al 12.08.21_DevCell_track_changes_EM2.docx")
+

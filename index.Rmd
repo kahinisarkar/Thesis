@@ -20,11 +20,15 @@ params:
 # Remove the hashtag to specify which version of output you would like.
 # Can only choose one at a time.
 output:
-  thesisdown::thesis_pdf:
-  latex_engine: xelatex
-#  thesisdown::thesis_gitbook: default         
- # thesisdown::thesis_word:
- # reference_docx: thesis_word_style.docx
+  # thesisdown::thesis_pdf:
+  # latex_engine: xelatex
+  thesisdown::thesis_word:
+    reference_docx: "thesis_word_style.docx"
+    toc: true
+    toc_depth: 3
+    fig_caption: true
+    lof: true
+ #  thesisdown::thesis_gitbook: default    
  # thesisdown::thesis_epub: default
 header-includes:
 - \usepackage[width=\textwidth,justification=raggedright,singlelinecheck=false]{caption}
@@ -40,8 +44,7 @@ abstract: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims"
 # is needed on the line after the `|`.
 acknowledgements: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-acknowledgements.Rmd")), collapse = "\n  ")`'
 dedication: | 
-  Dedicated to my wife and best friend Alli.
-
+  Dedicated to 
 attribution: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("prelims", "00-attribution.Rmd")), collapse = "\n  ")`'
   
 # preface: |  
@@ -52,68 +55,15 @@ attribution: '`r if(knitr:::is_latex_output()) paste(readLines(here::here("preli
 bibliography: bib/Zotero_library.bib
 # Download your specific csl file and refer to it in the line below.
 csl: csl/apa.csl
-lot: true
+lot: false
 lof: true
 ---
 
-<!--
-Above is the YAML (YAML Ain't Markup Language) header that includes a lot of 
-metadata used to produce the document.  Be careful with spacing in this header!
-
-If you'd prefer to not include a Dedication, for example, simply delete the section entirely, or silence them (add # before each line). 
-
-If you have other LaTeX packages you would like to include, delete the # before header-includes and list the packages after hyphens on new lines.
-
-If you'd like to include a comment that won't be produced in your resulting file enclose it in a block like this.
-
-If you receive a duplicate label error after knitting, make sure to delete the index.Rmd file and then knit again.
--->
-
-```{r include_packages, include=FALSE}
-# This chunk ensures that the thesisdown package is
-# installed and loaded. This thesisdown package includes
-# the template files for the thesis.
-if (!require(remotes)) {
-  if (params$`Install needed packages for {thesisdown}`) {
-    install.packages("remotes", repos = "https://cran.rstudio.com")
-  } else {
-    stop(
-      paste('You need to run install.packages("remotes")",
-            "first in the Console.')
-    )
-  }
-}
-if (!require(thesisdown)) {
-  if (params$`Install needed packages for {thesisdown}`) {
-    remotes::install_github("ismayc/thesisdown")
-  } else {
-    stop(
-      paste(
-        "You need to run",
-        'remotes::install_github("ismayc/thesisdown")',
-        "first in the Console."
-      )
-    )
-  }
-}
-library(thesisdown)
-# Set how wide the R output will go
-options(width = 100)
+```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00-abstract.Rmd")}
 ```
 
-<!--
-The acknowledgments, preface, dedication, and abstract are added into the PDF
-version automatically by inputting them in the YAML at the top of this file.
-Alternatively, you can put that content in files like 00--prelim.Rmd and
-00-abstract.Rmd like done below.
--->
-
-<!--
-```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00--prelim.Rmd")}
- 
+```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00-acknowledgements.Rmd")}
 ```
--->
 
-<!-- The {.unnumbered} option here means that the introduction will be 
-"Chapter 0." You can also use {-} for no numbers on chapters.
--->
+```{r eval=!knitr::is_latex_output(), child=here::here("prelims", "00-attribution.Rmd")}
+```
